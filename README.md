@@ -2,12 +2,7 @@
 
 Une "Boite à outils" / ToolBox pour MJ / Meneur de Jeu, pour du Jeu de Rôle (JdR). 
 
-**un outil d'assistance au MJ (scénario, improvisation, fiche de PJ et PNJ, génération de fiches...)**
-
-Plusieurs idées et objectifs pour ce 'repository' : 
-  * Regrouper des éléments documentaires intéressants pour la "pratique du MJ" (liens références vers des sites web, documents normalisés...) ; 
-  * Définition et dévelopement d'un outil pratique et facile à utiliser avant toute partie de Jeu de Rôle (JdR) ou pendant celle-ci ; 
-  * ... 
+**Un outil d'assistance au MJ (scénario, improvisation, fiche de PJ et PNJ, génération de fiches...)** ; dans l'idée : un écran / paravent du MJ, dans un objectif fonctionnel et utilitaire. 
 
 ## Qui peut participer ?
 
@@ -40,6 +35,8 @@ Quelques idées de base pour ce 'repository' :
 Des scénarios, des petits JdR, des petites idées...
 
 De la ludopédagogie / gamification ?
+
+Faire un lien avec un annuaire de ressources en JdR ?
 
 ... 
 
