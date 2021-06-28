@@ -49,6 +49,8 @@ Voir aussi pour quelques ressources :
 
 ## Quelques éléments pratiques
 
+### Notions de base et outils
+
   * Ce qu'est le **"texte brut"** ("Plain Text", et pourquoi c'est bien pratique) : 
     * https://fr.wikipedia.org/wiki/Texte_brut 
     * https://fr.wikipedia.org/wiki/Fichier_texte
@@ -64,11 +66,30 @@ Voir aussi pour quelques ressources :
     * AsciiDoc : https://fr.wikipedia.org/wiki/AsciiDoc
     * (plus avancé) LaTeX : https://fr.wikipedia.org/wiki/LaTeX
   * ... 
-  * Concernant le dev : 
+  * Concernant le dev (outils, IDE / environnements de développement et gestionnaires de code source) : 
     * Eclipse est plutôt recommandé (quoique si vous préférez IntelliJ, ça passe aussi)
     * Git ! (ressources facilement disponibles, sinon demandez gentiment !)
+    * Maven 3
+    * Java 8
+    * Python 3
     * ... 
   * ... 
 
+### Localisation de code source et ressources dans ce projet
+
+L'organisation de ce projet (basé sur Eclipse 2020+) comprend : 
+  * Ce fichier README.md
+  * Licence GPL v3
+  * Divers fichiers de configuration 
+    - pom.xml de Maven, 
+    - '.gitignore' de base pout GIT, 
+    - préférences / settings Eclipse
+  * Répertoires de codes sources et de ressources : 
+    * src/main/java
+    * src/main/python
+    * src/main/main/resources
+    * src/test/java
+    * src/test/resources
+  * ...
 
 ... 
