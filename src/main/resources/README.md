@@ -6,7 +6,7 @@ Répertoire pour ressources utilisées par le logiciel / scripts...
 
 ... 
 
-## Idées pour "cahier des charge"
+## Idées pour "cahier des charges"
 
 Point de départ : formalisation PBtA (adaptable pour d'autres systèmes de JdR / jeux de rôles
 

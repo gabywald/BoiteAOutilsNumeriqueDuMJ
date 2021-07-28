@@ -22,11 +22,11 @@ http://www.behindthename.com/names/list.php Browse Names (Behind the Names)
 http://www.onirarts.com/Muses&Oracles/ Muses & Oracles
 http://www.oldmapsonline.org/ Old Maps Online
 http://www.iisg.nl/hpw/data.php Datafiles of International Institute of Social History
-https://www.technicalgrimoire.com/david/2017/10/jalopy-design 	 (pour la mise en page de JdR)
+https://www.technicalgrimoire.com/david/2017/10/jalopy-design (pour la mise en page de JdR)
 https://www.fodey.com/generators/newspaper/snippet.asp The Newspaper Clipping Generator (générateur de journaux)
 http://radiooooo.com/ Musique par pays et époques
 https://watabou.itch.io/medieval-fantasy-city-generator Medieval Fantasy City GEnerator
-http://donjon.bin.sh/ Pour créer du Dojon et divers éléments
+http://donjon.bin.sh/ Pour créer du Donjon et divers éléments
 http://inspirobot.me/ Robot inspirateur
 https://tabletopaudio.com/ ambiance...
 https://www.casusno.fr/viewtopic.php?f=26&t=5766 Liens utiles chez Casus NO
@@ -34,7 +34,7 @@ http://www.fantasynamegenerators.com/ Fantasy Names Generator
 https://www.tentacules.net/ Trouver Objet Caché
 http://www.fakenamegenerator.com/ Fake Name Generator
 http://daegann.free.fr/page.php?id=215 Pour générer des noms assez Corpo / ShadowRun / CyberPunk (ressources fournies, autre programme fabriquable)
-http://www.palinola.com/projects/lab/greenbox/ Green Boc Generator (pour DeltaGreen)
+http://www.palinola.com/projects/lab/greenbox/ Green Box Generator (pour DeltaGreen)
 http://d1000etd100.com/liens-utiles/ liens utiles
 http://www.generation-jdr.fr/ générateurs pour rôlistes
 https://printableheroes.tumblr.com/ Printable Heroes
