@@ -78,11 +78,11 @@
 	\setlength{\parindent}{0em}
 	\begin{center}
 		\begin{tabular}[c]{c|c|c}
-								& \setmainfont{Young 20s} \Huge{The Daily Timer}		&			\\
-								& 														&			\\
-			Issue 0, Volume 0 	& \setmainfont{Young 20s} \Large{Street \& CyberPunk}	& \today	\\
-								& 														&			\\
-								& Nouvelles de Neo-Paris								&			\\
+								& \setmainfont{Sprawl} \Huge{The Daily Timer}						&			\\
+								& 																	&			\\
+			Issue 0, Volume 0 	& \setmainfont{Cyberpunk Is Not Dead} \Large{Street \& CyberPunk}	& \today	\\
+								& 																	&			\\
+								& Nouvelles de Neo-Paris											&			\\
 		\end{tabular}~\\
 	\end{center}
 	\setlength{\parindent}{2\parskip}
@@ -90,6 +90,8 @@
 
 %============================= Corps =================================
 \begin{document}
+
+%% \captionsetup[figure]{labelformat=empty}
 
 % ecrire le titre...
 \maketitle
@@ -99,21 +101,43 @@
 
 \begin{multicols}{2}
 
-\lipsum[5]
-
-%% \vfill~\\ \columnbreak
+\small
 
 \includegraphics[width=0.50\textwidth]{../../images/62129055_10219405317945563_2140020562502615040_n.jpg}
+{\centering \emph{Beautiful picture} } 
 
-\lipsum[3-4]
+{\centering \rule{0.34\textwidth}{1pt} }~\\
 
-\vfill~\\ \columnbreak
+\textbf{Some Title}~\\
+\emph{A specific phrase to get. }~\\
+
+\lipsum ~\\
+
+%% \begin{figure}[H]
+%% 	\centerline {\includegraphics[width=0.50\textwidth]{../../images/62129055_10219405317945563_2140020562502615040_n.jpg} }
+%% 	\caption{Beautiful picture} 
+%% 	\label{fig:FigReference01}
+%% \end{figure}
+
+{\centering \rule{0.34\textwidth}{1pt} }~\\
 
 	\begin{multicols}{2}
 	
-	\lipsum[1]
+		\textbf{Specific Article 1}~\\
+		\emph{Some Catch about Lorem Ipsum}~\\
+		
+		\lipsum[1-5]
 	
 	\end{multicols}
+	
+	%% \vfill~\\ \columnbreak
+	
+	{\centering \rule{0.34\textwidth}{1pt} }~\\
+	
+	\textbf{Specific Article 2}~\\
+	\emph{Some Catch about Lorem Ipsum}~\\
+	
+	\lipsum[2-5]
 
 \end{multicols}
 
@@ -170,6 +194,8 @@
 %toutes references biblio : 6 lettres + 2 chiffres
 \bibliography{modele_journal1}
 \bibliographystyle{frplain} % plain or frplain
+
+\clearpage
 
 \tableofcontents
 
