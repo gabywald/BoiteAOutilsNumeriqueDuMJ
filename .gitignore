@@ -15,3 +15,7 @@ buildNumber.properties
 *.log
 *.loc
 *.lot
+*.lof
+*.toc
+*.bbl
+*.blg
