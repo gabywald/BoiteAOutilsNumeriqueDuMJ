@@ -21,6 +21,8 @@
 
 \usepackage{lscape} % changement orientation page
 
+\usepackage{eso-pic} %% mettre une image de fond !!
+
 \usepackage{tikz}
 \usetikzlibrary{decorations.pathmorphing, shapes}
 
@@ -31,7 +33,7 @@
 %% \setmainfont{Cyberpunk Is Not Dead}
 %% \setmonofont{Lucida Sans Typewriter}
 
-\usepackage[top=1.5cm, bottom=1.5cm, left=1.5cm, right=1.5cm]{geometry}
+\usepackage[top=2.0cm, bottom=2.0cm, left=2.0cm, right=2.0cm]{geometry}
 % gauche, haut, droite, bas, entete, ente2txt, pied, txt2pied
 %% \usepackage{vmargin}
 %% \setmarginsrb{1.0cm}{0.5cm}{1.0cm}{0.5cm}{15pt}{3pt}{60pt}{20pt}
@@ -78,11 +80,11 @@
 	\setlength{\parindent}{0em}
 	\begin{center}
 		\begin{tabular}[c]{c|c|c}
-								& \setmainfont{Sprawl} \Huge{The Daily Timer}						&			\\
-								& 																	&			\\
-			Issue 0, Volume 0 	& \setmainfont{Cyberpunk Is Not Dead} \Large{Street \& CyberPunk}	& \today	\\
-								& 																	&			\\
-								& Nouvelles de Neo-Paris											&			\\
+								& \setmainfont{Sprawl} \Huge{The Daily Timer}							&			\\
+								& 																		&			\\
+			Issue 0, Volume 0 	& \setmainfont{Cyberpunk Is Not Dead} \Large{Street \& CyberPunk}		& \today	\\
+								& 																		&			\\
+								& \setmainfont{Young 20s} \textbf{Nouvelles de Neo-Paris}				&			\\
 		\end{tabular}~\\
 	\end{center}
 	\setlength{\parindent}{2\parskip}
@@ -93,11 +95,22 @@
 
 %% \captionsetup[figure]{labelformat=empty}
 
+\AddToShipoutPicture{
+    \AtPageUpperLeft{1cm}{
+		\put(0,0){
+			\parbox[b][\paperheight]{\paperwidth}{%
+			\includegraphics[width=\paperwidth]{../../images/CyberPunkRedBandeauHaut.jpg}%
+			\vfill
+		}}}
+    %% \includegraphics[width=\paperwidth]{img/CyberPunkRedBandeauHaut.jpg}
+    \AtPageLowerLeft{1cm}{\includegraphics[width=\paperwidth]{../../images/CyberPunkRedBandeauBas.jpg}}
+}
+
 % ecrire le titre...
 \maketitle
 \thispagestyle{empty}
 
-\huge{\setmainfont{Cyberpunk Is Not Dead} Explosion du Hidenburg II : Militech Impliquée !}
+\huge{\setmainfont{Cyberpunk Is Not Dead} Explosion du Hidenburg II : Implication de Militech et Arasaka Corporation !}
 
 \begin{multicols}{2}
 
@@ -111,7 +124,7 @@
 \textbf{Some Title}~\\
 \emph{A specific phrase to get. }~\\
 
-\lipsum ~\\
+\lipsum[1-3] ~\\ %% \lipsum ~\\
 
 %% \begin{figure}[H]
 %% 	\centerline {\includegraphics[width=0.50\textwidth]{../../images/62129055_10219405317945563_2140020562502615040_n.jpg} }
@@ -126,11 +139,11 @@
 		\textbf{Specific Article 1}~\\
 		\emph{Some Catch about Lorem Ipsum}~\\
 		
-		\lipsum[1-5]
+		\lipsum[1-2]~\\
 	
 	\end{multicols}
 	
-	%% \vfill~\\ \columnbreak
+	\vfill~\\ \columnbreak
 	
 	{\centering \rule{0.34\textwidth}{1pt} }~\\
 	
@@ -138,6 +151,10 @@
 	\emph{Some Catch about Lorem Ipsum}~\\
 	
 	\lipsum[2-5]
+	
+	\vfill~\\ \columnbreak
+	
+	\vfill~\\ \columnbreak
 
 \end{multicols}
 
