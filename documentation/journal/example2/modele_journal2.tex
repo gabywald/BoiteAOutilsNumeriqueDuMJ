@@ -1,0 +1,171 @@
+\documentclass[11pt,twoside,a4paper]{article}
+% http://www-h.eng.cam.ac.uk/help/tpl/textprocessing/latex_maths+pix/node6.html symboles de math
+% http://fr.wikibooks.org/wiki/Programmation_LaTeX Programmation latex (wikibook)
+%=========================== En-Tete =================================
+%--- Insertion de paquetages (optionnel) ---
+\usepackage[french]{babel}   % pour dire que le texte est en fran{\'e}ais
+\usepackage{a4}	             % pour la taille   
+\usepackage[T1]{fontenc}     % pour les font postscript
+\usepackage{lmodern}
+\usepackage{epsfig}          % pour gerer les images
+\usepackage{amsmath, amsthm} % tres bon mode mathematique
+\usepackage{amsfonts,amssymb}% permet la definition des ensembles
+\usepackage{float}           % pour le placement des figures
+\usepackage{verbatim}
+
+\usepackage{longtable} % pour les tableaux de plusieurs pages
+
+\usepackage[table]{xcolor} % couleur de fond des cellules de tableaux
+
+\usepackage{lastpage}
+
+\usepackage{lscape} % changement orientation page
+
+\usepackage{eso-pic} %% mettre une image de fond !!
+
+\usepackage{tikz}
+\usetikzlibrary{decorations.pathmorphing, shapes}
+
+%% \setmainfont[Ligatures=TeX]{Computerfont}
+\usepackage{fontspec}
+\defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
+\setmainfont{Ubuntu Mono} 
+%% \setmainfont{Cyberpunk Is Not Dead}
+%% \setmonofont{Lucida Sans Typewriter}
+
+\usepackage[top=2.0cm, bottom=2.0cm, left=2.0cm, right=2.0cm]{geometry}
+% gauche, haut, droite, bas, entete, ente2txt, pied, txt2pied
+%% \usepackage{vmargin}
+%% \setmarginsrb{1.0cm}{0.5cm}{1.0cm}{0.5cm}{15pt}{3pt}{60pt}{20pt}
+
+%\usepackage{frbib} % enlever pour obtenir references en anglais
+% --- style de page (pour les en-tete) ---
+% \pagestyle{headings}
+
+\def\magazineTitle{The Daily Timer}
+
+\usepackage{lipsum} 
+
+\usepackage{multicol} % pour {\'e}crire dans certaines zones en colonnes : \begin{multicols}{nb colonnes}...\end{multicols}
+
+% % % en-tete et pieds de page configurables : fancyhdr.sty
+% http://www.trustonme.net/didactels/250.html
+% http://ww3.ac-poitiers.fr/math/tex/pratique/entete/entete.htm
+% http://www.ctan.org/tex-archive/macros/latex/contrib/fancyhdr/fancyhdr.pdf
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE,RO]{\bfseries\thepage}
+\fancyhead[LO]{\bfseries\rightmark}
+\fancyhead[RE]{\bfseries\leftmark}
+\fancyfoot[LE]{\thepage /\pageref{LastPage} \hfill
+	\textbf{\magazineTitle }
+\hfill \includegraphics[width=0.5cm]{../logo_glider.png} }
+\fancyfoot[RO]{\includegraphics[width=0.5cm]{../logo_glider.png} \hfill
+	\textbf{\magazineTitle }
+\hfill \thepage /\pageref{LastPage}}
+\renewcommand{\headrulewidth}{0.5pt}
+\renewcommand{\footrulewidth}{0.5pt}
+\addtolength{\headheight}{0.5pt}
+\fancypagestyle{plain}{
+	\fancyhead{}
+	\fancyfoot{}
+	\renewcommand{\headrulewidth}{0pt}
+}
+
+%--- Definitions de nouvelles commandes ---
+
+%--- Pour le titre ---
+\def\date{21 août 2023} %% cf. history of CyberPunk2020 / CyberPunkRED / CyberPunk2077
+\def\maketitle{%
+	\setlength{\parindent}{0em}
+	\begin{center}
+		\begin{tabular}[c]{c|c|c}
+												& \setmainfont{Chomsky} \Huge{The Egyptian Gazette}						&																\\
+												& 																		&																\\
+			Issue 0, Volume 0 					& \setmainfont{DS Zierschrift} \Large{Nouvelles de Neo-Paris}			& \date															\\
+												& 																		&																\\
+	\setmainfont{FoglihtenDeH02} \textbf{G-z}	& \setmainfont{FoglihtenDeH02} \textbf{T+++++2+++++t}					&	\setmainfont{FoglihtenDeH02} \textbf{Z-G}					\\
+		\end{tabular}~\\
+	\end{center}
+	\setlength{\parindent}{2\parskip}
+}%
+
+%============================= Corps =================================
+\begin{document}
+
+%% \captionsetup[figure]{labelformat=empty}
+
+\AddToShipoutPicture{
+    \AtPageUpperLeft{1cm}{
+		\put(0,0){
+			\parbox[b][\paperheight]{\paperwidth}{%
+			\includegraphics[width=\paperwidth]{../../images/CyberPunkRedBandeauHaut.jpg}%
+			\vfill
+		}}}
+    %% \includegraphics[width=\paperwidth]{img/CyberPunkRedBandeauHaut.jpg}
+    \AtPageLowerLeft{1cm}{\includegraphics[width=\paperwidth]{../../images/CyberPunkRedBandeauBas.jpg}}
+}
+
+% ecrire le titre...
+\maketitle
+\thispagestyle{empty}
+
+\large{\setmainfont{Sprawl} incident Nucl{\'e}aire {\`a} Night City : \newline Implication de Militech et Arasaka Corporation !}
+
+\begin{multicols}{2}
+
+\small
+
+\includegraphics[width=0.50\textwidth]{../../images/62129055_10219405317945563_2140020562502615040_n.jpg}
+{\centering \emph{Beautiful picture} } 
+
+{\centering \Huge \setmainfont{FoglihtenDeH02} \textbf{Q+\_9\_+q} }~\\
+
+\textbf{Some Title}~\\
+\emph{A specific phrase to get. }~\\
+
+\lipsum[1-3] ~\\ %% \lipsum ~\\
+
+%% \begin{figure}[H]
+%% 	\centerline {\includegraphics[width=0.50\textwidth]{../../images/62129055_10219405317945563_2140020562502615040_n.jpg} }
+%% 	\caption{Beautiful picture} 
+%% 	\label{fig:FigReference01}
+%% \end{figure}
+
+{\centering \Huge \setmainfont{FoglihtenDeH02} \textbf{\{1=:=!\}} }~\\
+
+	\begin{multicols}{2}
+	
+		\textbf{Specific Article 1}~\\
+		\emph{Some Catch about Lorem Ipsum}~\\
+		
+		\lipsum[1-2]~\\
+	
+	\end{multicols}
+	
+	\columnbreak %% \vfill~\\ \columnbreak
+	
+	{\centering \rule{0.34\textwidth}{1pt} }~\\
+	
+\end{multicols}
+
+\clearpage
+
+\section*{Bibliographie\markboth{Bibliographie}{Bibliographie}}
+
+\addcontentsline{toc}{section}{Bibliographie}
+\nocite{*}
+%toutes references biblio : 6 lettres + 2 chiffres
+\bibliography{modele_journal2}
+\bibliographystyle{frplain} % plain or frplain
+
+\clearpage
+
+\tableofcontents
+
+\listoffigures
+
+\listoftables
+
+\end{document}
