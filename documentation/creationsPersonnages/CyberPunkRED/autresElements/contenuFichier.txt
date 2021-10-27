@@ -1,0 +1,104 @@
+## https://cyberpunk-jdr.fr/fichiers/aides/aides/21-09-01-10-10-20_File_Generateur_FR.pdf
+## QU'Y A T'IL DANS CE FICHIER ?
+## (1D100)Choses amusantes et utiles à trouver dans les ordinateurs et les architectures du NET.
+## Jet	Résultats
+1	Un piège ou une zip bomb pour rendre inutile le programme qui le lit.
+34	Des images de quelque chose de vraiment bizarre.
+67	Un plan de voyage ou une carte d'itinéraire.
+2	Codes/clés d'une machine industrielle.
+35	Dossier de traitement médical. 
+68	Fichiers texte contenant des codes/mots de passe.
+3	Spam enregistrés ou chaîne d’e-mails
+36	Un virus ou un logiciel malveillant dormant.
+69	Un dossier RH détaillé ou une liste des salariés.
+4	Un plan/disposition du bâtiment.
+37	Beaucoup de photos de nourriture.
+70	Un jeu vidéo populaire.
+5	Plans pour un rencard ou une rencontre romantique.
+38	Argent (espèces ou numérique) : 1d16x20ed.
+71	Dossier ou rapport scientifique.
+6	Une liste d'entrepreneurs / mercenaires de confiance.
+39	Une conversation banale enregistrée.
+72	Un logiciel d'apprentissage des langues.
+7	Un journal de vidage du trafic réseau.
+40	Enregistrement aléatoire des images d’une caméra.
+73	Image compromettante du propriétaire.
+8	Une note d'un mystérieux lieu de rencontre.
+41	Un manifeste d'expédition récent.
+74	Un modèle d'une petite figurine.
+9	Un badge/programme d'accès spécial.
+42	Messages faisant allusion à un complot.
+75	Une arme ou son emplacement.
+10	Listes/enregistrements d'implants de cyberware.
+43	Un rapport/une présentation des gains enregistrés.
+76	Bon de commande d'un véhicule neuf.
+11	Une vidéo d’un clip pop. 
+44	Un logiciel utilisateur. 
+77	Une mixtape de musique populaire.
+12	Un enregistrement exclusif de fichier musical.
+45	Un fichier BD scandaleux. 
+78	Nouvelles diffusées en vidéo.
+13	Un fichier personnel ou un dossier
+46	Un outil de méditation ou BD 
+79	Un diplôme ou une certification.
+14	Bio-scans ou bilan sanguin. 
+47	Un document ou un article académique.
+80	Une carte/mise en page de quelques autres bâtiments.
+15	Un contrat ou un accord commercial.
+48	Un fichier journal beaucoup trop volumineux.
+81	Une clé d'un coffre-fort.
+16	Une peinture ou une œuvre d'art.
+49	Plans ou estampes d'architecture.
+82	Les dossiers d'installation de sécurité.
+17	Informations étranges sur un compte bancaire.
+50	Une liste de personnel ou de contact.
+83	Lettres d'amour à quelqu'un d'inattendu.
+18	Une vieille screamsheet enregistrée.
+51	Enregistrements d'un pari/loterie.
+84	Photos d'un voyage.
+19	Enregistrement d'un ancien point d'accès NET.
+52	Un fichier XBD foiré. 
+85	Un livre de règles de jeu d'un hobby.
+20	Argent (espèces ou numérique): 1d6x10ed.
+53	Une clé pour un compte d'argent secret.
+86	Écritures ou documents religieux.
+21	Documents ou dessins d'ingénierie.
+54	Un dessin animé ou une animation pour enfants.
+87	Message inquiet de la famille/amant.
+22	Photos de famille ou de proches.
+55	Chaînes de courrier électronique liées à un travail ennuyeux.
+88	Un emplacement de chute d'un mort ou une note de l'un d'eux.
+23	Un enregistrement d'une rencontre sexuelle.
+56	Une carte du réseau ou une liste d'architectures.
+89	Une conversation secrètement enregistrée.
+24	Messages à un edgerunner ou un fixeur.
+57	Un site de pool de données enregistré.
+90	Entrées de journal embarrassantes.
+25	Un dossier de planification d'assassinats.
+58	Un modèle de machine ou d'outil.
+91	Billets pour un événement ou un lieu populaire.
+26	Un magazine pornographique. 
+59	Actes de négociation de contrats.
+92	Ordonnance/prescription de médicaments.
+27	Une lettre de suicide à moitié terminée.
+60	Message de colère/de menace à un ami.
+93	Argent (espèces ou numérique) : 1d6x50ed.
+28	Réservations dans un restaurant/salle.
+61	Un dossier de brevet pour un appareil.
+94	Copie d'un livre étrange/alarmant.
+29	Facture de travaux récents d’un entrepreneur.
+62	Des enregistrements de journaux audio scandaleux.
+95	Un enregistrement/fichier d'une chanson inédite.
+30	Dépôts légaux ou documents juridiques.
+63	Fichiers sur un edgerunner connu.
+96	Brouillon d'un livre que le propriétaire est en train d'écrire.
+31	Dossiers d'enquête officiels de la NCPD.
+64	Un fichier secret de matériel de chantage.
+97	clés/clé numérique d'une voiture quelque part.
+32	Plans pour une invention technologique.
+65	Un programme de Cyberdeck gratuit.
+98	Informations/preuves d'un trafic de drogue.
+33	Charges d'une prostituée/bordel.
+66	Argent (espèces ou numérique) : 1d6x30ed.
+99	GLACE Noir téléchargeable.
+100	Par chance il y a quelque chose d'extrêmement utile pour les joueurs, ou peut-être qu'ils décident de ce qu'ils trouvent dans le fichier.
