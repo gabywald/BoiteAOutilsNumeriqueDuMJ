@@ -8,7 +8,7 @@ En bref :
 Table 1	Évènements de vie
 1 - 15	Vous avez de la chance (table 2) 
 16 - 30	Catastrophes ! (Tableau 3A) 
-31 – 45	Se faire un ami (tableau 4A) 
+31 - 45	Se faire un ami (tableau 4A) 
 46 - 60	Faire un ennemi (tableau 5A) 
 61 - 80	Implication romantique (tableau 6A) 
 81 - 100	Rien ne se passe cette année-là 
@@ -36,45 +36,45 @@ Table 2	Chance
 96 - 100	Vous avez réussi votre dernier job avec brio ce qui vous donne un bonus de +1 REP (Positif) 
 
 Table 3A	Catastrophe
-01 - 05 Vous subissez un perte financière de 1d5 x 100 e.b 
-06 - 10 Vous contractez une dette de 1d10 x 100 e.b - Payez maintenant ou payez plus tard !) 
-11 - 15 Vous subissez une maladie réduisant aléatoirement un attribut de 1 
-16 - 20 Vous devenez dépendant réduisant de 1 l'un des attributs suivants : INT, REF, CORPS ou EMP 
-21 - 25 Vous vous blessez (Faite un jet sur le tableau 3B) 
-26 - 30 Un de vos amis ou de vos amants décède ou disparaît 
-31 - 35 Un de vos contact décède ou disparaît 
-36 - 40 Vous vous faite un ennemi. Générez-le avec la table FE&C 
-41 - 45 Vous vous faites un ennemi secret qui veut votre mort. Générez-le avec la table FE&C 
-46 - 50 Vous vous êtes fait trahir par un ami qui devient désormais un ennemi 
-51 - 55 Vous êtes arrêté et non condamné. Vous subissez 1D5 semaines de prison 
-56 - 60 Vous vous êtes fait arrêté et contractez une amende pour délit mineur (1D10 x 10 e.b) 
-61 - 65 Vous êtes arrêté et condamné pour crime et contractez 1D12 mois de prison 
-66 - 70 Une entité a émit un mandat d'arrêt à un endroit de votre choix 
-71 - 75 Vous subissez un dysfonctionnement aléatoire d'un cyber-ware vous coutant 1/2 e.b du tarif de base en coût de réparation 
-76 - 80 Selon le choix du Meneur, vous avez attisé la colère d'un gang, d'un groupe de Nomade, etc. 
-81 - 85 Vous être recherché par une Corporation (Choisissez dans une liste) 
+01 - 05	Vous subissez un perte financière de 1d5 x 100 e.b 
+06 - 10	Vous contractez une dette de 1d10 x 100 e.b - Payez maintenant ou payez plus tard !) 
+11 - 15	Vous subissez une maladie réduisant aléatoirement un attribut de 1 
+16 - 20	Vous devenez dépendant réduisant de 1 l'un des attributs suivants : INT, REF, CORPS ou EMP 
+21 - 25	Vous vous blessez (Faite un jet sur le tableau 3B) 
+26 - 30	Un de vos amis ou de vos amants décède ou disparaît 
+31 - 35	Un de vos contact décède ou disparaît 
+36 - 40	Vous vous faite un ennemi. Générez-le avec la table FE&C 
+41 - 45	Vous vous faites un ennemi secret qui veut votre mort. Générez-le avec la table FE&C 
+46 - 50	Vous vous êtes fait trahir par un ami qui devient désormais un ennemi 
+51 - 55	Vous êtes arrêté et non condamné. Vous subissez 1D5 semaines de prison 
+56 - 60	Vous vous êtes fait arrêté et contractez une amende pour délit mineur (1D10 x 10 e.b) 
+61 - 65	Vous êtes arrêté et condamné pour crime et contractez 1D12 mois de prison 
+66 - 70	Une entité a émit un mandat d'arrêt à un endroit de votre choix 
+71 - 75	Vous subissez un dysfonctionnement aléatoire d'un cyber-ware vous coutant 1/2 e.b du tarif de base en coût de réparation 
+76 - 80	Selon le choix du Meneur, vous avez attisé la colère d'un gang, d'un groupe de Nomade, etc. 
+81 - 85	Vous être recherché par une Corporation (Choisissez dans une liste) 
 86 - 90	Vous contractez une faveur à quelqu'un. Générez-le avec la table FE&C 
 91 - 95	Vous êtes blâmé pour quelque chose que vous avez fait ou n'avez pas fait ce qui vous donne un bonus de +1 REP (Négative) 
 96 - 100	Vous attendez ou avez donné une grossesse non planifiée ! Fais avec, Choomba. 
 
 Table 3B	Blessures
-01 - 05 Vous avez subi une brûlure mineure (3) 
-06 - 10 Vous avez subi deux brûlures grave (1) (3) 
-11 - 15 Vous avez subi une/des Blessure(s) par coup de couteau (3) 
-16 - 20 Vous avez subi une blessure par balle. Elle a été nettoyée à plusieurs reprises (3) 
-21 - 25 Vous avez subi une blessure par balle. Le projectile était resté logé mais il a été retiré (3) 
-26 - 30 Vous avez subi une blessure par balle. Le projectile est resté logé et n'a jamais été retiré (2) (3) 
-31 - 35 Vous avez subi une blessure par balle. Le projectile c'est fragmenté à l'impact et une grande blessure c'est ouvert du coté ou le projectile est sortie (1) (3) 
-36 - 40 Vous avez subi une fracture qui c'est mal resoudée (1) (2) 
-41 - 45 Un ou Plusieurs de vos organe(s) interne(s) a/ont endommagé(s) (1) (2) 
-46 - 50 Vous avez subi une fracture du crâne créant des lésions cérébrales mineures 
-51 - 55 Vous avez subi une fracture du crâne créant des lésions cérébrales importantes 
-56 - 60 Vous avez subi une blessure au Shrapnel (2) qui est resté logé dans votre corps 
-61 - 65 Votre sourire laisse apparaitre des dents manquantes (3) 
-66 - 70 Un combat vous a couté quelques doigts et orteils manquants (1) 
-71 - 75 Vous êtes dépossédé d'un Œil (1) 
-76 - 80 Une oreille vous fait défaut (2) (3) 
-81 - 85 Vous n'avez plus de nez. Peut-être voudriez-vous y mettre une grenade ? (3) 
+01 - 05	Vous avez subi une brûlure mineure (3) 
+06 - 10	Vous avez subi deux brûlures grave (1) (3) 
+11 - 15	Vous avez subi une/des Blessure(s) par coup de couteau (3) 
+16 - 20	Vous avez subi une blessure par balle. Elle a été nettoyée à plusieurs reprises (3) 
+21 - 25	Vous avez subi une blessure par balle. Le projectile était resté logé mais il a été retiré (3) 
+26 - 30	Vous avez subi une blessure par balle. Le projectile est resté logé et n'a jamais été retiré (2) (3) 
+31 - 35	Vous avez subi une blessure par balle. Le projectile c'est fragmenté à l'impact et une grande blessure c'est ouvert du coté ou le projectile est sortie (1) (3) 
+36 - 40	Vous avez subi une fracture qui c'est mal resoudée (1) (2) 
+41 - 45	Un ou Plusieurs de vos organe(s) interne(s) a/ont endommagé(s) (1) (2) 
+46 - 50	Vous avez subi une fracture du crâne créant des lésions cérébrales mineures 
+51 - 55	Vous avez subi une fracture du crâne créant des lésions cérébrales importantes 
+56 - 60	Vous avez subi une blessure au Shrapnel (2) qui est resté logé dans votre corps 
+61 - 65	Votre sourire laisse apparaitre des dents manquantes (3) 
+66 - 70	Un combat vous a couté quelques doigts et orteils manquants (1) 
+71 - 75	Vous êtes dépossédé d'un Œil (1) 
+76 - 80	Une oreille vous fait défaut (2) (3) 
+81 - 85	Vous n'avez plus de nez. Peut-être voudriez-vous y mettre une grenade ? (3) 
 86 - 90	Un de vos membre est coupé. Il peut s'agir d'une main ou d'un pied (1) 
 91 - 95	Vous avez subi une blessure au dos (2) 
 96 - 100	Une cicatrice impressionnante est logée dans votre corps (3) 
@@ -85,71 +85,71 @@ Notes :
 (3) - La reconstruction faciale et/ou la chirurgie esthétique peut(vent) réparer certains aspects de cette blessure. 
 
 Table 4	Ami(s)
-01 - 04 Un(e) partenaire 
-05 - 08 Un(e) collaborateur(rice) 
-09 - 12 Un(e) contact 
-13 - 16 Un(e) ancien(ne) amant(e) 
-17 - 20 Un(e) vieil(le) ennemi(e) 
-21 - 24 Un(e) vieil(le) ami(e) d'enfance 
-25 - 28 Un(e) parent 
-29 - 32 Lorsque vous avez œuvré pour un intérêt commun 
-33 - 36 Vous lui avez sauvé la vie 
-37 - 40 Il(Elle) vous a sauvé la vie 
-41 - 44 A une fête 
-45 - 48 Un(e) ancien(ne) employeur 
-49 - 52 Un(e) ancien(ne) employé 
-53 - 56 Rencontré(e) par le biais d'Un(e) ami(e) commun 
-57 - 60 Rencontré(e) à l'aveuglette 
-61 - 64 Vous étiez à l'école ensemble 
-65 - 68 Rencontré par le biais d'un(e) ennemi(e) commun 
-69 – 72 Rencontré(e) lors d'un(e) concert 
-73 – 76 Rencontré(e) dans un(e) bar 
-77 - 80 Rencontré(e) à un(e) Mallplex 
-81 - 84 Rencontré(e) par le viais d'un(e) amant commun 
-85 - 88 Il/(Elle) vous a vendu quelque chose 
-89 - 92 Vous lui avez vendu quelque chose 
-93 - 96 Il/(Elle) vous a rendu service 
+01 - 04	Un(e) partenaire 
+05 - 08	Un(e) collaborateur(rice) 
+09 - 12	Un(e) contact 
+13 - 16	Un(e) ancien(ne) amant(e) 
+17 - 20	Un(e) vieil(le) ennemi(e) 
+21 - 24	Un(e) vieil(le) ami(e) d'enfance 
+25 - 28	Un(e) parent 
+29 - 32	Lorsque vous avez œuvré pour un intérêt commun 
+33 - 36	Vous lui avez sauvé la vie 
+37 - 40	Il(Elle) vous a sauvé la vie 
+41 - 44	A une fête 
+45 - 48	Un(e) ancien(ne) employeur 
+49 - 52	Un(e) ancien(ne) employé 
+53 - 56	Rencontré(e) par le biais d'Un(e) ami(e) commun 
+57 - 60	Rencontré(e) à l'aveuglette 
+61 - 64	Vous étiez à l'école ensemble 
+65 - 68	Rencontré par le biais d'un(e) ennemi(e) commun 
+69 - 72	Rencontré(e) lors d'un(e) concert 
+73 - 76	Rencontré(e) dans un(e) bar 
+77 - 80	Rencontré(e) à un(e) Mallplex 
+81 - 84	Rencontré(e) par le viais d'un(e) amant commun 
+85 - 88	Il/(Elle) vous a vendu quelque chose 
+89 - 92	Vous lui avez vendu quelque chose 
+93 - 96	Il/(Elle) vous a rendu service 
 97 - 00	Vous lui avez fait une faveur 
 
 Table 5	Ennemi(s)
 01 -10 Un(e) Ex-ami(e) 
-11 - 21 Un(e) Ex-amant(e) 
-21 - 30 Un(e) proche 
-31 - 40 Un(e) Employeur 
-41 - 50 Une(e) Employé(e) 
-51 - 60 Un(e) Partenaire/collègue 
-61 - 00 Un(e) Étranger(e) total 
+11 - 21	Un(e) Ex-amant(e) 
+21 - 30	Un(e) proche 
+31 - 40	Un(e) Employeur 
+41 - 50	Une(e) Employé(e) 
+51 - 60	Un(e) Partenaire/collègue 
+61 - 00	Un(e) Étranger(e) total 
 
 À qui la faute ?
-01 - 50 Vous êtes le fautifs 
-51 - 100 Votre(s) adversaire(s) est(sont) le(s) fautif(s) 
+01 - 50	Vous êtes le fautifs 
+51 - 100	Votre(s) adversaire(s) est(sont) le(s) fautif(s) 
 
 Raison
-01 - 04 Une tentative d'assassinat 
-05 - 08 Une tentative de chantage 
-09 - 12 Un secret dévoilé 
-13 - 16 Une autre partie 
-17 - 20 Vous avez (été) Trahi/piqué dans le dos 
-21 - 24 Vous avez été blessé par l'autre/Vous avez blessé l'autre  
-25 - 28 Vous avez reçu(émis) des menaces de mort 
-29 - 32 Vous avez causé/reçu des dommages matériels 
-33 - 36 Vous avez causé/reçu un préjudice personnel direct/indirect 
-37 - 40 Vous avez causé une blessure à un parent, un ami ou un amant / Vous avez reçu une blessure par un parent, un ami ou un amant 
-41 - 44 Vous avez causé un décès d'un parent, d'un ami ou d'un amant / Un parent, d'un ami ou d'un amant est mort 
-45 - 48 Vous avez causé la perte de la face/du statut / Vous avec eu la perte de la face/du statut 
-49 - 52 Vous avez perdu un ami / Vous avez causé la perte d'un ami 
-53 - 56 Vous avez causé la perte d'un emploi/contrat / Vous avez perdu un emploi/contrat 
+01 - 04	Une tentative d'assassinat 
+05 - 08	Une tentative de chantage 
+09 - 12	Un secret dévoilé 
+13 - 16	Une autre partie 
+17 - 20	Vous avez (été) Trahi/piqué dans le dos 
+21 - 24	Vous avez été blessé par l'autre/Vous avez blessé l'autre  
+25 - 28	Vous avez reçu(émis) des menaces de mort 
+29 - 32	Vous avez causé/reçu des dommages matériels 
+33 - 36	Vous avez causé/reçu un préjudice personnel direct/indirect 
+37 - 40	Vous avez causé une blessure à un parent, un ami ou un amant / Vous avez reçu une blessure par un parent, un ami ou un amant 
+41 - 44	Vous avez causé un décès d'un parent, d'un ami ou d'un amant / Un parent, d'un ami ou d'un amant est mort 
+45 - 48	Vous avez causé la perte de la face/du statut / Vous avec eu la perte de la face/du statut 
+49 - 52	Vous avez perdu un ami / Vous avez causé la perte d'un ami 
+53 - 56	Vous avez causé la perte d'un emploi/contrat / Vous avez perdu un emploi/contrat 
 57 - 60	Vous avez refusé des avances romantiques / Il(Elle) a reçu des avances romantiques de votre part 
-61 - 64 Vous avez volé des biens (1D10 x 10 e.d) / Vous avez été dépouillé de biens (1D10 x 10 e.d) 
-65 - 68 Vous avez volé de l'argent (1D10 x 10 e.d) / Vous avez été dépouille de 1D10 x 10 e.d 
-69 – 72 Vous avez des personnalités en conflit 
-73 – 76 Vous êtes en désaccord mineur suite à quelque chose de stupide 
-77 - 80 Vous êtes en désaccord majeur 
-81 - 84 Un de vos Parents / amis / amants a été insulté / Vous avez insulté un Parents / amis / amants de l'autre 
-85 - 88 Vous avez été Insulté ou avez subi une accusation personnelle de la part de l'autre / Vous avez Insulté ou accusé personnellement l'autre 
-89 - 92 Vous avez fait passer votre amant avant lui(elle) / L'autre a fait passer son amant avant vous 
-93 - 96 Vous avez séduit son amant(e) / Votre amant(e) a été séduit par l'autre 
-97 - 00 Il(elle) vous a fourni un plan truqué / Vous lui avez fourni un plan truqué 
+61 - 64	Vous avez volé des biens (1D10 x 10 e.d) / Vous avez été dépouillé de biens (1D10 x 10 e.d) 
+65 - 68	Vous avez volé de l'argent (1D10 x 10 e.d) / Vous avez été dépouille de 1D10 x 10 e.d 
+69 - 72	Vous avez des personnalités en conflit 
+73 - 76	Vous êtes en désaccord mineur suite à quelque chose de stupide 
+77 - 80	Vous êtes en désaccord majeur 
+81 - 84	Un de vos Parents / amis / amants a été insulté / Vous avez insulté un Parents / amis / amants de l'autre 
+85 - 88	Vous avez été Insulté ou avez subi une accusation personnelle de la part de l'autre / Vous avez Insulté ou accusé personnellement l'autre 
+89 - 92	Vous avez fait passer votre amant avant lui(elle) / L'autre a fait passer son amant avant vous 
+93 - 96	Vous avez séduit son amant(e) / Votre amant(e) a été séduit par l'autre 
+97 - 00	Il(elle) vous a fourni un plan truqué / Vous lui avez fourni un plan truqué 
 
 Qui en veut à l'autre
 01 - 25	Vous lui en voulez à mort 
@@ -169,26 +169,26 @@ Action Prévue ?
 10	Il ne vaut pas votre temps. Ignorez-le et faites comme s'il n'existait pas.
 
 Table 6A	Implication Romantique
-01 - 05 Un(e) partenaire 
-06 - 10 Un(e) collaborateur(rice) 
-11 - 15 Un(e) contact 
-16 - 20 Un(e) ancien(ne) amant(e) 
-21 - 25 Un(e) vieil(le) ennemi(e) 
-26 - 30 Un(e) vieil(le) ami(e) d'enfance 
-31 - 35 Lorsque vous avez œuvré pour un intérêt commun 
-36 - 40 Vous lui avez sauvé la vie 
-41 - 45 Il(Elle) vous a sauvé la vie 
-46 - 50 A une fête 
-51 - 55 Un(e) ancien(ne) employeur 
-56 - 60 Un(e) ancien(ne) employé 
-61 - 65 Rencontré(e) par le biais d'Un(e) ami(e) commun 
-66 - 70 Rencontré(e) à l'aveuglette 
-71 - 75 Vous étiez à l'école ensemble 
-76 - 80 Rencontré par le biais d'un(e) ennemi(e) commun 
-81 - 85 Rencontré(e) lors d'Un(e) concert 
-86 - 90 Rencontré(e) dans Un(e) bar 
-91 - 95 Rencontré(e) à Un(e) Mallplex 
-96 - 00 Rencontré(e) par le biais d'un(e) amant commun  
+01 - 05	Un(e) partenaire 
+06 - 10	Un(e) collaborateur(rice) 
+11 - 15	Un(e) contact 
+16 - 20	Un(e) ancien(ne) amant(e) 
+21 - 25	Un(e) vieil(le) ennemi(e) 
+26 - 30	Un(e) vieil(le) ami(e) d'enfance 
+31 - 35	Lorsque vous avez œuvré pour un intérêt commun 
+36 - 40	Vous lui avez sauvé la vie 
+41 - 45	Il(Elle) vous a sauvé la vie 
+46 - 50	A une fête 
+51 - 55	Un(e) ancien(ne) employeur 
+56 - 60	Un(e) ancien(ne) employé 
+61 - 65	Rencontré(e) par le biais d'Un(e) ami(e) commun 
+66 - 70	Rencontré(e) à l'aveuglette 
+71 - 75	Vous étiez à l'école ensemble 
+76 - 80	Rencontré par le biais d'un(e) ennemi(e) commun 
+81 - 85	Rencontré(e) lors d'Un(e) concert 
+86 - 90	Rencontré(e) dans Un(e) bar 
+91 - 95	Rencontré(e) à Un(e) Mallplex 
+96 - 00	Rencontré(e) par le biais d'un(e) amant commun  
 
 Fonctionnement ?
 1 - 4	Une heureuse histoire d'amour 
@@ -197,38 +197,38 @@ Fonctionnement ?
 8 - 10	Une histoire rapide avec des rendez-vous très chaud
 
 Table 6B	Histoire d'amour tragique
-01 – 16 Ça n'a pas marché en vous 
-17 – 22 Votre amant(e) vous a laissé une note "Cher John(Jane)..." et a disparu 
-23 – 28 Votre amant(e) est mort d'une maladie incurable 
-29 – 34 Votre amant(e) est mort dans un accident 
-35 – 40 Votre amant(e) a disparu/a été enlevé(e)  
-41 – 46 Un objectif personnel s'est mis en travers de votre chemin 
-47 – 52 Votre amant(e) est devenu(e) fou(folle) 
-53 – 58 Votre amant(e) s'est suicidé(e)  
-59 – 64 Votre amant(e) est mort(e) dans un combat 
-65 – 70 Votre amant(e) a été emprisonné pour 1D10 ans 
-71 – 76 Votre amant(e) a été assassiné(e) par un ennemi (Choisissez l'assassin) 
-77 – 82 Votre amant(e) vous a laissé tomber pour un ami (Choisissez l'ami) 
-83 – 88 Votre amant(e) vous a laissé tomber pour un ennemi (Choisissez l'ennemi) 
-89 – 94 Votre amant(e) vous a mené en bateau 
-95 – 00 Votre amant(e) vous a volé(e) 1D10 x 100 Euro et s'est partagé 
+01 - 16	Ça n'a pas marché en vous 
+17 - 22	Votre amant(e) vous a laissé une note "Cher John(Jane)..." et a disparu 
+23 - 28	Votre amant(e) est mort d'une maladie incurable 
+29 - 34	Votre amant(e) est mort dans un accident 
+35 - 40	Votre amant(e) a disparu/a été enlevé(e)  
+41 - 46	Un objectif personnel s'est mis en travers de votre chemin 
+47 - 52	Votre amant(e) est devenu(e) fou(folle) 
+53 - 58	Votre amant(e) s'est suicidé(e)  
+59 - 64	Votre amant(e) est mort(e) dans un combat 
+65 - 70	Votre amant(e) a été emprisonné pour 1D10 ans 
+71 - 76	Votre amant(e) a été assassiné(e) par un ennemi (Choisissez l'assassin) 
+77 - 82	Votre amant(e) vous a laissé tomber pour un ami (Choisissez l'ami) 
+83 - 88	Votre amant(e) vous a laissé tomber pour un ennemi (Choisissez l'ennemi) 
+89 - 94	Votre amant(e) vous a mené en bateau 
+95 - 00	Votre amant(e) vous a volé(e) 1D10 x 100 Euro et s'est partagé 
 
 Table 6C	Problèmes Romantiques
-01 – 07 La famille de votre amant(e) vous déteste 
-08 – 14 Les amis de votre amant(e) vous détestent 
-15 – 21 Votre famille déteste votre amant(e) 
-22 – 28 Vos amis détestent votre amant(e) 
-29 – 35 Votre amant(e) veut voir d'autres personnes 
-36 – 42 Vous voulez voir d'autres personnes 
-43 – 49 Vous êtes séparés 
-50 – 56 Vous vous battez constamment 
-57 – 62 L'un de vous est follement jaloux de l'autre 
-63 – 68 Votre amant(e) "fait des siennes". 
-69 – 74 Vous "faites des bêtises". 
-75 – 80 L'ex-amant(e) de l'amant(e) veut vous tuer 
-81 – 87 Votre amant(e) a une dépendance chimique 
-88 – 93 Votre amant(e) est dans le coma 
-94 – 00 Votre amant(e) est marié 
+01 - 07	La famille de votre amant(e) vous déteste 
+08 - 14	Les amis de votre amant(e) vous détestent 
+15 - 21	Votre famille déteste votre amant(e) 
+22 - 28	Vos amis détestent votre amant(e) 
+29 - 35	Votre amant(e) veut voir d'autres personnes 
+36 - 42	Vous voulez voir d'autres personnes 
+43 - 49	Vous êtes séparés 
+50 - 56	Vous vous battez constamment 
+57 - 62	L'un de vous est follement jaloux de l'autre 
+63 - 68	Votre amant(e) "fait des siennes". 
+69 - 74	Vous "faites des bêtises". 
+75 - 80	L'ex-amant(e) de l'amant(e) veut vous tuer 
+81 - 87	Votre amant(e) a une dépendance chimique 
+88 - 93	Votre amant(e) est dans le coma 
+94 - 00	Votre amant(e) est marié 
 
 Table 6D	Sentiments Réciproques
 1	Il(Elle) vous aime toujours 
