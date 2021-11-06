@@ -15,6 +15,7 @@
   * des éléments de création de personnages ; 
     * Appel de Cthulhu v6 ; 
     * CyberPunk 2020 ; 
+    * Templates de fiches de personnages (en LaTeX / PDF, précisions à venir) : AdC, SimulacreS...
   * divers : 
     * Casus Belli 1980/1990 : Aspects légal du Grandeur Nature (JdR GN) ; 
     * Casus Belli 1980/1990 : "Conspiration Mode D'Emploi" (aide de jeu pour Delta Green / Conspiracy X) ; 
