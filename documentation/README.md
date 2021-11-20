@@ -15,6 +15,8 @@
   * des éléments de création de personnages ; 
     * Appel de Cthulhu v6 ; 
     * CyberPunk 2020 ; 
+    * CyberPunk RED ; 
+    * Cyber Age (CyberPunk sur base SimulacreS, adaptation avec Basic RPG Chaosium) ; 
     * Templates de fiches de personnages (en LaTeX / PDF, précisions à venir) : AdC, SimulacreS...
   * divers : 
     * Casus Belli 1980/1990 : Aspects légal du Grandeur Nature (JdR GN) ; 
