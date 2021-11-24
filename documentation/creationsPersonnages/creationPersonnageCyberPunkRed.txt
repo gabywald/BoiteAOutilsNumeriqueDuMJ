@@ -112,7 +112,7 @@ Table 4	Ami(s)
 97 - 00	Vous lui avez fait une faveur 
 
 Table 5	Ennemi(s)
-01 -10 Un(e) Ex-ami(e) 
+01 - 10	Un(e) Ex-ami(e) 
 11 - 21	Un(e) Ex-amant(e) 
 21 - 30	Un(e) proche 
 31 - 40	Un(e) Employeur 
@@ -121,7 +121,7 @@ Table 5	Ennemi(s)
 61 - 00	Un(e) Étranger(e) total 
 
 À qui la faute ?
-01 - 50	Vous êtes le fautifs 
+01 - 50	Vous êtes le fautif 
 51 - 100	Votre(s) adversaire(s) est(sont) le(s) fautif(s) 
 
 Raison
@@ -247,7 +247,7 @@ Table FEC	Ami, Ennemi et Occupations
 21 - 35	Un(e) ordures des rues
 36 - 50	Un(e) employé(e) "Juridique" / Un(e) employé(e) aux Urgences
 51 - 65	Dans le crime organisé
-66 – 79	Un(e) Corpo-rat
+66 - 79	Un(e) Corpo-rat
 80 - 89	Un(e) Artiste
 90 - 00	Un(e) membre du gouvernement
 
@@ -269,7 +269,7 @@ Table FECreg	Employé(s) en situation régulière
 88 - 93	Un(e) Enseignant(e) au K-12
 94 - 00	Un(e) chauffeur(se) de camion/bus
 
-TableFECordure	Ordures des rues
+Table FECordure	Ordures des rues
 01 - 02	Un(e) assassin
 03 - 07	Un(e) barman
 08 - 11	Un(e) garde du corps
@@ -288,13 +288,13 @@ TableFECordure	Ordures des rues
 59 - 62	Un(e) mercenaire
 63 - 65	Un(e) netrunner
 66 - 69	Un(e) nomade
-70 – 72	Un(e) prostituée (licenciée)
-73 – 74	Un(e) ripperdoc
-75 – 78	Un(e) ronin
+70 - 72	Un(e) prostituée (licenciée)
+73 - 74	Un(e) ripperdoc
+75 - 78	Un(e) ronin
 79 - 82	Un(e) contrebandier
 83 - 88	Un(e) vendeurs de rue
 89 - 90	Un(e) techie
-91 – 94	Un(e) voleur(se)/cambrioleur(se)
+91 - 94	Un(e) voleur(se)/cambrioleur(se)
 95 - 00	Un(e) vagabond
 
 Table FECjuridic	Jurique ou aux urgences
@@ -359,9 +359,9 @@ Table FEC1.1	Policiers (sous-types)
 38 - 41	Au sein de l'unité de répression des cyborgs (CSU, MaxTac, C-SWAT)
 42 - 46	Au cœur de la section antiémeutes
 47 - 50	Dans une patrouille aéroportée
-51 – 67	Dans une patrouille maritime
+51 - 67	Dans une patrouille maritime
 68 - 82	Dans une patrouille routière
-83 – 98	Dans une patrouille mobile
+83 - 98	Dans une patrouille mobile
 99 - 00	Dans la section voie rapide
 
 Table FEC1.2	Typologie du Crime Organisé
@@ -371,47 +371,47 @@ Table FEC1.2	Typologie du Crime Organisé
 10	Vous êtes affiliés aux Colombiens (et autres Sud-Américains)
 
 Table FEC1.3	Affiliation Corporatiste
-01 – 03	Arasaka (CP, CR1)
-04 – 05	BioMass Laboratories Group, GMbH
-06 – 08	Biotechnica
-09 – 10	Consolidated Agriculture
-11 – 13	Diverse Media Systems
-14 – 16	Dornier AeroSpace
-17 – 19	Euro-Business Machines Corporation
-20 – 21	Fujiwara
-22 – 23	Hilliard Corporation
-24 – 25	Imperial Metropolitan Agriculture, PLC
-26 – 28	InfoComp
-29 – 31	International Electric Corporation
-32 – 33	Kendachi
-34 – 35	Lazarus Military Group
-36 – 37	Matsushima-Kiroshi
-38 – 40	Merrill, Asukaga, & Finch
-41 – 43	MicroTech
-44 – 46	MiliTech
-47 – 49	Mitsubishi/Koridansu
-50 – 52	Network News 54
-53 – 54	No-Ahme Caldwell Genetic Engineering & Biochemicals
-55 – 56	Ocean Technology & Energy Corporation
-57 – 59	Orbital Air
-60 – 61	Peak & Derrera
-62 – 64	PetroChem
-65 – 67	Raven MicroCybernetics
-68 – 69	RepliTech
-70 – 71	Revolution Genetics, Inc.
-72 – 73	SegAtari
-74 – 75	Soviet World Oil Industries
-76 – 77	Storm Technologies Inc.
-78 – 79	Sungan Industries
-80 – 81	Tanson Group
-82 – 83	Terra Nova
-84 – 85	Tiger Medicines Corporation
-86 – 88	Trauma Team International
-89 – 90	Tsunami Design Bureau
-91 – 92	Utopian Corporation
-93 – 95	World News Service
-96 – 98	WorldSat Communications Network
-99 – 100	ZetaTech
+01 - 03	Arasaka (CP, CR1)
+04 - 05	BioMass Laboratories Group, GMbH
+06 - 08	Biotechnica
+09 - 10	Consolidated Agriculture
+11 - 13	Diverse Media Systems
+14 - 16	Dornier AeroSpace
+17 - 19	Euro-Business Machines Corporation
+20 - 21	Fujiwara
+22 - 23	Hilliard Corporation
+24 - 25	Imperial Metropolitan Agriculture, PLC
+26 - 28	InfoComp
+29 - 31	International Electric Corporation
+32 - 33	Kendachi
+34 - 35	Lazarus Military Group
+36 - 37	Matsushima-Kiroshi
+38 - 40	Merrill, Asukaga, & Finch
+41 - 43	MicroTech
+44 - 46	MiliTech
+47 - 49	Mitsubishi/Koridansu
+50 - 52	Network News 54
+53 - 54	No-Ahme Caldwell Genetic Engineering & Biochemicals
+55 - 56	Ocean Technology & Energy Corporation
+57 - 59	Orbital Air
+60 - 61	Peak & Derrera
+62 - 64	PetroChem
+65 - 67	Raven MicroCybernetics
+68 - 69	RepliTech
+70 - 71	Revolution Genetics, Inc.
+72 - 73	SegAtari
+74 - 75	Soviet World Oil Industries
+76 - 77	Storm Technologies Inc.
+78 - 79	Sungan Industries
+80 - 81	Tanson Group
+82 - 83	Terra Nova
+84 - 85	Tiger Medicines Corporation
+86 - 88	Trauma Team International
+89 - 90	Tsunami Design Bureau
+91 - 92	Utopian Corporation
+93 - 95	World News Service
+96 - 98	WorldSat Communications Network
+99 - 100	ZetaTech
 
 Table FEC1.4	Typologie des Médias
 1	Un(e) reporter pour le journal télévisé
@@ -442,7 +442,7 @@ Table FEC1.6	Typologie des Militaires
 38 - 40	Un(e) Officier de l'armée de terre
 41 - 57	Un(e) Membre des Marines
 58 - 60	Un(e) Officier des Marines
-61 – 77	Un(e) Membre de la Navy
+61 - 77	Un(e) Membre de la Navy
 78 - 80	Un(e) Officier de marine
-81 – 97	Un(e) Membre des Forces armées de l'État
+81 - 97	Un(e) Membre des Forces armées de l'État
 98 - 00	Un(e) Officier des Forces armées de l'État

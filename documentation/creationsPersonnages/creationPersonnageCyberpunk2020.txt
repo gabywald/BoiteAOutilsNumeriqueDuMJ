@@ -93,45 +93,45 @@ Durant son enfance il passait le plus clair de son temps seul. Pour son onzième
 Il a commencé à travailler à s'endurcir, se préparant à affronter le collège, où les brutes étaient encore plus impressionnantes, et les coups de couteau à la cafétéria un risque constant. Au fil de son entraînement, d'abord des exercices puis dans la salle de musculation vieillissante de l'école, il sentait ses muscles se développer. Un petit garçon timide et faible devenait un jeune homme musclé, énergique et sûr de lui.
 
 Après avoir obtenu son diplôme, Léon chercha du travail dans la sécurité. Il a été engagé par une corporation appelée Arasaka, qui mit à profit son expérience du Réseau et des ordinateurs en le formant comme spécialiste de la sécurité électronique.
-Version 1 (CP2020)	Version 2 (CP2020 modifié)
-Nom : Léon	Nom : Léon
+Version 1 (CP2020)			Version 2 (CP2020 modifié)
+Nom : Léon					Nom : Léon
 Points de compétences : 52	Points de compétences : 58
-Age : 24	Age : 24
-Rôle : Solo	Occupation : Spécialiste en sécurité électronique
+Age : 24				Age : 24
+Rôle : Solo				Occupation : Spécialiste en sécurité électronique
 Argent de départ : 2000	Argent de départ : 6000
-INT : 6	INT : 6
-REF : 6	REF : 6
-TECH : 8	TECH : 8
-SF : 5	SF : 5
-BT : 7	BT : 7
-CH : 6	CH : 6
-MV : 5	MV : 5
-CON : 8	CON : 8
-EMP : 7	EMP : 7
-Course : 15m/round	Course : 15m/round
-Saut : 3,75m	Saut : 3,75m
-Levée : 80 kg	Levée : 80 kg
-COMPÉTENCES	COMPÉTENCES
-Athlétisme +5	Athlétisme +5
-Perception +4	Perception +4
-Pistolet +5	Pistolet +5
-Lutte +4	Lutte +4
-Mêlée +3	Mêlée +3
-Fusil +4	Fusil +4
-Programmation +2	Programmation +2
+INT : 6					INT : 6
+REF : 6					REF : 6
+TECH : 8				TECH : 8
+SF : 5					SF : 5
+BT : 7					BT : 7
+CH : 6					CH : 6
+MV : 5					MV : 5
+CON : 8					CON : 8
+EMP : 7					EMP : 7
+Course : 15m/round		Course : 15m/round
+Saut : 3,75m			Saut : 3,75m
+Levée : 80 kg			Levée : 80 kg
+COMPÉTENCES				COMPÉTENCES
+Athlétisme +5			Athlétisme +5
+Perception +4			Perception +4
+Pistolet +5				Pistolet +5
+Lutte +4				Lutte +4
+Mêlée +3				Mêlée +3
+Fusil +4				Fusil +4
+Programmation +2		Programmation +2
 Connaissance du système +2	Connaissance du système +4
-Électronique +2	Électronique +3
+Électronique +2			Électronique +3
 Sécurité électronique +2	Sécurité électronique +5
-Bibliothèque +2	Bibliothèque +4
+Bibliothèque +2			Bibliothèque +4
 Concevoir cyberdeck +2	Concevoir cyberdeck +2
 Armes automatiques +3	Force +4
-Armurier +3	Connaissance de la Rue +3
-Discrétion +5	Baratin et persuasion +4
-Sens du combat +4	Interface +3
-	AVANTAGES
-	Sens du combat +2 (Coût : 4 PCs)
-	DÉSAVANTAGES
-	Aucun
+Armurier +3				Connaissance de la Rue +3
+Discrétion +5			Baratin et persuasion +4
+Sens du combat +4		Interface +3
+						AVANTAGES
+						Sens du combat +2 (Coût : 4 PCs)
+						DÉSAVANTAGES
+						Aucun
 
 En comparant Léon V1 et Léon V2, vous verrez plusieurs différences. En lisant son histoire vous avez vu que l'objectif était de créer un personnage avec des connaissances honorables en informatique et netrun, mais pas un netrunner à part entière. Ses compétences devaient refléter son désir d'être fort et maître de son corps (Athlétisme à bon niveau et Force dans la V2), mais aussi sa connaissance du netrunning et des particularités du Réseau (Interface, Connaissance du système, etc).
 
@@ -1227,6 +1227,8 @@ Peu fiable (trahit sur 3+)	0
 Fiable (trahit sur 5+)	1
 Très fiable (trahit sur 7+)	2
 Extrêmement fiable (trahit sur 9+)	3
+
+
 ANNEXE 3 - Table de coût pour l'avantage "Ressources"
 
 Lorsque vous créez un personnage avec l'avantage Ressources, vous devez d'abord décider quelle corporation l'emploie. Ressources se décompose en quatre aspects. La plupart ont cinq niveaux, de 0 à 4. Le quatrième, Position, a quatre niveaux classés de 0 à 9. Choisissez le niveau que vous souhaitez dans chacun des aspects et ajoutez les (avec un minimum de 1 point). Ceci vous donnera un coût en PCs compris entre 1 et 16 (ou jusqu'à 21 si vous ne limitez pas la Position).
@@ -1374,4 +1376,3 @@ Coup Dur (lancer 1D8)
 6 : Vous êtes le cobaye d'une expérience chimique ou l'étude d'une maladie (sans votre connaissance ni approbation). Les séquelles : -1 CONstitution ou -1 REFlexe.
 7 : Blessure majeure lors d'un accident : vous perdez un membre. Si vous en avez les moyens avec vos économies de départ, vous pouvez le remplacer par un membre cloné ou cybermembre, sinon on vous en a greffé mais la couleur ou la taille ne sont pas parfaites.
 8 : Vous avez une sacré dette (envers un garde, un autre malfrat, pour des cigarettes ou autre petit extra). Vous devez D10 x 300 eb a quelqu'un qui va la collecter à l'extérieur...
-

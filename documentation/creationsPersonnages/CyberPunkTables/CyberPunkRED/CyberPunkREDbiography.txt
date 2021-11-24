@@ -1,0 +1,459 @@
+Table d'Orientation
+	Vous avez de la chance	[Chance] 
+	Catastrophes !	[3A]
+	Se faire un ami	[4A]
+	Faire un ennemi	[5A]+[5B]+[5C]+[5D]+[5E]
+	Implication romantique	[6A]
+	Rien ne se passe cette année-là	[Rien]
+	
+TODO revoir ce fichier + fichiers associés à créer (liens talents, métiers, groupes de compétences à paertir de caractéristiques)
+
+Table Rien
+	Rien ne se passe cette année-là !
+
+Table Chance
+	Gain financier de 1D5 x 100 e.d	{credit:+1D5*100}
+	Grosse note ! 1d10 x 100 e.d	{credit:+1D10*100}
+	Gain de 1D10 x 100 e.d trouvé en équipements ou en cyber-ware	{inventaire:"+1D10*100 en équipement / cyberware"} 
+	Enseignement d'un Sensei donnant une compétence de +1 dans un d'art martial ou de +2 en bagarre	
+	Enseignement d'un instructeur entrainant un bonus de +2 sur une compétence REF ou DEX non liée aux arts martiaux 
+	Enseignement d'un professeur entrainant un bonus de +2 sur une compétence INT 
+	Enseignement d'un coach entrainant un bonus de +2 sur une compétence DEX 
+	Enseignement d'un technicien octroyant +2 sur une compétence TECH 
+	Apprentissage dans une "École de charme" entrainant un bonus de +2 dans une compétence COOL ou EMP 
+	La découverte du sens de la mode entraine un bonus de +2 à la compétence vestimentaire et stylisme 
+	Apprentissage d’une nouvelle langue avec une stat de base à +2 
+	Apprentissage des bases de la sécurité octroyant un bonus de +1 à la compétence "électronique et techniques de sécurité" 
+	La vie dans la rue +2 Compétences dans la rue 
+	Vous vous êtes fait un ami dans un gang des rues	{Parrain:Gang des rues}
+	Vous vous êtes fait un ami issu d'une famille de Nomade {Parrain:Nomade}
+	Vous avez gagné un contact
+	Une personne vous doit une faveur. 	[FEC]	{debtFrom:?}
+	Vous vous êtes fait un nouvel ami. 	[FEC]	{debtTo:?}
+	Choisissez un ennemi, ce dernier est mort ou a disparu. Si vous n'avez pas d'ennemi, refaites un jet 
+	Vous avez réussi votre dernier job avec brio ce qui vous donne un bonus de +1 REP (Positif)
+
+Table 3A	Catastrophe
+	Vous subissez un perte financière de 1d5 x 100 e.b 
+	Vous contractez une dette de 1d10 x 100 eyez maintenant ou payez plus tard !) 
+	Vous subissez une maladie réduisant aléatoirement un attribut de 1 
+	Vous devenez dépendant réduisant de 1 l'un des attributs suivants : INT, REF, CORPS ou EMP 
+	Vous vous blessez	[Table 3B]
+	Un de vos amis ou de vos amants décède ou disparaît 
+	Un de vos contact décède ou disparaît 
+	Vous vous faite un ennemi. Générez-le avec la table FEC 
+	Vous vous faites un ennemi secret qui veut votre mort. Générez-le avec la table FEC 
+	Vous vous êtes fait trahir par un ami qui devient désormais un ennemi 
+	Vous êtes arrêté et non condamné. Vous subissez 1D5 semaines de prison 
+	Vous vous êtes fait arrêté et contractez une amende pour délit mineur (1D10 x 10 e.b) 
+	Vous êtes arrêté et condamné pour crime et contractez 1D12 mois de prison 
+	Une entité a émit un mandat d'arrêt à un endroit de votre choix 
+	Vous subissez un dysfonctionnement aléatoire d'un cyber-ware vous coutant 1/2 e.b du tarif de base en coût de réparation 
+	Selon le choix du Meneur, vous avez attisé la colère d'un gang, d'un groupe de Nomade, etc. 
+	Vous être recherché par une Corporation (Choisissez dans une liste) 
+	Vous contractez une faveur à quelqu'un. Générez-le avec la table FEC 
+	Vous êtes blâmé pour quelque chose que vous avez fait ou n'avez pas fait ce qui vous donne un bonus de +1 REP (Négative) 
+	Vous attendez ou avez donné une grossesse non planifiée ! Fais avec, Choomba. 
+
+Table 3B	Blessures
+	Vous avez subi une brûlure mineure (3) 
+	Vous avez subi deux brûlures grave (1) (3) 
+	Vous avez subi une/des Blessure(s) par coup de couteau (3) 
+	Vous avez subi une blessure par balle. Elle a été nettoyée à plusieurs reprises (3) 
+	Vous avez subi une blessure par balle. Le projectile était resté logé mais il a été retiré (3) 
+	Vous avez subi une blessure par balle. Le projectile est resté logé et n'a jamais été retiré (2) (3) 
+	Vous avez subi une blessure par balle. Le projectile c'est fragmenté à l'impact et une grande blessure c'est ouvert du coté ou le projectile est sortie (1) (3) 
+	Vous avez subi une fracture qui c'est mal resoudée (1) (2) 
+	Un ou Plusieurs de vos organe(s) interne(s) a/ont endommagé(s) (1) (2) 
+	Vous avez subi une fracture du crâne créant des lésions cérébrales mineures 
+	Vous avez subi une fracture du crâne créant des lésions cérébrales importantes 
+	Vous avez subi une blessure au Shrapnel (2) qui est resté logé dans votre corps 
+	Votre sourire laisse apparaitre des dents manquantes (3) 
+	Un combat vous a couté quelques doigts et orteils manquants (1) 
+	Vous êtes dépossédé d'un Œil (1) 
+	Une oreille vous fait défaut (2) (3) 
+	Vous n'avez plus de nez. Peut-être voudriez-vous y mettre une grenade ? (3) 
+	Un de vos membre est coupé. Il peut s'agir d'une main ou d'un pied (1) 
+	Vous avez subi une blessure au dos (2) 
+	Une cicatrice impressionnante est logée dans votre corps (3) 
+
+Notes : 
+(1) blessures peuvent être soignées à l'aide de cyber-ware ou de pièces de rechange provenant d’une cuve de reconstruction. 
+(2) chirurgie peut guérir la blessure en découpant quelque chose ou en réparant la blessure. 
+(3) reconstruction faciale et/ou la chirurgie esthétique peut(vent) réparer certains aspects de cette blessure. 
+
+Table 4A	Ami(s)
+	Un(e) partenaire 
+	Un(e) collaborateur(rice) 
+	Un(e) contact 
+	Un(e) ancien(ne) amant(e) 
+	Un(e) vieil(le) ennemi(e) 
+	Un(e) vieil(le) ami(e) d'enfance 
+	Un(e) parent 
+	Lorsque vous avez œuvré pour un intérêt commun 
+	Vous lui avez sauvé la vie 
+	Il(Elle) vous a sauvé la vie 
+	A une fête 
+	Un(e) ancien(ne) employeur 
+	Un(e) ancien(ne) employé 
+	Rencontré(e) par le biais d'Un(e) ami(e) commun 
+	Rencontré(e) à l'aveuglette 
+	Vous étiez à l'école ensemble 
+	Rencontré par le biais d'un(e) ennemi(e) commun 
+	Rencontré(e) lors d'un(e) concert 
+	Rencontré(e) dans un(e) bar 
+	Rencontré(e) à un(e) Mallplex 
+	Rencontré(e) par le viais d'un(e) amant commun 
+	Il/(Elle) vous a vendu quelque chose 
+	Vous lui avez vendu quelque chose 
+	Il/(Elle) vous a rendu service 
+	Vous lui avez fait une faveur 
+
+Table 5A	Ennemi(s)
+	Un(e) Ex-ami(e) 
+	Un(e) Ex-amant(e) 
+	Un(e) proche 
+	Un(e) Employeur 
+	Une(e) Employé(e) 
+	Un(e) Partenaire/collègue 
+	Un(e) Étranger(e) total 
+	Un(e) Étranger(e) total 
+	Un(e) Étranger(e) total 
+	Un(e) Étranger(e) total 
+	Un(e) Étranger(e) total 
+
+Table 5B	À qui la faute ?
+	Vous êtes le fautif
+	Votre(s) adversaire(s) est(sont) le(s) fautif(s) 
+
+Table 5C	Raison
+	Une tentative d'assassinat 
+	Une tentative de chantage 
+	Un secret dévoilé 
+	Une autre partie 
+	Vous avez (été) Trahi/piqué dans le dos 
+	Vous avez été blessé par l'autre/Vous avez blessé l'autre  
+	Vous avez reçu(émis) des menaces de mort 
+	Vous avez causé/reçu des dommages matériels 
+	Vous avez causé/reçu un préjudice personnel direct/indirect 
+	Vous avez causé une blessure à un parent, un ami ou un amant / Vous avez reçu une blessure par un parent, un ami ou un amant 
+	Vous avez causé un décès d'un parent, d'un ami ou d'un amant / Un parent, d'un ami ou d'un amant est mort 
+	Vous avez causé la perte de la face/du statut / Vous avec eu la perte de la face/du statut 
+	Vous avez perdu un ami / Vous avez causé la perte d'un ami 
+	Vous avez causé la perte d'un emploi/contrat / Vous avez perdu un emploi/contrat 
+	Vous avez refusé des avances romantiques / Il(Elle) a reçu des avances romantiques de votre part 
+	Vous avez volé des biens (1D10 x 10 e.d) / Vous avez été dépouillé de biens (1D10 x 10 e.d) 
+	Vous avez volé de l'argent (1D10 x 10 e.d) / Vous avez été dépouille de 1D10 x 10 e.d 
+	Vous avez des personnalités en conflit 
+	Vous êtes en désaccord mineur suite à quelque chose de stupide 
+	Vous êtes en désaccord majeur 
+	Un de vos Parents / amis / amants a été insulté / Vous avez insulté un Parents / amis / amants de l'autre 
+	Vous avez été Insulté ou avez subi une accusation personnelle de la part de l'autre / Vous avez Insulté ou accusé personnellement l'autre 
+	Vous avez fait passer votre amant avant lui(elle) / L'autre a fait passer son amant avant vous 
+	Vous avez séduit son amant(e) / Votre amant(e) a été séduit par l'autre 
+	Il(elle) vous a fourni un plan truqué / Vous lui avez fourni un plan truqué 
+
+Table 5D	Qui en veut à l'autre
+	Vous lui en voulez à mort 
+	Il vous en veut à mort 
+	Vous vous vouez une haine mutuelle 
+	Vous vous vouez une haine mutuelle 
+	Vous vous vouez une haine mutuelle 
+	Vous vous vouez une haine mutuelle 
+	Vous vous vouez une haine mutuelle 
+
+Table 5E	Action Prévue ?
+	Parler de lui dans son dos. 
+	Abusez de lui chaque fois que vous en avez l'occasion. 
+	Frappez ce fils de pute et laissez-le à deux doigts de la mort. 
+	Tuez ce salaud à la première occasion. 
+	Évitez-le comme la peste. 
+	Interférer indirectement avec ses plans. 
+	Rendez-lui la vie misérable (piégez-le, volez-lui ses amis, séduisez son ou ses amants, etc. 
+	Le blesser de la même manière qu'il vous a blessé (œil pour œil). 
+	Se lier d'amitié avec lui, puis le trahir le moment venu. 
+	Il ne vaut pas votre temps. Ignorez-le et faites comme s'il n'existait pas.
+
+Table 6A	Implication Romantique
+	Un(e) partenaire 
+	Un(e) collaborateur(rice) 
+	Un(e) contact 
+	Un(e) ancien(ne) amant(e) 
+	Un(e) vieil(le) ennemi(e) 
+	Un(e) vieil(le) ami(e) d'enfance 
+	Lorsque vous avez œuvré pour un intérêt commun 
+	Vous lui avez sauvé la vie 
+	Il(Elle) vous a sauvé la vie 
+	À une fête 
+	Un(e) ancien(ne) employeur 
+	Un(e) ancien(ne) employé 
+	Rencontré(e) par le biais d'Un(e) ami(e) commun 
+	Rencontré(e) à l'aveuglette 
+	Vous étiez à l'école ensemble 
+	Rencontré par le biais d'un(e) ennemi(e) commun 
+	Rencontré(e) lors d'Un(e) concert 
+	Rencontré(e) dans Un(e) bar 
+	Rencontré(e) à Un(e) Mallplex 
+	Rencontré(e) par le biais d'un(e) amant commun  
+
+Fonctionnement ?
+	Une heureuse histoire d'amour 
+	Une heureuse histoire d'amour 
+	Une heureuse histoire d'amour 
+	Une heureuse histoire d'amour 
+	Une tragique histoire d'amour	[6B]
+	Une histoire d'amour avec des problèmes	[6C]
+	Une histoire d'amour avec des problèmes	[6C]
+	Une histoire rapide avec des rendez-vous très chaud
+	Une histoire rapide avec des rendez-vous très chaud
+
+Table 6B	Histoire d'amour tragique
+	Ça n'a pas marché en vous 
+	Votre amant(e) vous a laissé une note "Cher John(Jane)..." et a disparu 
+	Votre amant(e) est mort d'une maladie incurable 
+	Votre amant(e) est mort dans un accident 
+	Votre amant(e) a disparu/a été enlevé(e)  
+	Un objectif personnel s'est mis en travers de votre chemin 
+	Votre amant(e) est devenu(e) fou(folle) 
+	Votre amant(e) s'est suicidé(e)  
+	Votre amant(e) est mort(e) dans un combat 
+	Votre amant(e) a été emprisonné pour 1D10 ans 
+	Votre amant(e) a été assassiné(e) par un ennemi (Choisissez l'assassin) 
+	Votre amant(e) vous a laissé tomber pour un ami (Choisissez l'ami) 
+	Votre amant(e) vous a laissé tomber pour un ennemi (Choisissez l'ennemi) 
+	Votre amant(e) vous a mené en bateau 
+	Votre amant(e) vous a volé(e) 1D10 x 100 Euro et s'est partagé 
+
+Table 6C	Problèmes Romantiques
+	La famille de votre amant(e) vous déteste 
+	Les amis de votre amant(e) vous détestent 
+	Votre famille déteste votre amant(e) 
+	Vos amis détestent votre amant(e) 
+	Votre amant(e) veut voir d'autres personnes 
+	Vous voulez voir d'autres personnes 
+	Vous êtes séparés 
+	Vous vous battez constamment 
+	L'un de vous est follement jaloux de l'autre 
+	Votre amant(e) "fait des siennes". 
+	Vous "faites des bêtises". 
+	L'ex-amant(e) de l'amant(e) veut vous tuer 
+	Votre amant(e) a une dépendance chimique 
+	Votre amant(e) est dans le coma 
+	Votre amant(e) est marié 
+
+Table Sentiments Réciproques
+	Il(Elle) vous aime toujours 
+	Vous l'aimez toujours 
+	Vous êtes toujours amoureux 
+	Vous détestez votre amant(e)  
+	Vous évitez votre amant(e) comme la peste. 
+	Vous interférer indirectement avec les plans de votre amant(e). 
+	Vous êtes toujours bon amis 
+	Il n'y a jamais eu de sentiments entre vous 
+	Vous l'aimez et il(elle) vous déteste 
+	Il(elle) vous aime toujours et vous le(la) détestez 
+
+Table FEC	Ami, Ennemi et Occupations
+	Un(e) employé en situation régulière	[FECreg]
+	Un(e) ordures des rues	[FECordure]
+	Un(e) employé(e) "Juridique" / Un(e) employé(e) aux Urgences	[FECjuridic]
+	Dans le crime organisé	[FECcrime]
+	Un(e) Corpo-rat	[FECcorpo]
+	Un(e) Artiste	[FECartiste]
+	Un(e) membre du gouvernement	[FECgov]
+
+Table FECreg	Employé(s) en situation régulière
+	Un(e) comptable
+	Un(e) commis (commerce de détail ou autre)
+	Un(e) travailleur(se) dans la construction
+	Un(e) messager(ère)
+	Un(e) médecin/infirmier(ère)
+	Un(e) Ingénieur(e)/Technicien(ne)
+	Un(e) concierge
+	Un(e) pilote
+	Un(e) secrétaire
+	Un(e) scientifique
+	Un(e) travailleur(se) social
+	Un(e) Étudiant(e) Universitaire
+	Un(e) Étudiant(e) au K-12
+	Un(e) Enseignant(e) au Collège
+	Un(e) Enseignant(e) au K-12
+	Un(e) chauffeur(se) de camion/bus
+
+Table FECordure	Ordures des rues
+	Un(e) assassin
+	Un(e) barman
+	Un(e) garde du corps
+	Un(e) videur(se)
+	Un(e) chauffeur(se) de taxi
+	Un(e) escroc
+	En sortie de condamnation
+	Un(e) contrefacteur
+	Un(e) cuiseur(se) de drogues
+	Un(e) trafiquant(e) de drogue
+	Un(e) ex-détenu(e)
+	Un(e) fixer
+	Un(e) membre d'un gang
+	Un(e) pute (sans licence)
+	Un(e) junkie
+	Un(e) mercenaire
+	Un(e) netrunner
+	Un(e) nomade
+	Un(e) prostituée (licenciée)
+	Un(e) ripperdoc
+	Un(e) ronin
+	Un(e) contrebandier
+	Un(e) vendeurs de rue
+	Un(e) techie
+	Un(e) voleur(se)/cambrioleur(se)
+	Un(e) vagabond
+
+Table FECjuridic	Jurique ou aux urgences
+	Chasseur de primes
+	Flic	[FEC1.1]
+	Pompier
+	Avocat
+	Services paramédicaux
+	Gardien de prison
+	Détective privé
+	Flic à louer
+	Flic à la retraite	[FEC1.1]
+	Justicier
+
+Table FECcrime	Dans le Crime Organisé
+	Un(e) assassin
+	Un(e) garde du corps
+	Un(e) bookmarker
+	Un(e) contrefacteur
+	Un(e) exécuteur
+	Un(e) petit chef de Gang
+	Un(e) Netrunner
+
+Table FECcorpo	Corpo-rat
+	Un(e) assassin
+	Un(e) policer/garde Corpo
+	Un(e) docteur/MedTech
+	Un(e) employé (Greffier, Secrétaire, etc.)
+	Un(e) cadre junior
+	Un(e) cadre supérieur
+	Un(e) Netrunner
+	Un(e) samouraï
+	Un(e) technicien
+
+Table FECartiste	Artiste
+	Un(e) acteur
+	Un(e) artiste
+	Un(e) athlète
+	Un(e) disk jockey
+	Un(e) média	[FEC1.4]
+	Un(e) rocker
+	Un(e) danseur
+	Un(e) écrivain
+
+Table FECgov	Membre du Gouvernement
+	Un(e) agent du LEDiv	[FEC1.5]
+	Un(e) assassin
+	Un(e) militaire	[FEC1.6]
+	Un(e) Netrunner
+	Un(e) officiel(le) / politicien(ne)
+	Un(e) Techie
+
+Table FEC1.1	Policiers (sous-types)
+	Au sein de la division des affaires intérieures (IAD)
+	Au sein de l'administration
+	Au sein de la section de la sécurité du réseau (NetSec)
+	Au sein de la section homicide
+	Au sein de la des mœurs
+	Au sein du département Anti-Vol
+	Dans le secret des enquêtes spéciales (SIn)
+	Affecté au SWAT
+	Au sein de l'unité de répression des cyborgs (CSU, MaxTac, C-SWAT)
+	Au cœur de la section antiémeutes
+	Dans une patrouille aéroportée
+	Dans une patrouille maritime
+	Dans une patrouille routière
+	Dans une patrouille mobile
+	Dans la section voie rapide
+
+Table FEC1.2	Typologie du Crime Organisé
+	Vous êtes affiliés aux Yakuzas (japonais)
+	Vous êtes affiliés à la Mafia (principalement italienne)
+	Vous êtes affiliés aux Triades (chinois)
+	Vous êtes affiliés aux Colombiens (et autres Sud-Américains)
+
+Table FEC1.3	Affiliation Corporatiste
+	Arasaka (CP, CR1)
+	BioMass Laboratories Group, GMbH
+	Biotechnica
+	Consolidated Agriculture
+	Diverse Media Systems
+	Dornier AeroSpace
+	Euro-Business Machines Corporation
+	Fujiwara
+	Hilliard Corporation
+	Imperial Metropolitan Agriculture, PLC
+	InfoComp
+	International Electric Corporation
+	Kendachi
+	Lazarus Military Group
+	Matsushima-Kiroshi
+	Merrill, Asukaga, & Finch
+	MicroTech
+	MiliTech
+	Mitsubishi/Koridansu
+	Network News 54
+	No-Ahme Caldwell Genetic Engineering & Biochemicals
+	Ocean Technology & Energy Corporation
+	Orbital Air
+	Peak & Derrera
+	PetroChem
+	Raven MicroCybernetics
+	RepliTech
+	Revolution Genetics, Inc.
+	SegAtari
+	Soviet World Oil Industries
+	Storm Technologies Inc.
+	Sungan Industries
+	Tanson Group
+	Terra Nova
+	Tiger Medicines Corporation
+	Trauma Team International
+	Tsunami Design Bureau
+	Utopian Corporation
+	World News Service
+	WorldSat Communications Network
+	ZetaTech
+
+Table FEC1.4	Typologie des Médias
+	Un(e) reporter pour le journal télévisé
+	Un(e) journaliste
+	Un(e) photojournaliste
+	Un(e) présentateur
+	Un(e) caméraman(ne)
+	Un(e) Technicien(ne) du son
+	Un(e) Chroniqueur(se) sportif(ve)
+	Un(e) Correspondant(e) de guerre
+
+Table FEC1.5	Typologie des agents du LEDiv
+	Dans le service administratif
+	Dans le service d'enquête sur les corporations
+	Au sein des enquêtes criminelles
+	Dans la lutte anti-drogue
+	Dans la section de renseignement
+	Dans la brigade anti-crime
+	En bas, dans les archives
+	Dans le secteur R&D des Sciences et Technologies
+	Dans la section des Services secrets
+	Au cœur des opérations spéciales
+
+Table FEC1.6	Typologie des Militaires
+	Un(e) Membre de l'armée de l'air
+	Un(e) Officier de l'armée de l'air
+	Un(e) Membre de l'armée de terre
+	Un(e) Officier de l'armée de terre
+	Un(e) Membre des Marines
+	Un(e) Officier des Marines
+	Un(e) Membre de la Navy
+	Un(e) Officier de marine
+	Un(e) Membre des Forces armées de l'État
+	Un(e) Officier des Forces armées de l'État
