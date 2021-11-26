@@ -1,0 +1,6 @@
+
+CyberPunkREDBiography.txt
+	TODO revoir ce fichier + fichiers associés à créer (liens talents, métiers, groupes de compétences à paertir de caractéristiques)
+	TODO interrogation mutiples de tables en simultané
+	TODO re-codage (au moins partiel) à partir de celui fait pour CyberAge
+

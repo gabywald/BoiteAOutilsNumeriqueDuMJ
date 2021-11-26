@@ -6,8 +6,6 @@ Table d'Orientation
 	Implication romantique	[6A]
 	Rien ne se passe cette année-là	[Rien]
 	
-TODO revoir ce fichier + fichiers associés à créer (liens talents, métiers, groupes de compétences à paertir de caractéristiques)
-
 Table Rien
 	Rien ne se passe cette année-là !
 
@@ -132,7 +130,7 @@ Table 5C	Raison
 	Un secret dévoilé 
 	Une autre partie 
 	Vous avez (été) Trahi/piqué dans le dos 
-	Vous avez été blessé par l'autre/Vous avez blessé l'autre  
+	Vous avez été blessé par l'autre / Vous avez blessé l'autre  
 	Vous avez reçu(émis) des menaces de mort 
 	Vous avez causé/reçu des dommages matériels 
 	Vous avez causé/reçu un préjudice personnel direct/indirect 
