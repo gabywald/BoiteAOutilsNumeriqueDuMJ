@@ -4,3 +4,9 @@ CyberPunkREDBiography.txt
 	TODO interrogation mutiples de tables en simultané
 	TODO re-codage (au moins partiel) à partir de celui fait pour CyberAge
 
+TODO tirages sur tables FEC (si nécessaire)
+TODO liste des compétences pour chacun des 10 archétypes possibles
+
+TODO tirage des caractéristiques de base (différent de celui de CyberAge, que ce soit en SimulacreS ou BasicRPG)
+
+"Tagging" spécifiques ? (utilisation des annotations entre accolades)

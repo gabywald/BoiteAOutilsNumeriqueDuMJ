@@ -221,7 +221,7 @@ class BiographicDataLoad( object ) :
                 nextTable.appendAddin( resultTableContent.groups()[4] );
         if (nextTable != None) : 
             tables[ nextTable.name ] = nextTable 
-        print( tables )
+        ## print( tables )
         return tables
     
     @classmethod
