@@ -1,5 +1,88 @@
-Armes légères	2
-Armes normales	2
-Armes lourdes	2
-Guide Local	2
-Pilotage 2
+## ## ## ## ## 
+## Compétences de Contrôle
+Conduite de véhicule terrestre (RÉF)
+Équitation (RÉF)
+Pilotage de véhicule aérien (x2) (RÉF)
+Pilotage de véhicule maritime (RÉF)
+## ## ## ## ## 
+## Compétences de Corps
+Athlétisme (DEX)
+Contorsion (DEX)
+Danse (DEX)
+Discrétion (DEX)
+Endurance (VOL)
+Résistance à la torture/aux drogues (VOL)
+## ## ## ## ## 
+## Compétences d’Éducation
+Guide local (INT)
+Langue (INT)
+Science (INT)
+Survie en milieu hostile (INT)
+Tactique (INT)
+## ## ## ## ## 
+## Compétences de Représentation
+Instrument (TECH)
+Jeu d’acteur (PRES)
+## ## ## ## ## 
+## Compétences de Sociabilité
+Connaissance de la rue (PRES)
+Conversation (EMP)
+Corruption (PRES)
+Habillement et style (PRES)
+Interrogatoire (PRES)
+Look (PRES)
+Négoce (PRES)
+Persuasion (PRES)
+Psychologie (EMP)
+## ## ## ## ## 
+## Compétences de Technique
+Aérotech (TECH)
+Armurerie (TECH)
+Arts plastiques (TECH)
+Assistance médicale (x2) (TECH)
+Contrefaçon (TECH)
+Crochetage (TECH)
+Arme de mêlée (DEX)
+Cybertech (TECH)
+Électronique (TECH)
+Explosifs (x2) (TECH)
+Maritech (TECH)
+Photos et films (TECH)
+Pickpocket (TECH)
+Premiers secours (TECH)
+Terratech (TECH)
+Sécurité électronique (x2) (TECH)
+## ## ## ## ## 
+## Compétences de Tir
+Armes d’épaule (RÉF)
+Armes lourdes (x2) (RÉF)
+Pistolet (RÉF)
+Tir à l’arc (RÉF)
+Tir automatique (x2) (RÉF)
+## ## ## ## ## 
+## Compétences de Vigilance
+Concentration (VOL)
+Dissimulation/Révélation d’objet (INT)
+Lecture sur les lèvres (INT)
+Perception (INT)
+Pistage (INT)
+## ## ## ## ## 
+## Compétences de Combat
+Arme de mêlée (DEX)
+Art martial (x2) (DEX)
+Bagarre (DEX)
+Esquive (DEX)
+## ## ## ## ## 
+## Compétences d’Éducation
+Bibliothèque (INT)
+Bureaucratie (INT)
+Composition (INT)
+Comptabilité (INT)
+Connaissance (INT)
+Criminologie (INT)
+Cryptographie (INT)
+Déduction (INT)
+Dressage (INT)
+Gestion d’affaires (INT)
+Jeux de hasard (INT)
+## ## ## ## ## 
