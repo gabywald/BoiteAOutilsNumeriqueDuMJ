@@ -91,7 +91,7 @@ class BiographicSkill( object ) :
         self.name = name
         self.level = level
         self.possibilities = possibilities
-        self.__percentValues__()
+        ## self.__percentValues__()
     
     def __str__(self) : 
         """BiographicSkill to str. """
@@ -123,10 +123,11 @@ def choiceWithIn(i: int):
 
 def addToGreatTalent(talents: dict, greatTales: dict, selection, initValue, addValues, jobOrPerso = 0):
     ## print ( selection, ":", initValue, ":", addValues, ":", jobOrPerso )
+    ## print( talents )
     if ( (selection in talents) or ( not selection in greatTales) ):
         values        = talents[ selection ]
         initValDef    = values.level
-        greatTales[ selection ] = initValDef
+        greatTales[ selection ] = 2 ## initValDef
         print("\t\t Selected {", selection, "} setted at ", initValDef, "\% (initial / base)")
     ## ... 
     if (selection in greatTales):
@@ -164,11 +165,11 @@ def selectRandomBiographic( tables ) :
         if (addin != None) : 
             bioELT.addins = addin.split( ";" )
         if (link != None) : 
-            if (link == "Cicatrices") : 
-                orientation = tables[ "Cicatrices-localisation" ]
-                bioELT.contents.append( "Cicatrice : %s" %( random.choice( orientation.contents ) ) )
-                orientation = tables[ "Cicatrices-gravité" ]
-                bioELT.contents.append( "Cicatrice : %s" %( random.choice( orientation.contents ) ) )
+            multiplelinks = link.split(",")
+            if (len(multiplelinks) > 1) : 
+                for elt in multiplelinks : 
+                    orientation = tables[ elt ];
+                    bioELT.contents.append( "%s -- " %( random.choice( orientation.contents ) ) )
                 orientation = None;
             else:
                 orientation = tables[ link ];
@@ -260,16 +261,19 @@ class BiographicDataLoad( object ) :
         data = ModuleHelper.loadFileConfig( "talentsCyberPunkRED" )
         nextTable = None
         for line in data : 
-            resultTableHead = re.match( "^(.*?)\t(.*?)(\t\[(.*?)\])?$", line)
-            if (resultTableHead != None) : 
-                if (nextTable != None) : 
-                    self._skills[ nextTable.name ] = nextTable
-                values = None 
-                if (resultTableHead.groups()[3] != None) : 
-                    values = resultTableHead.groups()[3].split( ";" )
-                nextTable = BiographicSkill( resultTableHead.groups()[0], \
-                                             resultTableHead.groups()[1], \
-                                             values )
+            if ( ( not line.startswith( "#" ) ) and (line != "") ) :
+                resultTableHead = re.match( "^(.*?) \([A-ZÉ]+\)(\t(.*?))?(\t\[(.*?)\])?$", line)
+                if (resultTableHead != None) : 
+                    if (nextTable != None) : 
+                        self._skills[ nextTable.name ] = nextTable
+                    values = None 
+                    if (resultTableHead.groups()[3] != None) : 
+                        values = resultTableHead.groups()[3].split( ";" )
+                    nextTable = BiographicSkill( resultTableHead.groups()[0], \
+                                                 resultTableHead.groups()[1], \
+                                                 values )
+                ## else:
+                ##     print( "unrecognized: ", line )
         if (nextTable != None) : 
             self._skills[ nextTable.name ] = nextTable 
         return self._skills

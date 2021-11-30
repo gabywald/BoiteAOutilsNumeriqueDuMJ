@@ -1,11 +1,11 @@
 
 CyberPunkREDBiography.txt
-	TODO revoir ce fichier + fichiers associés à créer (liens talents, métiers, groupes de compétences à paertir de caractéristiques)
-	TODO interrogation mutiples de tables en simultané
+	TODO revoir ce fichier + fichiers associés à créer (liens talents, métiers, groupes de compétences à partir de caractéristiques)
+	DONE (?) interrogation mutiples de tables en simultané
 	TODO re-codage (au moins partiel) à partir de celui fait pour CyberAge
 
 TODO tirages sur tables FEC (si nécessaire)
-TODO liste des compétences pour chacun des 10 archétypes possibles
+DONE liste des compétences pour chacun des 10 archétypes possibles
 
 TODO tirage des caractéristiques de base (différent de celui de CyberAge, que ce soit en SimulacreS ou BasicRPG)
 

@@ -1,15 +1,15 @@
 Table d'Orientation
 	Vous avez de la chance	[Chance] 
-	Catastrophes !	[3A]
+	Catastrophes !	[3A,3B]
 	Se faire un ami	[4A]
-	Faire un ennemi	[5A]+[5B]+[5C]+[5D]+[5E]
-	Implication romantique	[6A]
+	Faire un ennemi	[5A,5B,5C,5D,5E]
+	Implication romantique	[6A,6Ab]
 	Rien ne se passe cette année-là	[Rien]
 	
-Table Rien
+Table Rien	Rien
 	Rien ne se passe cette année-là !
 
-Table Chance
+Table Chance	Chance
 	Gain financier de 1D5 x 100 e.d	{credit:+1D5*100}
 	Grosse note ! 1d10 x 100 e.d	{credit:+1D10*100}
 	Gain de 1D10 x 100 e.d trouvé en équipements ou en cyber-ware	{inventaire:"+1D10*100 en équipement / cyberware"} 
@@ -39,8 +39,8 @@ Table 3A	Catastrophe
 	Vous vous blessez	[Table 3B]
 	Un de vos amis ou de vos amants décède ou disparaît 
 	Un de vos contact décède ou disparaît 
-	Vous vous faite un ennemi. Générez-le avec la table FEC 
-	Vous vous faites un ennemi secret qui veut votre mort. Générez-le avec la table FEC 
+	Vous vous faite un ennemi. 	[FEC] 
+	Vous vous faites un ennemi secret qui veut votre mort. 	[FEC] 
 	Vous vous êtes fait trahir par un ami qui devient désormais un ennemi 
 	Vous êtes arrêté et non condamné. Vous subissez 1D5 semaines de prison 
 	Vous vous êtes fait arrêté et contractez une amende pour délit mineur (1D10 x 10 e.b) 
@@ -49,7 +49,7 @@ Table 3A	Catastrophe
 	Vous subissez un dysfonctionnement aléatoire d'un cyber-ware vous coutant 1/2 e.b du tarif de base en coût de réparation 
 	Selon le choix du Meneur, vous avez attisé la colère d'un gang, d'un groupe de Nomade, etc. 
 	Vous être recherché par une Corporation (Choisissez dans une liste) 
-	Vous contractez une faveur à quelqu'un. Générez-le avec la table FEC 
+	Vous contractez une faveur à quelqu'un. 	[FEC] 
 	Vous êtes blâmé pour quelque chose que vous avez fait ou n'avez pas fait ce qui vous donne un bonus de +1 REP (Négative) 
 	Vous attendez ou avez donné une grossesse non planifiée ! Fais avec, Choomba. 
 
@@ -194,7 +194,7 @@ Table 6A	Implication Romantique
 	Rencontré(e) à Un(e) Mallplex 
 	Rencontré(e) par le biais d'un(e) amant commun  
 
-Fonctionnement ?
+Table 6Ab	Fonctionnement ?
 	Une heureuse histoire d'amour 
 	Une heureuse histoire d'amour 
 	Une heureuse histoire d'amour 
@@ -239,7 +239,7 @@ Table 6C	Problèmes Romantiques
 	Votre amant(e) est dans le coma 
 	Votre amant(e) est marié 
 
-Table Sentiments Réciproques
+Table 6Cb	Sentiments Réciproques
 	Il(Elle) vous aime toujours 
 	Vous l'aimez toujours 
 	Vous êtes toujours amoureux 
