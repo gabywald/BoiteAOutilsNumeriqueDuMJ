@@ -119,22 +119,29 @@ def choiceWithIn(i: int):
             choice = -1
         print("\t\t => [", choice, "]") 
     return choice
+    
+def choiceWithTwo():
+    choice = 0
+    while( not ( (choice >= 2) and (choice <= 6) ) ):
+        try:
+            choice = int(input())
+        except:
+            choice = -1
+        if ( (choice <= 1) or (choice > 6) ):
+            choice = -1
+        print("\t\t => [", choice, "]") 
+    return choice
 
 
 def addToGreatTalent(talents: dict, greatTales: dict, selection, initValue, addValues, jobOrPerso = 0):
     ## print ( selection, ":", initValue, ":", addValues, ":", jobOrPerso )
     ## print( talents )
-    if ( (selection in talents) or ( not selection in greatTales) ):
-        values        = talents[ selection ]
-        initValDef    = values.level
-        greatTales[ selection ] = 2 ## initValDef
-        print("\t\t Selected {", selection, "} setted at ", initValDef, "\% (initial / base)")
     ## ... 
     if (selection in greatTales):
-        print("\t\t Selected {", selection, "} +", addValues, "\%")
+        print("\t\t Selected {", selection, "} +", addValues, "")
         greatTales[ selection ] += addValues
     else:
-        print("\t\t Selected {", selection, "} setted at ", initValue, "\%")
+        print("\t\t Selected {", selection, "} setted at ", initValue, "")
         greatTales[ selection ] = initValue
     ## ... 
     ## if ( (defined $jobOrPerso) && ($jobOrPerso == 1) )

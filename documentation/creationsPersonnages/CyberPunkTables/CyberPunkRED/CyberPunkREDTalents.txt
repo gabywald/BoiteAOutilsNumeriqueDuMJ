@@ -13,7 +13,7 @@ Discrétion (DEX)
 Endurance (VOL)
 Résistance à la torture/aux drogues (VOL)
 ## ## ## ## ## 
-## Compétences d’Éducation
+## Compétences d'Éducation
 Guide local (INT)
 Langue (INT)
 Science (INT)
@@ -22,7 +22,7 @@ Tactique (INT)
 ## ## ## ## ## 
 ## Compétences de Représentation
 Instrument (TECH)
-Jeu d’acteur (PRES)
+Jeu d'acteur (PRES)
 ## ## ## ## ## 
 ## Compétences de Sociabilité
 Connaissance de la rue (PRES)
@@ -54,15 +54,15 @@ Terratech (TECH)
 Sécurité électronique (x2) (TECH)
 ## ## ## ## ## 
 ## Compétences de Tir
-Armes d’épaule (RÉF)
+Armes d'épaule (RÉF)
 Armes lourdes (x2) (RÉF)
 Pistolet (RÉF)
-Tir à l’arc (RÉF)
+Tir à l'arc (RÉF)
 Tir automatique (x2) (RÉF)
 ## ## ## ## ## 
 ## Compétences de Vigilance
 Concentration (VOL)
-Dissimulation/Révélation d’objet (INT)
+Dissimulation/Révélation d'objet (INT)
 Lecture sur les lèvres (INT)
 Perception (INT)
 Pistage (INT)
@@ -73,7 +73,7 @@ Art martial (x2) (DEX)
 Bagarre (DEX)
 Esquive (DEX)
 ## ## ## ## ## 
-## Compétences d’Éducation
+## Compétences d'Éducation
 Bibliothèque (INT)
 Bureaucratie (INT)
 Composition (INT)
@@ -83,6 +83,6 @@ Criminologie (INT)
 Cryptographie (INT)
 Déduction (INT)
 Dressage (INT)
-Gestion d’affaires (INT)
+Gestion d'affaires (INT)
 Jeux de hasard (INT)
 ## ## ## ## ## 

@@ -7,6 +7,9 @@ CyberPunkREDBiography.txt
 TODO tirages sur tables FEC (si nécessaire)
 DONE liste des compétences pour chacun des 10 archétypes possibles
 
-TODO tirage des caractéristiques de base (différent de celui de CyberAge, que ce soit en SimulacreS ou BasicRPG)
+DONE tirage des caractéristiques de base (différent de celui de CyberAge, que ce soit en SimulacreS ou BasicRPG)
+
+DONE complétion des compétences de base
+DONE calcul des points disponibles pour compétences <= TO REVIEW
 
 "Tagging" spécifiques ? (utilisation des annotations entre accolades)

@@ -577,7 +577,7 @@ if (len(possibleJOBs) >= 0):
     ## 'majeure' à 60% : autres à 50%
     for comp in competences:
         if (comp != selectedComp):
-            BiographicDataLoadAndSelect.addToGreatTalent(talents, greatTales, selectedComp, 50, 50, 1) ## +10%
+            BiographicDataLoadAndSelect.addToGreatTalent(talents, greatTales, comp, 50, 50, 1) ## +10%
             countJobTalent += 50;
         else:
             print("...")
