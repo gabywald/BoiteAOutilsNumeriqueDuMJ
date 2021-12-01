@@ -377,6 +377,13 @@ for bioELT in biographicElements:
                 else:
                     allowedJob[ metier ]  = int(parse[1])
                 print("\t\t Job {", metier, "} at level [", allowedJob[ metier ], "]. ")
+            elif (first == "blessures"):
+                ## 3Bb in biographic table !!
+                blessuresTab= biotables[ "3Bb" ].contents
+                blessures	= { n : blessuresTab[n-1] for n in range(1, len(blessuresTab)+1)  }
+                parse		= second.split(',')
+                for elt in parse:
+                    personnaeToOuput.lightbio.append( blessures[ int(elt) ] );
             else:
                 print("\n\nUNKNOWN FIRST={[", first, "]}\n")
         else:

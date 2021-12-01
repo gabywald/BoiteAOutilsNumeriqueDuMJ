@@ -12,13 +12,13 @@ Table Rien	Rien
 Table Chance	Chance
 	Gain financier de 1D5 x 100 e.d	{credit:+1D5*100}
 	Grosse note ! 1d10 x 100 e.d	{credit:+1D10*100}
-	Gain de 1D10 x 100 e.d trouvé en équipements ou en cyber-ware	{inventaire:"+1D10*100 en équipement / cyberware"} 
+	Gain de 1D10 x 100 e.d trouvé en équipements ou en cyber-ware	{inventaire:"+1D10*100 en équipement / cyberware"}
 	Enseignement d'un Sensei donnant une compétence de +1 dans un d'art martial ou de +2 en bagarre	
 	Enseignement d'un instructeur entrainant un bonus de +2 sur une compétence REF ou DEX non liée aux arts martiaux 
 	Enseignement d'un professeur entrainant un bonus de +2 sur une compétence INT 
 	Enseignement d'un coach entrainant un bonus de +2 sur une compétence DEX 
 	Enseignement d'un technicien octroyant +2 sur une compétence TECH 
-	Apprentissage dans une "École de charme" entrainant un bonus de +2 dans une compétence COOL ou EMP 
+	Apprentissage dans une "École de charme" entrainant un bonus de +2 dans une compétence PRES ou EMP 
 	La découverte du sens de la mode entraine un bonus de +2 à la compétence vestimentaire et stylisme 
 	Apprentissage d’une nouvelle langue avec une stat de base à +2 
 	Apprentissage des bases de la sécurité octroyant un bonus de +1 à la compétence "électronique et techniques de sécurité" 
@@ -54,31 +54,31 @@ Table 3A	Catastrophe
 	Vous attendez ou avez donné une grossesse non planifiée ! Fais avec, Choomba. 
 
 Table 3B	Blessures
-	Vous avez subi une brûlure mineure (3) 
-	Vous avez subi deux brûlures grave (1) (3) 
-	Vous avez subi une/des Blessure(s) par coup de couteau (3) 
-	Vous avez subi une blessure par balle. Elle a été nettoyée à plusieurs reprises (3) 
-	Vous avez subi une blessure par balle. Le projectile était resté logé mais il a été retiré (3) 
-	Vous avez subi une blessure par balle. Le projectile est resté logé et n'a jamais été retiré (2) (3) 
-	Vous avez subi une blessure par balle. Le projectile c'est fragmenté à l'impact et une grande blessure c'est ouvert du coté ou le projectile est sortie (1) (3) 
-	Vous avez subi une fracture qui c'est mal resoudée (1) (2) 
-	Un ou Plusieurs de vos organe(s) interne(s) a/ont endommagé(s) (1) (2) 
+	Vous avez subi une brûlure mineure (3)	{blessures:3}
+	Vous avez subi deux brûlures grave (1) (3)	{blessures:1,3}
+	Vous avez subi une/des Blessure(s) par coup de couteau (3)	{blessures:3}
+	Vous avez subi une blessure par balle. Elle a été nettoyée à plusieurs reprises (3)	{blessures:3}
+	Vous avez subi une blessure par balle. Le projectile était resté logé mais il a été retiré (3)	{blessures:3}
+	Vous avez subi une blessure par balle. Le projectile est resté logé et n'a jamais été retiré (2) (3)	{blessures:2,3}
+	Vous avez subi une blessure par balle. Le projectile c'est fragmenté à l'impact et une grande blessure c'est ouvert du coté ou le projectile est sortie (1) (3)	{blessures:2,3}
+	Vous avez subi une fracture qui c'est mal resoudée (1) (2)	{blessures:1,2}
+	Un ou Plusieurs de vos organe(s) interne(s) a/ont endommagé(s) (1) (2)	{blessures:1,2}
 	Vous avez subi une fracture du crâne créant des lésions cérébrales mineures 
 	Vous avez subi une fracture du crâne créant des lésions cérébrales importantes 
-	Vous avez subi une blessure au Shrapnel (2) qui est resté logé dans votre corps 
-	Votre sourire laisse apparaitre des dents manquantes (3) 
+	Vous avez subi une blessure au Shrapnel (2) qui est resté logé dans votre corps	{blessures:2}
+	Votre sourire laisse apparaitre des dents manquantes (3)	{blessures:3}
 	Un combat vous a couté quelques doigts et orteils manquants (1) 
-	Vous êtes dépossédé d'un Œil (1) 
-	Une oreille vous fait défaut (2) (3) 
-	Vous n'avez plus de nez. Peut-être voudriez-vous y mettre une grenade ? (3) 
-	Un de vos membre est coupé. Il peut s'agir d'une main ou d'un pied (1) 
-	Vous avez subi une blessure au dos (2) 
-	Une cicatrice impressionnante est logée dans votre corps (3) 
+	Vous êtes dépossédé d'un Œil (1)	{blessures:1}
+	Une oreille vous fait défaut (2) (3)	{blessures:2,3}
+	Vous n'avez plus de nez. Peut-être voudriez-vous y mettre une grenade ? (3)	{blessures:3}
+	Un de vos membre est coupé. Il peut s'agir d'une main ou d'un pied (1)	{blessures:1}
+	Vous avez subi une blessure au dos (2)	{blessures:2}
+	Une cicatrice impressionnante est logée dans votre corps (3)	{blessures:3}
 
-Notes : 
-(1) blessures peuvent être soignées à l'aide de cyber-ware ou de pièces de rechange provenant d’une cuve de reconstruction. 
-(2) chirurgie peut guérir la blessure en découpant quelque chose ou en réparant la blessure. 
-(3) reconstruction faciale et/ou la chirurgie esthétique peut(vent) réparer certains aspects de cette blessure. 
+Table 3Bb	Blessures++
+	(1)	Blessures peuvent être soignées à l'aide de cyber-ware ou de pièces de rechange provenant d’une cuve de reconstruction. 
+	(2)	Chirurgie peut guérir la blessure en découpant quelque chose ou en réparant la blessure. 
+	(3)	Reconstruction faciale et/ou la chirurgie esthétique peut(vent) réparer certains aspects de cette blessure. 
 
 Table 4A	Ami(s)
 	Un(e) partenaire	[FEC]

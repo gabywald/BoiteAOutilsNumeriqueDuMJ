@@ -168,8 +168,10 @@ def selectRandomBiographic( tables ) :
         ## ## ## Generate / complete a BiographicElement 
         if (bioELT == None) : 
             bioELT = BiographicElement( content )
+            ## bioELT.addins.append( addin )
         else : 
             bioELT.contents.append( content )
+            ## bioELT.addins.append( addin )
         if (addin != None) : 
             bioELT.addins = addin.split( ";" )
         if (link != None) : 
@@ -182,7 +184,11 @@ def selectRandomBiographic( tables ) :
                     link = orientation.linksTo[index]
                     addin = orientation.addins[index]
                     ## print( link )
-                    bioELT.contents.append( "%s ** " %( content ) )
+                    bioELT.contents.append( content )
+                    ## print( addin )
+                    if (addin != None) : 
+                        print( addin )
+                        bioELT.addins = addin.split( ";" )
                 orientation = None;
             else:
                 orientation = tables[ link ];
