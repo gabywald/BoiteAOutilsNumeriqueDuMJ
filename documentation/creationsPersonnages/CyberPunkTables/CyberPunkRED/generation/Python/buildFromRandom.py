@@ -272,7 +272,7 @@ print("\t **** Biographie ***** ");
 biographicElements = [];
 while (len(biographicElements) < count4biog):
     tables = BiographicDataLoad.loadBiographicsTables()
-    beToShowKeep = selectRandomBiographic( tables ) ## BiographicDataLoad.getARandomElementBIOGRAPHIC()
+    beToShowKeep = selectRandomBiographic( tables )
     print("\t\t ", beToShowKeep.toString() )
     print("\t Conserver ? [Y/n]")
     validateBio = str(input())
@@ -444,10 +444,9 @@ if (len(possibleJOBs) >= 0):
     selection = possibleJOBs[choice-1];
     print("\t\t Selected {", selection, "}")
     personnaeToOuput.metier = selection 
-    
-    ## appliquer talents / compétences
+    ## appliquer talents / compétences : choix sur liste par métier sélectionné
     competences = metiers[ selection ].skills
-    
+    ## boucle interactive
     while( countJobTalent < countJobMaxims):
         print("\t **** Choix valeurs par compétence ? (min 2, max 6) TPCmax: ", countJobMaxims, "\tactual: ", countJobTalent)
         i = 0
@@ -463,6 +462,7 @@ if (len(possibleJOBs) >= 0):
         print("\t\t Selected {", selectedComp, "}")
         print("\t **** Choix valeurs ? (min 2, max 6) TPCmax: ", countJobMaxims, "\tactual: ", countJobTalent)
         value2set = BiographicDataLoadAndSelect.choiceWithTwo()
+        ## Pour la dernière note : si excessive, sur ce qui reste par rapport au maximum
         if ( (countJobTalent + value2set) > countJobMaxims):
             value2set = countJobMaxims - countJobTalent
         BiographicDataLoadAndSelect.addToGreatTalent(talents, greatTales, selectedComp, value2set, value2set, 1)

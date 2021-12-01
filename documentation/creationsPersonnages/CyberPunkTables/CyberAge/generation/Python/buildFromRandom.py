@@ -317,7 +317,7 @@ print("\t **** Biographie ***** ");
 biographicElements = [];
 while (len(biographicElements) < count4biog):
     tables = BiographicDataLoad.loadBiographicsTables()
-    beToShowKeep = selectRandomBiographic( tables ) ## BiographicDataLoad.getARandomElementBIOGRAPHIC()
+    beToShowKeep = selectRandomBiographic( tables )
     print("\t\t ", beToShowKeep.toString() )
     print("\t Conserver ? [Y/n]")
     validateBio = str(input())
@@ -430,7 +430,7 @@ for bioELT in biographicElements:
                 validateBE    = None;
                 while( (validateBE == "N") or (validateBE == "n") ):
                     tables = BiographicDataLoad.loadEquipmentTables()
-                    be = selectBiographicElements( tables ) ## BiographicDataLoad.getARandomElementBIOGRAPHIC()
+                    be = selectBiographicElements( tables )
                     print("\t Gain équipement: {", be.toString(), "}")
                     print("\t Conserver ? [Y/n]")
                     validateBE = str(input())

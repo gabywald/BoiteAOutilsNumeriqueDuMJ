@@ -8,13 +8,13 @@ Liste des types possibles :
     Rockerboy
     Solo
     Fixer
-    Nomad
+    Nomade
     Netrunner
     Techie
     MedTechie
     Corporate
     Média
-    Cop
+    Cop / Justicier
     
     
     

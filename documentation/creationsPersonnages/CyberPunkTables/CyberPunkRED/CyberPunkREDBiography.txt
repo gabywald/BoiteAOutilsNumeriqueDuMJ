@@ -1,11 +1,11 @@
 Table d'Orientation
-	Vous avez de la chance	[Chance] 
+	Vous avez de la chance	[Chance]
 	Catastrophes !	[3A,3B]
 	Se faire un ami	[4A]
 	Faire un ennemi	[5A,5B,5C,5D,5E]
 	Implication romantique	[6A,6Ab]
 	Rien ne se passe cette année-là	[Rien]
-	
+
 Table Rien	Rien
 	Rien ne se passe cette année-là !
 
@@ -23,8 +23,8 @@ Table Chance	Chance
 	Apprentissage d’une nouvelle langue avec une stat de base à +2 
 	Apprentissage des bases de la sécurité octroyant un bonus de +1 à la compétence "électronique et techniques de sécurité" 
 	La vie dans la rue +2 Compétences dans la rue 
-	Vous vous êtes fait un ami dans un gang des rues	{Parrain:Gang des rues}
-	Vous vous êtes fait un ami issu d'une famille de Nomade {Parrain:Nomade}
+	Vous vous êtes fait un ami dans un gang des rues	{Parrain:Gang}
+	Vous vous êtes fait un ami issu d'une famille de Nomade	{Parrain:Nomade}
 	Vous avez gagné un contact
 	Une personne vous doit une faveur. 	[FEC]	{debtFrom:?}
 	Vous vous êtes fait un nouvel ami. 	[FEC]	{debtTo:?}
@@ -36,11 +36,11 @@ Table 3A	Catastrophe
 	Vous contractez une dette de 1d10 x 100 eyez maintenant ou payez plus tard !) 
 	Vous subissez une maladie réduisant aléatoirement un attribut de 1 
 	Vous devenez dépendant réduisant de 1 l'un des attributs suivants : INT, REF, CORPS ou EMP 
-	Vous vous blessez	[Table 3B]
+	Vous vous blessez	[3B]
 	Un de vos amis ou de vos amants décède ou disparaît 
 	Un de vos contact décède ou disparaît 
-	Vous vous faite un ennemi. 	[FEC] 
-	Vous vous faites un ennemi secret qui veut votre mort. 	[FEC] 
+	Vous vous faite un ennemi. 	[FEC]
+	Vous vous faites un ennemi secret qui veut votre mort. 	[FEC]
 	Vous vous êtes fait trahir par un ami qui devient désormais un ennemi 
 	Vous êtes arrêté et non condamné. Vous subissez 1D5 semaines de prison 
 	Vous vous êtes fait arrêté et contractez une amende pour délit mineur (1D10 x 10 e.b) 
@@ -49,7 +49,7 @@ Table 3A	Catastrophe
 	Vous subissez un dysfonctionnement aléatoire d'un cyber-ware vous coutant 1/2 e.b du tarif de base en coût de réparation 
 	Selon le choix du Meneur, vous avez attisé la colère d'un gang, d'un groupe de Nomade, etc. 
 	Vous être recherché par une Corporation (Choisissez dans une liste) 
-	Vous contractez une faveur à quelqu'un. 	[FEC] 
+	Vous contractez une faveur à quelqu'un. 	[FEC]
 	Vous êtes blâmé pour quelque chose que vous avez fait ou n'avez pas fait ce qui vous donne un bonus de +1 REP (Négative) 
 	Vous attendez ou avez donné une grossesse non planifiée ! Fais avec, Choomba. 
 
@@ -81,31 +81,31 @@ Notes :
 (3) reconstruction faciale et/ou la chirurgie esthétique peut(vent) réparer certains aspects de cette blessure. 
 
 Table 4A	Ami(s)
-	Un(e) partenaire 
-	Un(e) collaborateur(rice) 
-	Un(e) contact 
-	Un(e) ancien(ne) amant(e) 
-	Un(e) vieil(le) ennemi(e) 
-	Un(e) vieil(le) ami(e) d'enfance 
-	Un(e) parent 
-	Lorsque vous avez œuvré pour un intérêt commun 
-	Vous lui avez sauvé la vie 
-	Il(Elle) vous a sauvé la vie 
-	A une fête 
-	Un(e) ancien(ne) employeur 
-	Un(e) ancien(ne) employé 
-	Rencontré(e) par le biais d'Un(e) ami(e) commun 
-	Rencontré(e) à l'aveuglette 
-	Vous étiez à l'école ensemble 
-	Rencontré par le biais d'un(e) ennemi(e) commun 
-	Rencontré(e) lors d'un(e) concert 
-	Rencontré(e) dans un(e) bar 
-	Rencontré(e) à un(e) Mallplex 
-	Rencontré(e) par le viais d'un(e) amant commun 
-	Il/(Elle) vous a vendu quelque chose 
-	Vous lui avez vendu quelque chose 
-	Il/(Elle) vous a rendu service 
-	Vous lui avez fait une faveur 
+	Un(e) partenaire	[FEC]
+	Un(e) collaborateur(rice)	[FEC]
+	Un(e) contact	[FEC]
+	Un(e) ancien(ne) amant(e)	[FEC]
+	Un(e) vieil(le) ennemi(e)	[FEC]
+	Un(e) vieil(le) ami(e) d'enfance	[FEC]
+	Un(e) parent	[FEC]
+	Lorsque vous avez œuvré pour un intérêt commun	[FEC]
+	Vous lui avez sauvé la vie	[FEC]
+	Il(Elle) vous a sauvé la vie	[FEC]
+	À une fête	[FEC]
+	Un(e) ancien(ne) employeur	[FEC]
+	Un(e) ancien(ne) employé	[FEC]
+	Rencontré(e) par le biais d'Un(e) ami(e) commun	[FEC]
+	Rencontré(e) à l'aveuglette	[FEC]
+	Vous étiez à l'école ensemble	[FEC]
+	Rencontré par le biais d'un(e) ennemi(e) commun	[FEC]
+	Rencontré(e) lors d'un(e) concert	[FEC]
+	Rencontré(e) dans un(e) bar	[FEC]
+	Rencontré(e) à un(e) Mallplex	[FEC]
+	Rencontré(e) par le viais d'un(e) amant commun	[FEC]
+	IEl vous a vendu quelque chose	[FEC]
+	Vous lui avez vendu quelque chose	[FEC]
+	IEl vous a rendu service	[FEC]
+	Vous lui avez fait une faveur	[FEC]
 
 Table 5A	Ennemi(s)
 	Un(e) Ex-ami(e) 
@@ -136,10 +136,10 @@ Table 5C	Raison
 	Vous avez causé/reçu un préjudice personnel direct/indirect 
 	Vous avez causé une blessure à un parent, un ami ou un amant / Vous avez reçu une blessure par un parent, un ami ou un amant 
 	Vous avez causé un décès d'un parent, d'un ami ou d'un amant / Un parent, d'un ami ou d'un amant est mort 
-	Vous avez causé la perte de la face/du statut / Vous avec eu la perte de la face/du statut 
+	Vous avez causé la perte de la face/du statut / Vous avez eu la perte de la face/du statut 
 	Vous avez perdu un ami / Vous avez causé la perte d'un ami 
 	Vous avez causé la perte d'un emploi/contrat / Vous avez perdu un emploi/contrat 
-	Vous avez refusé des avances romantiques / Il(Elle) a reçu des avances romantiques de votre part 
+	Vous avez refusé des avances romantiques / IEl a reçu des avances romantiques de votre part 
 	Vous avez volé des biens (1D10 x 10 e.d) / Vous avez été dépouillé de biens (1D10 x 10 e.d) 
 	Vous avez volé de l'argent (1D10 x 10 e.d) / Vous avez été dépouille de 1D10 x 10 e.d 
 	Vous avez des personnalités en conflit 
@@ -147,13 +147,13 @@ Table 5C	Raison
 	Vous êtes en désaccord majeur 
 	Un de vos Parents / amis / amants a été insulté / Vous avez insulté un Parents / amis / amants de l'autre 
 	Vous avez été Insulté ou avez subi une accusation personnelle de la part de l'autre / Vous avez Insulté ou accusé personnellement l'autre 
-	Vous avez fait passer votre amant avant lui(elle) / L'autre a fait passer son amant avant vous 
+	Vous avez fait passer votre amant avant il/elle / L'autre a fait passer son amant avant vous 
 	Vous avez séduit son amant(e) / Votre amant(e) a été séduit par l'autre 
-	Il(elle) vous a fourni un plan truqué / Vous lui avez fourni un plan truqué 
+	IEl vous a fourni un plan truqué / Vous lui avez fourni un plan truqué 
 
 Table 5D	Qui en veut à l'autre
 	Vous lui en voulez à mort 
-	Il vous en veut à mort 
+	IEl vous en veut à mort 
 	Vous vous vouez une haine mutuelle 
 	Vous vous vouez une haine mutuelle 
 	Vous vous vouez une haine mutuelle 
@@ -181,7 +181,7 @@ Table 6A	Implication Romantique
 	Un(e) vieil(le) ami(e) d'enfance 
 	Lorsque vous avez œuvré pour un intérêt commun 
 	Vous lui avez sauvé la vie 
-	Il(Elle) vous a sauvé la vie 
+	IEl vous a sauvé la vie 
 	À une fête 
 	Un(e) ancien(ne) employeur 
 	Un(e) ancien(ne) employé 
@@ -195,10 +195,10 @@ Table 6A	Implication Romantique
 	Rencontré(e) par le biais d'un(e) amant commun  
 
 Table 6Ab	Fonctionnement ?
-	Une heureuse histoire d'amour 
-	Une heureuse histoire d'amour 
-	Une heureuse histoire d'amour 
-	Une heureuse histoire d'amour 
+	Une heureuse histoire d'amour	[6Cb]
+	Une heureuse histoire d'amour	[6Cb]
+	Une heureuse histoire d'amour	[6Cb]
+	Une heureuse histoire d'amour	[6Cb]
 	Une tragique histoire d'amour	[6B]
 	Une histoire d'amour avec des problèmes	[6C]
 	Une histoire d'amour avec des problèmes	[6C]
