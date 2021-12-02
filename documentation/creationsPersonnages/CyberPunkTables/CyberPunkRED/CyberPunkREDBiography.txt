@@ -21,11 +21,11 @@ Table Chance	Chance
 	Apprentissage dans une "École de charme" entrainant un bonus de +2 dans une compétence PRES ou EMP 
 	La découverte du sens de la mode entraine un bonus de +2 à la compétence vestimentaire et stylisme 
 	Apprentissage d’une nouvelle langue avec une stat de base à +2 
-	Apprentissage des bases de la sécurité octroyant un bonus de +1 à la compétence "électronique et techniques de sécurité" 
+	Apprentissage des bases de la sécurité octroyant un bonus de +1 à la compétence "électronique et techniques de sécurité"	{talent:Sécurité électronique=+1} 
 	La vie dans la rue +2 Compétences dans la rue 
 	Vous vous êtes fait un ami dans un gang des rues	{Parrain:Gang}
 	Vous vous êtes fait un ami issu d'une famille de Nomade	{Parrain:Nomade}
-	Vous avez gagné un contact
+	Vous avez gagné un contact	{Parrain:Fixer}
 	Une personne vous doit une faveur. 	[FEC]	{debtFrom:?}
 	Vous vous êtes fait un nouvel ami. 	[FEC]	{debtTo:?}
 	Choisissez un ennemi, ce dernier est mort ou a disparu. Si vous n'avez pas d'ennemi, refaites un jet 
@@ -33,7 +33,7 @@ Table Chance	Chance
 
 Table 3A	Catastrophe
 	Vous subissez un perte financière de 1d5 x 100 e.b 
-	Vous contractez une dette de 1d10 x 100 eyez maintenant ou payez plus tard !) 
+	Vous contractez une dette de 1d10 x 100 payez maintenant ou payez plus tard !) 
 	Vous subissez une maladie réduisant aléatoirement un attribut de 1 
 	Vous devenez dépendant réduisant de 1 l'un des attributs suivants : INT, REF, CORPS ou EMP 
 	Vous vous blessez	[3B]
@@ -90,7 +90,7 @@ Table 4A	Ami(s)
 	Un(e) parent	[FEC]
 	Lorsque vous avez œuvré pour un intérêt commun	[FEC]
 	Vous lui avez sauvé la vie	[FEC]
-	Il(Elle) vous a sauvé la vie	[FEC]
+	IEl vous a sauvé la vie	[FEC]
 	À une fête	[FEC]
 	Un(e) ancien(ne) employeur	[FEC]
 	Un(e) ancien(ne) employé	[FEC]
@@ -145,7 +145,7 @@ Table 5C	Raison
 	Vous avez des personnalités en conflit 
 	Vous êtes en désaccord mineur suite à quelque chose de stupide 
 	Vous êtes en désaccord majeur 
-	Un de vos Parents / amis / amants a été insulté / Vous avez insulté un Parents / amis / amants de l'autre 
+	Un de vos Parents/amis/amants a été insulté / Vous avez insulté un Parents/amis/amants de l'autre 
 	Vous avez été Insulté ou avez subi une accusation personnelle de la part de l'autre / Vous avez Insulté ou accusé personnellement l'autre 
 	Vous avez fait passer votre amant avant il/elle / L'autre a fait passer son amant avant vous 
 	Vous avez séduit son amant(e) / Votre amant(e) a été séduit par l'autre 
@@ -273,9 +273,9 @@ Table FECreg	Employé(s) en situation régulière
 	Un(e) scientifique
 	Un(e) travailleur(se) social
 	Un(e) Étudiant(e) Universitaire
-	Un(e) Étudiant(e) au K-12
-	Un(e) Enseignant(e) au Collège
-	Un(e) Enseignant(e) au K-12
+	Un(e) Étudiant(e) au K-12 (cursus scolaire)
+	Un(e) Enseignant(e) à l'Université
+	Un(e) Enseignant(e) au K-12 (cursus scolaire)
 	Un(e) chauffeur(se) de camion/bus
 
 Table FECordure	Ordures des rues
@@ -380,7 +380,7 @@ Table FEC1.2	Typologie du Crime Organisé
 	Vous êtes affiliés aux Colombiens (et autres Sud-Américains)
 
 Table FEC1.3	Affiliation Corporatiste
-	Arasaka (CP, CR1)
+	Arasaka
 	BioMass Laboratories Group, GMbH
 	Biotechnica
 	Consolidated Agriculture

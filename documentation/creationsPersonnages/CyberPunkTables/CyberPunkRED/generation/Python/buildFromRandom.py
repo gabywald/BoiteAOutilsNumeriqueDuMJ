@@ -323,7 +323,7 @@ for bioELT in biographicElements:
                             competences = metiers[ metier ].skills
                         elif (select == "all"):
                             for comp in competences:
-                                greatTales[ comp ] = 50
+                                greatTales[ comp ] = 2
                         ## TODO affiner selection ?
                         else:
                             competences = metiers[ metier ]
@@ -339,8 +339,8 @@ for bioELT in biographicElements:
                         i += 1
                     choice = BiographicDataLoadAndSelect.choiceWithIn(i)
                     selection = competences[choice-1];
-                    BiographicDataLoadAndSelect.addToGreatTalent(talents, greatTales, selection, 50, 10)
-                    countPersoTalent += 50
+                    BiographicDataLoadAndSelect.addToGreatTalent(talents, greatTales, selection, 2, 2)
+                    countPersoTalent += 2
             elif (first == "debtTo"):
                 print("\t\t Debt TO {", second, "} added. ")
                 debtsToTo.append( second )
