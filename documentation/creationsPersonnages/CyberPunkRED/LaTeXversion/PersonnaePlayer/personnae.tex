@@ -1,4 +1,4 @@
-\documentclass[lanscape, 11pt,twoside,a4paper]{article}
+\documentclass[lanscape, 10pt,twoside,a4paper]{article}
 % http://www-h.eng.cam.ac.uk/help/tpl/textprocessing/latex_maths+pix/node6.html symboles de math
 % http://fr.wikibooks.org/wiki/Programmation_LaTeX Programmation latex (wikibook)
 %=========================== En-Tete =================================
@@ -124,8 +124,9 @@
 
 %% \small
 
-\begin{tabular}{ p{0.20\textwidth} p{0.11\textwidth} p{0.23\textwidth} p{0.23\textwidth} p{0.23\textwidth} } 
+\begin{tabular}{ p{0.20\textwidth} p{0.07\textwidth} p{0.32\textwidth} p{0.32\textwidth} p{0.32\textwidth} } 
 	\begin{tabular}{ p{0.20\textwidth} }
+		\footnotesize
 		%% CyberPunk RED --- Fiche de personnage \\
 		\fbox{ \begin{minipage}[ht]{0.20\textwidth} 
 			-- 
@@ -150,57 +151,228 @@
 			Humanité	--- SUR --- \newline
 		\end{minipage} } \\
 	\end{tabular}
-	&	
-	\begin{tabular}{ p{0.10\textwidth} }
-		\fbox{ \begin{minipage}[ht]{0.11\textwidth} 
+	& ~ 
+	\begin{tabular}{ p{0.07\textwidth} }
+		\footnotesize
+		\fbox{ \begin{minipage}[ht]{0.07\textwidth} 
 			INT \newline \newline 
 		\end{minipage} } \\
-		\fbox{ \begin{minipage}[ht]{0.11\textwidth} 
+		\fbox{ \begin{minipage}[ht]{0.07\textwidth} 
 			RÉF \newline \newline 
 		\end{minipage} } \\ 
-		\fbox{ \begin{minipage}[ht]{0.11\textwidth} 
+		\fbox{ \begin{minipage}[ht]{0.07\textwidth} 
 			DEX \newline \newline 
 		\end{minipage} } \\ 
-		\fbox{ \begin{minipage}[ht]{0.11\textwidth} 
+		\fbox{ \begin{minipage}[ht]{0.07\textwidth} 
 			TECH \newline \newline 
 		\end{minipage} } \\ 
-		\fbox{ \begin{minipage}[ht]{0.11\textwidth} 
+		\fbox{ \begin{minipage}[ht]{0.07\textwidth} 
 			PRES \newline \newline 
 		\end{minipage} } \\ 
-		\fbox{ \begin{minipage}[ht]{0.11\textwidth} 
+		\fbox{ \begin{minipage}[ht]{0.07\textwidth} 
 			VOL \newline \newline 
 		\end{minipage} } \\ 
-		\fbox{ \begin{minipage}[ht]{0.11\textwidth} 
+		\fbox{ \begin{minipage}[ht]{0.07\textwidth} 
 			CHA \newline \newline 
 		\end{minipage} } \\ 
-		\fbox{ \begin{minipage}[ht]{0.11\textwidth} 
+		\fbox{ \begin{minipage}[ht]{0.07\textwidth} 
 			MOUV \newline \newline 
 		\end{minipage} } \\ 
-		\fbox{ \begin{minipage}[ht]{0.11\textwidth} 
+		\fbox{ \begin{minipage}[ht]{0.07\textwidth} 
 			COR \newline \newline 
 		\end{minipage} } \\ 
-		\fbox{ \begin{minipage}[ht]{0.11\textwidth} 
+		\fbox{ \begin{minipage}[ht]{0.07\textwidth} 
 			EMP \newline \newline 
 		\end{minipage} } \\ 
 	\end{tabular}
-	&
-	\begin{tabular}{ p{0.23\textwidth} }
-		Table Compétence 1/3
-		\fbox{ \begin{minipage}[ht]{0.23\textwidth}
-			--- 
+	& ~ 
+	\begin{tabular}{ p{0.32\textwidth} }
+		%% Table Compétence 1/3
+		\fbox{ \begin{minipage}[ht]{0.32\textwidth}
+			\footnotesize
+			\begin{tabular}{|p{0.48\textwidth}|c|c|c|}
+				\hline
+				\CELblackTXTWhite 
+				Compétences de Contrôle					&	NIV		&	CAR		&	BAS		\\
+				\hline
+				Conduite de véhicule Terrestre (RÉF)	&			&			&		 	\\
+				\hline
+				Équitation (RÉF)						&			&			&		 	\\
+				\hline
+				Pilotage de véhicule aérien (x2) (RÉF)	&			&			&		 	\\
+				\hline
+				Pilotage de véhicule maritime (RÉF)		&			&			&		 	\\
+				\hline
+			\end{tabular}
+
+			\begin{tabular}{|p{0.48\textwidth}|c|c|c|}
+				\hline
+				\CELblackTXTWhite 
+				Compétences \newline de Combat			&	NIV		&	CAR		&	BAS		\\
+				\hline
+				Arme de mêlée (DEX)						&			&			&		 	\\
+				\hline
+				Art martial (x2) (DEX)					&			&			&		 	\\
+				\hline
+				Bagarre (DEX)							&			&			&		 	\\
+				\hline
+				Esquive (DEX)							&			&			&		 	\\
+				\hline
+			\end{tabular}
+			
+			\begin{tabular}{|p{0.48\textwidth}|c|c|c|}
+				\hline
+				\CELblackTXTWhite 
+				Compétences de Corps					&	NIV		&	CAR		&	BAS		\\
+				\hline
+				Athlétisme (DEX)						&			&			&		 	\\
+				\hline
+				Contorsion (DEX)						&			&			&		 	\\
+				\hline
+				Danse (DEX)								&			&			&		 	\\
+				\hline
+				Discrétion (DEX)						&			&			&		 	\\
+				\hline
+				Endurance (VOL)							&			&			&		 	\\
+				\hline
+				Résistance torture / drogues (VOL)		&			&			&		 	\\
+				\hline
+			\end{tabular}
+			
+			\begin{tabular}{|p{0.48\textwidth}|c|c|c|}
+				\hline
+				\CELblackTXTWhite 
+				Compétences \newline d'Éducation		&	NIV		&	CAR		&	BAS		\\
+				\hline
+				Bibliothèque (INT)						&			&			&		 	\\
+				\hline
+				Bureaucratie (INT)						&			&			&		 	\\
+				\hline
+				Composition (INT)						&			&			&		 	\\
+				\hline
+				Comptabilité (INT)						&			&			&		 	\\
+				\hline
+				Connaissance (INT)						&			&			&		 	\\
+				\hline
+				Criminoologie (INT)						&			&			&		 	\\
+				\hline
+				Cryptographie (INT)						&			&			&		 	\\
+				\hline
+				Déduction (INT)							&			&			&		 	\\
+				\hline
+				Dressage (INT)							&			&			&		 	\\
+				\hline
+				Gestion d’affaires (INT)				&			&			&		 	\\
+				\hline
+				Jeux de hasard (INT)					&			&			&		 	\\
+				\hline
+			\end{tabular}
+			%% --- 
 		\end{minipage} } \\ 
 	\end{tabular}
-	&
-	\begin{tabular}{ p{0.23\textwidth} }
+	& ~ 
+	\begin{tabular}{ p{0.32\textwidth} }
+		%% Table Compétence 2/3
+		\fbox{ \begin{minipage}[ht]{0.32\textwidth}
+			\footnotesize
+			\begin{tabular}{|p{0.48\textwidth}|c|c|c|}
+				\hline
+				\CELblackTXTWhite 
+				Compétences \newline d'Éducation		&	NIV		&	CAR		&	BAS		\\
+				\hline
+				Guide Local (INT)						&			&			&		 	\\
+				\hline
+				$\Rightarrow$ Quartier d'origine		&			&			&		 	\\
+				\hline
+				$\Rightarrow$ 							&			&			&		 	\\
+				\hline
+				$\Rightarrow$ 							&			&			&		 	\\				
+				\hline
+				Langue (INT)							&			&			&		 	\\
+				\hline
+				$\Rightarrow$ Argot						&			&			&		 	\\
+				\hline
+				$\Rightarrow$ 							&			&			&		 	\\
+				\hline
+				$\Rightarrow$ 							&			&			&		 	\\	
+				\hline
+				Science (INT)							&			&			&		 	\\
+				\hline
+				$\Rightarrow$ 							&			&			&		 	\\
+				\hline
+				$\Rightarrow$ 							&			&			&		 	\\	
+				\hline
+				Survie en milieu hostile (INT)			&			&			&		 	\\
+				\hline
+				Tactique (INT)							&			&			&		 	\\
+				\hline				
+			\end{tabular}
+			
+			\begin{tabular}{|p{0.48\textwidth}|c|c|c|}
+				\hline
+				\CELblackTXTWhite 
+				Compétences \newline de représentration	&	NIV		&	CAR		&	BAS		\\
+				\hline
+				Instrument (TECH)						&			&			&		 	\\
+				\hline
+				$\Rightarrow$ 							&			&			&		 	\\
+				\hline
+				$\Rightarrow$ 							&			&			&		 	\\				
+				\hline
+				$\Rightarrow$ 							&			&			&		 	\\				
+				\hline
+				$\Rightarrow$ 							&			&			&		 	\\				
+				\hline
+				Jeu d'acteur (PRES)						&			&			&		 	\\
+				\hline				
+			\end{tabular}
+			
+			\begin{tabular}{|p{0.48\textwidth}|c|c|c|}
+				\hline
+				\CELblackTXTWhite 
+				Compétences \newline de Sociabilité		&	NIV		&	CAR		&	BAS		\\
+				\hline
+				Connaissance de la rue (PRES)			&			&			&		 	\\
+				\hline
+				Conversation (EMP)						&			&			&		 	\\
+				\hline
+				Corruption (PRES)						&			&			&		 	\\
+				\hline
+				Habillement et Style (PRES)				&			&			&		 	\\
+				\hline
+				Interrogatoire (PRES)					&			&			&		 	\\
+				\hline
+				Look (PRES)								&			&			&		 	\\
+				\hline
+				Négoce (PRES)							&			&			&		 	\\
+				\hline
+				Persuasion (PRES)						&			&			&		 	\\
+				\hline
+				Psychologie (EMP)						&			&			&		 	\\
+				\hline
+			\end{tabular}
+			%% --- 
+		\end{minipage} } \\ 
+	\end{tabular}
+	& ~ 
+	\begin{tabular}{ p{0.32\textwidth} }
 		Table Compétence 2/3
-		\fbox{ \begin{minipage}[ht]{0.23\textwidth}
-			--- 
-		\end{minipage} } \\ 
-	\end{tabular}
-	&
-	\begin{tabular}{ p{0.23\textwidth} }
-		Table Compétence 3/3
-		\fbox{ \begin{minipage}[ht]{0.23\textwidth}
+		\fbox{ \begin{minipage}[ht]{0.32\textwidth}
+			\footnotesize
+			\begin{tabular}{|p{0.48\textwidth}|c|c|c|}
+				\hline
+				\CELblackTXTWhite 
+				Compétences \newline de Technique		&	NIV		&	CAR		&	BAS		\\
+				\hline
+				Aérotech (TECH)							&			&			&		 	\\
+				\hline
+				Aérotech (TECH)							&			&			&		 	\\
+				\hline
+				Aérotech (TECH)							&			&			&		 	\\
+				\hline
+				Aérotech (TECH)							&			&			&		 	\\
+				\hline
+			\end{tabular}
 			--- 
 		\end{minipage} } \\ 
 	\end{tabular}
