@@ -215,9 +215,9 @@
 				\hline
 				Art martial (x2) (DEX)					&			&			&		 	\\
 				\hline
-				Bagarre (DEX)							&			&			&		 	\\
+				\textbf{Bagarre} (DEX)					&			&			&		 	\\
 				\hline
-				Esquive (DEX)							&			&			&		 	\\
+				\textbf{Esquive} (DEX)					&			&			&		 	\\
 				\hline
 			\end{tabular}
 			
@@ -232,7 +232,7 @@
 				\hline
 				Danse (DEX)								&			&			&		 	\\
 				\hline
-				Discrétion (DEX)						&			&			&		 	\\
+				\textbf{Discrétion} (DEX)				&			&			&		 	\\
 				\hline
 				Endurance (VOL)							&			&			&		 	\\
 				\hline
@@ -253,7 +253,7 @@
 				\hline
 				Comptabilité (INT)						&			&			&		 	\\
 				\hline
-				Connaissance (INT)						&			&			&		 	\\
+				\textbf{Connaissance} (INT)				&			&			&		 	\\
 				\hline
 				Criminoologie (INT)						&			&			&		 	\\
 				\hline
@@ -335,7 +335,7 @@
 				\hline
 				Connaissance de la rue (PRES)			&			&			&		 	\\
 				\hline
-				Conversation (EMP)						&			&			&		 	\\
+				\textbf{Conversation} (EMP)				&			&			&		 	\\
 				\hline
 				Corruption (PRES)						&			&			&		 	\\
 				\hline
@@ -347,9 +347,9 @@
 				\hline
 				Négoce (PRES)							&			&			&		 	\\
 				\hline
-				Persuasion (PRES)						&			&			&		 	\\
+				\textbf{Persuasion} (PRES)				&			&			&		 	\\
 				\hline
-				Psychologie (EMP)						&			&			&		 	\\
+				\textbf{Psychologie} (EMP)				&			&			&		 	\\
 				\hline
 			\end{tabular}
 			%% --- 
@@ -437,20 +437,65 @@
 	\end{tabular}
 	\\
 	
-	%% TODO Deux colonnes : Points de santé, blessures...
-	%% TODO trois colonnes : Armes et armures
+	\hline \\ \hline
 	
-	\hline
-	
-	\multicolumn{2}{ p{0.27\textwidth} }{Points de santé et blessures}
-	&
-	\multicolumn{3}{ p{0.96\textwidth} }{Armes et armures}
+	\multicolumn{2}{ p{0.25\textwidth} }{
+		%% Points de santé et blessures
+		\begin{tabular}{|p{0.14\textwidth}|p{0.14\textwidth}|}
+			\hline
+			Points de santé	\newline									&	\multirow{2}{*}{Blessures Critiques}		\\
+			\cline{1-1}
+			Blessure Grave \newline										&												\\
+			\hline
+			\textbf{-2 à toutes les actions en \newline blessure grave}	&	\multirow{2}{*}{Addictions}					\\
+			\cline{1-1}
+			Sauvegarde contre la mort	\newline						&												\\		
+			\hline
+		\end{tabular}
+	}
+	& 
+	\multicolumn{3}{ p{0.96\textwidth} }{
+		--- 
+		\begin{tabular}{|p{0.32\textwidth}|p{0.64\textwidth}|}
+			\hline
+			\textsc{\Large Armes et armures}			&		\multirow{2}{*}{
+			\begin{tabular}{|p{0.10\textwidth}|p{0.10\textwidth}|p{0.10\textwidth}|p{0.10\textwidth}|p{0.10\textwidth}|} \hline
+				\CELblackTXTWhite Arme		&	DG	&	Munitions	&	ATT/Round	&	Notes	\\ \hline
+											&		&				&				&			\\ \hline
+											&		&				&				&			\\ \hline
+											&		&				&				&			\\ \hline
+											&		&				&				&			\\ \hline
+											&		&				&				&			\\ \hline
+											&		&				&				&			\\ \hline
+											&		&				&				&			\\ \hline
+											&		&				&				&			\\ \hline
+			\end{tabular} }											\\
+			%% \hline
+			\begin{tabular}{|p{0.08\textwidth}|p{0.08\textwidth}|p{0.08\textwidth}|} \hline
+				\CELblackTXTWhite Armure	&	PA	&	Pénalité	\\ \hline
+				Tête						&		&				\\ \hline
+				Corps						&		&				\\ \hline
+				Bouclier					&		&				\\ \hline
+			\end{tabular} \newline \newline
+			La pénalité s'applique à \newline RÉF, DEX et MOUV	
+			 \newline \newline 									&	\\ \hline
+		\end{tabular}
+	}
 	\\
 	
-	%% TODO page 2 (parcours) (équipement)
-	
-	%% TODO page 3 CYBERMATÉRIEL
 \end{tabular}
+
+\clearpage
+
+%% TODO page 2 (parcours) (équipement)
+
+\begin{tabular}{|p{0.41\textwidth}|p{0.59\textwidth}}
+	Parcours 	&	ÉQUIPEMENT \\
+\end{tabular}
+
+\clearpage
+	
+%% TODO page 3 CYBERMATÉRIEL
 
 
 \end{landscape}
