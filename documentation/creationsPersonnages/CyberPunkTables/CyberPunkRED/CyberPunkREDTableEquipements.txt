@@ -1,0 +1,7 @@
+Table Equipement
+	Basique	[Basique]
+
+Table Basique
+	Jambe Cybernétique
+	Bras Cybernétique
+	OEil Cybernétique

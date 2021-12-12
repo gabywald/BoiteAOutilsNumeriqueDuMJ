@@ -1,0 +1,448 @@
+
+Ressources disponibles en français sur : 
+	https://cyberpunk-jdr.fr/aides_creations_personnages_cyberpunk.php
+
+En bref :
+	1d6+2 évènements de vie, à tirer sur la table 1 (à préciser si correspond bien au concept du personnage)
+
+Table 1	Évènements de vie
+1 - 15	Vous avez de la chance [Table 2] 
+16 - 30	Catastrophes ! [Table 3A]
+31 - 45	Se faire un ami [Table 4A]
+46 - 60	Faire un ennemi [Table 5A]
+61 - 80	Implication romantique [Table 6A]
+81 - 100	Rien ne se passe cette année-là 
+
+Table 2	Chance
+01 - 05	Gain financier de 1D5 x 100 e.d 
+06 - 10	Grosse note ! 1d10 x 100 e.d 
+11 - 15	Gain de 1D10 x 100 e.d trouvé en équipements ou en cyber-ware 
+16 - 20	Enseignement d'un Sensei donnant une compétence de +1 dans un d'art martial ou de +2 en bagarre 
+21 - 25	Enseignement d'un instructeur entrainant un bonus de +2 sur une compétence REF ou DEX non liée aux arts martiaux 
+26 - 30	Enseignement d'un professeur entrainant un bonus de +2 sur une compétence INT 
+31 - 35	Enseignement d'un coach entrainant un bonus de +2 sur une compétence DEX 
+36 - 40	Enseignement d'un technicien octroyant +2 sur une compétence TECH 
+41 - 45	Apprentissage dans une "École de charme" entrainant un bonus de +2 dans une compétence COOL ou EMP 
+46 - 50	La découverte du sens de la mode entraine un bonus de +2 à la compétence vestimentaire et stylisme 
+51 - 55	Apprentissage d’une nouvelle langue avec une stat de base à +2 
+56 - 60	Apprentissage des bases de la sécurité octroyant un bonus de +1 à la compétence "électronique et techniques de sécurité" 
+61 - 65	La vie dans la rue +2 Compétences dans la rue 
+66 - 70	Vous vous êtes fait un ami dans un gang des rues 
+71 - 75	Vous vous êtes fait un ami issu d'une famille de Nomade 
+76 - 80	Vous avez gagné un contact 
+81 - 85	Une personne vous doit une faveur. Générez-la avec la table FEC 
+86 - 90	Vous vous êtes fait un nouvel ami. Générez-le avec la table FEC 
+91 - 95	Choisissez un ennemi, ce dernier est mort ou a disparu. Si vous n'avez pas d'ennemi, refaites un jet 
+96 - 100	Vous avez réussi votre dernier job avec brio ce qui vous donne un bonus de +1 REP (Positif) 
+
+Table 3A	Catastrophe
+01 - 05	Vous subissez un perte financière de 1d5 x 100 e.b 
+06 - 10	Vous contractez une dette de 1d10 x 100 e.b - Payez maintenant ou payez plus tard !) 
+11 - 15	Vous subissez une maladie réduisant aléatoirement un attribut de 1 
+16 - 20	Vous devenez dépendant réduisant de 1 l'un des attributs suivants : INT, REF, CORPS ou EMP 
+21 - 25	Vous vous blessez	[Table 3B]
+26 - 30	Un de vos amis ou de vos amants décède ou disparaît 
+31 - 35	Un de vos contact décède ou disparaît 
+36 - 40	Vous vous faite un ennemi. Générez-le avec la table FEC 
+41 - 45	Vous vous faites un ennemi secret qui veut votre mort. Générez-le avec la table FEC 
+46 - 50	Vous vous êtes fait trahir par un ami qui devient désormais un ennemi 
+51 - 55	Vous êtes arrêté et non condamné. Vous subissez 1D5 semaines de prison 
+56 - 60	Vous vous êtes fait arrêté et contractez une amende pour délit mineur (1D10 x 10 e.b) 
+61 - 65	Vous êtes arrêté et condamné pour crime et contractez 1D12 mois de prison 
+66 - 70	Une entité a émit un mandat d'arrêt à un endroit de votre choix 
+71 - 75	Vous subissez un dysfonctionnement aléatoire d'un cyber-ware vous coutant 1/2 e.b du tarif de base en coût de réparation 
+76 - 80	Selon le choix du Meneur, vous avez attisé la colère d'un gang, d'un groupe de Nomade, etc. 
+81 - 85	Vous être recherché par une Corporation (Choisissez dans une liste) 
+86 - 90	Vous contractez une faveur à quelqu'un. Générez-le avec la table FEC 
+91 - 95	Vous êtes blâmé pour quelque chose que vous avez fait ou n'avez pas fait ce qui vous donne un bonus de +1 REP (Négative) 
+96 - 100	Vous attendez ou avez donné une grossesse non planifiée ! Fais avec, Choomba. 
+
+Table 3B	Blessures
+01 - 05	Vous avez subi une brûlure mineure (3) 
+06 - 10	Vous avez subi deux brûlures grave (1) (3) 
+11 - 15	Vous avez subi une/des Blessure(s) par coup de couteau (3) 
+16 - 20	Vous avez subi une blessure par balle. Elle a été nettoyée à plusieurs reprises (3) 
+21 - 25	Vous avez subi une blessure par balle. Le projectile était resté logé mais il a été retiré (3) 
+26 - 30	Vous avez subi une blessure par balle. Le projectile est resté logé et n'a jamais été retiré (2) (3) 
+31 - 35	Vous avez subi une blessure par balle. Le projectile c'est fragmenté à l'impact et une grande blessure c'est ouvert du coté ou le projectile est sortie (1) (3) 
+36 - 40	Vous avez subi une fracture qui c'est mal resoudée (1) (2) 
+41 - 45	Un ou Plusieurs de vos organe(s) interne(s) a/ont endommagé(s) (1) (2) 
+46 - 50	Vous avez subi une fracture du crâne créant des lésions cérébrales mineures 
+51 - 55	Vous avez subi une fracture du crâne créant des lésions cérébrales importantes 
+56 - 60	Vous avez subi une blessure au Shrapnel (2) qui est resté logé dans votre corps 
+61 - 65	Votre sourire laisse apparaitre des dents manquantes (3) 
+66 - 70	Un combat vous a couté quelques doigts et orteils manquants (1) 
+71 - 75	Vous êtes dépossédé d'un Œil (1) 
+76 - 80	Une oreille vous fait défaut (2) (3) 
+81 - 85	Vous n'avez plus de nez. Peut-être voudriez-vous y mettre une grenade ? (3) 
+86 - 90	Un de vos membre est coupé. Il peut s'agir d'une main ou d'un pied (1) 
+91 - 95	Vous avez subi une blessure au dos (2) 
+96 - 100	Une cicatrice impressionnante est logée dans votre corps (3) 
+
+Notes : 
+(1) - Les blessures peuvent être soignées à l'aide de cyber-ware ou de pièces de rechange provenant d’une cuve de reconstruction. 
+(2) - La chirurgie peut guérir la blessure en découpant quelque chose ou en réparant la blessure. 
+(3) - La reconstruction faciale et/ou la chirurgie esthétique peut(vent) réparer certains aspects de cette blessure. 
+
+Table 4	Ami(s)
+01 - 04	Un(e) partenaire 
+05 - 08	Un(e) collaborateur(rice) 
+09 - 12	Un(e) contact 
+13 - 16	Un(e) ancien(ne) amant(e) 
+17 - 20	Un(e) vieil(le) ennemi(e) 
+21 - 24	Un(e) vieil(le) ami(e) d'enfance 
+25 - 28	Un(e) parent 
+29 - 32	Lorsque vous avez œuvré pour un intérêt commun 
+33 - 36	Vous lui avez sauvé la vie 
+37 - 40	Il(Elle) vous a sauvé la vie 
+41 - 44	A une fête 
+45 - 48	Un(e) ancien(ne) employeur 
+49 - 52	Un(e) ancien(ne) employé 
+53 - 56	Rencontré(e) par le biais d'Un(e) ami(e) commun 
+57 - 60	Rencontré(e) à l'aveuglette 
+61 - 64	Vous étiez à l'école ensemble 
+65 - 68	Rencontré par le biais d'un(e) ennemi(e) commun 
+69 - 72	Rencontré(e) lors d'un(e) concert 
+73 - 76	Rencontré(e) dans un(e) bar 
+77 - 80	Rencontré(e) à un(e) Mallplex 
+81 - 84	Rencontré(e) par le viais d'un(e) amant commun 
+85 - 88	Il/(Elle) vous a vendu quelque chose 
+89 - 92	Vous lui avez vendu quelque chose 
+93 - 96	Il/(Elle) vous a rendu service 
+97 - 00	Vous lui avez fait une faveur 
+
+Table 5	Ennemi(s)
+01 - 10	Un(e) Ex-ami(e) 
+11 - 21	Un(e) Ex-amant(e) 
+21 - 30	Un(e) proche 
+31 - 40	Un(e) Employeur 
+41 - 50	Une(e) Employé(e) 
+51 - 60	Un(e) Partenaire/collègue 
+61 - 00	Un(e) Étranger(e) total 
+
+À qui la faute ?
+01 - 50	Vous êtes le fautif 
+51 - 100	Votre(s) adversaire(s) est(sont) le(s) fautif(s) 
+
+Raison
+01 - 04	Une tentative d'assassinat 
+05 - 08	Une tentative de chantage 
+09 - 12	Un secret dévoilé 
+13 - 16	Une autre partie 
+17 - 20	Vous avez (été) Trahi/piqué dans le dos 
+21 - 24	Vous avez été blessé par l'autre/Vous avez blessé l'autre  
+25 - 28	Vous avez reçu(émis) des menaces de mort 
+29 - 32	Vous avez causé/reçu des dommages matériels 
+33 - 36	Vous avez causé/reçu un préjudice personnel direct/indirect 
+37 - 40	Vous avez causé une blessure à un parent, un ami ou un amant / Vous avez reçu une blessure par un parent, un ami ou un amant 
+41 - 44	Vous avez causé un décès d'un parent, d'un ami ou d'un amant / Un parent, d'un ami ou d'un amant est mort 
+45 - 48	Vous avez causé la perte de la face/du statut / Vous avec eu la perte de la face/du statut 
+49 - 52	Vous avez perdu un ami / Vous avez causé la perte d'un ami 
+53 - 56	Vous avez causé la perte d'un emploi/contrat / Vous avez perdu un emploi/contrat 
+57 - 60	Vous avez refusé des avances romantiques / Il(Elle) a reçu des avances romantiques de votre part 
+61 - 64	Vous avez volé des biens (1D10 x 10 e.d) / Vous avez été dépouillé de biens (1D10 x 10 e.d) 
+65 - 68	Vous avez volé de l'argent (1D10 x 10 e.d) / Vous avez été dépouille de 1D10 x 10 e.d 
+69 - 72	Vous avez des personnalités en conflit 
+73 - 76	Vous êtes en désaccord mineur suite à quelque chose de stupide 
+77 - 80	Vous êtes en désaccord majeur 
+81 - 84	Un de vos Parents / amis / amants a été insulté / Vous avez insulté un Parents / amis / amants de l'autre 
+85 - 88	Vous avez été Insulté ou avez subi une accusation personnelle de la part de l'autre / Vous avez Insulté ou accusé personnellement l'autre 
+89 - 92	Vous avez fait passer votre amant avant lui(elle) / L'autre a fait passer son amant avant vous 
+93 - 96	Vous avez séduit son amant(e) / Votre amant(e) a été séduit par l'autre 
+97 - 00	Il(elle) vous a fourni un plan truqué / Vous lui avez fourni un plan truqué 
+
+Qui en veut à l'autre
+01 - 25	Vous lui en voulez à mort 
+26 - 50	Il vous en veut à mort 
+50 - 100	Vous vous vouez une haine mutuelle 
+
+Action Prévue ?
+1	Parler de lui dans son dos. 
+2	Abusez de lui chaque fois que vous en avez l'occasion. 
+3	Frappez ce fils de pute et laissez-le à deux doigts de la mort. 
+4	Tuez ce salaud à la première occasion. 
+5	Évitez-le comme la peste. 
+6	Interférer indirectement avec ses plans. 
+7	Rendez-lui la vie misérable (piégez-le, volez-lui ses amis, séduisez son ou ses amants, etc. 
+8	Le blesser de la même manière qu'il vous a blessé (œil pour œil). 
+9	Se lier d'amitié avec lui, puis le trahir le moment venu. 
+10	Il ne vaut pas votre temps. Ignorez-le et faites comme s'il n'existait pas.
+
+Table 6A	Implication Romantique
+01 - 05	Un(e) partenaire 
+06 - 10	Un(e) collaborateur(rice) 
+11 - 15	Un(e) contact 
+16 - 20	Un(e) ancien(ne) amant(e) 
+21 - 25	Un(e) vieil(le) ennemi(e) 
+26 - 30	Un(e) vieil(le) ami(e) d'enfance 
+31 - 35	Lorsque vous avez œuvré pour un intérêt commun 
+36 - 40	Vous lui avez sauvé la vie 
+41 - 45	Il(Elle) vous a sauvé la vie 
+46 - 50	A une fête 
+51 - 55	Un(e) ancien(ne) employeur 
+56 - 60	Un(e) ancien(ne) employé 
+61 - 65	Rencontré(e) par le biais d'Un(e) ami(e) commun 
+66 - 70	Rencontré(e) à l'aveuglette 
+71 - 75	Vous étiez à l'école ensemble 
+76 - 80	Rencontré par le biais d'un(e) ennemi(e) commun 
+81 - 85	Rencontré(e) lors d'Un(e) concert 
+86 - 90	Rencontré(e) dans Un(e) bar 
+91 - 95	Rencontré(e) à Un(e) Mallplex 
+96 - 00	Rencontré(e) par le biais d'un(e) amant commun  
+
+Fonctionnement ?
+1 - 4	Une heureuse histoire d'amour 
+5	Une tragique histoire d'amour	[Table 6B]
+6 - 7	Une histoire d'amour avec des problèmes	[Table 6C]
+8 - 10	Une histoire rapide avec des rendez-vous très chaud
+
+Table 6B	Histoire d'amour tragique
+01 - 16	Ça n'a pas marché en vous 
+17 - 22	Votre amant(e) vous a laissé une note "Cher John(Jane)..." et a disparu 
+23 - 28	Votre amant(e) est mort d'une maladie incurable 
+29 - 34	Votre amant(e) est mort dans un accident 
+35 - 40	Votre amant(e) a disparu/a été enlevé(e)  
+41 - 46	Un objectif personnel s'est mis en travers de votre chemin 
+47 - 52	Votre amant(e) est devenu(e) fou(folle) 
+53 - 58	Votre amant(e) s'est suicidé(e)  
+59 - 64	Votre amant(e) est mort(e) dans un combat 
+65 - 70	Votre amant(e) a été emprisonné pour 1D10 ans 
+71 - 76	Votre amant(e) a été assassiné(e) par un ennemi (Choisissez l'assassin) 
+77 - 82	Votre amant(e) vous a laissé tomber pour un ami (Choisissez l'ami) 
+83 - 88	Votre amant(e) vous a laissé tomber pour un ennemi (Choisissez l'ennemi) 
+89 - 94	Votre amant(e) vous a mené en bateau 
+95 - 00	Votre amant(e) vous a volé(e) 1D10 x 100 Euro et s'est partagé 
+
+Table 6C	Problèmes Romantiques
+01 - 07	La famille de votre amant(e) vous déteste 
+08 - 14	Les amis de votre amant(e) vous détestent 
+15 - 21	Votre famille déteste votre amant(e) 
+22 - 28	Vos amis détestent votre amant(e) 
+29 - 35	Votre amant(e) veut voir d'autres personnes 
+36 - 42	Vous voulez voir d'autres personnes 
+43 - 49	Vous êtes séparés 
+50 - 56	Vous vous battez constamment 
+57 - 62	L'un de vous est follement jaloux de l'autre 
+63 - 68	Votre amant(e) "fait des siennes". 
+69 - 74	Vous "faites des bêtises". 
+75 - 80	L'ex-amant(e) de l'amant(e) veut vous tuer 
+81 - 87	Votre amant(e) a une dépendance chimique 
+88 - 93	Votre amant(e) est dans le coma 
+94 - 00	Votre amant(e) est marié 
+
+Table 6D	Sentiments Réciproques
+1	Il(Elle) vous aime toujours 
+2	Vous l'aimez toujours 
+3	Vous êtes toujours amoureux 
+4	Vous détestez votre amant(e)  
+5	Vous évitez votre amant(e) comme la peste. 
+6	Vous interférer indirectement avec les plans de votre amant(e). 
+7	Vous êtes toujours bon amis 
+8	Il n'y a jamais eu de sentiments entre vous 
+9	Vous l'aimez et il(elle) vous déteste 
+10	Il(elle) vous aime toujours et vous le(la) détestez 
+
+Table FEC	Ami, Ennemi et Occupations
+01 - 20	Un(e) employé en situation régulière
+21 - 35	Un(e) ordures des rues
+36 - 50	Un(e) employé(e) "Juridique" / Un(e) employé(e) aux Urgences
+51 - 65	Dans le crime organisé
+66 - 79	Un(e) Corpo-rat
+80 - 89	Un(e) Artiste
+90 - 00	Un(e) membre du gouvernement
+
+Table FECreg	Employé(s) en situation régulière
+01 - 06	Un(e) comptable
+07 - 13	Un(e) commis (commerce de détail ou autre)
+14 - 19	Un(e) travailleur(se) dans la construction
+20 - 25	Un(e) messager(ère)
+26 - 31	Un(e) médecin/infirmier(ère)
+32 - 37	Un(e) Ingénieur(e)/Technicien(ne)
+38 - 44	Un(e) concierge
+45 - 50	Un(e) pilote
+51 - 56	Un(e) secrétaire
+57 - 61	Un(e) scientifique
+62 - 68	Un(e) travailleur(se) social
+69 - 75	Un(e) Étudiant(e) Universitaire
+76 - 80	Un(e) Étudiant(e) au K-12
+81 - 87	Un(e) Enseignant(e) au Collège
+88 - 93	Un(e) Enseignant(e) au K-12
+94 - 00	Un(e) chauffeur(se) de camion/bus
+
+Table FECordure	Ordures des rues
+01 - 02	Un(e) assassin
+03 - 07	Un(e) barman
+08 - 11	Un(e) garde du corps
+12 - 15	Un(e) videur(se)
+16 - 20	Un(e) chauffeur(se) de taxi
+21 - 23	Un(e) escroc
+24 - 26	En sortie de condamnation
+27 - 28	Un(e) contrefacteur
+29 - 30	Un(e) cuiseur(se) de drogues
+31 - 36	Un(e) trafiquant(e) de drogue
+37 - 40	Un(e) ex-détenu(e)
+41 - 44	Un(e) fixer
+45 - 49	Un(e) membre d'un gang
+50 - 53	Un(e) pute (sans licence)
+54 - 58	Un(e) junkie
+59 - 62	Un(e) mercenaire
+63 - 65	Un(e) netrunner
+66 - 69	Un(e) nomade
+70 - 72	Un(e) prostituée (licenciée)
+73 - 74	Un(e) ripperdoc
+75 - 78	Un(e) ronin
+79 - 82	Un(e) contrebandier
+83 - 88	Un(e) vendeurs de rue
+89 - 90	Un(e) techie
+91 - 94	Un(e) voleur(se)/cambrioleur(se)
+95 - 00	Un(e) vagabond
+
+Table FECjuridic	Jurique ou aux urgences
+01 - 05	Chasseur de primes
+06 - 20	Flic (Aller à 1.1)
+21 - 36	Pompier
+37 - 40	Avocat
+41 - 55	Services paramédicaux
+56 - 61	Gardien de prison
+62 - 75	Détective privé
+76 - 90	Flic à louer
+91 - 95	Flic à la retraite (Aller à 1.1)
+96 - 00	Justicier
+
+Table FECcrime	Dans le Crime Organisé
+1	Un(e) assassin
+2 - 3	Un(e) garde du corps
+4	Un(e) bookmarker
+5	Un(e) contrefacteur
+6 - 8	Un(e) exécuteur
+9	Un(e) petit chef de Gang
+10	Un(e) Netrunner
+
+Table FECcorpo	Corpo-rat
+1	Un(e) assassin
+2	Un(e) policer/garde Corpo
+3	Un(e) docteur/MedTech
+4 - 5	Un(e) employé (Greffier, Secrétaire, etc.)
+6	Un(e) cadre junior
+7	Un(e) cadre supérieur
+8	Un(e) Netrunner
+9	Un(e) samouraï
+10	Un(e) technicien
+
+Table FECartiste	Artiste
+1	Un(e) acteur
+2 - 3	Un(e) artiste
+4	Un(e) athlète
+5	Un(e) disk jockey
+6	Un(e) média (allez au 1.4)
+7 - 8	Un(e) rocker
+9	Un(e) danseur
+10	Un(e) écrivain
+
+Table FECgov	Membre du Gouvernement
+1	Un(e) agent du LEDiv (Aller à 1.5)
+2	Un(e) assassin
+3 - 6	Un(e) militaire (Aller à 1.6)
+7	Un(e) Netrunner
+8	Un(e) officiel(le)/politicien(ne)
+9 - 10	Un(e) Techie
+
+Table FEC1.1	Policiers (sous-types)
+01 - 03	Au sein de la division des affaires intérieures (IAD)
+04 - 08	Au sein de l'administration
+09 - 13	Au sein de la section de la sécurité du réseau (NetSec)
+14 - 18	Au sein de la section homicide
+19 - 23	Au sein de la des mœurs
+24 - 28	Au sein du département Anti-Vol
+29 - 33	Dans le secret des enquêtes spéciales (SIn)
+34 - 37	Affecté au SWAT
+38 - 41	Au sein de l'unité de répression des cyborgs (CSU, MaxTac, C-SWAT)
+42 - 46	Au cœur de la section antiémeutes
+47 - 50	Dans une patrouille aéroportée
+51 - 67	Dans une patrouille maritime
+68 - 82	Dans une patrouille routière
+83 - 98	Dans une patrouille mobile
+99 - 00	Dans la section voie rapide
+
+Table FEC1.2	Typologie du Crime Organisé
+01 - 04	Vous êtes affiliés aux Yakuzas (japonais)
+05 - 07	Vous êtes affiliés à la Mafia (principalement italienne)
+08 - 09	Vous êtes affiliés aux Triades (chinois)
+10	Vous êtes affiliés aux Colombiens (et autres Sud-Américains)
+
+Table FEC1.3	Affiliation Corporatiste
+01 - 03	Arasaka (CP, CR1)
+04 - 05	BioMass Laboratories Group, GMbH
+06 - 08	Biotechnica
+09 - 10	Consolidated Agriculture
+11 - 13	Diverse Media Systems
+14 - 16	Dornier AeroSpace
+17 - 19	Euro-Business Machines Corporation
+20 - 21	Fujiwara
+22 - 23	Hilliard Corporation
+24 - 25	Imperial Metropolitan Agriculture, PLC
+26 - 28	InfoComp
+29 - 31	International Electric Corporation
+32 - 33	Kendachi
+34 - 35	Lazarus Military Group
+36 - 37	Matsushima-Kiroshi
+38 - 40	Merrill, Asukaga, & Finch
+41 - 43	MicroTech
+44 - 46	MiliTech
+47 - 49	Mitsubishi/Koridansu
+50 - 52	Network News 54
+53 - 54	No-Ahme Caldwell Genetic Engineering & Biochemicals
+55 - 56	Ocean Technology & Energy Corporation
+57 - 59	Orbital Air
+60 - 61	Peak & Derrera
+62 - 64	PetroChem
+65 - 67	Raven MicroCybernetics
+68 - 69	RepliTech
+70 - 71	Revolution Genetics, Inc.
+72 - 73	SegAtari
+74 - 75	Soviet World Oil Industries
+76 - 77	Storm Technologies Inc.
+78 - 79	Sungan Industries
+80 - 81	Tanson Group
+82 - 83	Terra Nova
+84 - 85	Tiger Medicines Corporation
+86 - 88	Trauma Team International
+89 - 90	Tsunami Design Bureau
+91 - 92	Utopian Corporation
+93 - 95	World News Service
+96 - 98	WorldSat Communications Network
+99 - 100	ZetaTech
+
+Table FEC1.4	Typologie des Médias
+1	Un(e) reporter pour le journal télévisé
+2 - 3	Un(e) journaliste
+4 - 5	Un(e) photojournaliste
+6	Un(e) présentateur
+7	Un(e) caméraman(ne)
+8	Un(e) Technicien(ne) du son
+9	Un(e) Chroniqueur(se) sportif(ve)
+10	Un(e) Correspondant(e) de guerre
+
+Table FEC1.5	Typologie des agents du LEDiv
+1	Dans le service administratif
+2	Dans le service d'enquête sur les corporations
+3	Au sein des enquêtes criminelles
+4	Dans la lutte anti-drogue
+5	Dans la section de renseignement
+6	Dans la brigade anti-crime
+7	En bas, dans les archives
+8	Dans le secteur R&D des Sciences et Technologies
+9	Dans la section des Services secrets
+10	Au cœur des opérations spéciales
+
+Table FEC1.6	Typologie des Militaires
+01 - 17	Un(e) Membre de l'armée de l'air
+18 - 20	Un(e) Officier de l'armée de l'air
+21 - 37	Un(e) Membre de l'armée de terre
+38 - 40	Un(e) Officier de l'armée de terre
+41 - 57	Un(e) Membre des Marines
+58 - 60	Un(e) Officier des Marines
+61 - 77	Un(e) Membre de la Navy
+78 - 80	Un(e) Officier de marine
+81 - 97	Un(e) Membre des Forces armées de l'État
+98 - 00	Un(e) Officier des Forces armées de l'État
