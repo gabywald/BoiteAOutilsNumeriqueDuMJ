@@ -1,0 +1,181 @@
+\documentclass[slidetop,11pt]{beamer}
+%
+% Ces deux lignes {\`a} d{\'e}commenter pour sortir 
+% le texte en classe article
+% \documentclass[class=article,11pt,a4paper]{beamer}
+% \usepackage{beamerbasearticle}
+
+% Packages pour les fran\c{c}ais
+%
+\usepackage[T1]{fontenc} 
+\usepackage[latin1]{inputenc}
+\usepackage[frenchb]{babel}
+% pour un pdf lisible {\`a} l'{\'e}cran si on ne dispose pas 
+% des fontes cmsuper ou lmodern
+%\usepackage{lmodern}
+\usepackage{aeguill}
+
+% Pour afficher le pdf en plein ecran
+% (comment{\'e} pour imprimer les transparents et pour les tests)
+%\hypersetup{pdfpagemode=FullScreen}
+
+% ------------------------------------------------
+%-----------   styles pour beamer   --------------
+% ------------------------------------------------
+%
+% ------------- Choix des couleurs ---------------
+
+%% %% %% %% %% COULEURS PERSOS
+\definecolor{verylightblack}{rgb}{0.25,0.25,0.25}
+\definecolor{lightblack}{rgb}{0.1,0.1,0.1}
+\definecolor{black}{rgb}{0,0,0}
+
+
+\definecolor{verylightgrey}{rgb}{0.8,0.8,0.8}
+\definecolor{lightgrey}{rgb}{0.6,0.6,0.6}
+\definecolor{grey}{rgb}{0.4,0.4,0.4}
+
+\definecolor{verylightgray}{gray}{0.80}
+\definecolor{lightgray}{gray}{0.6}
+\definecolor{gray}{gray}{0.4}
+
+\definecolor{verylightblue}{rgb}{0.9,0.9,1.0}
+\definecolor{lightblue}{rgb}{0.75,0.75,1.0}
+\definecolor{blue}{rgb}{0.5,0.5,1.0}
+\definecolor{darkblue}{rgb}{0.0,0.0,0.5}
+
+\definecolor{verylightred}{rgb}{1.0,0.9,0.9}
+\definecolor{lightred}{rgb}{1.0,0.75,0.75}
+\definecolor{red}{rgb}{1.0,0.5,0.5}
+
+\definecolor{verylightgreen}{rgb}{0.9,1.0,0.9}
+\definecolor{lightgreen}{rgb}{0.75,1.0,0.75}
+\definecolor{green}{rgb}{0.5,1.0,0.5}
+
+
+\definecolor{verylightcolorGREY}{gray}{0.80}
+\definecolor{lightcolorGREY}{gray}{0.60}
+
+\definecolor{verylightcolorRED}{rgb}{1.0,0.9,0.9}
+\definecolor{lightcolorRED}{rgb}{1.0,0.75,0.75}
+
+\definecolor{verylightcolorUN}{rgb}{1.0,0.75,1.0}
+\definecolor{lightcolorUN}{rgb}{1.0,0.50,1.0}
+
+\definecolor{verylightcolorDE}{rgb}{0.75,1.0,1.0}
+\definecolor{lightcolorDE}{rgb}{0.50,1.0,1.0}
+
+\definecolor{verylightcolorTR}{rgb}{1.0,1.0,0.75}
+\definecolor{lightcolorTR}{rgb}{1.0,1.0,0.50}
+
+% Red{\'e}finit la couleur de fond pour imprimer sur transparents
+%\xdefinecolor{fondtexte}{rgb}{1,1,1}     % blanc
+
+% commande differente pour les couleurs nomm{\'e}es - de base
+%\colorlet{coultexte}{black} 
+
+% -------------- Fioritures de style -------------
+% Fait afficher l'ensemble du frame 
+% en peu lisible (gris clair) d{\`e}s l'ouverture
+\beamertemplatetransparentcovered
+
+% Supprimer les icones de navigation (pour les transparents)
+%\setbeamertemplate{navigation symbols}{}
+
+% Mettre les icones de navigation en mode vertical (pour projection)
+%\setbeamertemplate{navigation symbols}[vertical]
+
+% ------------ Choix des th{\`e}mes ------------------
+\usecolortheme{default} % gabywald
+% \usecolortheme{orchid}
+
+\setbeamercolor{title}{fg=black, bg=red!40}
+\setbeamercolor{block title}{fg=black, bg=red!40}
+\setbeamercolor{structure}{fg=black, bg=red!40}
+\setbeamercolor{block title}{fg=black, bg=lightred!40}
+\setbeamercolor{substructure}{fg=black, bg=verylightred!40}
+
+\setbeamercolor{block title GREY}{fg=black, bg=lightcolorGREY!40}
+\setbeamercolor{substructureGREY}{fg=black, bg=verylightcolorGREY!40}
+
+\setbeamercolor{block title RED}{fg=black, bg=lightcolorRED!40}
+\setbeamercolor{substructureRED}{fg=black, bg=verylightcolorRED!40}
+
+\setbeamercolor{block title UN}{fg=black, bg=lightcolorUN!40}
+\setbeamercolor{substructureUN}{fg=black, bg=verylightcolorUN!40}
+
+\setbeamercolor{block title DE}{fg=black, bg=lightcolorDE!40}
+\setbeamercolor{substructureDE}{fg=black, bg=verylightcolorDE!40}
+
+\setbeamercolor{block title TR}{fg=black, bg=lightcolorTR!40}
+\setbeamercolor{substructureTR}{fg=black, bg=verylightcolorTR!40}
+
+% \setbeamercolor{block title}{fg=black, bg=lightblue!40}
+% \setbeamercolor{block body}{...}
+% \setbeamercolor{block title example}{...}
+% \setbeamercolor{block body example}{...}
+% \setbeamercolor{block title alerted}{...}
+% \setbeamercolor{block body alerted}{...}
+
+% \useoutertheme[left]{sidebar}
+% \setbeamersize{sidebar left width=3.0cm \tableofcontents[hideothersubsections] }
+% \setbeamercolor{sidebar left}{fg=green,bg=lightgreen}
+% \setbeamercolor{title in sidebar}{parent=title}
+
+\setbeamercolor*{sidebar}{fg=lightblack,bg=lightblue!75!white}
+
+\setbeamercolor*{palette sidebar primary}{fg=darkblue!50!lightgrey}
+\setbeamercolor*{palette sidebar secondary}{fg=black} % darkblue!10!black
+\setbeamercolor*{palette sidebar tertiary}{fg=darkblue!50!lightgrey}
+\setbeamercolor*{palette sidebar quaternary}{fg=black} % darkblue!10!black
+
+% \setbeamercolor{subsubsection in sidebar}{hideallsubsections}
+% \setbeamercolor{subsubsection in sidebar shaded}{hideallsubsections}
+
+
+%------------ fin style beamer -------------------
+
+% Faire appara{\^i}tre un sommaire avant chaque section
+% \AtBeginSection[]{
+%   \begin{frame}
+%   \frametitle{Plan}
+%   \medskip
+%   %%% affiche en d{\'e}but de chaque section, les noms de sections et
+%   %%% noms de sous-sections de la section en cours.
+%   \small \tableofcontents[currentsection, hideothersubsections]
+%   \end{frame} 
+% }
+
+% ----------- Contenu de la page de titre --------
+\title{Why how to put TTRPG in your Resume}
+\subtitle{Indiquer le JdR / Jeu de Rôle dans son CV} 
+%% \subtitle{Cr{\'e}er une Intrigue (cas du JdR)}
+\author{Gabriel Chandesris}
+% \author{Gabriel Chandesris & Nicolas Dagron}
+% \institute{LigueLudique}
+% \institute{\includegraphics[width=5cm]{img/ligueludique-1.png}}
+% \institute{\includegraphics[width=5cm]{img/ligueludique-1.png}~\includegraphics[width=5cm]{img/logo-studio-infinite-2.png}}
+\date{\today} %% \date{03 Janvier 2018} %% \date{\today} %% \date{03 Janvier 2018}
+%% \logo{\includegraphics[height=0.5cm]{img/logo_glider.png}}
+
+% ----------- Nom des diff{\'e}rentes parties --------
+
+%% Mis au fur et {\`a} mesure...
+
+% ------------------------------------------------
+% -------------   D{\'e}but document   ---------------
+% ------------------------------------------------
+\begin{document}
+%--------- {\'e}criture de la page de titre ----------
+% avec la commande frame simplifi{\'e}e
+\frame[plain]{\titlepage}
+%
+
+%------------------ Sommaire ---------------
+
+\begin{frame}
+	\frametitle{Sommaire}
+	\small \tableofcontents[hideallsubsections]
+\end{frame} 
+
+\end{document}
