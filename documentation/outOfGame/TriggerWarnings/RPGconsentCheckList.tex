@@ -1,0 +1,55 @@
+\documentclass[11pt,twoside,a4paper]{article}
+% http://www-h.eng.cam.ac.uk/help/tpl/textprocessing/latex_maths+pix/node6.html symboles de math
+% http://fr.wikibooks.org/wiki/Programmation_LaTeX Programmation latex (wikibook)
+%=========================== En-Tete =================================
+%--- Insertion de paquetages (optionnel) ---
+\usepackage[french]{babel}   % pour dire que le texte est en fran{\'e}ais
+\usepackage{a4}	             % pour la taille   
+\usepackage[T1]{fontenc}     % pour les font postscript
+\usepackage{epsfig}          % pour gerer les images
+%\usepackage{psfig}
+\usepackage{amsmath, amsthm} % tres bon mode mathematique
+\usepackage{amsfonts,amssymb}% permet la definition des ensembles
+\usepackage{float}           % pour le placement des figure
+\usepackage{verbatim}
+
+\usepackage{longtable}		% pour les tableaux de plusieurs pages
+
+\usepackage[table]{xcolor}	% couleur de fond des cellules de tableaux
+
+\usepackage{lastpage}
+
+\usepackage{multirow}
+
+\usepackage{multicol} % pour {\'e}crire dans certaines zones en colonnes : \begin{multicols}{nb colonnes}...\end{multicols} 
+
+% \usepackage[top=1.5cm, bottom=1.5cm, left=1.5cm, right=1.5cm]{geometry}
+% gauche, haut, droite, bas, entete, ente2txt, pied, txt2pied
+\usepackage{vmargin}
+\setmarginsrb{0.20cm}{0.20cm}{0.20cm}{0.20cm}{15pt}{3pt}{15pt}{3pt}
+
+\usepackage{lscape} % changement orientation page
+%\usepackage{frbib} % enlever pour obtenir references en anglais
+% --- style de page (pour les en-tete) ---
+\pagestyle{empty}
+
+%============================= Corps =================================
+\begin{document}
+
+\textsc{\centering \huge RPG Consent CheckList}~\\
+
+GM Name : \dotfill~\\
+
+Player Name : (or leave blank) \dotfill~\\
+
+Planned Game Theme : \dotfill~\\
+
+If this game would be a movie, It's movie rating would be : G PG PG-13 R NC-17 Other : \dotfill~\\
+
+Mark the color that best illustrate your comfort level with the following plot or story elements :~\\
+
+%% TODO green / Yellow / Red elements descriptions
+
+%% TODO List / table of elements
+
+\end{document}
