@@ -26,7 +26,7 @@
 % \usepackage[top=1.5cm, bottom=1.5cm, left=1.5cm, right=1.5cm]{geometry}
 % gauche, haut, droite, bas, entete, ente2txt, pied, txt2pied
 \usepackage{vmargin}
-\setmarginsrb{0.20cm}{0.20cm}{0.20cm}{0.20cm}{15pt}{3pt}{15pt}{3pt}
+\setmarginsrb{0.50cm}{0.50cm}{0.50cm}{0.50cm}{15pt}{3pt}{15pt}{3pt}
 
 \usepackage{lscape} % changement orientation page
 %\usepackage{frbib} % enlever pour obtenir references en anglais
@@ -35,6 +35,8 @@
 
 %============================= Corps =================================
 \begin{document}
+
+\setlength\parindent{0pt}
 
 \textsc{\centering \huge RPG Consent CheckList}~\\
 
@@ -50,6 +52,60 @@ Mark the color that best illustrate your comfort level with the following plot o
 
 %% TODO green / Yellow / Red elements descriptions
 
+Green = Enthusiastic consent ; bring it on !~\\
+Yellow = Okay if veiled or offstage ; maybe be okay onstagebut requires discussion ahead of time ; uncertain. ~\\
+Red = Hard line ; Do not include.~\\ 
+
 %% TODO List / table of elements
+
+\begin{multicols}{2}
+	\begin{tabular}{ p{0.41\textwidth} c c c}
+									&	G	&	Y	&	R	\\
+		HORROR \dotfill				&		&		&		\\ 
+		
+		\hrulefill			&		&		&		\\
+		\hrulefill			&		&		&		\\
+		\hrulefill			&		&		&		\\
+		
+		RELATIONSHIPS \dotfill		&		&		&		\\
+		
+		\hrulefill			&		&		&		\\
+		\hrulefill			&		&		&		\\
+		\hrulefill			&		&		&		\\
+		
+		SOCIAL AND CULTURAL ISSUES \dotfill		&		&		&		\\
+		
+		\hrulefill			&		&		&		\\
+		\hrulefill			&		&		&		\\
+		\hrulefill			&		&		&		\\
+		
+		\vfill~\\ \columnbreak
+		
+												&	G	&	Y	&	R	\\
+		MENTAL AND PHYSICAL HEALTH \dotfill		&		&		&		\\
+		
+		\hrulefill			&		&		&		\\
+		\hrulefill			&		&		&		\\
+		\hrulefill			&		&		&		\\
+		\hrulefill			&		&		&		\\
+		\hrulefill			&		&		&		\\
+		
+		ADDITIONAL TOPICS \dotfill				&		&		&		\\
+		\hrulefill			&		&		&		\\
+		\hrulefill			&		&		&		\\
+		\hrulefill			&		&		&		\\
+		\hrulefill			&		&		&		\\
+		\hrulefill			&		&		&		\\
+		\hrulefill			&		&		&		\\
+		
+		\multicolumn{4}{ p{0.50\textwidth} }{ Do you want the GM to follow up with you to clarify any of these responses ? If so, which ones ?} \\
+		\hrulefill			&		&		&		\\
+		\hrulefill			&		&		&		\\
+		\hrulefill			&		&		&		\\
+		
+		\vfill~\\ %% \columnbreak
+		
+	\end{tabular}
+\end{multicols}
 
 \end{document}
