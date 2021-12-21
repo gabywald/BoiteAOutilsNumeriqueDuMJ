@@ -30,3 +30,6 @@
     * Circuit électronique stylisé (bleu) ; 
     * Processus d'écriture ; 
     * Récit porté par l'univers ; 
+  * "Out of Game" : pour des éléments hors du JdR, mais qui en dépendent !
+    * Filling your Resume with TTRPG Skills ! 
+    * Trigger Warnings for TTRPG (and generic uses ?)
