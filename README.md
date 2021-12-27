@@ -89,6 +89,7 @@ L'organisation de ce projet (basé sur Eclipse 2020+) comprend :
     * src/main/main/resources
     * src/test/java
     * src/test/resources
+  * Répertoire "documentation" : voir fichier README.md dédié !
   * ...
 
 ... 
