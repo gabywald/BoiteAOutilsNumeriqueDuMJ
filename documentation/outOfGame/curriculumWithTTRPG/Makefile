@@ -1,0 +1,43 @@
+
+## naming WITHOUT the extensions [.tex] or [.bib]
+LATEXFILE=presentationTTRPGinResume
+
+## the local software...
+CCPDFLA=pdflatex
+CCLATEX=latex
+CCPDFTE=dvipdf
+CCPSTEX=dvips
+
+all : pdflatex
+
+pdf : $(LATEXFILE).dvi
+	$(CCPDFTE) $(LATEXFILE).dvi
+
+ps : $(LATEXFILE).dvi
+	$(CCPSTEX) $(LATEXFILE).dvi
+
+clean : mrproper
+	rm $(LATEXFILE).log
+	rm $(LATEXFILE).nav
+	rm $(LATEXFILE).out
+	rm $(LATEXFILE).snm
+	# rm $(LATEXFILE).lot
+	# rm $(LATEXFILE).lof
+	# rm $(LATEXFILE).dvi
+	# rm $(LATEXFILE).pdf
+
+mrproper : $(LATEXFILE).aux $(LATEXFILE).toc
+	rm $(LATEXFILE).aux
+	rm $(LATEXFILE).toc
+	
+
+$(LATEXFILE).dvi : $(LATEXFILE).tex
+	$(CCLATEX) $(LATEXFILE).tex
+	$(CCLATEX) $(LATEXFILE).tex
+	$(CCLATEX) $(LATEXFILE).tex
+
+pdflatex : $(LATEXFILE).tex
+	$(CCPDFLA) $(LATEXFILE).tex
+	$(CCPDFLA) $(LATEXFILE).tex
+	$(CCPDFLA) $(LATEXFILE).tex
+

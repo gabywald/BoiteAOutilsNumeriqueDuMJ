@@ -32,13 +32,12 @@ Quelques idées de base pour ce 'repository' :
 
 ### Idées en vrac
 
-Des scénarios, des petits JdR, des petites idées...
-
-De la ludopédagogie / gamification ?
-
-Faire un lien avec un annuaire de ressources en JdR ?
-
-... 
+  * Des scénarios, des petits JdR, des petites idées...
+  * De la ludopédagogie / gamification ?
+  * Faire un lien avec un annuaire de ressources en JdR ?
+  * Pourquoi mettre / indiquer le JdR sur son CV ?
+  * Fiche mémo des "Trigger Warning" (situations sensibles pour certaines personnes) ; 
+  * ... 
 
 ### Autres idées
 
@@ -90,6 +89,7 @@ L'organisation de ce projet (basé sur Eclipse 2020+) comprend :
     * src/main/main/resources
     * src/test/java
     * src/test/resources
+  * Répertoire "documentation" : voir fichier README.md dédié !
   * ...
 
 ... 

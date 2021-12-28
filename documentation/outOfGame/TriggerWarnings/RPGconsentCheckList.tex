@@ -1,0 +1,163 @@
+\documentclass[11pt,twoside,a4paper]{article}
+% http://www-h.eng.cam.ac.uk/help/tpl/textprocessing/latex_maths+pix/node6.html symboles de math
+% http://fr.wikibooks.org/wiki/Programmation_LaTeX Programmation latex (wikibook)
+%=========================== En-Tete =================================
+%--- Insertion de paquetages (optionnel) ---
+\usepackage[french]{babel}   % pour dire que le texte est en fran{\'e}ais
+\usepackage{a4}	             % pour la taille   
+\usepackage[T1]{fontenc}     % pour les font postscript
+\usepackage{epsfig}          % pour gerer les images
+%\usepackage{psfig}
+\usepackage{amsmath, amsthm} % tres bon mode mathematique
+\usepackage{amsfonts,amssymb}% permet la definition des ensembles
+\usepackage{float}           % pour le placement des figure
+\usepackage{verbatim}
+
+\usepackage{longtable}		% pour les tableaux de plusieurs pages
+
+\usepackage[table]{xcolor}	% couleur de fond des cellules de tableaux
+
+\usepackage{lastpage}
+
+\usepackage{multirow}
+
+\usepackage{multicol} % pour {\'e}crire dans certaines zones en colonnes : \begin{multicols}{nb colonnes}...\end{multicols} 
+
+% \usepackage[top=1.5cm, bottom=1.5cm, left=1.5cm, right=1.5cm]{geometry}
+% gauche, haut, droite, bas, entete, ente2txt, pied, txt2pied
+\usepackage{vmargin}
+\setmarginsrb{0.50cm}{0.50cm}{0.50cm}{0.50cm}{15pt}{3pt}{15pt}{3pt}
+
+\usepackage{lscape} % changement orientation page
+%\usepackage{frbib} % enlever pour obtenir references en anglais
+% --- style de page (pour les en-tete) ---
+\pagestyle{empty}
+
+%============================= Corps =================================
+\begin{document}
+
+\setlength\parindent{0pt}
+
+\begin{center} \textsc{\huge RPG Consent CheckList} \end{center}
+
+GM Name : \dotfill~\\
+
+Player Name : (or leave blank) \dotfill~\\
+
+Planned Game Theme : \dotfill~\\
+
+If this game would be a movie, It's movie rating would be : G PG PG-13 R NC-17 Other : \dotfill~\\
+
+Mark the color that best illustrate your comfort level with the following plot or story elements :~\\
+
+{\color{green} $\square$ Green }		= Enthusiastic consent ; bring it on !~\\
+{\color{yellow} $\triangle$ Yellow }	= Okay if veiled or offstage ; maybe be okay onstagebut requires discussion ahead of time ; uncertain. ~\\
+{\color{red} $\circ$ Red }				= Hard line ; Do not include.~\\ 
+
+%% TODO List / table of elements
+
+\begin{multicols}{2}
+	\begin{tabular}{ p{0.35\textwidth} c c c}
+									&	{\color{green} G }	&	{\color{yellow} Y }	&	{\color{red} R }	\\
+									
+		HORROR \dotfill				&	{\color{green} $\square$ }	&	{\color{yellow} $\triangle$ }	&	{\color{red} $\circ$ }	\\ 
+		Bugs \dotfill				&	{\color{green} $\square$ }	&	{\color{yellow} $\triangle$ }	&	{\color{red} $\circ$ }	\\ 
+		Blood \dotfill				&	{\color{green} $\square$ }	&	{\color{yellow} $\triangle$ }	&	{\color{red} $\circ$ }	\\ 
+		Demons \dotfill				&	{\color{green} $\square$ }	&	{\color{yellow} $\triangle$ }	&	{\color{red} $\circ$ }	\\ 
+		Eyeballs \dotfill			&	{\color{green} $\square$ }	&	{\color{yellow} $\triangle$ }	&	{\color{red} $\circ$ }	\\ 
+		Gore \dotfill				&	{\color{green} $\square$ }	&	{\color{yellow} $\triangle$ }	&	{\color{red} $\circ$ }	\\ 
+		Harm to animals \dotfill	&	{\color{green} $\square$ }	&	{\color{yellow} $\triangle$ }	&	{\color{red} $\circ$ }	\\ 
+		Harm to children \dotfill	&	{\color{green} $\square$ }	&	{\color{yellow} $\triangle$ }	&	{\color{red} $\circ$ }	\\ 
+		Rats \dotfill				&	{\color{green} $\square$ }	&	{\color{yellow} $\triangle$ }	&	{\color{red} $\circ$ }	\\ 
+		Spiders \dotfill			&	{\color{green} $\square$ }	&	{\color{yellow} $\triangle$ }	&	{\color{red} $\circ$ }	\\ 
+		
+		\hrulefill			&	{\color{green} $\square$ }	&	{\color{yellow} $\triangle$ }	&	{\color{red} $\circ$ }	\\
+		\hrulefill			&	{\color{green} $\square$ }	&	{\color{yellow} $\triangle$ }	&	{\color{red} $\circ$ }	\\
+		\hrulefill			&	{\color{green} $\square$ }	&	{\color{yellow} $\triangle$ }	&	{\color{red} $\circ$ }	\\
+							&								&									&							\\
+		
+		RELATIONSHIPS \dotfill			&	{\color{green} $\square$ }	&	{\color{yellow} $\triangle$ }	&	{\color{red} $\circ$ }	\\
+		Romance \dotfill				&	{\color{green} $\square$ }	&	{\color{yellow} $\triangle$ }	&	{\color{red} $\circ$ }	\\
+		Fade to black \dotfill			&	{\color{green} $\square$ }	&	{\color{yellow} $\triangle$ }	&	{\color{red} $\circ$ }	\\
+		Explicit \dotfill				&	{\color{green} $\square$ }	&	{\color{yellow} $\triangle$ }	&	{\color{red} $\circ$ }	\\
+		Between PCs and NPCs \dotfill	&	{\color{green} $\square$ }	&	{\color{yellow} $\triangle$ }	&	{\color{red} $\circ$ }	\\
+		Between PCS \dotfill			&	{\color{green} $\square$ }	&	{\color{yellow} $\triangle$ }	&	{\color{red} $\circ$ }	\\
+		Sex \dotfill					&	{\color{green} $\square$ }	&	{\color{yellow} $\triangle$ }	&	{\color{red} $\circ$ }	\\
+		Fade to black \dotfill			&	{\color{green} $\square$ }	&	{\color{yellow} $\triangle$ }	&	{\color{red} $\circ$ }	\\
+		Explicit \dotfill				&	{\color{green} $\square$ }	&	{\color{yellow} $\triangle$ }	&	{\color{red} $\circ$ }	\\
+		Between PCs and NPCs \dotfill	&	{\color{green} $\square$ }	&	{\color{yellow} $\triangle$ }	&	{\color{red} $\circ$ }	\\
+		Between PCS \dotfill			&	{\color{green} $\square$ }	&	{\color{yellow} $\triangle$ }	&	{\color{red} $\circ$ }	\\
+		
+		\hrulefill			&	{\color{green} $\square$ }	&	{\color{yellow} $\triangle$ }	&	{\color{red} $\circ$ }	\\
+		\hrulefill			&	{\color{green} $\square$ }	&	{\color{yellow} $\triangle$ }	&	{\color{red} $\circ$ }	\\
+		\hrulefill			&	{\color{green} $\square$ }	&	{\color{yellow} $\triangle$ }	&	{\color{red} $\circ$ }	\\
+							&								&									&							\\
+		
+		SOCIAL AND CULTURAL ISSUES \dotfill		&	{\color{green} $\square$ }	&	{\color{yellow} $\triangle$ }	&	{\color{red} $\circ$ }	\\
+		Homophobia \dotfill						&	{\color{green} $\square$ }	&	{\color{yellow} $\triangle$ }	&	{\color{red} $\circ$ }	\\
+		Racism \dotfill							&	{\color{green} $\square$ }	&	{\color{yellow} $\triangle$ }	&	{\color{red} $\circ$ }	\\
+		Real-world religion \dotfill			&	{\color{green} $\square$ }	&	{\color{yellow} $\triangle$ }	&	{\color{red} $\circ$ }	\\
+		Sexism \dotfill							&	{\color{green} $\square$ }	&	{\color{yellow} $\triangle$ }	&	{\color{red} $\circ$ }	\\
+		Specific cultural issues \dotfill		&	{\color{green} $\square$ }	&	{\color{yellow} $\triangle$ }	&	{\color{red} $\circ$ }	\\
+		
+		\hrulefill			&	{\color{green} $\square$ }	&	{\color{yellow} $\triangle$ }	&	{\color{red} $\circ$ }	\\
+		\hrulefill			&	{\color{green} $\square$ }	&	{\color{yellow} $\triangle$ }	&	{\color{red} $\circ$ }	\\
+		\hrulefill			&	{\color{green} $\square$ }	&	{\color{yellow} $\triangle$ }	&	{\color{red} $\circ$ }	\\
+							&								&									&							\\
+		
+	\end{tabular}
+		
+		\vfill~\\ \columnbreak
+	
+	\begin{tabular}{ p{0.35\textwidth} c c c}
+		
+												&	{\color{green} G }	&	{\color{yellow} Y }	&	{\color{red} R }	\\
+												
+		MENTAL AND PHYSICAL HEALTH \dotfill							&	{\color{green} $\square$ }	&	{\color{yellow} $\triangle$ }	&	{\color{red} $\circ$ }	\\
+		Cancer \dotfill												&	{\color{green} $\square$ }	&	{\color{yellow} $\triangle$ }	&	{\color{red} $\circ$ }	\\
+		Claustrophobia \dotfill										&	{\color{green} $\square$ }	&	{\color{yellow} $\triangle$ }	&	{\color{red} $\circ$ }	\\
+		Freezing to death \dotfill									&	{\color{green} $\square$ }	&	{\color{yellow} $\triangle$ }	&	{\color{red} $\circ$ }	\\
+		Gaslighting \dotfill										&	{\color{green} $\square$ }	&	{\color{yellow} $\triangle$ }	&	{\color{red} $\circ$ }	\\
+		Genocide \dotfill											&	{\color{green} $\square$ }	&	{\color{yellow} $\triangle$ }	&	{\color{red} $\circ$ }	\\
+		Heartstroke \dotfill										&	{\color{green} $\square$ }	&	{\color{yellow} $\triangle$ }	&	{\color{red} $\circ$ }	\\
+		Natural disaster (earthquake, forest fire) \dotfill			&	{\color{green} $\square$ }	&	{\color{yellow} $\triangle$ }	&	{\color{red} $\circ$ }	\\
+		Paralysis / physical restraint \dotfill						&	{\color{green} $\square$ }	&	{\color{yellow} $\triangle$ }	&	{\color{red} $\circ$ }	\\
+		Police, police aggression \dotfill							&	{\color{green} $\square$ }	&	{\color{yellow} $\triangle$ }	&	{\color{red} $\circ$ }	\\
+		Pregnancy, miscarriage or abortion \dotfill					&	{\color{green} $\square$ }	&	{\color{yellow} $\triangle$ }	&	{\color{red} $\circ$ }	\\
+		Self-Sexual assault \dotfill								&	{\color{green} $\square$ }	&	{\color{yellow} $\triangle$ }	&	{\color{red} $\circ$ }	\\
+		Starvation \dotfill											&	{\color{green} $\square$ }	&	{\color{yellow} $\triangle$ }	&	{\color{red} $\circ$ }	\\
+		Terrorism \dotfill											&	{\color{green} $\square$ }	&	{\color{yellow} $\triangle$ }	&	{\color{red} $\circ$ }	\\
+		Torture \dotfill											&	{\color{green} $\square$ }	&	{\color{yellow} $\triangle$ }	&	{\color{red} $\circ$ }	\\
+		Thirst \dotfill												&	{\color{green} $\square$ }	&	{\color{yellow} $\triangle$ }	&	{\color{red} $\circ$ }	\\
+		
+		\hrulefill			&	{\color{green} $\square$ }	&	{\color{yellow} $\triangle$ }	&	{\color{red} $\circ$ }	\\
+		\hrulefill			&	{\color{green} $\square$ }	&	{\color{yellow} $\triangle$ }	&	{\color{red} $\circ$ }	\\
+		\hrulefill			&	{\color{green} $\square$ }	&	{\color{yellow} $\triangle$ }	&	{\color{red} $\circ$ }	\\
+		\hrulefill			&	{\color{green} $\square$ }	&	{\color{yellow} $\triangle$ }	&	{\color{red} $\circ$ }	\\
+		\hrulefill			&	{\color{green} $\square$ }	&	{\color{yellow} $\triangle$ }	&	{\color{red} $\circ$ }	\\
+							&								&									&							\\
+		
+		ADDITIONAL TOPICS \dotfill				&	{\color{green} $\square$ }	&	{\color{yellow} $\triangle$ }	&	{\color{red} $\circ$ }	\\
+		\hrulefill			&	{\color{green} $\square$ }	&	{\color{yellow} $\triangle$ }	&	{\color{red} $\circ$ }	\\
+		\hrulefill			&	{\color{green} $\square$ }	&	{\color{yellow} $\triangle$ }	&	{\color{red} $\circ$ }	\\
+		\hrulefill			&	{\color{green} $\square$ }	&	{\color{yellow} $\triangle$ }	&	{\color{red} $\circ$ }	\\
+		\hrulefill			&	{\color{green} $\square$ }	&	{\color{yellow} $\triangle$ }	&	{\color{red} $\circ$ }	\\
+		\hrulefill			&	{\color{green} $\square$ }	&	{\color{yellow} $\triangle$ }	&	{\color{red} $\circ$ }	\\
+		\hrulefill			&	{\color{green} $\square$ }	&	{\color{yellow} $\triangle$ }	&	{\color{red} $\circ$ }	\\
+							&								&									&							\\
+		
+		\multicolumn{4}{ p{0.45\textwidth} }{ Do you want the GM to follow up with you to clarify any of these responses ? If so, which ones ?} \\
+		\hrulefill			&	{\color{green} $\square$ }	&	{\color{yellow} $\triangle$ }	&	{\color{red} $\circ$ }	\\
+		\hrulefill			&	{\color{green} $\square$ }	&	{\color{yellow} $\triangle$ }	&	{\color{red} $\circ$ }	\\
+		\hrulefill			&	{\color{green} $\square$ }	&	{\color{yellow} $\triangle$ }	&	{\color{red} $\circ$ }	\\
+		\hrulefill			&	{\color{green} $\square$ }	&	{\color{yellow} $\triangle$ }	&	{\color{red} $\circ$ }	\\
+		\hrulefill			&	{\color{green} $\square$ }	&	{\color{yellow} $\triangle$ }	&	{\color{red} $\circ$ }	\\
+		\hrulefill			&	{\color{green} $\square$ }	&	{\color{yellow} $\triangle$ }	&	{\color{red} $\circ$ }	\\
+							&								&									&							\\
+		
+		\vfill~\\ %% \columnbreak
+		
+	\end{tabular}
+\end{multicols}
+
+\end{document}
