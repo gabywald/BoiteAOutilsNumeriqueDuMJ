@@ -1,0 +1,9 @@
+
+20220115 : 
+	Recenser ici quelques idées pour faire un memento utile d'utilisation de LaTeX pour faire des documents,pour du JdR
+	Exemples déjà présent dans ce pojet / repository
+	Autres idées / exemples / resources
+
+Voire également (idées "sources")
+	https://mobile.twitter.com/archonoir/status/1480824920200384517
+	https://mobile.twitter.com/gaby_wald/status/1481232923806289921
