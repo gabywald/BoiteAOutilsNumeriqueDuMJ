@@ -16,5 +16,6 @@ Voire également (idées "sources")
 	Table des index et références ; 
 	Mise en page (par défaut, changements possibles, boites...) ;
 	Tableaux, Tableaux Longs ; 
-	Tikz : décoration, frises, schémas, personnages...  
+	Tikz : décoration, frises, schémas, personnages... ; 
+	Polices de caractères / Fontes : usages, changements... ; 
 	... 
