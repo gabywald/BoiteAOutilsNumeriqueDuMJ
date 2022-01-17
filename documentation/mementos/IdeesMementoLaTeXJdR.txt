@@ -7,3 +7,14 @@
 Voire également (idées "sources")
 	https://mobile.twitter.com/archonoir/status/1480824920200384517
 	https://mobile.twitter.com/gaby_wald/status/1481232923806289921
+
+20220117 : LaTeX bases et éléments utilisables : 
+	En-Tête, type de documents (livre, article, lettre...) ; 
+	Table des matières : chapter, section, subsection, subsection... ; 
+	Insertions figures / images : ... ; 
+	En-tête et Pied de page : types par défaut et pezrsonnalisation (fancyhdr) ; 
+	Table des index et références ; 
+	Mise en page (par défaut, changements possibles, boites...) ;
+	Tableaux, Tableaux Longs ; 
+	Tikz : décoration, frises, schémas, personnages...  
+	... 
