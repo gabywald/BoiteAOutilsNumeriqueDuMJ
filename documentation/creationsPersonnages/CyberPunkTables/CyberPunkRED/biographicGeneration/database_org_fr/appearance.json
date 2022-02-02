@@ -1,0 +1,50 @@
+{
+    "Clothes": [
+        "Cuirs de motard",
+        "Jeans",
+        "Costumes de corpo",
+        "Combinaison de parachutiste",
+        "Minijupes/minishort",
+        "Haute couture",
+        "Treillis",
+        "Vêtements normaux",
+        "Sans vêtements",
+        "Vagabond"
+    ],
+    "Hairstyle": [
+        "Iroquoise",
+        "Longs et sales",
+        "Courts et hérissés",
+        "Ébouriffés",
+        "Chauve",
+        "Rasé",
+        "Teinture vive",
+        "Courts et bien coiffés",
+        "Courts et bouclés",
+        "Longs et raides"
+    ],
+    "Affectations": [
+        "Tatouages",
+        "Lunettes de soleil",
+        "Cicatrices rituelles",
+        "Gants de punk",
+        "Anneau de nez",
+        "Piercing de la langue (ou autre)",
+        "Implants ongulaires originaux",
+        "Bottes cloutées ou à talons",
+        "Mitaines",
+        "Lentilles de contact originales"
+    ],
+    "Origins": [
+        "Anglo-Américain (Anglais)",
+        "Afrique (Bantu, Fante, Kongo, Ashanti, Zulu, Swahili)",
+        "Japonais/Coréen (Japonais ou coéren)",
+        "Europe Centrale et de l’Est (Bulgare, Russe, polonais, roumain, russe, Slovaque, ukrainien)",
+        "Pacifique (micronésien, tagalog, polynésien, malais, soudanais, indonésien, hawaïen)",
+        "Chinois/Asie du Sud-Est (birman, cantonais, mandarin, thaïlandais, tibétain, vietnamien)",
+        "Amérique noire (anglais, afro-américain)",
+        "Hispanique américain (espagnol, anglais)",
+        "Amérique centrale et du Sud (espagnol, portugais)",
+        "Européen (français, allemand, anglais, espagnol, italien, grec, danois, néerlandais, norvégien, suédois, finnois)"
+    ]
+}
