@@ -1,495 +1,248 @@
 {
+	"gears" : {}, 
 	"role_stats" : {
 	    "Rockerboy" : [
-	        {
-	            int: 5,
-	            ref: 8,
-	            dex: 5,
-	            tech: 4,
-	            cool: 9,
-	            will: 8,
-	            luck: 6,
-	            move: 6,
-	            body: 10,
-	            emp: 6
-	        },
-	        {
-	            int: 5,
-	            ref: 10,
-	            dex: 6,
-	            tech: 3,
-	            cool: 9,
-	            will: 10,
-	            luck: 6,
-	            move: 6,
-	            body: 10,
-	            emp: 4
-	        },
-	        {
-	            int: 6,
-	            ref: 10,
-	            dex: 5,
-	            tech: 3,
-	            cool: 9,
-	            will: 10,
-	            luck: 7,
-	            move: 5,
-	            body: 8,
-	            emp: 5
-	        },
-	        {
-	            int: 6,
-	            ref: 9,
-	            dex: 5,
-	            tech: 6,
-	            cool: 9,
-	            will: 9,
-	            luck: 5,
-	            move: 6,
-	            body: 8,
-	            emp: 4
-	        },
-	        {
-	            int: 5,
-	            ref: 10,
-	            dex: 6,
-	            tech: 3,
-	            cool: 10,
-	            will: 10,
-	            luck: 6,
-	            move: 6,
-	            body: 8,
-	            emp: 4
-	        },
-	        {
-	            int: 6,
-	            ref: 10,
-	            dex: 7,
-	            tech: 4,
-	            cool: 8,
-	            will: 10,
-	            luck: 5,
-	            move: 7,
-	            body: 9,
-	            emp: 5
-	        }
+	        { "int" : 5, "ref" :  8, "dex" : 5, "tech" : 4, "cool" :  9, "will" :  8, "luck" : 6, "move" : 6, "body" : 10, "emp" : 6 },
+	        { "int" : 5, "ref" : 10, "dex" : 6, "tech" : 3, "cool" :  9, "will" : 10, "luck" : 6, "move" : 6, "body" : 10, "emp" : 4 },
+	        { "int" : 6, "ref" : 10, "dex" : 5, "tech" : 3, "cool" :  9, "will" : 10, "luck" : 7, "move" : 5, "body" :  8, "emp" : 5 },
+	        { "int" : 6, "ref" :  9, "dex" : 5, "tech" : 6, "cool" :  9, "will" :  9, "luck" : 5, "move" : 6, "body" :  8, "emp" : 4 },
+	        { "int" : 5, "ref" : 10, "dex" : 6, "tech" : 3, "cool" : 10, "will" : 10, "luck" : 6, "move" : 6, "body" :  8, "emp" : 4 },
+	        { "int" : 6, "ref" : 10, "dex" : 7, "tech" : 4, "cool" :  8, "will" : 10, "luck" : 5, "move" : 7, "body" :  9, "emp" : 5 }
 	    ],
 	    "Solo" : [
-	        {
-	            int: 5,
-	            ref: 8,
-	            dex: 5,
-	            tech: 4,
-	            cool: 9,
-	            will: 8,
-	            luck: 6,
-	            move: 6,
-	            body: 10,
-	            emp: 6
-	        },
-	        {
-	            int: 5,
-	            ref: 10,
-	            dex: 6,
-	            tech: 3,
-	            cool: 9,
-	            will: 10,
-	            luck: 6,
-	            move: 6,
-	            body: 10,
-	            emp: 4
-	        },
-	        {
-	            int: 6,
-	            ref: 10,
-	            dex: 5,
-	            tech: 3,
-	            cool: 9,
-	            will: 10,
-	            luck: 7,
-	            move: 5,
-	            body: 8,
-	            emp: 5
-	        },
-	        {
-	            int: 6,
-	            ref: 9,
-	            dex: 5,
-	            tech: 6,
-	            cool: 9,
-	            will: 9,
-	            luck: 5,
-	            move: 6,
-	            body: 8,
-	            emp: 4
-	        },
-	        {
-	            int: 5,
-	            ref: 10,
-	            dex: 6,
-	            tech: 3,
-	            cool: 10,
-	            will: 10,
-	            luck: 6,
-	            move: 6,
-	            body: 8,
-	            emp: 4
-	        },
-	        {
-	            int: 6,
-	            ref: 10,
-	            dex: 7,
-	            tech: 4,
-	            cool: 8,
-	            will: 10,
-	            luck: 5,
-	            move: 7,
-	            body: 9,
-	            emp: 5
-	        }
+	        { "int" : 5, "ref" :  8, "dex" : 5, "tech" : 4, "cool" :  9, "will" :  8, "luck" : 6, "move" : 6, "body" : 10, "emp" : 6 },
+	        { "int" : 5, "ref" : 10, "dex" : 6, "tech" : 3, "cool" :  9, "will" : 10, "luck" : 6, "move" : 6, "body" : 10, "emp" : 4 },
+	        { "int" : 6, "ref" : 10, "dex" : 5, "tech" : 3, "cool" :  9, "will" : 10, "luck" : 7, "move" : 5, "body" :  8, "emp" : 5 },
+	        { "int" : 6, "ref" :  9, "dex" : 5, "tech" : 6, "cool" :  9, "will" :  9, "luck" : 5, "move" : 6, "body" :  8, "emp" : 4 },
+	        { "int" : 5, "ref" : 10, "dex" : 6, "tech" : 3, "cool" : 10, "will" : 10, "luck" : 6, "move" : 6, "body" :  8, "emp" : 4 },
+	        { "int" : 6, "ref" : 10, "dex" : 7, "tech" : 4, "cool" :  8, "will" : 10, "luck" : 5, "move" : 7, "body" :  9, "emp" : 5 }
 	    ],
 	    "Netrunner" : [
-	        {
-	            int: 6,
-	            ref: 7,
-	            dex: 10,
-	            tech: 7,
-	            cool: 8,
-	            will: 4,
-	            luck: 10,
-	            move: 5,
-	            body: 5,
-	            emp: 3
-	        },
-	        {
-	            int: 7,
-	            ref: 10,
-	            dex: 8,
-	            tech: 6,
-	            cool: 10,
-	            will: 3,
-	            luck: 10,
-	            move: 7,
-	            body: 6,
-	            emp: 4
-	        },
-	        {
-	            int: 7,
-	            ref: 9,
-	            dex: 10,
-	            tech: 7,
-	            cool: 8,
-	            will: 6,
-	            luck: 8,
-	            move: 7,
-	            body: 7,
-	            emp: 5
-	        },
-	        {
-	            int: 5,
-	            ref: 10,
-	            dex: 7,
-	            tech: 7,
-	            cool: 10,
-	            will: 4,
-	            luck: 7,
-	            move: 7,
-	            body: 5,
-	            emp: 3
-	        },
-	        {
-	            int: 6,
-	            ref: 9,
-	            dex: 8,
-	            tech: 6,
-	            cool: 8,
-	            will: 5,
-	            luck: 8,
-	            move: 6,
-	            body: 5,
-	            emp: 6
-	        },
-	        {
-	            int: 5,
-	            ref: 9,
-	            dex: 7,
-	            tech: 7,
-	            cool: 8,
-	            will: 6,
-	            luck: 7,
-	            move: 6,
-	            body: 5,
-	            emp: 4
-	        }
+	        { "int" : 6, "ref" :  7, "dex" : 10, "tech" : 7, "cool" :  8, "will" : 4, "luck" : 10, "move" : 5, "body" : 5, "emp" : 3 },
+	        { "int" : 7, "ref" : 10, "dex" :  8, "tech" : 6, "cool" : 10, "will" : 3, "luck" : 10, "move" : 7, "body" : 6, "emp" : 4 },
+	        { "int" : 7, "ref" :  9, "dex" : 10, "tech" : 7, "cool" :  8, "will" : 6, "luck" :  8, "move" : 7, "body" : 7, "emp" : 5 },
+	        { "int" : 5, "ref" : 10, "dex" :  7, "tech" : 7, "cool" : 10, "will" : 4, "luck" :  7, "move" : 7, "body" : 5, "emp" : 3 },
+	        { "int" : 6, "ref" :  9, "dex" :  8, "tech" : 6, "cool" :  8, "will" : 5, "luck" :  8, "move" : 6, "body" : 5, "emp" : 6 },
+	        { "int" : 5, "ref" :  9, "dex" :  7, "tech" : 7, "cool" :  8, "will" : 6, "luck" :  7, "move" : 6, "body" : 5, "emp" : 4 }
 	    ],
 	    "Tech" : [
-	        {
-	            int: 10,
-	            ref: 10,
-	            dex: 5,
-	            tech: 9,
-	            cool: 3,
-	            will: 5,
-	            luck: 7,
-	            move: 6,
-	            body: 5,
-	            emp: 6
-	        },
-	        {
-	            int: 10,
-	            ref: 7,
-	            dex: 6,
-	            tech: 9,
-	            cool: 3,
-	            will: 5,
-	            luck: 5,
-	            move: 5,
-	            body: 6,
-	            emp: 6
-	        },
-	        {
-	            int: 10,
-	            ref: 7,
-	            dex: 5,
-	            tech: 10,
-	            cool: 4,
-	            will: 3,
-	            luck: 7,
-	            move: 5,
-	            body: 7,
-	            emp: 6
-	        },
-	        {
-	            int: 8,
-	            ref: 8,
-	            dex: 5,
-	            tech: 10,
-	            cool: 4,
-	            will: 4,
-	            luck: 7,
-	            move: 6,
-	            body: 5,
-	            emp: 5
-	        },
-	        {
-	            int: 7,
-	            ref: 7,
-	            dex: 7,
-	            tech: 9,
-	            cool: 4,
-	            will: 3,
-	            luck: 6,
-	            move: 6,
-	            body: 6,
-	            emp: 7
-	        },
-	        {
-	            int: 10,
-	            ref: 10,
-	            dex: 7,
-	            tech: 8,
-	            cool: 4,
-	            will: 5,
-	            luck: 6,
-	            move: 6,
-	            body: 7,
-	            emp: 6
-	        }
+	        { "int" : 10, "ref" : 10, "dex" : 5, "tech" :  9, "cool" : 3, "will" : 5, "luck" : 7, "move" : 6, "body" : 5, "emp" : 6 },
+	        { "int" : 10, "ref" :  7, "dex" : 6, "tech" :  9, "cool" : 3, "will" : 5, "luck" : 5, "move" : 5, "body" : 6, "emp" : 6 },
+	        { "int" : 10, "ref" :  7, "dex" : 5, "tech" : 10, "cool" : 4, "will" : 3, "luck" : 7, "move" : 5, "body" : 7, "emp" : 6 },
+	        { "int" :  8, "ref" :  8, "dex" : 5, "tech" : 10, "cool" : 4, "will" : 4, "luck" : 7, "move" : 6, "body" : 5, "emp" : 5 },
+	        { "int" :  7, "ref" :  7, "dex" : 7, "tech" :  9, "cool" : 4, "will" : 3, "luck" : 6, "move" : 6, "body" : 6, "emp" : 7 },
+	        { "int" : 10, "ref" : 10, "dex" : 7, "tech" :  8, "cool" : 4, "will" : 5, "luck" : 6, "move" : 6, "body" : 7, "emp" : 6 }
 	    ],
 	    "Media" : [],
 	    "Lawman" : [],
 	    "Exec" : [],
 	    "Fixer" : [
-	        {
-	            int: 7,
-	            ref: 6,
-	            dex: 6,
-	            tech: 3,
-	            cool: 6,
-	            will: 6,
-	            luck: 7,
-	            move: 5,
-	            body: 6,
-	            emp: 10
-	        },
-	        {
-	            int: 9,
-	            ref: 5,
-	            dex: 5,
-	            tech: 5,
-	            cool: 6,
-	            will: 6,
-	            luck: 8,
-	            move: 5,
-	            body: 5,
-	            emp: 10
-	        },
-	        {
-	            int: 7,
-	            ref: 5,
-	            dex: 5,
-	            tech: 5,
-	            cool: 6,
-	            will: 6,
-	            luck: 10,
-	            move: 5,
-	            body: 5,
-	            emp: 9
-	        },
-	        {
-	            int: 7,
-	            ref: 6,
-	            dex: 7,
-	            tech: 7,
-	            cool: 7,
-	            will: 7,
-	            luck: 7,
-	            move: 7,
-	            body: 6,
-	            emp: 8
-	        },
-	        {
-	            int: 10,
-	            ref: 5,
-	            dex: 5,
-	            tech: 5,
-	            cool: 5,
-	            will: 5,
-	            luck: 10,
-	            move: 6,
-	            body: 5,
-	            emp: 9
-	        },
-	        {
-	            int: 9,
-	            ref: 5,
-	            dex: 5,
-	            tech: 5,
-	            cool: 7,
-	            will: 7,
-	            luck: 10,
-	            move: 7,
-	            body: 5,
-	            emp: 9
-	        }
+	        { "int" :  7, "ref" : 6, "dex" : 6, "tech" : 3, "cool" : 6, "will" : 6, "luck" :  7, "move" : 5, "body" : 6, "emp" : 10 },
+	        { "int" :  9, "ref" : 5, "dex" : 5, "tech" : 5, "cool" : 6, "will" : 6, "luck" :  8, "move" : 5, "body" : 5, "emp" : 10 },
+	        { "int" :  7, "ref" : 5, "dex" : 5, "tech" : 5, "cool" : 6, "will" : 6, "luck" : 10, "move" : 5, "body" : 5, "emp" :  9 },
+	        { "int" :  7, "ref" : 6, "dex" : 7, "tech" : 7, "cool" : 7, "will" : 7, "luck" :  7, "move" : 7, "body" : 6, "emp" :  8 },
+	        { "int" : 10, "ref" : 5, "dex" : 5, "tech" : 5, "cool" : 5, "will" : 5, "luck" : 10, "move" : 6, "body" : 5, "emp" :  9 },
+	        { "int" :  9, "ref" : 5, "dex" : 5, "tech" : 5, "cool" : 7, "will" : 7, "luck" : 10, "move" : 7, "body" : 5, "emp" :  9 }
 	    ],
 	    "Nomad" : [
-	        {
-	            int: 6,
-	            ref: 0,
-	            dex: 9,
-	            tech: 4,
-	            cool: 7,
-	            will: 9,
-	            luck: 7,
-	            move: 7,
-	            body: 5,
-	            emp: 6
-	        },
-	        {
-	            int: 5,
-	            ref: 9,
-	            dex: 7,
-	            tech: 5,
-	            cool: 9,
-	            will: 9,
-	            luck: 9,
-	            move: 7,
-	            body: 7,
-	            emp: 3
-	        },
-	        {
-	            int: 6,
-	            ref: 8,
-	            dex: 8,
-	            tech: 4,
-	            cool: 7,
-	            will: 8,
-	            luck: 8,
-	            move: 5,
-	            body: 7,
-	            emp: 4
-	        },
-	        {
-	            int: 7,
-	            ref: 9,
-	            dex: 7,
-	            tech: 5,
-	            cool: 8,
-	            will: 8,
-	            luck: 8,
-	            move: 7,
-	            body: 7,
-	            emp: 4
-	        },
-	        {
-	            int: 7,
-	            ref: 10,
-	            dex: 9,
-	            tech: 5,
-	            cool: 7,
-	            will: 10,
-	            luck: 10,
-	            move: 7,
-	            body: 7,
-	            emp: 4
-	        },
-	        {
-	            int: 6,
-	            ref: 8,
-	            dex: 9,
-	            tech: 6,
-	            cool: 8,
-	            will: 7,
-	            luck: 8,
-	            move: 7,
-	            body: 5,
-	            emp: 3
-	        }
+	        { "int" : 6, "ref" :  0, "dex" : 9, "tech" : 4, "cool" : 7, "will" :  9, "luck" :  7, "move" : 7, "body" : 5, "emp" : 6 },
+	        { "int" : 5, "ref" :  9, "dex" : 7, "tech" : 5, "cool" : 9, "will" :  9, "luck" :  9, "move" : 7, "body" : 7, "emp" : 3 },
+	        { "int" : 6, "ref" :  8, "dex" : 8, "tech" : 4, "cool" : 7, "will" :  8, "luck" :  8, "move" : 5, "body" : 7, "emp" : 4 },
+	        { "int" : 7, "ref" :  9, "dex" : 7, "tech" : 5, "cool" : 8, "will" :  8, "luck" :  8, "move" : 7, "body" : 7, "emp" : 4 },
+	        { "int" : 7, "ref" : 10, "dex" : 9, "tech" : 5, "cool" : 7, "will" : 10, "luck" : 10, "move" : 7, "body" : 7, "emp" : 4 },
+	        { "int" : 6, "ref" :  8, "dex" : 9, "tech" : 6, "cool" : 8, "will" :  7, "luck" :  8, "move" : 7, "body" : 5, "emp" : 3 }
 	    ],
 	    "Street Scum": [
-	        {
-	            int: 3,
-	            ref: 4,
-	            dex: 7,
-	            tech: 3,
-	            cool: 2,
-	            will: 4,
-	            luck: 0,
-	            move: 4,
-	            body: 4,
-	            emp: 2
-	        }
+	        { "int" : 3, "ref" : 4, "dex" : 7, "tech" : 3, "cool" : 2, "will" : 4, "luck" : 0, "move" : 4, "body" : 4, "emp" : 2 }
 	    ],
 	    "Booster" : [
-	        {
-	            int: 4,
-	            ref: 6,
-	            dex: 8,
-	            tech: 3,
-	            cool: 4,
-	            will: 4,
-	            luck: 0,
-	            move: 4,
-	            body: 6,
-	            emp: 3
-	        }
+	        { "int" : 4, "ref" : 6, "dex" : 8, "tech" : 3, "cool" : 4, "will" : 4, "luck" : 0, "move" : 4, "body" : 6, "emp" : 3 }
 	    ],
 	    "Private Security": [
-	        {
-	            int: 5,
-	            ref: 6,
-	            dex: 8,
-	            tech: 3,
-	            cool: 5,
-	            will: 4,
-	            luck: 0,
-	            move: 4,
-	            body: 5,
-	            emp: 3
-	        }
+	        { "int" : 5, "ref" : 6, "dex" : 8, "tech" : 3, "cool" : 5, "will" : 4, "luck" : 0, "move" : 4, "body" : 5, "emp" : 3 }
 	    ]
-	}
+	},
+	"appearance" : {
+	    "Clothes": [
+	        "Biker leathers",
+	        "Blue jeans",
+	        "Corporate Suits",
+	        "Jumpsuits",
+	        "Miniskirts",
+	        "High Fashion",
+	        "Cammos",
+	        "Normal clothes",
+	        "Nude",
+	        "Bag Lady chic"
+	    ],
+	    "Hairstyle": [
+	        "Mohawk",
+	        "Long & Ratty",
+	        "Short & Spiked",
+	        "Wild & all over",
+	        "Bald",
+	        "Striped",
+	        "Tinted",
+	        "Neat, short",
+	        "Short, curly",
+	        "Long, straight"
+	    ],
+	    "Affectations": [
+	        "Tatoos",
+	        "Mirrorshades",
+	        "Ritual Scars",
+	        "Spiked gloves",
+	        "Nose Rings",
+	        "Earrings",
+	        "Long fingernails",
+	        "Spike heeled boots",
+	        "Weird Contact Lenses",
+	        "Fingerless gloves"
+	    ],
+	    "Origins": [
+	        "Anglo-American (English)",
+	        "African (Bantu, Fante, Kongo, Ashanti, Zulu, Swahili)",
+	        "Japanese/Korean (Japanese or Korean)",
+	        "Central European/Soviet (Bulgarian, Russian, Czech, Polish, Ukranian, Slovak)",
+	        "Pacific Islander (Microneasian, Tagalog, Polynesian, Malayan, Sudanese, Indonesian, Hawaiian)",
+	        "Chinese/Southeast Asian (Burmese, Cantonese, Mandarin, Thai, Tibetan, Vietnamese)",
+	        "Black American (English, Blackfolk)",
+	        "Hispanic American (Spanish, English)",
+	        "Central /SouthAmerican (Spanish, Portuguese)",
+	        "European (French, German, English, Spanish, Italian, Greek, Danish, Dutch, Norwegian, Swedish, Finnish)"
+	    ]
+	},
+	"armorLIST" : [
+	    {
+	        "name": "Leathers",
+	        "sp": 4
+	    },
+	    {
+	        "name": "Kevlar",
+	        "sp": 7
+	    },
+	    {
+	        "name": "Bodyweight Suit",
+	        "sp": 11
+	    },
+	    {
+	        "name": "Light Armorjack",
+	        "sp": 11
+	    },
+	    {
+	        "name": "Heavy Armorjack",
+	        "sp": 15
+	    },
+	    {
+	        "name": "MetalGear",
+	        "sp": 25
+	    },
+	    {
+	        "name": "Cloth",
+	        "sp": 0
+	    }
+	],
+	"backgroundLIST" : [
+	    "Your family lost everything through betrayal.",
+	    "Your family lost everything through bad management.",
+	    "Your family was exiled or otherwise driven from their original home/nation/Corporation.",
+	    "Your family is imprisoned and you alone escaped.",
+	    "Your family vanished. You are the only remaining member.",
+	    "Your family was killed and you were the only survivor.",
+	    "Your family is involved in a long–term conspiracy, organization, or association, such as a crime family or  revolutionary group.",
+	    "Your family was scattered to the winds due to misfortune.",
+	    "Your family is cursed with a hereditary feud that has lasted for generations.",
+	    "You are the inheritor of a family debt; you must honor this debt before moving on with your life"
+	],
+	"cyberware" : {
+	    "Cyberarm": {
+	        "description": "A Cyberweapon concealed in a cyberarm."
+	    },
+	    "Cyberleg (Paired Jump Boosters)": {
+	        "description": "You can leap 6 m/yds straight up or make a running jump of up to 8 m/yds."
+	    },
+	    "Cyberaudio  (Amped Hearing)": {
+	        "description": "Adds +1 to any sound–related Task Check."
+	    },
+	    "Cyberaudio  (Radio Link)": {
+	        "description": "Micro radio implant gives you the ability to talk to any receiver on the same band frequency for up to 1 mile/1.6km."
+	    },
+	    "Cyberoptic  (Camera)": {
+	        "description": "Images can be recorded on the built–in chip and downloaded to a recorder or Agent."
+	    },
+	    "Cyberoptic  (Low Light)": {
+	        "description": "You can see clearly in dim light (faint moonlight, distant street lamps)."
+	    },
+	    "Cyberoptic  (Targeting)": {
+	        "description": "A built–in targeting sight allows you to add +1 to Marksmanship."
+	    },
+	    "Interface Plugs": {
+	        "description": "Sockets that allow user to interface with machines and cybertech."
+	    },
+	    "Reflex Boost (Speedware)": {
+	        "description": "You are boosted for five full Turns (+3 to Initiative Checks) before the boost cuts out. You must then wait 2 Turns before reboosting."
+	    }
+	},
+	"ennemiesLIST" : [
+	    "Ex–friend",
+	    "Ex–lover",
+	    "Relative",
+	    "Childhood enemy ",
+	    "Person working for you",
+	    "Person you work for",
+	    "Partner or coworker ",
+	    "Booster gang member ",
+	    "Corporate Exec",
+	    "Government official"
+	], 
+	"friendsLIST" : [
+	    "Like an older sibling to you ",
+	    "Like a younger sibling to you ",
+	    "A teacher or mentor",
+	    "A partner or coworker ",
+	    "A former lover ",
+	    "An old enemy ",
+	    "Like a parent to you ",
+	    "An old childhood friend ",
+	    "A relative ",
+	    "Someone with a common interest"
+	], 
+	"goalsLIST" : [
+	    "Get rid of a bad reputation. ",
+	    "Gain power and control.",
+	    "Get off the street no matter what it takes.",
+	    "Cause pain and suffering to anyone who crosses you. ",
+	    "Live down your past life and try to forget it. ",
+	    "Hunt down those responsible for your life and make them pay. ",
+	    "Get what’s rightfully yours. ",
+	    "Save, if possible, anyone else involved in your background. ",
+	    "Gain fame and recognition. ",
+	    "Become feared and respected."
+	], 
+	"motivationsLIST" : [
+	    "Money ",
+	    "Honor",
+	    "Your word",
+	    "Honesty ",
+	    "Knowledge ",
+	    "Vengeance ",
+	    "Love",
+	    "Power",
+	    "Having a good time",
+	    "Friendship"
+	], 
+	"personnalityLIST" : [
+	    "Shy and secretive ",
+	    "Rebellious, antisocial, violent ",
+	    "Arrogant, proud and aloof ",
+	    "Moody, rash and headstrong ",
+	    "Picky, fussy, and nervous ",
+	    "Stable and serious ",
+	    "Silly and fluff–headed",
+	    "Sneaky and deceptive ",
+	    "Intellectual and detached ",
+	    "Friendly and outgoing"
+	]
 	
 }
 
