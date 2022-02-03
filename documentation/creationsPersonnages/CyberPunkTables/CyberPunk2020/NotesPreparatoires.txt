@@ -4,6 +4,11 @@ Voir également ressources "historiques" :
 	https://cyberpunk.fandom.com/fr/wiki/Cyberpunk_2020#R.C3.B4les_des_personnages
 	https://fr.wikipedia.org/wiki/Cyberpunk_2020
 	https://github.com/benabus/cyberpunk-red-character-generator
+	
+	https://cyberpunk-char-gen.neocities.org/
+	https://ripperdocred.web.app/character
+	
+	https://cyberpunk-jdr.fr/aides_de_jeu_cyberpunk.php
 
 Liste des types possibles : 
     Rockerboy
