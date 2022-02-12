@@ -1,4 +1,6 @@
 
+Renommer *CyberPunkRED* => *CyberPunk2020* (vieilles archives pouvant prêter à confusion)
+
 CyberPunkREDBiography.txt
 	TODO revoir ce fichier + fichiers associés à créer (liens talents, métiers, groupes de compétences à partir de caractéristiques)
 	DONE (?) interrogation mutiples de tables en simultané

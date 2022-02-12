@@ -15,8 +15,11 @@ import ModuleHelper
 ## dataBaseJSONtest01 = ModuleHelper.loadJSONConfig( "mainSource" )
 ## print( dataBaseJSONtest01 )
 
-dataBaseJSONtest02 = ModuleHelper.loadJSONConfig( "mainDatabase" )
+## dataBaseJSONtest02 = ModuleHelper.loadJSONConfig( "mainSourceFR" )
 ## print( dataBaseJSONtest02 )
-for element in dataBaseJSONtest02:
+
+dataBaseJSONtest03 = ModuleHelper.loadJSONConfig( "mainDatabase" )
+## print( dataBaseJSONtest03 )
+for element in dataBaseJSONtest03:
   print ( element )
   print ( "*****" )

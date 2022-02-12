@@ -33,9 +33,6 @@
 	        { "int" :  7, "ref" :  7, "dex" : 7, "tech" :  9, "cool" : 4, "will" : 3, "luck" : 6, "move" : 6, "body" : 6, "emp" : 7 },
 	        { "int" : 10, "ref" : 10, "dex" : 7, "tech" :  8, "cool" : 4, "will" : 5, "luck" : 6, "move" : 6, "body" : 7, "emp" : 6 }
 	    ],
-	    "Media" : [],
-	    "Lawman" : [],
-	    "Exec" : [],
 	    "Fixer" : [
 	        { "int" :  7, "ref" : 6, "dex" : 6, "tech" : 3, "cool" : 6, "will" : 6, "luck" :  7, "move" : 5, "body" : 6, "emp" : 10 },
 	        { "int" :  9, "ref" : 5, "dex" : 5, "tech" : 5, "cool" : 6, "will" : 6, "luck" :  8, "move" : 5, "body" : 5, "emp" : 10 },
@@ -60,7 +57,10 @@
 	    ],
 	    "Private Security": [
 	        { "int" : 5, "ref" : 6, "dex" : 8, "tech" : 3, "cool" : 5, "will" : 4, "luck" : 0, "move" : 4, "body" : 5, "emp" : 3 }
-	    ]
+	    ], 
+	    "Media" : [],
+	    "Lawman" : [],
+	    "Exec" : []
 	},
 	"appearance" : {
 	    "Clothes": [
@@ -102,13 +102,13 @@
 	    "Origins": [
 	        "Anglo-American (English)",
 	        "African (Bantu, Fante, Kongo, Ashanti, Zulu, Swahili)",
-	        "Japanese/Korean (Japanese or Korean)",
+	        "Japanese / Korean (Japanese or Korean)",
 	        "Central European/Soviet (Bulgarian, Russian, Czech, Polish, Ukranian, Slovak)",
 	        "Pacific Islander (Microneasian, Tagalog, Polynesian, Malayan, Sudanese, Indonesian, Hawaiian)",
-	        "Chinese/Southeast Asian (Burmese, Cantonese, Mandarin, Thai, Tibetan, Vietnamese)",
+	        "Chinese / Southeast Asian (Burmese, Cantonese, Mandarin, Thai, Tibetan, Vietnamese)",
 	        "Black American (English, Blackfolk)",
 	        "Hispanic American (Spanish, English)",
-	        "Central /SouthAmerican (Spanish, Portuguese)",
+	        "Central / SouthAmerican (Spanish, Portuguese)",
 	        "European (French, German, English, Spanish, Italian, Greek, Danish, Dutch, Norwegian, Swedish, Finnish)"
 	    ]
 	},

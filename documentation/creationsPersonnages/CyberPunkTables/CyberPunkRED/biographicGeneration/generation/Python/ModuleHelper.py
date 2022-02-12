@@ -32,12 +32,12 @@ def loadFileConfig( nameOfRSC ) :
   else:
     return []
 
-def loadJSONConfig( nameOfRSC ) : 
+def loadJSONConfig( nameOfRSC, paths = 'paths' ) : 
   """ To read file resources ! """
   ## Use a configuration file ! 'sources.ini' !
   parser = configparser.ConfigParser()
   parser.read( "sources.ini" )
-  if parser.has_option('paths', nameOfRSC):
+  if parser.has_option(paths, nameOfRSC):
     return readFileToJSON( parser[ "paths" ].get( nameOfRSC ) )
   else:
     return []

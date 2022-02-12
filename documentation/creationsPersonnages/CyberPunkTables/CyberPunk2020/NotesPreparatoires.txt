@@ -1,5 +1,4 @@
 
-Voir ce qui est fait équivalent pour CyberPunk RED (reprendre directement ?!)
 Voir également ressources "historiques" : 
 	https://cyberpunk.fandom.com/fr/wiki/Cyberpunk_2020#R.C3.B4les_des_personnages
 	https://fr.wikipedia.org/wiki/Cyberpunk_2020
@@ -11,16 +10,16 @@ Voir également ressources "historiques" :
 	https://cyberpunk-jdr.fr/aides_de_jeu_cyberpunk.php
 
 Liste des types possibles : 
-    Rockerboy
-    Solo
-    Fixer
-    Nomade
-    Netrunner
-    Techie
-    MedTechie
-    Corporate
-    Média
-    Cop / Justicier
-    
-    
-    
+	Rockerboy
+	Solo
+	Fixer
+	Nomade
+	Netrunner
+	Techie
+	MedTechie
+	Corporate
+	Média
+	Cop / Justicier
+
+Quelques changements pour CyberPunk RED (2045) : ressources à retravailler. 
+Voir ce qui est fait équivalent pour CyberPunk RED (reprendre directement ?!)
