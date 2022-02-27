@@ -146,6 +146,19 @@
 \def\equipmentGearPartOne{\resizebox{0.46\linewidth}{25pt}{\includegraphics{../../../images/pixel.png}} \newline \newline \newline }
 \def\equipmentGearPartTwo{\resizebox{0.46\linewidth}{25pt}{\includegraphics{../../../images/pixel.png}} \newline \newline \newline }
 
+\def\HEALPOINTS{~~}
+\def\ARMORSPHEAD{~~}
+\def\ARMORSPBODY{~~}
+\def\StartingHITS{~~}
+\def\SERIOUSLYWOUNDED{~~}
+\def\DEATHSAVE{~~}
+
+\def\ARMORDESC{~~}
+\def\ARMORHEADDESC{~~}
+\def\ARMORTORSODESC{~~}
+\def\ARMORHEADVALUE{~~}
+\def\ARMORTORSOVALUE{~~}
+
 %%%%%%%%%%% 
 \definecolor{verylightred}{rgb}{1.0,0.9,0.9}
 \definecolor{lightred}{rgb}{1.0,0.75,0.75}
@@ -180,7 +193,7 @@
 									Heal Points		&	Armor SP \newline(HEAD and BODY)	&	Net Actions		&	Rep lvl	\\
 								\end{tabular}	\\ \cline{2-2}
 							&	\begin{tabular}{|p{0.20\textwidth}|p{0.20\textwidth}|p{0.20\textwidth}|p{0.20\textwidth}|}
-													&										&					&			\\
+									\HEALPOINTS		&	\ARMORSPHEAD	/ \ARMORSPBODY		&					&			\\
 								\end{tabular}	\\ %% \cline{2-2}
 							&	\begin{tabular}{|p{0.20\textwidth}|p{0.20\textwidth}|p{0.20\textwidth}|p{0.20\textwidth}|}
 													&										&					&			\\
@@ -197,7 +210,7 @@
 	\multicolumn{2}{ c }{
 		\begin{tabular}{|p{0.30\textwidth}|p{0.30\textwidth}|p{0.30\textwidth}|} \hline
 		STARTING HITS		&		SEROUSLY WOUNDED		&	DEATH SAVE			\\ \hline
-						 	&						 		&						\\ \hline
+			\StartingHITS 	&		\SERIOUSLYWOUNDED 		&	\DEATHSAVE			\\ \hline
 		\end{tabular}
 	} \\
 							 \hline
@@ -219,13 +232,13 @@
 		\end{tabular}
 			&	
 		\begin{tabular}{|p{0.27\linewidth}|p{0.27\linewidth}|p{0.27\linewidth}|}  \hline
-										&							&								\\ \hline
-			\textsc{\textbf{ARMOR}}		&							&								\\ \hline
-										&							&								\\ \hline
+										&			\ARMORDESC		&								\\ \hline
+			\textsc{\textbf{ARMOR}}		&		\ARMORHEADDESC		&	\ARMORHEADVALUE				\\ \hline
+										&		\ARMORTORSODESC		&	\ARMORTORSOVALUE			\\ \hline
 			\multicolumn{3}{ c }{ } \\
 			\multicolumn{3}{ c }{ } \\ \hline 
 										& \textsc{\textbf{NAME}}	& \textsc{\textbf{DAMAGE}}		\\ \hline
-			\textsc{\textbf{WEAPONS}}	&							&								\\ \hline
+			\textsc{\textbf{WEAPONS}}	&		\WEAPONNAME			&	\WEAPONDAMAGE				\\ \hline
 										&							&								\\ \hline
 										
 		\end{tabular}	\\	

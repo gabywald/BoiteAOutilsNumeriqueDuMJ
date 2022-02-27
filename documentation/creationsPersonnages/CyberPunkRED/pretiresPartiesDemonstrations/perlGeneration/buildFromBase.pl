@@ -85,6 +85,8 @@ while (my $line = <INPUT>) {
 		if ($line =~ /^CyberWarePartTwo\t(.*?)$/)	{ $currentPersonnae->{CyberWarePartTwo} = $1; }
 		if ($line =~ /^GearPartOne\t(.*?)$/)	{ $currentPersonnae->{GearPartOne} = $1; }
 		if ($line =~ /^GearPartTwo\t(.*?)$/)	{ $currentPersonnae->{GearPartTwo} = $1; }
+		if ($line =~ /^WEAPONNAME\t(.*?)$/)		{ $currentPersonnae->{WEAPONNAME} = $1; }
+		if ($line =~ /^WEAPONDAMAGE\t(.*?)$/)	{ $currentPersonnae->{WEAPONDAMAGE} = $1; }
 			
 	} ## END "if ($flagPersonnae == 1)"
 }

@@ -70,6 +70,8 @@ sub new {
 	$self->{CyberWarePartTwo}	= "\\resizebox{0.46\\linewidth}{25pt}{\\includegraphics{../../../images/pixel.png}} \\newline \\newline \\newline ";
 	$self->{GearPartOne}		= "\\resizebox{0.46\\linewidth}{25pt}{\\includegraphics{../../../images/pixel.png}} \\newline \\newline \\newline ";
 	$self->{GearPartTwo}		= "\\resizebox{0.46\\linewidth}{25pt}{\\includegraphics{../../../images/pixel.png}} \\newline \\newline \\newline ";
+	$self->{WEAPONNAME}		= "";
+	$self->{WEAPONDAMAGE}	= "";
 	
 	bless($self, $class);
 	return $self;
@@ -121,11 +123,11 @@ sub toStringPersonnae {
 	$toReturn .= "HumanPerception\t".$self->{HumanPerception}."\n";
 	$toReturn .= "PlayInstrument\t".$self->{PlayInstrument}."\n";
 	$toReturn .= "Interface\t".$self->{Interface}."\n";
-	$toReturn .= "ARMOR DESC\t".$self->{ARMORDESC}."\n";
-	$toReturn .= "ARMOR HEAD DESC\t".$self->{ARMORHEADDESC}."\n";
-	$toReturn .= "ARMOR TORSO DESC\t".$self->{ARMORTORSODESC}."\n";
-	$toReturn .= "ARMOR HEAD VALUE\t".$self->{ARMORHEADVALUE}."\n";
-	$toReturn .= "ARMOR TORSO VALUE\t".$self->{ARMORTORSOVALUE}."\n";
+	$toReturn .= "ARMORDESC\t".$self->{ARMORDESC}."\n";
+	$toReturn .= "ARMORHEADDESC\t".$self->{ARMORHEADDESC}."\n";
+	$toReturn .= "ARMORTORSODESC\t".$self->{ARMORTORSODESC}."\n";
+	$toReturn .= "ARMORHEADVALUE\t".$self->{ARMORHEADVALUE}."\n";
+	$toReturn .= "ARMORTORSOVALUE\t".$self->{ARMORTORSOVALUE}."\n";
 	$toReturn .= "BACKGROUND\t".$self->{BACKGROUND}."\n";
 	$toReturn .= "MOTIVATION\t".$self->{MOTIVATION}."\n";
 	$toReturn .= "GOALS\t".$self->{GOALS}."\n";
@@ -137,6 +139,8 @@ sub toStringPersonnae {
 	$toReturn .= "CyberWarePartTwo\t".$self->{CyberWarePartTwo}."\n";
 	$toReturn .= "GearPartOne\t".$self->{GearPartOne}."\n";
 	$toReturn .= "GearPartTwo\t".$self->{GearPartTwo}."\n";
+	$toReturn .= "WEAPONNAME\t".$self->{WEAPONNAME}."\n";
+	$toReturn .= "WEAPONDAMAGE\t".$self->{WEAPONDAMAGE}."\n";
 	$toReturn .= "END personnae"."\n";
 	
 	return $toReturn."\n\n";
@@ -162,12 +166,12 @@ sub toLaTeX {
 	$toReturn .= "\\def\\caracMOVE{".$self->{MOVE}."}\n";
 	$toReturn .= "\\def\\caracBODY{".$self->{BODY}."}\n";
 	$toReturn .= "\\def\\caracEMP{".$self->{EMP}."}\n";
-	# $toReturn .= "HEAL POINTS{".$self->{HEAL POINTS}."}\n";
-	# $toReturn .= "ARMOR SP HEAD{".$self->{ARMOR SP HEAD}."}\n";
-	# $toReturn .= "ARMOR SP BODY{".$self->{ARMOR SP BODY}."}\n";
-	# $toReturn .= "Starting HITS{".$self->{Starting HITS}."}\n";
-	# $toReturn .= "SERIOUSLY WOUNDED{".$self->{SERIOUSLY WOUNDED}."}\n";
-	# $toReturn .= "DEATH SAVE{".$self->{DEATH SAVE}."}\n";
+	$toReturn .= "\\def\\HEALPOINTS{".$self->{HEALPOINTS}."}\n";
+	$toReturn .= "\\def\\ARMORSPHEAD{".$self->{ARMORSPHEAD}."}\n";
+	$toReturn .= "\\def\\ARMORSPBODY{".$self->{ARMORSPBODY}."}\n";
+	$toReturn .= "\\def\\StartingHITS{".$self->{StartingHITS}."}\n";
+	$toReturn .= "\\def\\SERIOUSLYWOUNDED{".$self->{SERIOUSLYWOUNDED}."}\n";
+	$toReturn .= "\\def\\DEATHSAVE{".$self->{DEATHSAVE}."}\n";
 	$toReturn .= "\\def\\compPerception{".$self->{Perception}."}\n";
 	$toReturn .= "\\def\\compTracking{".$self->{Tracking}."}\n";
 	$toReturn .= "\\def\\compEducation{".$self->{Education}."}\n";
@@ -190,11 +194,11 @@ sub toLaTeX {
 	$toReturn .= "\\def\\compHumanPerception{".$self->{HumanPerception}."}\n";
 	$toReturn .= "\\def\\compPlayInstrument{".$self->{PlayInstrument}."}\n";
 	$toReturn .= "\\def\\compInterface{".$self->{Interface}."}\n";
-	# $toReturn .= "ARMOR DESC{".$self->{ARMOR DESC}."}\n";
-	# $toReturn .= "ARMOR HEAD DESC{".$self->{ARMOR HEAD DESC}."}\n";
-	# $toReturn .= "ARMOR TORSO DESC{".$self->{ARMOR TORSO DESC}."}\n";
-	# $toReturn .= "ARMOR HEAD VALUE{".$self->{ARMOR HEAD VALUE}."}\n";
-	# $toReturn .= "ARMOR TORSO VALUE{".$self->{ARMOR TORSO VALUE}."}\n";
+	$toReturn .= "\\def\\ARMORDESC{".$self->{ARMORDESC}."}\n";
+	$toReturn .= "\\def\\ARMORHEADDESC{".$self->{ARMORHEADDESC}."}\n";
+	$toReturn .= "\\def\\ARMORTORSODESC{".$self->{ARMORTORSODESC}."}\n";
+	$toReturn .= "\\def\\ARMORHEADVALUE{".$self->{ARMORHEADVALUE}."}\n";
+	$toReturn .= "\\def\\ARMORTORSOVALUE{".$self->{ARMORTORSOVALUE}."}\n";
 	$toReturn .= "\\def\\biographicBACKGROUND{".$self->{BACKGROUND}."}\n";
 	$toReturn .= "\\def\\biographicMOTIVATION{".$self->{MOTIVATION}."}\n";
 	$toReturn .= "\\def\\biographicGOALS{".$self->{GOALS}."}\n";
@@ -206,6 +210,8 @@ sub toLaTeX {
 	$toReturn .= "\\def\\equipmentCyberWarePartTwo{".$self->{CyberWarePartTwo}."}\n";
 	$toReturn .= "\\def\\equipmentGearPartOne{".$self->{GearPartOne}."}\n";
 	$toReturn .= "\\def\\equipmentGearPartTwo{".$self->{GearPartTwo}."}\n";
+	$toReturn .= "\\def\\WEAPONNAME{".$self->{WEAPONNAME}."}\n";
+	$toReturn .= "\\def\\WEAPONDAMAGE{".$self->{WEAPONDAMAGE}."}\n";
 
 	$toReturn .= "\\input{../personnaeBottom.tex}\n";
 	return $toReturn;

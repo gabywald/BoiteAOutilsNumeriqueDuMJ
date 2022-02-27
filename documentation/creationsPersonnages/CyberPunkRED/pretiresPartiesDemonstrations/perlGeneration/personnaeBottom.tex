@@ -34,10 +34,7 @@
 									Heal Points		&	Armor SP \newline(HEAD and BODY)	&	Net Actions		&	Rep lvl	\\
 								\end{tabular}	\\ \cline{2-2}
 							&	\begin{tabular}{|p{0.20\textwidth}|p{0.20\textwidth}|p{0.20\textwidth}|p{0.20\textwidth}|}
-													&										&					&			\\
-								\end{tabular}	\\ %% \cline{2-2}
-							&	\begin{tabular}{|p{0.20\textwidth}|p{0.20\textwidth}|p{0.20\textwidth}|p{0.20\textwidth}|}
-													&										&					&			\\
+									\HEALPOINTS		&	\ARMORSPHEAD	~/~ \ARMORSPBODY	&					&			\\
 								\end{tabular}	\\ %% \cline{2-2}
 							&	\begin{tabular}{|p{0.20\textwidth}|p{0.20\textwidth}|p{0.20\textwidth}|p{0.20\textwidth}|}
 													&										&					&			\\ \cline{1-4} %% \hline
@@ -51,7 +48,7 @@
 	\multicolumn{2}{ c }{
 		\begin{tabular}{|p{0.30\textwidth}|p{0.30\textwidth}|p{0.30\textwidth}|} \hline
 		STARTING HITS		&		SEROUSLY WOUNDED		&	DEATH SAVE			\\ \hline
-						 	&						 		&						\\ \hline
+			\StartingHITS 	&		\SERIOUSLYWOUNDED 		&	\DEATHSAVE			\\ \hline
 		\end{tabular}
 	} \\
 							 \hline
@@ -59,7 +56,7 @@
 
 	\begin{tabular}{ p{0.50\linewidth} p{0.50\linewidth} } \hline
 		\footnotesize
-		\begin{tabular}{|p{0.23\linewidth}|p{0.23\linewidth}|p{0.23\linewidth}|p{0.17\linewidth}|} \hline
+		\begin{tabular}{|p{0.23\linewidth}|p{0.23\linewidth}|p{0.20\linewidth}|p{0.17\linewidth}|} \hline
 			\textsc{\textbf{Skills}}		&	\textbf{DEX}					&	\textbf{COOL}						&	\textbf{Special}			\\ \hline
 			\textbf{INT}					&	Evasion \compEvasion			&	Bribery \compBribery				&	Interface \compInterface	\\ \hline
 			Perception \compPerception		&	Athletics \compAthletics		&	Interrogation \compInterrogation	&	(NetRunner)					\\ \hline
@@ -73,13 +70,13 @@
 		\end{tabular}
 			&	
 		\begin{tabular}{|p{0.27\linewidth}|p{0.27\linewidth}|p{0.27\linewidth}|}  \hline
-										&							&								\\ \hline
-			\textsc{\textbf{ARMOR}}		&							&								\\ \hline
-										&							&								\\ \hline
+										&			\ARMORDESC		&								\\ \hline
+			\textsc{\textbf{ARMOR}}		&		\ARMORHEADDESC		&	\ARMORHEADVALUE				\\ \hline
+										&		\ARMORTORSODESC		&	\ARMORTORSOVALUE			\\ \hline
 			\multicolumn{3}{ c }{ } \\
 			\multicolumn{3}{ c }{ } \\ \hline 
 										& \textsc{\textbf{NAME}}	& \textsc{\textbf{DAMAGE}}		\\ \hline
-			\textsc{\textbf{WEAPONS}}	&							&								\\ \hline
+			\textsc{\textbf{WEAPONS}}	&		\WEAPONNAME			&	\WEAPONDAMAGE				\\ \hline
 										&							&								\\ \hline
 										
 		\end{tabular}	\\	

@@ -56,5 +56,7 @@ CyberWarePartOne	CyberOptique \newline Cablage d'interface pour pilotage
 CyberWarePartTwo	
 GearPartOne	Agent \newline Véhicule (6 places)
 GearPartTwo	
+WEAPONNAME	Pistolet Lourd
+WEAPONDAMAGE	3d6
 END personnae
 
