@@ -53,10 +53,133 @@ ENEMIES	Anciens Concurrents
 ROMANCE	Amante devenue folle (causé par employeur)
 PERSONALITY	Stable et réfléchi
 CyberWarePartOne	CyberOptique \newline Cablage d'interface pour pilotage
-CyberWarePartTwo	
+CyberWarePartTwo	\resizebox{0.46\linewidth}{25pt}{\includegraphics{../../../../../images/pixel.png}}
 GearPartOne	Agent \newline Véhicule (6 places)
-GearPartTwo	
+GearPartTwo	\resizebox{0.46\linewidth}{25pt}{\includegraphics{../../../../../images/pixel.png}}
 WEAPONNAME	Pistolet Lourd
 WEAPONDAMAGE	3d6
 END personnae
 
+BEGIN personnae
+NAME	Jenel Ataki
+CLASS	TECH
+ICON	NONE
+INT	10
+REF	7
+DEX	5
+TECH	10
+COOL	4
+WILL	3
+LUCK	7
+MOVE	6
+BODY	5
+EMP	5
+HEALPOINTS	25
+ARMORSPHEAD	11
+ARMORSPBODY	11
+StartingHITS	25
+SERIOUSLYWOUNDED	13
+DEATHSAVE	5
+Perception	4
+Tracking	\dotfill
+Education	\dotfill
+LocalExpert	4
+Marksmanship	3
+Driving	\dotfill
+Evasion	5
+Athletics	2
+Stealth	5
+Brawling	2
+MeleeWeapon	3
+BasicTech	7
+CyberTech	5
+FirstAid	\dotfill
+Bribery	\dotfill
+Interrogation	3
+Persuasion	3
+Concentration	4
+Conversation	\dotfill
+HumanPerception	3
+PlayInstrument	\dotfill
+Interface	4
+ARMORDESC	Tenue Pare-Balle Légère
+ARMORHEADDESC	Tête
+ARMORTORSODESC	Torse
+ARMORHEADVALUE	11
+ARMORTORSOVALUE	11
+BACKGROUND	Issu d'un gang
+MOTIVATION	Sensations fortes
+GOALS	Laisser les démons derrières
+FRIENDS	Partages d'intérêts
+ENEMIES	Anciens Concurrents
+ROMANCE	Amante devenue folle (causé par employeur)
+PERSONALITY	Stable et réfléchi
+CyberWarePartOne	Interface neurale de connexion \newline CyberBras
+CyberWarePartTwo	\resizebox{0.46\linewidth}{25pt}{\includegraphics{../../../../../images/pixel.png}}
+GearPartOne	Agent \newline Boite à outils
+GearPartTwo	\resizebox{0.46\linewidth}{25pt}{\includegraphics{../../../../../images/pixel.png}}
+WEAPONNAME	Pistolet Lourd \newline Super Poingts
+WEAPONDAMAGE	3d6 \newline 2d6
+END personnae
+
+BEGIN personnae
+NAME	Paul Morgan
+CLASS	ROCKERBOY / Reporter
+ICON	NONE
+INT	6
+REF	10
+DEX	7
+TECH	4
+COOL	8
+WILL	10
+LUCK	5
+MOVE	7
+BODY	9
+EMP	5
+HEALPOINTS	45
+ARMORSPHEAD	7
+ARMORSPBODY	7
+StartingHITS	45
+SERIOUSLYWOUNDED	23
+DEATHSAVE	10
+Perception	3
+Tracking	5
+Education	6
+LocalExpert	5
+Marksmanship	\dotfill
+Driving	\dotfill
+Evasion	5
+Athletics	3
+Stealth	\dotfill
+Brawling	\dotfill
+MeleeWeapon	3
+BasicTech	\dotfill
+CyberTech	\dotfill
+FirstAid	\dotfill
+Bribery	2
+Interrogation	\dotfill
+Persuasion	6
+Concentration	4
+Conversation	\dotfill
+HumanPerception	3
+PlayInstrument	6
+Interface	\dotfill
+ARMORDESC	Kevlar
+ARMORHEADDESC	Tête
+ARMORTORSODESC	Torse
+ARMORHEADVALUE	7
+ARMORTORSOVALUE	7
+BACKGROUND	Victime d'un attentat terroriste (origine vocation)
+MOTIVATION	Le Savoir
+GOALS	Informer (en plus de l'enquête)
+FRIENDS	Gangs, Corporations
+ENEMIES	Anciens Employeurs
+ROMANCE	Doublé par un rival
+PERSONALITY	Chaleureux et extroiverti
+CyberWarePartOne	CyberOptique (enregistrement) \newline Cablage Auditif (téléphone)
+CyberWarePartTwo	\resizebox{0.46\linewidth}{25pt}{\includegraphics{../../../../../images/pixel.png}}
+GearPartOne	Agent \newline Découpeur (cable monofilament)
+GearPartTwo	\resizebox{0.46\linewidth}{25pt}{\includegraphics{../../../../../images/pixel.png}}
+WEAPONNAME	Pistolet Lourd
+WEAPONDAMAGE	3d6
+END personnae
