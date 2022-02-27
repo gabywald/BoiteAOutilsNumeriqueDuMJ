@@ -1,0 +1,114 @@
+
+
+%%%%%%%%%%% 
+\definecolor{verylightred}{rgb}{1.0,0.9,0.9}
+\definecolor{lightred}{rgb}{1.0,0.75,0.75}
+\definecolor{red}{rgb}{1.0,0.5,0.5}
+
+\def\CELLblackTXTWhite{\cellcolor{black} \color{white}}
+\def\CELLredTXTWhite{\cellcolor{red} \color{black}}
+\def\CELLwhiteTXTWhite{\cellcolor{white} \color{black}}
+
+%============================= Corps =================================
+\begin{document}
+
+\setlength\parindent{0pt}
+
+\begin{tabular}{ p{0.95\textwidth} }
+	%% \CELLredTXTWhite
+	\begin{tabular}{|p{0.20\linewidth}|p{0.75\linewidth}|} \hline
+		\multirow{9}{*}{	%% \begin{tikzpicture}
+							%% 	\node[maninblack,mirrored,monitor,saturated,minimum size=2.5cm]{A Corpo Rat ?};
+							%% \end{tikzpicture}
+							\newline \newline \newline \newline \newline \newline \newline \newline \newline 
+		}	
+							&	Name, Classe : \contentNAME ~(\contentCLASS ) %% \framebox[0.60\textwidth][ht]{ \newline \newline }	
+												\\ \cline{2-2} 
+							&	\begin{tabular}{|p{0.05\textwidth}|p{0.05\textwidth}|p{0.05\textwidth}|p{0.05\textwidth}|p{0.05\textwidth}|p{0.05\textwidth}|p{0.05\textwidth}|p{0.05\textwidth}|p{0.05\textwidth}|p{0.05\textwidth}|}
+									\hline
+									INT						&	REF						&	DEX						&	TECH					&	COOL					&	WILL					&	LUCK					&	MOVE					&	BODY					&	EMP						\\ \hline 
+									\caracINT				&	\caracREF				&	\caracDEX				&	\caracTECH				&	\caracCOOL				&	\caracWILL				&	\caracLUCK				&	\caracMOVE				&	\caracBODY				&	\caracEMP				\\ \hline
+								\end{tabular}	\\ \cline{2-2}
+							&					\\ \cline{2-2}
+							&	\begin{tabular}{|p{0.20\textwidth}|p{0.20\textwidth}|p{0.20\textwidth}|p{0.20\textwidth}|}
+									Heal Points		&	Armor SP \newline(HEAD and BODY)	&	Net Actions		&	Rep lvl	\\
+								\end{tabular}	\\ \cline{2-2}
+							&	\begin{tabular}{|p{0.20\textwidth}|p{0.20\textwidth}|p{0.20\textwidth}|p{0.20\textwidth}|}
+													&										&					&			\\
+								\end{tabular}	\\ %% \cline{2-2}
+							&	\begin{tabular}{|p{0.20\textwidth}|p{0.20\textwidth}|p{0.20\textwidth}|p{0.20\textwidth}|}
+													&										&					&			\\
+								\end{tabular}	\\ %% \cline{2-2}
+							&	\begin{tabular}{|p{0.20\textwidth}|p{0.20\textwidth}|p{0.20\textwidth}|p{0.20\textwidth}|}
+													&										&					&			\\ \cline{1-4} %% \hline
+								\end{tabular}	\\ %% \cline{2-2}
+							&					\\ \cline{2-2}
+							&					\\ \cline{2-2}
+							
+							&					\\ \hline
+	\multicolumn{2}{ c }{ } \\
+							\hline
+	\multicolumn{2}{ c }{
+		\begin{tabular}{|p{0.30\textwidth}|p{0.30\textwidth}|p{0.30\textwidth}|} \hline
+		STARTING HITS		&		SEROUSLY WOUNDED		&	DEATH SAVE			\\ \hline
+						 	&						 		&						\\ \hline
+		\end{tabular}
+	} \\
+							 \hline
+	\end{tabular}~\\~\\
+
+	\begin{tabular}{ p{0.50\linewidth} p{0.50\linewidth} } \hline
+		\footnotesize
+		\begin{tabular}{|p{0.23\linewidth}|p{0.23\linewidth}|p{0.23\linewidth}|p{0.17\linewidth}|} \hline
+			\textsc{\textbf{Skills}}		&	\textbf{DEX}					&	\textbf{COOL}						&	\textbf{Special}			\\ \hline
+			\textbf{INT}					&	Evasion \compEvasion			&	Bribery \compBribery				&	Interface \compInterface	\\ \hline
+			Perception \compPerception		&	Athletics \compAthletics		&	Interrogation \compInterrogation	&	(NetRunner)					\\ \hline
+			Tracking \compTracking			&	Stealth \compStealth			&	Persuasion \compPersuasion			&								\\ \hline
+			Education \compEducation		&	Brawling \compBrawling			&	\textbf{WILL}						&								\\ \hline
+					 \dotfill				&	Melee Weapon \compMeleeWeapon	&	Concentration \compConcentration	&								\\ \hline
+			Local Expert \compLocalExpert	&	\textbf{TECH}					&	\textbf{EMP}						&								\\ \hline
+			\textbf{REF}					&	Basic tech \compBasicTech		&	Conversation \compConversation		&								\\ \hline
+			Marksmanship \compMarksmanship	&	CyberTech \compCyberTech		&	Human P. \compHumanPerception		&								\\ \hline	%% Human Perception
+			Driving \compDriving			&	First Aid \compFirstAid			&	Instrument \compPlayInstrument		&								\\ \hline	%% Play Instrument
+		\end{tabular}
+			&	
+		\begin{tabular}{|p{0.27\linewidth}|p{0.27\linewidth}|p{0.27\linewidth}|}  \hline
+										&							&								\\ \hline
+			\textsc{\textbf{ARMOR}}		&							&								\\ \hline
+										&							&								\\ \hline
+			\multicolumn{3}{ c }{ } \\
+			\multicolumn{3}{ c }{ } \\ \hline 
+										& \textsc{\textbf{NAME}}	& \textsc{\textbf{DAMAGE}}		\\ \hline
+			\textsc{\textbf{WEAPONS}}	&							&								\\ \hline
+										&							&								\\ \hline
+										
+		\end{tabular}	\\	
+		\multicolumn{2}{ c }{ } \\
+		\multicolumn{2}{ c }{ } \\
+		\multicolumn{2}{ c }{ } \\
+		\begin{tabular}{|p{0.30\linewidth}|p{0.50\linewidth}|} \hline
+			\textsc{\textbf{Background}}	&	\biographicBACKGROUND		\\ \hline
+			\textsc{\textbf{Motivation}}	&	\biographicMOTIVATION		\\ \hline
+			\textsc{\textbf{Goals}}			&	\biographicGOALS			\\ \hline
+			\textsc{\textbf{Friends}}		&	\biographicFRIENDS			\\ \hline
+			\textsc{\textbf{Ennemies}}		&	\biographicENEMIES			\\ \hline
+			\textsc{\textbf{Romance}}		&	\biographicROMANCE			\\ \hline
+			\textsc{\textbf{Personnality}}	&	\biographicPERSONALITY		\\ \hline
+			\multicolumn{2}{ c }{ } \\
+			\multicolumn{2}{ c }{ } \\
+			\multicolumn{2}{ c }{ } \\
+			\multicolumn{2}{ c }{ } \\
+			\multicolumn{2}{ c }{ } \\
+			%% 								&	\resizebox{0.46\linewidth}{25pt}{\includegraphics{../../../images/../../../images/pixel.png}}	\\ 
+		\end{tabular}
+			&
+		\begin{tabular}{|p{0.46\linewidth}|p{0.46\linewidth}|} \hline
+			\textsc{\textbf{CYBERWARE}}		&	\textsc{\textbf{GEAR}}			\\ \hline
+				\equipmentCyberWarePartOne	& 	\equipmentGearPartOne			\\ \hline
+				\equipmentCyberWarePartTwo	& 	\equipmentGearPartTwo			\\ \hline
+		\end{tabular}	\\
+	
+	\end{tabular}
+\end{tabular}
+
+\end{document}

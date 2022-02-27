@@ -1,0 +1,60 @@
+BEGIN personnae
+NAME	Ernst Kobel
+CLASS	Nomad / Pilote
+ICON	NONE
+INT	7
+REF	10
+DEX	9
+TECH	5
+COOL	7
+WILL	10
+LUCK	10
+MOVE	7
+BODY	7
+EMP	4
+HEALPOINTS	35
+ARMORSPHEAD	15
+ARMORSPBODY	15
+StartingHITS	35
+SERIOUSLYWOUNDED	18
+DEATHSAVE	9
+Perception	5
+Tracking	3
+Education	3
+LocalExpert	3
+Marksmanship	5
+Driving	7
+Evasion	5
+Athletics	4
+Stealth	4
+Brawling	4
+MeleeWeapon	6
+BasicTech	\dotfill
+CyberTech	\dotfill
+FirstAid	\dotfill
+Bribery	4
+Interrogation	\dotfill
+Persuasion	2
+Concentration	4
+Conversation	\dotfill
+HumanPerception	5
+PlayInstrument	\dotfill
+Interface	\dotfill
+ARMORDESC	Tenue Pare-Balle
+ARMORHEADDESC	Tête
+ARMORTORSODESC	Torse
+ARMORHEADVALUE	15
+ARMORTORSOVALUE	15
+BACKGROUND	Issu d'un gang
+MOTIVATION	Sensations fortes
+GOALS	Laisser les démons derrières
+FRIENDS	Partages d'intérêts
+ENEMIES	Anciens Concurrents
+ROMANCE	Amante devenue folle (causé par employeur)
+PERSONALITY	Stable et réfléchi
+CyberWarePartOne	CyberOptique \newline Cablage d'interface pour pilotage
+CyberWarePartTwo	
+GearPartOne	Agent \newline Véhicule (6 places)
+GearPartTwo	
+END personnae
+
