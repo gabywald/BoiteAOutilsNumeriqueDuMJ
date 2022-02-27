@@ -1,12 +1,6 @@
 \documentclass{ClassePretiresCyberPunkRED}
 %=========================== En-Tete =================================
 
-\usepackage[french]{babel}   % pour dire que le texte est en fran{\'e}ais
-\usepackage[T1]{fontenc}     % pour les font postscript
-\usepackage[table]{xcolor}	% couleur de fond des cellules de tableaux
-
-\usepackage{epsfig}          % pour gerer les images
-
 \setmarginsrb{0.20cm}{0.20cm}{0.20cm}{0.20cm}{15pt}{3pt}{42pt}{15pt}
 	
 % --- style de page (pour les en-tete) ---
@@ -25,8 +19,6 @@
 	\node[rotate=60,scale=10,text opacity=0.1] at (current page.center) {-- Cyberpunk RED};
 	\end{tikzpicture}
 }%
-
-\usepackage{tikzpeople}
 
 \def\txtTITLE{Feuille de personnage Cyberpunk RED} %%%%% !! TITRE !! %%%%%
 \def\imgCORNER{\includegraphics[width=0.25cm]{../../../images/glider/logo-glider.png}}
@@ -71,49 +63,40 @@
 %%%%%%%%%%% SOME VALUES IN ENGLISH %%%%%%%%%%%%%%%%%%%%%
 %% \def\ENdefNom{\textbf{Name} \dotfill }
 
-%%%%%%%%%%% 
-\definecolor{verylightred}{rgb}{1.0,0.9,0.9}
-\definecolor{lightred}{rgb}{1.0,0.75,0.75}
-\definecolor{red}{rgb}{1.0,0.5,0.5}
-
-\def\CELLblackTXTWhite{\cellcolor{black} \color{white}}
-\def\CELLredTXTWhite{\cellcolor{red} \color{black}}
-\def\CELLwhiteTXTWhite{\cellcolor{white} \color{black}}
-
 %============================= Corps =================================
 \begin{document}
-	%% \headerNameClass{RedEye NightCity}{NetRunner}
-	%% \headerTest{RedEye NightCity}{NetRunner}{5}{5}{5}{5}{5}{5}{5}{5}{5}{5}{25}{7}{7}{---}
-	%% \headerOfPersonnae{RedEye NightCity}{NetRunner}{5}{5}{5}{5}{5}{5}{5}{5}{5}{5}{25}{7}{7}{---}
 	
 \setlength\parindent{0pt}
 
 \begin{tabular}{ p{0.95\textwidth} }
 	%% \CELLredTXTWhite
 	\begin{tabular}{|p{0.20\linewidth}|p{0.75\linewidth}|} \hline
-		\multirow{9}{*}{	\begin{tikzpicture}
+		\multirow{8}{*}{	\begin{tikzpicture}
 								\node[maninblack,mirrored,monitor,saturated,minimum size=2.5cm]{A Corpo Rat ?};
 							\end{tikzpicture}
-							\newline \newline \newline \newline \newline \newline \newline \newline \newline }	
+							\newline \newline \newline \newline \newline \newline \newline \newline \newline
+		}	
 							&	\headerNameClass{RedEye NightCity}{NetRunner} %% \framebox[0.60\textwidth][ht]{ \newline \newline }	
 												\\ \cline{2-2} 
 							&	\begin{tabular}{|p{0.05\textwidth}|p{0.05\textwidth}|p{0.05\textwidth}|p{0.05\textwidth}|p{0.05\textwidth}|p{0.05\textwidth}|p{0.05\textwidth}|p{0.05\textwidth}|p{0.05\textwidth}|p{0.05\textwidth}|}
 									\hline
-									INT						&	REF						&	DEX						&	TECH					&	COOL					&	WILL					&	LUCK					&	MOVE					&	BODY					&	EMP						\\ \hline 
-															&							&							&							&							&							&							&							&							&							\\ \hline
+									INT						&	REF						&	DEX						&	TECH					&	COOL					&	WILL					&	LUCK					&	MOVE					&	BODY					&	EMP						\\ \hline
+									\CaracByFive{1}{2}{3}{4}{5}																												&	\CaracByFive{1}{2}{3}{4}{5}																												\\ \hline
+									%% 						&							&							&							&							&							&							&							&							&							\\ \hline
+									\CaracANYone{5}			&	\CaracANYone{5}			&	\CaracANYone{6}			&	\CaracANYone{6}			&	\CaracANYone{7}			&	\CaracANYone{7}			&	\CaracANYone{8}			&	\CaracANYone{8}			&	\CaracANYone{9}			&	\CaracANYone{9}			\\ \hline
 								\end{tabular}	\\ \cline{2-2}
 							&					\\ \cline{2-2}
 							&	\begin{tabular}{|p{0.20\textwidth}|p{0.20\textwidth}|p{0.20\textwidth}|p{0.20\textwidth}|}
-									Heal Points		&	Armor SP (HEAD and BODY)	&	Net Actions		&	Rep lvl	\\
+									Heal Points		&	Armor SP \newline (HEAD and BODY)	&	Net Actions		&	Rep lvl	\\
 								\end{tabular}	\\ \cline{2-2}
 							&	\begin{tabular}{|p{0.20\textwidth}|p{0.20\textwidth}|p{0.20\textwidth}|p{0.20\textwidth}|}
-													&								&					&			\\
+													&										&					&			\\
 								\end{tabular}	\\ %% \cline{2-2}
 							&	\begin{tabular}{|p{0.20\textwidth}|p{0.20\textwidth}|p{0.20\textwidth}|p{0.20\textwidth}|}
-													&								&					&			\\
+													&										&					&			\\
 								\end{tabular}	\\ %% \cline{2-2}
 							&	\begin{tabular}{|p{0.20\textwidth}|p{0.20\textwidth}|p{0.20\textwidth}|p{0.20\textwidth}|}
-													&								&					&			\\ \hline
+													&										&					&			\\ \cline{1-4} %% \hline
 								\end{tabular}	\\ %% \cline{2-2}
 							&					\\ \cline{2-2}
 							&					\\ \cline{2-2}

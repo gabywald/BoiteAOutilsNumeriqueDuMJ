@@ -22,6 +22,9 @@
 
 %% Package dependencies
 
+\RequirePackage[french]{babel}   % pour dire que le texte est en fran{\'e}ais
+\RequirePackage[T1]{fontenc}     % pour les font postscript
+\RequirePackage[table]{xcolor}	 % couleur de fond des cellules de tableaux
 
 \RequirePackage{amsmath}
 \RequirePackage{amsthm}		% tres bon mode mathematique
@@ -37,6 +40,18 @@
 \RequirePackage{multicol}	% pour {\'e}crire dans certaines zones en colonnes : \begin{multicols}{nb colonnes}...\end{multicols} 
 
 \RequirePackage{vmargin}
+\RequirePackage{epsfig}     % pour gerer les images
+
+\RequirePackage{tikzpeople}
+
+%% Colors
+\definecolor{verylightred}{rgb}{1.0,0.9,0.9}
+\definecolor{lightred}{rgb}{1.0,0.75,0.75}
+\definecolor{red}{rgb}{1.0,0.5,0.5}
+
+\def\CELLblackTXTWhite{\cellcolor{black} \color{white}}
+\def\CELLredTXTWhite{\cellcolor{red} \color{black}}
+\def\CELLwhiteTXTWhite{\cellcolor{white} \color{black}}
 
 %% Commands
 
@@ -47,5 +62,14 @@
 \newcommand{\headerNameClass}[2]{
 	Name (Classe) : #1 (#2)
 }
+
+\newcommand{\CaracByFive}[5]{
+	#1	&	#2	&	#3	&	#4	&	#5	
+}
+
+\newcommand{\CaracANYone}[1]{
+	#1	
+}
+
 
 
