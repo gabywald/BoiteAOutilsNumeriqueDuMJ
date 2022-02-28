@@ -1,0 +1,22 @@
+## Rôle / Classe	English	Capacité de Rôle (base 4)
+## INT	REF	DEX	TECH	PRE	VOL	CHA	MOUV	COR	EMP
+Corporatiste	Corporate	Travail d'équipe
+	5	7	3	3	6	7	6	5	5	7
+Fixer	Fixer	Intermédiaire
+	8	7	5	5	6	7	7	5	3	6
+Justicier	Cop	Renforts
+	7	6	5	5	7	8	5	6	7	4
+Média	Reporter	Crédibilité
+	7	5	5	4	8	7	6	7	5	8
+MedTechie	MedTech	Médecine
+	8	5	5	8	5	5	6	6	5	6
+Netrunner	NetRunner	Interface
+	6	6	6	7	8	4	7	7	6	6
+Nomade	Nomad	Moto
+	7	6	8	4	6	6	6	5	6	5
+Rockeur	RockerBoy	Charisme Irrésistible
+	5	6	7	5	7	8	5	7	3	7
+Solo	Solo	Conscience Tactique
+	7	7	6	5	7	6	6	7	7	5
+Techie	Tech	Bricolage
+	8	7	5	6	3	3	7	6	6	7

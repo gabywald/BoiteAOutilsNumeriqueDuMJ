@@ -45,14 +45,14 @@ ARMORHEADDESC	Tête
 ARMORTORSODESC	Torse
 ARMORHEADVALUE	15
 ARMORTORSOVALUE	15
-BACKGROUND	Issu d'un gang
-MOTIVATION	Sensations fortes
-GOALS	Laisser les démons derrières
-FRIENDS	Partages d'intérêts
-ENEMIES	Anciens Concurrents
-ROMANCE	Amante devenue folle (causé par employeur)
+BACKGROUND	Issu d'un gang. 
+MOTIVATION	Sensations fortes. 
+GOALS	Laisser les démons derrières. 
+FRIENDS	Partages d'intérêts. 
+ENEMIES	Anciens Concurrents. 
+ROMANCE	Amante devenue folle (causé par employeur). 
 PERSONALITY	Stable et réfléchi
-CyberWarePartOne	CyberOptique \newline Cablage d'interface pour pilotage
+CyberWarePartOne	CyberOptique \newline Cablage d'interface (pilotage)
 CyberWarePartTwo	\resizebox{0.46\linewidth}{25pt}{\includegraphics{../../../../../images/pixel.png}}
 GearPartOne	Agent \newline Véhicule (6 places)
 GearPartTwo	\resizebox{0.46\linewidth}{25pt}{\includegraphics{../../../../../images/pixel.png}}
@@ -107,13 +107,13 @@ ARMORHEADDESC	Tête
 ARMORTORSODESC	Torse
 ARMORHEADVALUE	11
 ARMORTORSOVALUE	11
-BACKGROUND	Issu d'un gang
-MOTIVATION	Sensations fortes
-GOALS	Laisser les démons derrières
-FRIENDS	Partages d'intérêts
-ENEMIES	Anciens Concurrents
-ROMANCE	Amante devenue folle (causé par employeur)
-PERSONALITY	Stable et réfléchi
+BACKGROUND	Famille ruinée. 
+MOTIVATION	Vengeance. 
+GOALS	Traquer un traitre (une opération ratée).  
+FRIENDS	--- 
+ENEMIES	Un ancien partenaire
+ROMANCE	Amant mort dans un accident. 
+PERSONALITY	Stable et réfléchi. 
 CyberWarePartOne	Interface neurale de connexion \newline CyberBras
 CyberWarePartTwo	\resizebox{0.46\linewidth}{25pt}{\includegraphics{../../../../../images/pixel.png}}
 GearPartOne	Agent \newline Boite à outils
@@ -169,17 +169,443 @@ ARMORHEADDESC	Tête
 ARMORTORSODESC	Torse
 ARMORHEADVALUE	7
 ARMORTORSOVALUE	7
-BACKGROUND	Victime d'un attentat terroriste (origine vocation)
-MOTIVATION	Le Savoir
-GOALS	Informer (en plus de l'enquête)
-FRIENDS	Gangs, Corporations
-ENEMIES	Anciens Employeurs
-ROMANCE	Doublé par un rival
-PERSONALITY	Chaleureux et extroiverti
+BACKGROUND	Victime d'un attentat terroriste (origine vocation). 
+MOTIVATION	Le Savoir. 
+GOALS	Informer (en plus de l'enquête). 
+FRIENDS	Gangs, Corporations. 
+ENEMIES	Anciens Employeurs. 
+ROMANCE	Doublé par un rival. 
+PERSONALITY	Chaleureux et extroverti. 
 CyberWarePartOne	CyberOptique (enregistrement) \newline Cablage Auditif (téléphone)
 CyberWarePartTwo	\resizebox{0.46\linewidth}{25pt}{\includegraphics{../../../../../images/pixel.png}}
 GearPartOne	Agent \newline Découpeur (cable monofilament)
 GearPartTwo	\resizebox{0.46\linewidth}{25pt}{\includegraphics{../../../../../images/pixel.png}}
 WEAPONNAME	Pistolet Lourd
 WEAPONDAMAGE	3d6
+END personnae
+
+BEGIN personnae
+NAME	Red Eye
+CLASS	NetRunner
+ICON	NONE
+INT	6
+REF	9
+DEX	8
+TECH	6
+COOL	8
+WILL	5
+LUCK	8
+MOVE	6
+BODY	5
+EMP	6
+HEALPOINTS	25
+ARMORSPHEAD	11
+ARMORSPBODY	11
+StartingHITS	25
+SERIOUSLYWOUNDED	13
+DEATHSAVE	6
+Perception	4
+Tracking	6
+Education	6
+LocalExpert	2
+Marksmanship	\dotfill
+Driving	\dotfill
+Evasion	3
+Athletics	2
+Stealth	6
+Brawling	4
+MeleeWeapon	3
+BasicTech	3
+CyberTech	\dotfill
+FirstAid	\dotfill
+Bribery	\dotfill
+Interrogation	\dotfill
+Persuasion	\dotfill
+Concentration	6
+Conversation	\dotfill
+HumanPerception	\dotfill
+PlayInstrument	\dotfill
+Interface	7
+ARMORDESC	Combinaison Latex Améliorée
+ARMORHEADDESC	Tête
+ARMORTORSODESC	Torse
+ARMORHEADVALUE	11
+ARMORTORSOVALUE	11
+BACKGROUND	Ma famille est poursuivie par une vendetta qui dure depuisn des générations. 
+MOTIVATION	La Vengeance. 
+GOALS	Me débarasser de ma mauvaise réputation. 
+FRIENDS	Il / Elle est comme un père / une mère. 
+ENEMIES	Ennemi d'enfance. 
+ROMANCE	Votre amant a été enlevé. 
+PERSONALITY	Discrète et maniplatrice
+CyberWarePartOne	Interface neuronale de connexion. 
+CyberWarePartTwo	\resizebox{0.46\linewidth}{25pt}{\includegraphics{../../../../../images/pixel.png}}
+GearPartOne	Agent \newline CyberConsole et cables. 
+GearPartTwo	Logiciels : \newline Speedu, Bannissement, Tir de barrage, Cerbère
+WEAPONNAME	Pistolet Lourd
+WEAPONDAMAGE	3d6
+END personnae
+
+BEGIN personnae
+NAME	Torch
+CLASS	TECH
+ICON	NONE
+INT	8
+REF	8
+DEX	5
+TECH	10
+COOL	4
+WILL	4
+LUCK	7
+MOVE	6
+BODY	5
+EMP	5
+HEALPOINTS	25
+ARMORSPHEAD	11
+ARMORSPBODY	11
+StartingHITS	25
+SERIOUSLYWOUNDED	13
+DEATHSAVE	6
+Perception	4
+Tracking	\dotfill
+Education	6
+LocalExpert	4
+Marksmanship	\dotfill
+Driving	4
+Evasion	5
+Athletics	3
+Stealth	\dotfill
+Brawling	3
+MeleeWeapon	3
+BasicTech	3
+CyberTech	5
+FirstAid	\dotfill
+Bribery	\dotfill
+Interrogation	\dotfill
+Persuasion	3
+Concentration	4
+Conversation	\dotfill
+HumanPerception	\dotfill
+PlayInstrument	\dotfill
+Interface	\dotfill
+ARMORDESC	Kevlar
+ARMORHEADDESC	Tête
+ARMORTORSODESC	Torse
+ARMORHEADVALUE	11
+ARMORTORSOVALUE	11
+BACKGROUND	Votre famille a tout perdu à cause d'une mauvaise gestion.  
+MOTIVATION	Le Savoir. 
+GOALS	Reprendre ce qui m'appartient de droit
+FRIENDS	<<A very good bro !>>
+ENEMIES	Un chef de Corpo.  
+ROMANCE	Crazy Girl. 
+PERSONALITY	Stable et réfléchi 
+CyberWarePartOne	Cyberbras (super poingts 2d6) \newline CyberOptique (caméra)
+CyberWarePartTwo	\resizebox{0.46\linewidth}{25pt}{\includegraphics{../../../../../images/pixel.png}}
+GearPartOne	Agent \newline Boite à outils. 
+GearPartTwo	\resizebox{0.46\linewidth}{25pt}{\includegraphics{../../../../../images/pixel.png}}
+WEAPONNAME	Pistolet Lourd \newline Fusil à pompe
+WEAPONDAMAGE	3d6 \newline 5d6
+END personnae
+
+BEGIN personnae
+NAME	Irina Toss
+CLASS	FIXER / Garde du corps
+ICON	NONE
+INT	7
+REF	10
+DEX	9
+TECH	5
+COOL	7
+WILL	10
+LUCK	10
+MOVE	7
+BODY	7
+EMP	4
+HEALPOINTS	35
+ARMORSPHEAD	7
+ARMORSPBODY	7
+StartingHITS	35
+SERIOUSLYWOUNDED	18
+DEATHSAVE	9
+Perception	7
+Tracking	\dotfill
+Education	\dotfill
+LocalExpert	\dotfill
+Marksmanship	\dotfill
+Driving	7
+Evasion	\dotfill
+Athletics	7
+Stealth	7
+Brawling	7
+MeleeWeapon	2
+BasicTech	\dotfill
+CyberTech	\dotfill
+FirstAid	\dotfill
+Bribery	5
+Interrogation	\dotfill
+Persuasion	2
+Concentration	4
+Conversation	\dotfill
+HumanPerception	5
+PlayInstrument	\dotfill
+Interface	\dotfill
+ARMORDESC	Tenue PareBalle légère
+ARMORHEADDESC	Tête
+ARMORTORSODESC	Torse
+ARMORHEADVALUE	7
+ARMORTORSOVALUE	7
+BACKGROUND	Éduquée dans une corporation liée aux Yakuzas 
+MOTIVATION	L'argent. 
+GOALS	Devenir importante / puissante.  
+FRIENDS	Yakuzas et gangs. 
+ENEMIES	Police et corporations de sécurité. 
+ROMANCE	Amant devenu fou. 
+PERSONALITY	Lucide et froide.  
+CyberWarePartOne	MétaGriffes (rétractables). 
+CyberWarePartTwo	\resizebox{0.46\linewidth}{25pt}{\includegraphics{../../../../../images/pixel.png}}
+GearPartOne	Agent \newline Découpeur (cable monofilament)
+GearPartTwo	\resizebox{0.46\linewidth}{25pt}{\includegraphics{../../../../../images/pixel.png}}
+WEAPONNAME	Métagriffes
+WEAPONDAMAGE	5d6
+END personnae
+
+BEGIN personnae
+NAME	Sandra Vitteker
+CLASS	SOLO
+ICON	NONE
+INT	7
+REF	9
+DEX	6
+TECH	4
+COOL	4
+WILL	5
+LUCK	6
+MOVE	6
+BODY	8
+EMP	4
+HEALPOINTS	40
+ARMORSPHEAD	15
+ARMORSPBODY	15
+StartingHITS	40
+SERIOUSLYWOUNDED	20
+DEATHSAVE	8
+Perception	3
+Tracking	\dotfill
+Education	2
+LocalExpert	3
+Marksmanship	5
+Driving	7
+Evasion	5
+Athletics	\dotfill
+Stealth	3
+Brawling	\dotfill
+MeleeWeapon	5
+BasicTech	\dotfill
+CyberTech	\dotfill
+FirstAid	\dotfill
+Bribery	\dotfill
+Interrogation	3
+Persuasion	2
+Concentration	\dotfill
+Conversation	\dotfill
+HumanPerception	\dotfill
+PlayInstrument	7
+Interface	\dotfill
+ARMORDESC	Tenue PareBalle
+ARMORHEADDESC	Tête
+ARMORTORSODESC	Torse
+ARMORHEADVALUE	15
+ARMORTORSOVALUE	15
+BACKGROUND	Famille Tuée, seule survivante.  
+MOTIVATION	L'argent
+GOALS	Être crainte et respectée. 
+FRIENDS	Un mentor (membre d'une corporation). 
+ENEMIES	Cadre Corporatiste (Yakuza). 
+ROMANCE	Amant mort dans un accident. 
+PERSONALITY	Stable et réfléchie. 
+CyberWarePartOne	CyberOptique de visée (tir précis +1) \newline Prise sd'interface neurale (pilotage). 
+CyberWarePartTwo	\resizebox{0.46\linewidth}{25pt}{\includegraphics{../../../../../images/pixel.png}}
+GearPartOne	Agent
+GearPartTwo	\resizebox{0.46\linewidth}{25pt}{\includegraphics{../../../../../images/pixel.png}}
+WEAPONNAME	Pistolet Lourd \newline Fusil d'assaut
+WEAPONDAMAGE	3d6 \newline 5d6
+END personnae
+
+BEGIN personnae
+NAME	Jeremiah Steel
+CLASS	NetRunner
+ICON	NONE
+INT	7
+REF	9
+DEX	10
+TECH	7
+COOL	8
+WILL	6
+LUCK	8
+MOVE	7
+BODY	7
+EMP	5
+HEALPOINTS	35
+ARMORSPHEAD	11
+ARMORSPBODY	11
+StartingHITS	35
+SERIOUSLYWOUNDED	18
+DEATHSAVE	9
+Perception	3
+Tracking	\dotfill
+Education	6
+LocalExpert	2
+Marksmanship	\dotfill
+Driving	\dotfill
+Evasion	\dotfill
+Athletics	2
+Stealth	3
+Brawling	4
+MeleeWeapon	\dotfill
+BasicTech	4
+PlayInstrument	\dotfill
+Interface	\dotfill
+ARMORDESC	Combinaison connectée
+ARMORHEADDESC	Tête
+ARMORTORSODESC	Torse
+ARMORHEADVALUE	11
+ARMORTORSOVALUE	11
+BACKGROUND	Famille pauvre et Gangs.  
+MOTIVATION	Les plaisirs de la vie. 
+GOALS	Aime l'action et le danger. 
+FRIENDS	Hacker et NetRunner (un gang). 
+ENEMIES	Gang de booster. 
+ROMANCE	Liaison temporaire (cadre corporatiste). 
+PERSONALITY	Imprudent et tétu. 
+CyberWarePartOne	Interface neurale. 
+CyberWarePartTwo	\resizebox{0.46\linewidth}{25pt}{\includegraphics{../../../../../images/pixel.png}}
+GearPartOne	Agent \newline cyberconsole et cables. 
+GearPartTwo	Programmes et logiciels d'attaque, de défense et vitesse. 
+WEAPONNAME	Pistolet Lourd
+WEAPONDAMAGE	3d6
+END personnae
+
+BEGIN personnae
+NAME	Mover
+CLASS	SOLO
+ICON	NONE
+INT	6
+REF	10
+DEX	7
+TECH	4
+COOL	8
+WILL	10
+LUCK	5
+MOVE	7
+BODY	9
+EMP	5
+HEALPOINTS	45
+ARMORSPHEAD	15
+ARMORSPBODY	15
+StartingHITS	45
+SERIOUSLYWOUNDED	23
+DEATHSAVE	11
+Perception	5
+Tracking	\dotfill
+Education	7
+LocalExpert	3
+Marksmanship	6
+Driving	\dotfill
+Evasion	5
+Athletics	5
+Stealth	3
+Brawling	4
+MeleeWeapon	5
+BasicTech	\dotfill
+CyberTech	\dotfill
+FirstAid	\dotfill
+Bribery	\dotfill
+Interrogation	3
+Persuasion	2
+Concentration	4
+Conversation	\dotfill
+HumanPerception	\dotfill
+PlayInstrument	\dotfill
+Interface	\dotfill
+ARMORDESC	Combinaison renforcée
+ARMORHEADDESC	Tête
+ARMORTORSODESC	Torse
+ARMORHEADVALUE	15
+ARMORTORSOVALUE	15
+BACKGROUND	---   
+MOTIVATION	--- 
+GOALS	---  
+FRIENDS	---  
+ENEMIES	---  
+ROMANCE	---  
+PERSONALITY	---  
+CyberWarePartOne	CyberBras (éventreurs, 2d6) \newline CyberJambes (Super Saut) \newline CyberOptique (visée) 
+CyberWarePartTwo	\resizebox{0.46\linewidth}{25pt}{\includegraphics{../../../../../images/pixel.png}}
+GearPartOne	Agent
+GearPartTwo	\resizebox{0.46\linewidth}{25pt}{\includegraphics{../../../../../images/pixel.png}}
+WEAPONNAME	Pistolet Lourd \newline Éventreurs
+WEAPONDAMAGE	3d6 \newline 2d6
+END personnae
+
+BEGIN personnae
+NAME	Grease
+CLASS	FIXER
+ICON	NONE
+INT	10
+REF	5
+DEX	5
+TECH	5
+COOL	5
+WILL	5
+LUCK	10
+MOVE	6
+BODY	5
+EMP	9
+HEALPOINTS	25
+ARMORSPHEAD	11
+ARMORSPBODY	11
+StartingHITS	25
+SERIOUSLYWOUNDED	13
+DEATHSAVE	6
+Perception	3
+Tracking	\dotfill
+Education	3
+LocalExpert	4
+Marksmanship	\dotfill
+Driving	\dotfill
+Evasion	5
+Athletics	4
+Stealth	\dotfill
+Brawling	3
+MeleeWeapon	3
+BasicTech	\dotfill
+CyberTech	\dotfill
+FirstAid	\dotfill
+Bribery	\dotfill
+Interrogation	\dotfill
+Persuasion	5
+Concentration	5
+Conversation	5
+HumanPerception	3
+PlayInstrument	\dotfill
+Interface	\dotfill
+ARMORDESC	Glet Pare Balle
+ARMORHEADDESC	Tête
+ARMORTORSODESC	Torse
+ARMORHEADVALUE	11
+ARMORTORSOVALUE	11
+BACKGROUND	---   
+MOTIVATION	--- 
+GOALS	---  
+FRIENDS	---  
+ENEMIES	---  
+ROMANCE	---  
+PERSONALITY	---  
+CyberWarePartOne	CyberAudio (amplification) \newline CyberOptique (infrarouge) 
+CyberWarePartTwo	\resizebox{0.46\linewidth}{25pt}{\includegraphics{../../../../../images/pixel.png}}
+GearPartOne	Agent avec IA secrétaire. 
+GearPartTwo	\resizebox{0.46\linewidth}{25pt}{\includegraphics{../../../../../images/pixel.png}}
+WEAPONNAME	Pistolet Lourd \newline Pistolet Mitrailleur
+WEAPONDAMAGE	3d6 \newline 2d6
 END personnae
