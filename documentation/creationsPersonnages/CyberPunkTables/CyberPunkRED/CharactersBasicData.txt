@@ -2,21 +2,146 @@
 ## INT	REF	DEX	TECH	PRE	VOL	CHA	MOUV	COR	EMP
 Corporatiste	Corporate	Travail d'équipe
 	5	7	3	3	6	7	6	5	5	7
-Fixer	Fixer	Intermédiaire
-	8	7	5	5	6	7	7	5	3	6
 Justicier	Cop	Renforts
 	7	6	5	5	7	8	5	6	7	4
 Média	Reporter	Crédibilité
 	7	5	5	4	8	7	6	7	5	8
 MedTechie	MedTech	Médecine
 	8	5	5	8	5	5	6	6	5	6
+Fixer	Fixer	Intermédiaire
+	7	6	6	3	6	6	7	5	6	10
+	9	5	5	5	6	6	8	5	5	10
+	7	5	5	5	6	6	10	5	5	9
+	7	6	7	7	7	7	7	7	6	8
+	10	5	5	5	5	5	10	6	5	9
+	9	5	5	5	7	7	10	7	5	9
+	Athletics	+4
+	Brawling	+3
+	Bribery	+5	*
+	Concentration	+5
+	Conversation	+5
+	Education	+3
+	Evasion	+5
+	HumanPerception	+3
+	LocalExpert	+4
+	Marksmanship	+3
+	Perception	+3
+	Persuasion	+4
+	ARMOR	Light ArmorJack	Head	11	Body 11
+	WEAPONS	Heavy Pistol	3d6 Medium SMG	3d6
+	CYBERWARE	CyberAudio (Hearing)	CyberOptics (Low Lights)
+	GEAR	Agent with AI Secretary	100 eurobucks in unmarked bills
 Netrunner	NetRunner	Interface
-	6	6	6	7	8	4	7	7	6	6
+	6	7	10	7	8	4	10	5	5	3
+	7	10	8	6	10	3	10	7	6	4
+	7	9	10	7	8	6	8	7	7	5
+	5	10	7	7	10	4	7	7	5	3
+	6	9	8	6	8	5	8	6	5	6
+	5	9	7	7	8	6	7	6	5	4
+	Athletics	+2
+	BasicTech	+3
+	Brawling	+4
+	Concentration	+6
+	Education	+6
+	Evasion	+3
+	Interface	+7	*
+	LocalExpert	+2
+	Marksmanship	+3
+	Perception	+4
+	Persuasion	+2
+	Stealth	+6
+	ARMOR	Heavy AermorJack	Head	15	Body 15
+	WEAPONS	Rippers	2d6	Shotgun	5d6	Very Heavy Pistol	4d6	
+	CYBERWARE	Interface Plugs
+	GEAR	Agent	CyberDeack and cables	Three Programs and One Black ICE
 Nomade	Nomad	Moto
-	7	6	8	4	6	6	6	5	6	5
+	6	10	9	4	7	9	7	7	5	6
+	5	9	7	5	9	9	9	7	7	3
+	6	8	8	4	7	8	8	5	7	4
+	7	9	7	5	8	8	8	7	7	4
+	7	10	9	5	7	10	10	7	7	4
+	6	8	9	6	8	7	8	7	5	3
+	Athletics	+4
+	Brawling	+4
+	Concentration	+4
+	Driving	+7	*
+	Education	+2
+	Evasion	+5
+	LocalExpert	+5
+	Marksmanship	+5
+	MeleeWeapon	+6
+	Perception	+5
+	Persuasion	+2
+	Tracking	+3
+	ARMOR	Heavy AermorJack	Head	15	Body 15
+	WEAPONS	Rippers	2d6	Shotgun	5d6	Very Heavy Pistol	4d6
+	CYBERWARE	CyberOptic (Low Light)	Rippers
+	GEAR	Agent	GroundCar	
 Rockeur	RockerBoy	Charisme Irrésistible
-	5	6	7	5	7	8	5	7	3	7
+	5	8	5	4	9	8	6	6	10	6
+	5	10	6	3	9	10	6	6	10	4
+	6	10	5	3	9	10	7	5	8	5
+	6	9	5	6	9	9	5	6	8	4
+	5	10	6	3	10	10	6	6	8	4
+	6	10	7	4	8	10	5	7	9	5
+	Athletics	+3
+	Brawling	+2
+	Concentration	+4
+	Education	+2
+	Evasion	+5
+	HumanPerception	+5
+	LocalExpert	+5
+	Marksmanship	+4
+	MeleeWeapon	+3
+	Perception	+3
+	Persuasion	+6
+	PlayInstrument	+6	*
+	ARMOR	Kevlar	Head	7	Body 7
+	WEAPONS	Slice & Dice (monofilament)	2d6	Very Heavy Pistol	4d6
+	CYBERWARE	CyberAudio (Hearing)	Slice and Dice (monofilament)
+	GEAR	Agent	Guitar	
 Solo	Solo	Conscience Tactique
-	7	7	6	5	7	6	6	7	7	5
+	5	8	5	4	9	8	6	6	10	6
+	5	10	6	3	9	10	6	6	10	4
+	6	10	5	3	9	10	7	5	8	5
+	6	9	5	6	9	9	5	6	8	4
+	5	10	6	3	10	10	6	6	8	4
+	6	10	7	4	8	10	5	7	9	5
+	Athletics	+5
+	Brawling	+5
+	Concentration	+4
+	Education	+5
+	Evasion	+5
+	Interrogation	+3	*
+	LocalExpert	+3
+	Marksmanship	+6
+	MeleeWeapon	+5
+	Perception	+5
+	Persuasion	+2
+	Stealth	+3
+	ARMOR	Heavy ArmorJack	Head	15	Body 15
+	WEAPONS	Assault Rifle	5d6	CyberArm	1d6	Knife	1d6	Rippers	2d6
+	CYBERWARE	CyberArms with Rippers	CyberLegs with Jump Boosters	CyberOptic (Targeting)
+	GEAR	Agent
 Techie	Tech	Bricolage
-	8	7	5	6	3	3	7	6	6	7
+	10	10	5	9	3	5	7	6	5	6
+	10	7	6	9	3	5	5	5	6	6
+	10	7	5	10	4	3	7	5	7	6
+	8	8	5	10	4	4	7	6	5	6
+	7	7	7	9	4	3	6	6	6	7
+	10	10	7	8	4	5	6	6	7	6
+	Athletics	+2
+	BasicTech	+7
+	Brawling	+2
+	CyberTech	+5	*
+	Education	+6
+	Evasion	+5
+	LocalExpert	+4
+	Marksmanship	+3
+	MeleeWeapon	+3
+	Perception	+4
+	Persuasion	+3
+	ARMOR	Light ArmorJack	Head	11	Body 11
+	WEAPONS	Big Knucks	2d6	Heavy Pistol	3d6	Shotgun	5d6
+	CYBERWARE	CyberArms with Big Knucks	CyberOptic (Camera)
+	GEAR	Agent	Technical ToolBox and Tools
