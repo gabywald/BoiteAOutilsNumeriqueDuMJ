@@ -22,13 +22,13 @@ def readFileToList( filePath ) :
     listToReturn = data.split( "\n" )
   return listToReturn
 
-def loadFileConfig( nameOfRSC ) : 
+def loadFileConfig( nameOfRSC, paths = 'paths'  ) : 
   """ To read file resources ! """
   ## Use a configuration file ! 'sources.ini' !
   parser = configparser.ConfigParser()
   parser.read( "sources.ini" )
-  if parser.has_option('paths', nameOfRSC):
-    return readFileToList( parser[ "paths" ].get( nameOfRSC ) )
+  if parser.has_option(paths, nameOfRSC):
+    return readFileToList( parser[ paths ].get( nameOfRSC ) )
   else:
     return []
 
@@ -38,16 +38,16 @@ def loadJSONConfig( nameOfRSC, paths = 'paths' ) :
   parser = configparser.ConfigParser()
   parser.read( "sources.ini" )
   if parser.has_option(paths, nameOfRSC):
-    return readFileToJSON( parser[ "paths" ].get( nameOfRSC ) )
+    return readFileToJSON( parser[ paths ].get( nameOfRSC ) )
   else:
     return []
     
-def loadDataConfig( nameOfRSC ) : 
+def loadDataConfig( nameOfRSC, paths = 'data'  ) : 
   """ To read data resources ! """
   ## Use a configuration file ! 'sources.ini' !
   parser = configparser.ConfigParser()
   parser.read( "sources.ini" )
   if parser.has_option('data', nameOfRSC):
-    return parser[ "data" ].get( nameOfRSC )[2:-2].split( ", " )
+    return parser[ paths ].get( nameOfRSC )[2:-2].split( ", " )
   else:
     return []

@@ -23,3 +23,9 @@ dataBaseJSONtest03 = ModuleHelper.loadJSONConfig( "mainDatabase" )
 for element in dataBaseJSONtest03:
   print ( element )
   print ( "*****" )
+
+# basicData = ModuleHelper.loadFileConfig( "basicData" )
+# for line in basicData:
+#   print( line )
+
+
