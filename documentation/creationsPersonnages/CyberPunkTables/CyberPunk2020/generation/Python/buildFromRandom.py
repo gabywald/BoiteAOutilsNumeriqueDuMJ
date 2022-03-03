@@ -10,7 +10,7 @@ __email__ = "gabywald[at]laposte.net"
 __contact__ = "gabywald[at]laposte.net"
 __status__ = "Development"
 
-from Personnae import Personnae
+from PersonnaeCyberPunk2020 import PersonnaeCyberPunk2020
 
 import BiographicDataLoadAndSelect
 from BiographicDataLoadAndSelect import BiographicDataLoad
@@ -27,7 +27,7 @@ skills = BiographicDataLoad.loadSkills()
 ##     print( "%s " %( elt.contents[1] ) )
 
 ## Créer personnae + comparer avec script initial en Perl
-personnaeToOuput = Personnae()
+personnaeToOuput = PersonnaeCyberPunk2020()
 ## Etape 1: Imaginer un concept
 concept = None
 while( (concept == None) or (concept == "") ):

@@ -1,12 +1,23 @@
 #!/usr/bin/python3
 
-class Personnae( object ) :
+__author__ = "Gabriel Chandesris"
+__copyright__ = "CC Gabriel Chandesris (2022)"
+__credits__ = ""
+__licence__ = "GNU GENERAL PUBLIC LICENSE v3"
+__version__ = "1.0.0"
+__maintainer__ = "Gabriel Chandesris"
+__email__ = "gabywald[at]laposte.net"
+__contact__ = "gabywald[at]laposte.net"
+__status__ = "Development"
+
+class PersonnaeCyberPunk2020( object ) :
   def __init__(self,
                name      = None, concept  = None, image     = "img/personnageAnonymous.jpg", 
                title     = None, pv       = None, impact    = None, 
-               san       = None, app      = None, con       = None, 
-               dex       = None, force    = None, tai       = None, 
-               edu       = None, int      = None, pou       = None,  
+               humanite  = None, int      = None, ref       = None, 
+               dex       = None, tech     = None, pres      = None, 
+               vol       = None, cha      = None, mouv      = None, 
+               cor       = None, emp      = None,  
                age       = None, sexe     = None, parrain   = None,  
                argent    = None, metier   = None, divers    = None,  
                biography = [], cyberequip = [], cailloux    = [], 
@@ -15,17 +26,19 @@ class Personnae( object ) :
         self.concept    = concept
         self.image      = image
         self.title      = title
-        self.pv         = pv
         self.impact     = impact
-        self.san        = san
-        self.app        = app
-        self.con        = con
-        self.dex        = dex
-        self.force      = force
-        self.tai        = tai
-        self.edu        = edu
+        self.pv         = pv
+        self.humanite   = humanite
         self.int        = int
-        self.pou        = pou
+        self.ref        = ref
+        self.dex        = dex
+        self.tech       = tech
+        self.pres       = pres
+        self.vol        = vol
+        self.cha        = cha
+        self.mouv       = mouv
+        self.cor        = cor
+        self.emp        = emp
         self.cyberequip = cyberequip
         self.cailloux   = cailloux
         self.programs   = programs
@@ -48,43 +61,44 @@ class Personnae( object ) :
     str += "IMAGE " + self.image + "\n"
     str += "TITLE " + self.title + "\n"
     str += "PV " + self.pv + "\n"
-    str += "IMPACT " + self.impact + "\n"
-    str += "SAN " + self.san + "\n"
-    str += "APP " + self.app + "\n"
-    str += "CON " + self.con + "\n"
-    str += "DEX " + self.dex + "\n"
-    str += "FOR " + self.force + "\n"
-    str += "TAI " + self.tai + "\n"
-    str += "EDU " + self.edu + "\n"
+    str += "HUMANITE " + self.humanite + "\n"
     str += "INT " + self.int + "\n"
-    str += "POU " + self.pou + "\n"
+    str += "REF " + self.ref + "\n"
+    str += "DEX " + self.dex + "\n"
+    str += "TECH " + self.tech + "\n"
+    str += "PRES " + self.pres + "\n"
+    str += "VOL " + self.vol + "\n"
+    str += "CHA " + self.cha + "\n"
+    str += "MOUV " + self.mouv + "\n"
+    str += "COR " + self.cor + "\n"
+    str += "EMP " + self.emp + "\n"
     str += "BEGIN cyberequipement" + "\n"
     for item in self.cyberequip: 
       str += item + "\n"
-    str += "END cyberequipement" + "\n";
+    str += "END cyberequipement" + "\n"
     str += "BEGIN cailloux" + "\n"
     for item in self.cailloux:
       str += item + "\n"
-    str += "END cailloux" + "\n";
-    str += "AGE " + self.age + "\n";
-    str += "SEXE " + self.sexe + "\n";
-    str += "PARRAIN " + self.parrain + "\n";
-    str += "ARGENT " + self.argent + "\n";
-    str += "DIVERS " + self.divers + "\n";
-    str += "METIER " + self.metier + "\n";
-    str += "BEGIN talents" + "\n";
+    str += "END cailloux" + "\n"
+    str += "AGE " + self.age + "\n"
+    str += "SEXE " + self.sexe + "\n"
+    str += "PARRAIN " + self.parrain + "\n"
+    str += "ARGENT " + self.argent + "\n"
+    str += "DIVERS " + self.divers + "\n"
+    str += "METIER " + self.metier + "\n"
+    str += "BEGIN talents" + "\n"
     for item in self.talents:
       str += item + "\n"
-    str += "END talents" + "\n";
-    str += "BEGIN lightbio" + "\n";
+    str += "END talents" + "\n"
+    str += "BEGIN lightbio" + "\n"
     for item in self.lightbio:
       str += item + "\n"
-    str += "END lightbio " + "\n";
-    str += "BEGIN biography" + "\n";
+    str += "END lightbio " + "\n"
+    str += "BEGIN biography" + "\n"
     for item in self.biography:
       str += item + "\n"
-    str += "END biography" + "\n";
-    str += "END personnae" + "\n";
+    str += "END biography" + "\n"
+    str += "END personnae" + "\n"
     return str
   
   def toStringPersonnae(self):

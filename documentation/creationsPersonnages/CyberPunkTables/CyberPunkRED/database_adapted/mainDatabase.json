@@ -222,16 +222,16 @@
 			{ "int":  6 , "ref":  7 , "dex":  6 , "tech":  4 , "cool":  8 , "will":  6 , "luck":  6 , "move":  6 , "body":  6 , "emp":  6  }, 
 			{ "int":  5 , "ref":  6 , "dex":  7 , "tech":  4 , "cool":  7 , "will":  8 , "luck":  7 , "move":  7 , "body":  7 , "emp":  4  }
 		],
-		"Street Scum": [
+		"**Street Scum": [
 			{ "int": 3, "ref": 4, "dex": 7, "tech": 3, "cool": 2, "will": 4, "luck": 0, "move": 4, "body": 4, "emp": 2 }
 		],
-		"Booster": [
+		"**Booster": [
 			{ "int": 4, "ref": 6, "dex": 8, "tech": 3, "cool": 4, "will": 4, "luck": 0, "move": 4, "body": 6, "emp": 3 }
 		],
-		"Private Security": [
+		"**Private Security": [
 			{ "int": 5, "ref": 6, "dex": 8, "tech": 3, "cool": 5, "will": 4, "luck": 0, "move": 4, "body": 5, "emp": 3 }
 		],
-		"EdgeRunner": [
+		"**EdgeRunner": [
 			{ "int":  6 , "ref":  7 , "dex":  7 , "tech":  3 , "cool":  8 , "will":  6 , "luck":  5 , "move":  5 , "body":  6 , "emp":  5  }, 
 			{ "int":  7 , "ref":  8 , "dex":  6 , "tech":  3 , "cool":  6 , "will":  6 , "luck":  7 , "move":  5 , "body":  6 , "emp":  6  }, 
 			{ "int":  5 , "ref":  8 , "dex":  7 , "tech":  4 , "cool":  7 , "will":  7 , "luck":  6 , "move":  7 , "body":  8 , "emp":  5  }, 

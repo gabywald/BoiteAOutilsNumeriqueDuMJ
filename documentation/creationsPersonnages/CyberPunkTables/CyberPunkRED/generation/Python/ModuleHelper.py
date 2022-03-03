@@ -1,5 +1,15 @@
 #!/usr/bin/python3
 
+__author__ = "Gabriel Chandesris"
+__copyright__ = "CC Gabriel Chandesris (2022)"
+__credits__ = ""
+__licence__ = "GNU GENERAL PUBLIC LICENSE v3"
+__version__ = "1.0.0"
+__maintainer__ = "Gabriel Chandesris"
+__email__ = "gabywald[at]laposte.net"
+__contact__ = "gabywald[at]laposte.net"
+__status__ = "Development"
+
 ## Notes : https://docs.python.org/3/library/configparser.html
 import configparser
 
