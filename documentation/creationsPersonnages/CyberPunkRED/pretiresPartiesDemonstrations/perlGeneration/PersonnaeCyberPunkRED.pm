@@ -26,10 +26,10 @@ sub new {
 	$self->{MOVE}	= undef;
 	$self->{BODY}	= undef;
 	$self->{EMP}	= undef;
-	$self->{HEALPOINTS}	= undef;
-	$self->{ARMORSPHEAD}	= undef;
-	$self->{ARMORSPBODY}	= undef;
-	$self->{StartingHITS}	= undef;
+	$self->{HEALPOINTS}			= undef;
+	$self->{ARMORSPHEAD}		= undef;
+	$self->{ARMORSPBODY}		= undef;
+	$self->{StartingHITS}		= undef;
 	$self->{SERIOUSLYWOUNDED}	= undef;
 	$self->{DEATHSAVE}			= undef;
 	$self->{Perception}		= "\\dotfill";

@@ -6,7 +6,6 @@ import configparser
 import json
 import codecs
 
-
 def readFileToJSON( filePath ) : 
   """Read file from path indicated in parameter and return it as a JSON. """
   print ( "[[[" + filePath + "]]]" )

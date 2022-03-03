@@ -1,0 +1,186 @@
+[[[../../database_adapted/mainDatabase.json]]]
+weapons
+*****
+cyberware
+*****
+gears
+*****
+role_stats
+*****
+appearance
+*****
+skills
+*****
+backgroundLIST
+*****
+ennemiesLIST
+*****
+friendsLIST
+*****
+goalsLIST
+*****
+motivationsLIST
+*****
+personnalityLIST
+*****
+romanceLIST
+*****
+armorLIST
+*****
+Rat des rues  =>  EdgeRunner  ( EdgeRunner ). 
+			{ "int":  6 , "ref":  7 , "dex":  7 , "tech":  3 , "cool":  8 , "will":  6 , "luck":  5 , "move":  5 , "body":  6 , "emp":  5  }, 
+			{ "int":  7 , "ref":  8 , "dex":  6 , "tech":  3 , "cool":  6 , "will":  6 , "luck":  7 , "move":  5 , "body":  6 , "emp":  6  }, 
+			{ "int":  5 , "ref":  8 , "dex":  7 , "tech":  4 , "cool":  7 , "will":  7 , "luck":  6 , "move":  7 , "body":  8 , "emp":  5  }, 
+			{ "int":  5 , "ref":  8 , "dex":  6 , "tech":  4 , "cool":  6 , "will":  7 , "luck":  6 , "move":  5 , "body":  7 , "emp":  6  }, 
+			{ "int":  6 , "ref":  6 , "dex":  7 , "tech":  5 , "cool":  7 , "will":  6 , "luck":  7 , "move":  6 , "body":  8 , "emp":  4  }, 
+			{ "int":  7 , "ref":  7 , "dex":  6 , "tech":  5 , "cool":  7 , "will":  6 , "luck":  6 , "move":  7 , "body":  7 , "emp":  5  }, 
+			{ "int":  7 , "ref":  7 , "dex":  6 , "tech":  5 , "cool":  6 , "will":  7 , "luck":  7 , "move":  6 , "body":  6 , "emp":  6  }, 
+			{ "int":  7 , "ref":  8 , "dex":  7 , "tech":  5 , "cool":  6 , "will":  6 , "luck":  5 , "move":  6 , "body":  8 , "emp":  4  }, 
+			{ "int":  7 , "ref":  7 , "dex":  6 , "tech":  4 , "cool":  6 , "will":  6 , "luck":  6 , "move":  5 , "body":  6 , "emp":  5  }, 
+			{ "int":  6 , "ref":  6 , "dex":  8 , "tech":  5 , "cool":  6 , "will":  6 , "luck":  5 , "move":  6 , "body":  6 , "emp":  5  }, 
+Corporatiste  =>  Corporate  ( Travail d'équipe ). 
+			{ "int":  8 , "ref":  5 , "dex":  5 , "tech":  3 , "cool":  8 , "will":  6 , "luck":  6 , "move":  5 , "body":  5 , "emp":  7  }, 
+			{ "int":  8 , "ref":  6 , "dex":  6 , "tech":  4 , "cool":  7 , "will":  6 , "luck":  7 , "move":  7 , "body":  5 , "emp":  7  }, 
+			{ "int":  8 , "ref":  7 , "dex":  6 , "tech":  3 , "cool":  8 , "will":  6 , "luck":  7 , "move":  6 , "body":  4 , "emp":  5  }, 
+			{ "int":  8 , "ref":  5 , "dex":  7 , "tech":  5 , "cool":  6 , "will":  5 , "luck":  6 , "move":  5 , "body":  5 , "emp":  7  }, 
+			{ "int":  7 , "ref":  7 , "dex":  6 , "tech":  5 , "cool":  8 , "will":  5 , "luck":  7 , "move":  7 , "body":  5 , "emp":  5  }, 
+			{ "int":  5 , "ref":  7 , "dex":  7 , "tech":  3 , "cool":  6 , "will":  7 , "luck":  6 , "move":  5 , "body":  5 , "emp":  7  }, 
+			{ "int":  6 , "ref":  6 , "dex":  7 , "tech":  5 , "cool":  8 , "will":  7 , "luck":  6 , "move":  7 , "body":  4 , "emp":  6  }, 
+			{ "int":  6 , "ref":  7 , "dex":  7 , "tech":  3 , "cool":  7 , "will":  5 , "luck":  7 , "move":  5 , "body":  5 , "emp":  7  }, 
+			{ "int":  7 , "ref":  6 , "dex":  7 , "tech":  5 , "cool":  7 , "will":  5 , "luck":  7 , "move":  6 , "body":  5 , "emp":  5  }, 
+			{ "int":  7 , "ref":  7 , "dex":  5 , "tech":  5 , "cool":  8 , "will":  6 , "luck":  6 , "move":  7 , "body":  4 , "emp":  7  }, 
+Justicier  =>  Cop  ( Renforts ). 
+			{ "int":  5 , "ref":  6 , "dex":  7 , "tech":  5 , "cool":  7 , "will":  8 , "luck":  5 , "move":  6 , "body":  5 , "emp":  6  }, 
+			{ "int":  6 , "ref":  6 , "dex":  6 , "tech":  5 , "cool":  6 , "will":  8 , "luck":  5 , "move":  7 , "body":  5 , "emp":  5  }, 
+			{ "int":  5 , "ref":  7 , "dex":  7 , "tech":  7 , "cool":  6 , "will":  7 , "luck":  5 , "move":  5 , "body":  7 , "emp":  6  }, 
+			{ "int":  6 , "ref":  6 , "dex":  7 , "tech":  6 , "cool":  6 , "will":  8 , "luck":  5 , "move":  7 , "body":  7 , "emp":  6  }, 
+			{ "int":  6 , "ref":  6 , "dex":  7 , "tech":  6 , "cool":  7 , "will":  7 , "luck":  6 , "move":  5 , "body":  5 , "emp":  6  }, 
+			{ "int":  7 , "ref":  6 , "dex":  5 , "tech":  5 , "cool":  7 , "will":  8 , "luck":  5 , "move":  6 , "body":  7 , "emp":  4  }, 
+			{ "int":  7 , "ref":  8 , "dex":  7 , "tech":  5 , "cool":  6 , "will":  8 , "luck":  7 , "move":  6 , "body":  5 , "emp":  4  }, 
+			{ "int":  5 , "ref":  6 , "dex":  6 , "tech":  5 , "cool":  6 , "will":  8 , "luck":  5 , "move":  7 , "body":  6 , "emp":  4  }, 
+			{ "int":  7 , "ref":  7 , "dex":  5 , "tech":  5 , "cool":  7 , "will":  7 , "luck":  6 , "move":  5 , "body":  5 , "emp":  6  }, 
+			{ "int":  6 , "ref":  6 , "dex":  5 , "tech":  6 , "cool":  8 , "will":  7 , "luck":  5 , "move":  7 , "body":  6 , "emp":  6  }, 
+Média  =>  Media  ( Crédibilité ). 
+			{ "int":  6 , "ref":  6 , "dex":  5 , "tech":  5 , "cool":  8 , "will":  7 , "luck":  5 , "move":  7 , "body":  5 , "emp":  7  }, 
+			{ "int":  8 , "ref":  7 , "dex":  7 , "tech":  3 , "cool":  6 , "will":  6 , "luck":  6 , "move":  5 , "body":  6 , "emp":  8  }, 
+			{ "int":  6 , "ref":  7 , "dex":  7 , "tech":  5 , "cool":  6 , "will":  8 , "luck":  5 , "move":  5 , "body":  5 , "emp":  7  }, 
+			{ "int":  6 , "ref":  5 , "dex":  7 , "tech":  5 , "cool":  6 , "will":  7 , "luck":  5 , "move":  5 , "body":  6 , "emp":  6  }, 
+			{ "int":  6 , "ref":  6 , "dex":  7 , "tech":  4 , "cool":  8 , "will":  7 , "luck":  6 , "move":  7 , "body":  5 , "emp":  8  }, 
+			{ "int":  7 , "ref":  5 , "dex":  5 , "tech":  4 , "cool":  8 , "will":  7 , "luck":  6 , "move":  7 , "body":  5 , "emp":  8  }, 
+			{ "int":  8 , "ref":  5 , "dex":  6 , "tech":  3 , "cool":  7 , "will":  6 , "luck":  6 , "move":  5 , "body":  6 , "emp":  7  }, 
+			{ "int":  6 , "ref":  5 , "dex":  6 , "tech":  5 , "cool":  6 , "will":  8 , "luck":  6 , "move":  6 , "body":  7 , "emp":  8  }, 
+			{ "int":  7 , "ref":  7 , "dex":  5 , "tech":  4 , "cool":  6 , "will":  7 , "luck":  6 , "move":  5 , "body":  6 , "emp":  7  }, 
+			{ "int":  7 , "ref":  6 , "dex":  6 , "tech":  3 , "cool":  7 , "will":  6 , "luck":  7 , "move":  6 , "body":  7 , "emp":  6  }, 
+MedTechie  =>  MedTech  ( Médecine ). 
+			{ "int":  7 , "ref":  5 , "dex":  6 , "tech":  7 , "cool":  5 , "will":  3 , "luck":  8 , "move":  5 , "body":  5 , "emp":  7  }, 
+			{ "int":  6 , "ref":  7 , "dex":  7 , "tech":  7 , "cool":  4 , "will":  4 , "luck":  6 , "move":  7 , "body":  7 , "emp":  7  }, 
+			{ "int":  6 , "ref":  5 , "dex":  5 , "tech":  8 , "cool":  5 , "will":  3 , "luck":  8 , "move":  5 , "body":  7 , "emp":  8  }, 
+			{ "int":  8 , "ref":  7 , "dex":  6 , "tech":  8 , "cool":  3 , "will":  5 , "luck":  6 , "move":  6 , "body":  5 , "emp":  7  }, 
+			{ "int":  6 , "ref":  7 , "dex":  5 , "tech":  7 , "cool":  5 , "will":  5 , "luck":  8 , "move":  7 , "body":  6 , "emp":  8  }, 
+			{ "int":  8 , "ref":  5 , "dex":  5 , "tech":  8 , "cool":  5 , "will":  5 , "luck":  6 , "move":  6 , "body":  5 , "emp":  6  }, 
+			{ "int":  8 , "ref":  6 , "dex":  5 , "tech":  8 , "cool":  5 , "will":  4 , "luck":  8 , "move":  5 , "body":  7 , "emp":  7  }, 
+			{ "int":  6 , "ref":  5 , "dex":  7 , "tech":  7 , "cool":  3 , "will":  5 , "luck":  8 , "move":  5 , "body":  5 , "emp":  8  }, 
+			{ "int":  6 , "ref":  6 , "dex":  7 , "tech":  7 , "cool":  5 , "will":  4 , "luck":  6 , "move":  6 , "body":  5 , "emp":  6  }, 
+			{ "int":  8 , "ref":  7 , "dex":  6 , "tech":  6 , "cool":  3 , "will":  4 , "luck":  8 , "move":  7 , "body":  6 , "emp":  7  }, 
+Fixer  =>  Fixer  ( Intermédiaire ). 
+			{ "int":  7 , "ref":  6 , "dex":  6 , "tech":  3 , "cool":  6 , "will":  6 , "luck":  7 , "move":  5 , "body":  6 , "emp":  10  }, 
+			{ "int":  9 , "ref":  5 , "dex":  5 , "tech":  5 , "cool":  6 , "will":  6 , "luck":  8 , "move":  5 , "body":  5 , "emp":  10  }, 
+			{ "int":  7 , "ref":  5 , "dex":  5 , "tech":  5 , "cool":  6 , "will":  6 , "luck":  10 , "move":  5 , "body":  5 , "emp":  9  }, 
+			{ "int":  7 , "ref":  6 , "dex":  7 , "tech":  7 , "cool":  7 , "will":  7 , "luck":  7 , "move":  7 , "body":  6 , "emp":  8  }, 
+			{ "int":  10 , "ref":  5 , "dex":  5 , "tech":  5 , "cool":  5 , "will":  5 , "luck":  10 , "move":  6 , "body":  5 , "emp":  9  }, 
+			{ "int":  9 , "ref":  5 , "dex":  5 , "tech":  5 , "cool":  7 , "will":  7 , "luck":  10 , "move":  7 , "body":  5 , "emp":  9  }, 
+			{ "int":  8 , "ref":  5 , "dex":  7 , "tech":  4 , "cool":  6 , "will":  5 , "luck":  8 , "move":  5 , "body":  5 , "emp":  8  }, 
+			{ "int":  8 , "ref":  5 , "dex":  5 , "tech":  5 , "cool":  6 , "will":  7 , "luck":  8 , "move":  7 , "body":  5 , "emp":  7  }, 
+			{ "int":  6 , "ref":  6 , "dex":  6 , "tech":  4 , "cool":  5 , "will":  6 , "luck":  8 , "move":  6 , "body":  3 , "emp":  8  }, 
+			{ "int":  7 , "ref":  7 , "dex":  5 , "tech":  5 , "cool":  7 , "will":  6 , "luck":  7 , "move":  7 , "body":  5 , "emp":  8  }, 
+			{ "int":  8 , "ref":  6 , "dex":  6 , "tech":  3 , "cool":  6 , "will":  5 , "luck":  8 , "move":  7 , "body":  5 , "emp":  6  }, 
+			{ "int":  8 , "ref":  7 , "dex":  5 , "tech":  5 , "cool":  6 , "will":  7 , "luck":  7 , "move":  5 , "body":  3 , "emp":  6  }, 
+			{ "int":  8 , "ref":  6 , "dex":  6 , "tech":  5 , "cool":  6 , "will":  5 , "luck":  6 , "move":  7 , "body":  5 , "emp":  8  }, 
+			{ "int":  6 , "ref":  6 , "dex":  7 , "tech":  4 , "cool":  7 , "will":  6 , "luck":  7 , "move":  7 , "body":  4 , "emp":  7  }, 
+			{ "int":  8 , "ref":  7 , "dex":  7 , "tech":  5 , "cool":  5 , "will":  5 , "luck":  7 , "move":  6 , "body":  5 , "emp":  7  }, 
+			{ "int":  6 , "ref":  5 , "dex":  6 , "tech":  5 , "cool":  5 , "will":  6 , "luck":  8 , "move":  6 , "body":  4 , "emp":  7  }, 
+Netrunner  =>  NetRunner  ( Interface ). 
+			{ "int":  6 , "ref":  7 , "dex":  10 , "tech":  7 , "cool":  8 , "will":  4 , "luck":  10 , "move":  5 , "body":  5 , "emp":  3  }, 
+			{ "int":  7 , "ref":  10 , "dex":  8 , "tech":  6 , "cool":  10 , "will":  3 , "luck":  10 , "move":  7 , "body":  6 , "emp":  4  }, 
+			{ "int":  7 , "ref":  9 , "dex":  10 , "tech":  7 , "cool":  8 , "will":  6 , "luck":  8 , "move":  7 , "body":  7 , "emp":  5  }, 
+			{ "int":  5 , "ref":  10 , "dex":  7 , "tech":  7 , "cool":  10 , "will":  4 , "luck":  7 , "move":  7 , "body":  5 , "emp":  3  }, 
+			{ "int":  6 , "ref":  9 , "dex":  8 , "tech":  6 , "cool":  8 , "will":  5 , "luck":  8 , "move":  6 , "body":  5 , "emp":  6  }, 
+			{ "int":  5 , "ref":  9 , "dex":  7 , "tech":  7 , "cool":  8 , "will":  6 , "luck":  7 , "move":  6 , "body":  5 , "emp":  4  }, 
+			{ "int":  5 , "ref":  8 , "dex":  7 , "tech":  7 , "cool":  7 , "will":  4 , "luck":  8 , "move":  7 , "body":  7 , "emp":  4  }, 
+			{ "int":  5 , "ref":  6 , "dex":  7 , "tech":  5 , "cool":  8 , "will":  3 , "luck":  8 , "move":  7 , "body":  5 , "emp":  5  }, 
+			{ "int":  5 , "ref":  6 , "dex":  8 , "tech":  6 , "cool":  6 , "will":  4 , "luck":  7 , "move":  6 , "body":  7 , "emp":  4  }, 
+			{ "int":  5 , "ref":  7 , "dex":  7 , "tech":  7 , "cool":  7 , "will":  5 , "luck":  8 , "move":  6 , "body":  5 , "emp":  5  }, 
+			{ "int":  5 , "ref":  8 , "dex":  8 , "tech":  5 , "cool":  7 , "will":  3 , "luck":  7 , "move":  5 , "body":  5 , "emp":  6  }, 
+			{ "int":  6 , "ref":  6 , "dex":  6 , "tech":  7 , "cool":  8 , "will":  4 , "luck":  7 , "move":  7 , "body":  6 , "emp":  6  }, 
+			{ "int":  6 , "ref":  6 , "dex":  6 , "tech":  7 , "cool":  6 , "will":  5 , "luck":  7 , "move":  7 , "body":  7 , "emp":  6  }, 
+			{ "int":  5 , "ref":  7 , "dex":  8 , "tech":  6 , "cool":  8 , "will":  4 , "luck":  8 , "move":  5 , "body":  7 , "emp":  4  }, 
+			{ "int":  7 , "ref":  6 , "dex":  7 , "tech":  7 , "cool":  6 , "will":  3 , "luck":  6 , "move":  5 , "body":  6 , "emp":  5  }, 
+			{ "int":  7 , "ref":  8 , "dex":  6 , "tech":  6 , "cool":  6 , "will":  4 , "luck":  7 , "move":  7 , "body":  5 , "emp":  6  }, 
+Nomade  =>  Nomad  ( Moto ). 
+			{ "int":  6 , "ref":  10 , "dex":  9 , "tech":  4 , "cool":  7 , "will":  9 , "luck":  7 , "move":  7 , "body":  5 , "emp":  6  }, 
+			{ "int":  5 , "ref":  9 , "dex":  7 , "tech":  5 , "cool":  9 , "will":  9 , "luck":  9 , "move":  7 , "body":  7 , "emp":  3  }, 
+			{ "int":  6 , "ref":  8 , "dex":  8 , "tech":  4 , "cool":  7 , "will":  8 , "luck":  8 , "move":  5 , "body":  7 , "emp":  4  }, 
+			{ "int":  7 , "ref":  9 , "dex":  7 , "tech":  5 , "cool":  8 , "will":  8 , "luck":  8 , "move":  7 , "body":  7 , "emp":  4  }, 
+			{ "int":  7 , "ref":  10 , "dex":  9 , "tech":  5 , "cool":  7 , "will":  10 , "luck":  10 , "move":  7 , "body":  7 , "emp":  4  }, 
+			{ "int":  6 , "ref":  8 , "dex":  9 , "tech":  6 , "cool":  8 , "will":  7 , "luck":  8 , "move":  7 , "body":  5 , "emp":  3  }, 
+			{ "int":  6 , "ref":  6 , "dex":  8 , "tech":  3 , "cool":  6 , "will":  7 , "luck":  6 , "move":  6 , "body":  6 , "emp":  4  }, 
+			{ "int":  5 , "ref":  7 , "dex":  6 , "tech":  5 , "cool":  8 , "will":  8 , "luck":  8 , "move":  7 , "body":  5 , "emp":  4  }, 
+			{ "int":  5 , "ref":  8 , "dex":  6 , "tech":  3 , "cool":  8 , "will":  7 , "luck":  6 , "move":  5 , "body":  6 , "emp":  4  }, 
+			{ "int":  5 , "ref":  8 , "dex":  7 , "tech":  4 , "cool":  8 , "will":  7 , "luck":  6 , "move":  5 , "body":  6 , "emp":  5  }, 
+			{ "int":  6 , "ref":  6 , "dex":  6 , "tech":  3 , "cool":  6 , "will":  7 , "luck":  6 , "move":  7 , "body":  7 , "emp":  4  }, 
+			{ "int":  7 , "ref":  6 , "dex":  8 , "tech":  4 , "cool":  6 , "will":  7 , "luck":  6 , "move":  5 , "body":  6 , "emp":  5  }, 
+			{ "int":  6 , "ref":  7 , "dex":  8 , "tech":  4 , "cool":  6 , "will":  6 , "luck":  7 , "move":  5 , "body":  7 , "emp":  5  }, 
+			{ "int":  5 , "ref":  7 , "dex":  8 , "tech":  3 , "cool":  8 , "will":  6 , "luck":  7 , "move":  5 , "body":  5 , "emp":  5  }, 
+			{ "int":  6 , "ref":  7 , "dex":  6 , "tech":  4 , "cool":  8 , "will":  6 , "luck":  6 , "move":  6 , "body":  6 , "emp":  6  }, 
+			{ "int":  5 , "ref":  6 , "dex":  7 , "tech":  4 , "cool":  7 , "will":  8 , "luck":  7 , "move":  7 , "body":  7 , "emp":  4  }, 
+Rockeur  =>  RockerBoy  ( Charisme Irrésistible ). 
+			{ "int":  5 , "ref":  8 , "dex":  5 , "tech":  4 , "cool":  9 , "will":  8 , "luck":  6 , "move":  6 , "body":  10 , "emp":  6  }, 
+			{ "int":  5 , "ref":  10 , "dex":  6 , "tech":  3 , "cool":  9 , "will":  10 , "luck":  6 , "move":  6 , "body":  10 , "emp":  4  }, 
+			{ "int":  6 , "ref":  10 , "dex":  5 , "tech":  3 , "cool":  9 , "will":  10 , "luck":  7 , "move":  5 , "body":  8 , "emp":  5  }, 
+			{ "int":  6 , "ref":  9 , "dex":  5 , "tech":  6 , "cool":  9 , "will":  9 , "luck":  5 , "move":  6 , "body":  8 , "emp":  4  }, 
+			{ "int":  5 , "ref":  10 , "dex":  6 , "tech":  3 , "cool":  10 , "will":  10 , "luck":  6 , "move":  6 , "body":  8 , "emp":  4  }, 
+			{ "int":  6 , "ref":  10 , "dex":  7 , "tech":  4 , "cool":  8 , "will":  10 , "luck":  5 , "move":  7 , "body":  9 , "emp":  5  }, 
+			{ "int":  7 , "ref":  6 , "dex":  6 , "tech":  5 , "cool":  6 , "will":  8 , "luck":  7 , "move":  7 , "body":  3 , "emp":  8  }, 
+			{ "int":  3 , "ref":  7 , "dex":  7 , "tech":  7 , "cool":  7 , "will":  6 , "luck":  7 , "move":  7 , "body":  5 , "emp":  8  }, 
+			{ "int":  4 , "ref":  5 , "dex":  7 , "tech":  7 , "cool":  6 , "will":  6 , "luck":  7 , "move":  7 , "body":  5 , "emp":  8  }, 
+			{ "int":  4 , "ref":  5 , "dex":  7 , "tech":  7 , "cool":  6 , "will":  8 , "luck":  7 , "move":  6 , "body":  3 , "emp":  8  }, 
+			{ "int":  3 , "ref":  7 , "dex":  7 , "tech":  7 , "cool":  6 , "will":  8 , "luck":  6 , "move":  5 , "body":  4 , "emp":  7  }, 
+			{ "int":  5 , "ref":  6 , "dex":  7 , "tech":  5 , "cool":  7 , "will":  8 , "luck":  5 , "move":  7 , "body":  3 , "emp":  7  }, 
+			{ "int":  5 , "ref":  6 , "dex":  6 , "tech":  7 , "cool":  7 , "will":  8 , "luck":  7 , "move":  6 , "body":  3 , "emp":  6  }, 
+			{ "int":  5 , "ref":  7 , "dex":  7 , "tech":  5 , "cool":  6 , "will":  6 , "luck":  6 , "move":  6 , "body":  4 , "emp":  8  }, 
+			{ "int":  3 , "ref":  5 , "dex":  5 , "tech":  6 , "cool":  7 , "will":  8 , "luck":  7 , "move":  5 , "body":  5 , "emp":  7  }, 
+			{ "int":  4 , "ref":  5 , "dex":  6 , "tech":  5 , "cool":  8 , "will":  8 , "luck":  7 , "move":  6 , "body":  4 , "emp":  7  }, 
+Solo  =>  Solo  ( Conscience Tactique ). 
+			{ "int":  5 , "ref":  8 , "dex":  5 , "tech":  4 , "cool":  9 , "will":  8 , "luck":  6 , "move":  6 , "body":  10 , "emp":  6  }, 
+			{ "int":  5 , "ref":  10 , "dex":  6 , "tech":  3 , "cool":  9 , "will":  10 , "luck":  6 , "move":  6 , "body":  10 , "emp":  4  }, 
+			{ "int":  6 , "ref":  10 , "dex":  5 , "tech":  3 , "cool":  9 , "will":  10 , "luck":  7 , "move":  5 , "body":  8 , "emp":  5  }, 
+			{ "int":  6 , "ref":  9 , "dex":  5 , "tech":  6 , "cool":  9 , "will":  9 , "luck":  5 , "move":  6 , "body":  8 , "emp":  4  }, 
+			{ "int":  5 , "ref":  10 , "dex":  6 , "tech":  3 , "cool":  10 , "will":  10 , "luck":  6 , "move":  6 , "body":  8 , "emp":  4  }, 
+			{ "int":  6 , "ref":  10 , "dex":  7 , "tech":  4 , "cool":  8 , "will":  10 , "luck":  5 , "move":  7 , "body":  9 , "emp":  5  }, 
+			{ "int":  6 , "ref":  7 , "dex":  7 , "tech":  3 , "cool":  8 , "will":  6 , "luck":  5 , "move":  5 , "body":  6 , "emp":  5  }, 
+			{ "int":  7 , "ref":  8 , "dex":  6 , "tech":  3 , "cool":  6 , "will":  6 , "luck":  7 , "move":  5 , "body":  6 , "emp":  6  }, 
+			{ "int":  5 , "ref":  8 , "dex":  7 , "tech":  4 , "cool":  7 , "will":  7 , "luck":  6 , "move":  7 , "body":  6 , "emp":  5  }, 
+			{ "int":  5 , "ref":  8 , "dex":  6 , "tech":  4 , "cool":  6 , "will":  7 , "luck":  6 , "move":  5 , "body":  7 , "emp":  6  }, 
+			{ "int":  6 , "ref":  6 , "dex":  7 , "tech":  5 , "cool":  7 , "will":  6 , "luck":  7 , "move":  6 , "body":  8 , "emp":  4  }, 
+			{ "int":  7 , "ref":  7 , "dex":  6 , "tech":  5 , "cool":  7 , "will":  6 , "luck":  6 , "move":  7 , "body":  7 , "emp":  5  }, 
+			{ "int":  7 , "ref":  7 , "dex":  6 , "tech":  5 , "cool":  6 , "will":  7 , "luck":  7 , "move":  6 , "body":  6 , "emp":  6  }, 
+			{ "int":  7 , "ref":  8 , "dex":  7 , "tech":  5 , "cool":  6 , "will":  6 , "luck":  5 , "move":  6 , "body":  8 , "emp":  4  }, 
+			{ "int":  7 , "ref":  7 , "dex":  6 , "tech":  4 , "cool":  6 , "will":  6 , "luck":  6 , "move":  5 , "body":  6 , "emp":  5  }, 
+			{ "int":  6 , "ref":  6 , "dex":  8 , "tech":  5 , "cool":  6 , "will":  6 , "luck":  5 , "move":  6 , "body":  6 , "emp":  5  }, 
+Techie  =>  Tech  ( Bricolage ). 
+			{ "int":  10 , "ref":  10 , "dex":  5 , "tech":  9 , "cool":  3 , "will":  5 , "luck":  7 , "move":  6 , "body":  5 , "emp":  6  }, 
+			{ "int":  10 , "ref":  7 , "dex":  6 , "tech":  9 , "cool":  3 , "will":  5 , "luck":  5 , "move":  5 , "body":  6 , "emp":  6  }, 
+			{ "int":  10 , "ref":  7 , "dex":  5 , "tech":  10 , "cool":  4 , "will":  3 , "luck":  7 , "move":  5 , "body":  7 , "emp":  6  }, 
+			{ "int":  8 , "ref":  8 , "dex":  5 , "tech":  10 , "cool":  4 , "will":  4 , "luck":  7 , "move":  6 , "body":  5 , "emp":  6  }, 
+			{ "int":  7 , "ref":  7 , "dex":  7 , "tech":  9 , "cool":  4 , "will":  3 , "luck":  6 , "move":  6 , "body":  6 , "emp":  7  }, 
+			{ "int":  10 , "ref":  10 , "dex":  7 , "tech":  8 , "cool":  4 , "will":  5 , "luck":  6 , "move":  6 , "body":  7 , "emp":  6  }, 
+			{ "int":  6 , "ref":  7 , "dex":  7 , "tech":  8 , "cool":  4 , "will":  4 , "luck":  5 , "move":  5 , "body":  7 , "emp":  6  }, 
+			{ "int":  7 , "ref":  6 , "dex":  6 , "tech":  7 , "cool":  5 , "will":  3 , "luck":  7 , "move":  7 , "body":  5 , "emp":  5  }, 
+			{ "int":  8 , "ref":  6 , "dex":  5 , "tech":  7 , "cool":  5 , "will":  4 , "luck":  7 , "move":  7 , "body":  5 , "emp":  7  }, 
+			{ "int":  7 , "ref":  8 , "dex":  7 , "tech":  8 , "cool":  4 , "will":  4 , "luck":  6 , "move":  5 , "body":  6 , "emp":  5  }, 
+			{ "int":  6 , "ref":  6 , "dex":  7 , "tech":  6 , "cool":  4 , "will":  3 , "luck":  7 , "move":  7 , "body":  6 , "emp":  6  }, 
+			{ "int":  8 , "ref":  7 , "dex":  5 , "tech":  6 , "cool":  3 , "will":  3 , "luck":  7 , "move":  6 , "body":  6 , "emp":  7  }, 
+			{ "int":  8 , "ref":  6 , "dex":  7 , "tech":  8 , "cool":  4 , "will":  4 , "luck":  7 , "move":  6 , "body":  7 , "emp":  6  }, 
+			{ "int":  8 , "ref":  8 , "dex":  7 , "tech":  8 , "cool":  5 , "will":  4 , "luck":  6 , "move":  5 , "body":  6 , "emp":  6  }, 
+			{ "int":  6 , "ref":  6 , "dex":  7 , "tech":  8 , "cool":  3 , "will":  3 , "luck":  5 , "move":  7 , "body":  7 , "emp":  7  }, 
+			{ "int":  8 , "ref":  8 , "dex":  5 , "tech":  6 , "cool":  4 , "will":  4 , "luck":  6 , "move":  5 , "body":  6 , "emp":  6  }, 

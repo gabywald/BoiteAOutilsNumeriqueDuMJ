@@ -1,150 +1,370 @@
-## Rôle / Classe	English	Capacité de Rôle (base 4)
-## INT	REF	DEX	TECH	PRE	VOL	CHA	MOUV	COR	EMP
-Corporatiste	Corporate	Travail d'équipe
-	5	7	3	3	6	7	6	5	5	7
-	
-Justicier	Cop	Renforts
-	7	6	5	5	7	8	5	6	7	4
-	
-Média	Reporter	Crédibilité
-	7	5	5	4	8	7	6	7	5	8
-	
-MedTechie	MedTech	Médecine
-	8	5	5	8	5	5	6	6	5	6
-	
-Fixer	Fixer	Intermédiaire
+## Rôle / Classe	English	Capacité de Rôle (base = 4)
+## INT	REF	DEX	TECH	PRES	VOL	CHA	MOUV	COR	EMP	LdB*
+## Compétence	livret	LdB	FR	*
+=> Rat des rues	EdgeRunner	EdgeRunner
+	6	7	7	3	8	6	5	5	6	5	*
+	7	8	6	3	6	6	7	5	6	6	*
+	5	8	7	4	7	7	6	7	8	5	*
+	5	8	6	4	6	7	6	5	7	6	*
+	6	6	7	5	7	6	7	6	8	4	*
+	7	7	6	5	7	6	6	7	7	5	*
+	7	7	6	5	6	7	7	6	6	6	*
+	7	8	7	5	6	6	5	6	8	4	*
+	7	7	6	4	6	6	6	5	6	5	*
+	6	6	8	5	6	6	5	6	6	5	*
+=> Corporatiste	Corporate	Travail d'équipe
+	8	5	5	3	8	6	6	5	5	7	*
+	8	6	6	4	7	6	7	7	5	7	*
+	8	7	6	3	8	6	7	6	4	5	*
+	8	5	7	5	6	5	6	5	5	7	*
+	7	7	6	5	8	5	7	7	5	5	*
+	5	7	7	3	6	7	6	5	5	7	*
+	6	6	7	5	8	7	6	7	4	6	*
+	6	7	7	3	7	5	7	5	5	7	*
+	7	6	7	5	7	5	7	6	5	5	*
+	7	7	5	5	8	6	6	7	4	7	*
+			+2	Athlétisme
+			+2	Bagarre
+			+2	Concentration
+			+6	Conversation
+			+6	Connaissance
+			+2	Discretion
+			+6	Esquive
+			+6	Psychologie
+			+2	Guide Local
+			+2	Perception
+			+6	Persuasion
+			+2 	Premiers Secours
+			+6	Bureaucratie
+			+6	Comptabilité
+			+4	Look
+			+6	Déduction
+			+6	Gestion d'affaire
+			+6	Lecture sur les lèvres
+			+6	Pistolet
+=> Justicier	Cop	Renforts
+	5	6	7	5	7	8	5	6	5	6	*
+	6	6	6	5	6	8	5	7	5	5	*
+	5	7	7	7	6	7	5	5	7	6	*
+	6	6	7	6	6	8	5	7	7	6	*
+	6	6	7	6	7	7	6	5	5	6	*
+	7	6	5	5	7	8	5	6	7	4	*
+	7	8	7	5	6	8	7	6	5	4	*
+	5	6	6	5	6	8	5	7	6	4	*
+	7	7	5	5	7	7	6	5	5	6	*
+	6	6	5	6	8	7	5	7	6	6	*
+			+2	Athlétisme
+			+4	Bagarre
+			+2	Concentration
+			+6	Conversation
+			+2	Connaissance
+			+2	Discretion
+			+6	Esquive
+			+2	Psychologie
+			+2	Guide Local
+			+2	Perception
+			+2	Persuasion
+			+2 	Premiers Secours
+			+6	Armes d'épaule
+			+6	Criminologie
+			+4	Bibliothèque
+			+6	Déduction
+			+4	Interrogatoire
+			+6	Pistage
+			+6	Tir automatique
+			+6	Pistolet
+=> Média	Media	Crédibilité
+	6	6	5	5	8	7	5	7	5	7	*
+	8	7	7	3	6	6	6	5	6	8	*
+	6	7	7	5	6	8	5	5	5	7	*
+	6	5	7	5	6	7	5	5	6	6	*
+	6	6	7	4	8	7	6	7	5	8	*
+	7	5	5	4	8	7	6	7	5	8	*
+	8	5	6	3	7	6	6	5	6	7	*
+	6	5	6	5	6	8	6	6	7	8	*
+	7	7	5	4	6	7	6	5	6	7	*
+	7	6	6	3	7	6	7	6	7	6	*
+			+2	Athlétisme
+			+2	Bagarre
+			+2	Concentration
+			+6	Conversation
+			+2	Connaissance
+			+2	Discretion
+			+6	Esquive
+			+6	Psychologie
+			+2	Guide Local
+			+6	Perception
+			+6	Persuasion
+			+2 	Premiers Secours
+			+6	Corruption
+			+6	Composition
+			+4	Bibliothèque
+			+6	Déduction
+			+4	Lecture sur les lèvres
+			+4	Photos et Films
+			+6	Pistolet
+=> MedTechie	MedTech	Médecine
+	7	5	6	7	5	3	8	5	5	7	*
+	6	7	7	7	4	4	6	7	7	7	*
+	6	5	5	8	5	3	8	5	7	8	*
+	8	7	6	8	3	5	6	6	5	7	*
+	6	7	5	7	5	5	8	7	6	8	*
+	8	5	5	8	5	5	6	6	5	6	*
+	8	6	5	8	5	4	8	5	7	7	*
+	6	5	7	7	3	5	8	5	5	8	*
+	6	6	7	7	5	4	6	6	5	6	*
+	8	7	6	6	3	4	8	7	6	7	*
+			+2	Athlétisme
+			+2	Bagarre
+			+2	Concentration
+			+2	Conversation
+			+6	Connaissance
+			+2	Discretion
+			+2	Esquive
+			+6	Psychologie
+			+2	Guide Local
+			+2	Perception
+			+2	Persuasion
+			+2 	Premiers Secours
+			+6	Armes d'épaule
+			+6	Assistance médicale
+			+4	CyberTech / Électronique
+			+6	Déduction
+			+4	Résistance à la toture / aux drogues
+			+6	Science (1 au choix)
+=> Fixer	Fixer	Intermédiaire
 	7	6	6	3	6	6	7	5	6	10
 	9	5	5	5	6	6	8	5	5	10
 	7	5	5	5	6	6	10	5	5	9
 	7	6	7	7	7	7	7	7	6	8
 	10	5	5	5	5	5	10	6	5	9
 	9	5	5	5	7	7	10	7	5	9
-	Athletics	+4
-	Brawling	+3
-	Bribery	+5	*
-	Concentration	+5
-	Conversation	+5
-	Education	+3
-	Evasion	+5
-	HumanPerception	+3
-	LocalExpert	+4
-	Marksmanship	+3
-	Perception	+3
-	Persuasion	+4
+	8	5	7	4	6	5	8	5	5	8	*
+	8	5	5	5	6	7	8	7	5	7	*
+	6	6	6	4	5	6	8	6	3	8	*
+	7	7	5	5	7	6	7	7	5	8	*
+	8	6	6	3	6	5	8	7	5	6	*
+	8	7	5	5	6	7	7	5	3	6	*
+	8	6	6	5	6	5	6	7	5	8	*
+	6	6	7	4	7	6	7	7	4	7	*
+	8	7	7	5	5	5	7	6	5	7	*
+	6	5	6	5	5	6	8	6	4	7	*
+	Athletics	+4	+2	Athlétisme
+	Brawling	+3	+2	Bagarre
+	Bribery	+5	+6	Négoce	*
+	Concentration	+5	+2	Concentration
+	Conversation	+5	+6	Conversation
+	Education	+3	+2	Connaissance
+	Evasion	+5	+6	Esquive
+	HumanPerception	+3	+6	Psychologie
+	LocalExpert	+4	+6	Guide Local
+	Marksmanship	+3	+6	Pistolet
+	Perception	+3	+2	Perception
+	Persuasion	+4	+4	Persuasion
+			+2 	Premiers Secours
+			+6	Connaissance de la rue
+			+6	Contrefaçon
+			+6	Corruption
+			+6	Crochetage
+			+6	Gestion d'affaire
 	ARMOR	Light ArmorJack	Head	11	Body 11
 	WEAPONS	Heavy Pistol	3d6 Medium SMG	3d6
 	CYBERWARE	CyberAudio (Hearing)	CyberOptics (Low Lights)
 	GEAR	Agent with AI Secretary	100 eurobucks in unmarked bills
-Netrunner	NetRunner	Interface
+=> Netrunner	NetRunner	Interface
 	6	7	10	7	8	4	10	5	5	3
 	7	10	8	6	10	3	10	7	6	4
 	7	9	10	7	8	6	8	7	7	5
 	5	10	7	7	10	4	7	7	5	3
 	6	9	8	6	8	5	8	6	5	6
 	5	9	7	7	8	6	7	6	5	4
-	Athletics	+2
-	BasicTech	+3
-	Brawling	+4
-	Concentration	+6
-	Education	+6
-	Evasion	+3
-	Interface	+7	*
-	LocalExpert	+2
-	Marksmanship	+3
-	Perception	+4
-	Persuasion	+2
-	Stealth	+6
+	5	8	7	7	7	4	8	7	7	4	*
+	5	6	7	5	8	3	8	7	5	5	*
+	5	6	8	6	6	4	7	6	7	4	*
+	5	7	7	7	7	5	8	6	5	5	*
+	5	8	8	5	7	3	7	5	5	6	*
+	6	6	6	7	8	4	7	7	6	6	*
+	6	6	6	7	6	5	7	7	7	6	*
+	5	7	8	6	8	4	8	5	7	4	*
+	7	6	7	7	6	3	6	5	6	5	*
+	7	8	6	6	6	4	7	7	5	6	*
+	Athletics	+2	+2	Athlétisme
+	BasicTech	+3	+6	Électronique
+	Brawling	+4	+2	Bagarre
+	Concentration	+6	+2	Concentration
+	Education	+6	+6	Connaissance
+	Evasion	+3	+6	Esquive	
+	Interface	+7	+7	Interface	*
+	LocalExpert	+2	+2	Guide Local
+	Marksmanship	+3	+6	Pistolet
+	Perception	+4	+2 Perception
+	Persuasion	+2	+2 Persuasion
+	Stealth	+6	+6	Discrétion
+			+2 	Premiers Secours
+			+2	Conversation
+			+6	Bibliothèque
+			+6	CyberTech
+			+6	Sécurité Électronique
+			+6	Cryptographie
 	ARMOR	Heavy AermorJack	Head	15	Body 15
 	WEAPONS	Rippers	2d6	Shotgun	5d6	Very Heavy Pistol	4d6	
 	CYBERWARE	Interface Plugs
 	GEAR	Agent	CyberDeack and cables	Three Programs and One Black ICE
-Nomade	Nomad	Moto
+=> Nomade	Nomad	Moto
 	6	10	9	4	7	9	7	7	5	6
 	5	9	7	5	9	9	9	7	7	3
 	6	8	8	4	7	8	8	5	7	4
 	7	9	7	5	8	8	8	7	7	4
 	7	10	9	5	7	10	10	7	7	4
 	6	8	9	6	8	7	8	7	5	3
-	Athletics	+4
-	Brawling	+4
-	Concentration	+4
-	Driving	+7	*
-	Education	+2
-	Evasion	+5
-	LocalExpert	+5
-	Marksmanship	+5
-	MeleeWeapon	+6
-	Perception	+5
-	Persuasion	+2
-	Tracking	+3
+	6	6	8	3	6	7	6	6	6	4	*
+	5	7	6	5	8	8	8	7	5	4	*
+	5	8	6	3	8	7	6	5	6	4	*
+	5	8	7	4	8	7	6	5	6	5	*
+	6	6	6	3	6	7	6	7	7	4	*
+	7	6	8	4	6	7	6	5	6	5	*
+	6	7	8	4	6	6	7	5	7	5	*
+	5	7	8	3	8	6	7	5	5	5	*
+	6	7	6	4	8	6	6	6	6	6	*
+	5	6	7	4	7	8	7	7	7	4	*
+	Athletics	+4	+2	Athlétisme
+	Brawling	+4	+6	Bagarre
+	Concentration	+4	+2	Concentration
+	Driving	+7	+6	Conduite de véhicule terrestre	*
+	Education	+2	+2	Connaissance
+	Evasion	+5	+6	Esquive
+	LocalExpert	+5	+2	Guide Local
+	Marksmanship	+5	+6	Pistolet
+	MeleeWeapon	+6	+6	Arme de mélée
+	Perception	+5	+4	Perception
+	Persuasion	+2	+2	Persuasion
+	Tracking	+3	+6	Pistage
+			+2	Conversation
+			+6	Discrétion
+			+6	Premiers secours
+			+2	Psychologie
+			+6	Dressage
+			+6	Négoce
+			+6	Survie en milieu hostile
 	ARMOR	Heavy AermorJack	Head	15	Body 15
 	WEAPONS	Rippers	2d6	Shotgun	5d6	Very Heavy Pistol	4d6
 	CYBERWARE	CyberOptic (Low Light)	Rippers
 	GEAR	Agent	GroundCar	
-Rockeur	RockerBoy	Charisme Irrésistible
+=> Rockeur	RockerBoy	Charisme Irrésistible
 	5	8	5	4	9	8	6	6	10	6
 	5	10	6	3	9	10	6	6	10	4
 	6	10	5	3	9	10	7	5	8	5
 	6	9	5	6	9	9	5	6	8	4
 	5	10	6	3	10	10	6	6	8	4
 	6	10	7	4	8	10	5	7	9	5
-	Athletics	+3
-	Brawling	+2
-	Concentration	+4
-	Education	+2
-	Evasion	+5
-	HumanPerception	+5
-	LocalExpert	+5
-	Marksmanship	+4
-	MeleeWeapon	+3
-	Perception	+3
-	Persuasion	+6
-	PlayInstrument	+6	*
+	7	6	6	5	6	8	7	7	3	8	*
+	3	7	7	7	7	6	7	7	5	8	*
+	4	5	7	7	6	6	7	7	5	8	*
+	4	5	7	7	6	8	7	6	3	8	*
+	3	7	7	7	6	8	6	5	4	7	*
+	5	6	7	5	7	8	5	7	3	7	*
+	5	6	6	7	7	8	7	6	3	6	*
+	5	7	7	5	6	6	6	6	4	8	*
+	3	5	5	6	7	8	7	5	5	7	*
+	4	5	6	5	8	8	7	6	4	7	*
+	Athletics	+3	+2	Athlétisme
+	Brawling	+2	+6	Bagarre
+	Concentration	+4	+2 Concentration
+	Education	+2	+2 Connaissance
+	Evasion	+5	+6	Esquive
+	HumanPerception	+5	+6	Psychologie
+	LocalExpert	+5	+4	Guide Local
+	Marksmanship	+4	+6	Pistolet
+	MeleeWeapon	+3	+6	Arme de mélée
+	Perception	+3	+2	Perception
+	Persuasion	+6	+6	Persuasion
+	PlayInstrument	+6	+6	Instrument	*
+			+2	Conversation
+			+6	Discrétion
+			+6	Premiers secours
+			+6	Composition
+			+6	Connaissance de la rue
+			+4	Habillement et Style
+			+4	Look
 	ARMOR	Kevlar	Head	7	Body 7
 	WEAPONS	Slice & Dice (monofilament)	2d6	Very Heavy Pistol	4d6
 	CYBERWARE	CyberAudio (Hearing)	Slice and Dice (monofilament)
 	GEAR	Agent	Guitar	
-Solo	Solo	Conscience Tactique
+=> Solo	Solo	Conscience Tactique
 	5	8	5	4	9	8	6	6	10	6
 	5	10	6	3	9	10	6	6	10	4
 	6	10	5	3	9	10	7	5	8	5
 	6	9	5	6	9	9	5	6	8	4
 	5	10	6	3	10	10	6	6	8	4
 	6	10	7	4	8	10	5	7	9	5
-	Athletics	+5
-	Brawling	+5
-	Concentration	+4
-	Education	+5
-	Evasion	+5
-	Interrogation	+3	*
-	LocalExpert	+3
-	Marksmanship	+6
-	MeleeWeapon	+5
-	Perception	+5
-	Persuasion	+2
-	Stealth	+3
+	6	7	7	3	8	6	5	5	6	5	*
+	7	8	6	3	6	6	7	5	6	6	*
+	5	8	7	4	7	7	6	7	6	5	*
+	5	8	6	4	6	7	6	5	7	6	*
+	6	6	7	5	7	6	7	6	8	4	*
+	7	7	6	5	7	6	6	7	7	5	*
+	7	7	6	5	6	7	7	6	6	6	*
+	7	8	7	5	6	6	5	6	8	4	*
+	7	7	6	4	6	6	6	5	6	5	*
+	6	6	8	5	6	6	5	6	6	5	*
+	Athletics	+5	+2	Athlétisme
+	Brawling	+5	+2	Bagarre
+	Concentration	+4	+2	Concentration
+	Education	+5	+2 Connaissance
+	Evasion	+5	+6	Esquive
+	Interrogation	+3	+6	Interrogatoire	*
+	LocalExpert	+3	+2	Guide Local
+	Marksmanship	+6	+6	Pistolet
+	MeleeWeapon	+5	+6	Arme de mélée
+	Perception	+5	+6	Perception
+	Persuasion	+2	+2	Persuasion
+	Stealth	+3	+2	Discrétion
+			+2	Conversation
+			+6	Arme d'épaule
+			+6	Premiers secours
+			+6	Résistance à la torture / aux drogues
+			+6	Tactique
+			+6	Tir automatique
 	ARMOR	Heavy ArmorJack	Head	15	Body 15
 	WEAPONS	Assault Rifle	5d6	CyberArm	1d6	Knife	1d6	Rippers	2d6
 	CYBERWARE	CyberArms with Rippers	CyberLegs with Jump Boosters	CyberOptic (Targeting)
 	GEAR	Agent
-Techie	Tech	Bricolage
+=> Techie	Tech	Bricolage
 	10	10	5	9	3	5	7	6	5	6
 	10	7	6	9	3	5	5	5	6	6
 	10	7	5	10	4	3	7	5	7	6
 	8	8	5	10	4	4	7	6	5	6
 	7	7	7	9	4	3	6	6	6	7
 	10	10	7	8	4	5	6	6	7	6
-	Athletics	+2
-	BasicTech	+7
-	Brawling	+2
-	CyberTech	+5	*
-	Education	+6
-	Evasion	+5
-	LocalExpert	+4
-	Marksmanship	+3
-	MeleeWeapon	+3
-	Perception	+4
-	Persuasion	+3
+	6	7	7	8	4	4	5	5	7	6	*
+	7	6	6	7	5	3	7	7	5	5	*
+	8	6	5	7	5	4	7	7	5	7	*
+	7	8	7	8	4	4	6	5	6	5	*
+	6	6	7	6	4	3	7	7	6	6	*
+	8	7	5	6	3	3	7	6	6	7	*
+	8	6	7	8	4	4	7	6	7	6	*
+	8	8	7	8	5	4	6	5	6	6	*
+	6	6	7	8	3	3	5	7	7	7	*
+	8	8	5	6	4	4	6	5	6	6	*
+	Athletics	+2	+2	Athlétisme
+	BasicTech	+7	+6	Électronique
+	Brawling	+2	+2	Bagarre
+	CyberTech	+5	+6	CyberTech	*
+	Education	+6	+6	Connaissance
+	Evasion	+5	+6	Esquive
+	LocalExpert	+4	+2	Guide Local
+	Marksmanship	+3	-	-
+	MeleeWeapon	+3	-	-	
+	Perception	+4	+2	Perception
+	Persuasion	+3	+2	Persuasion
+			+6 	Premiers Secours
+			+2	Conversation
+			+6	Arme d'épaule
+			+6	Science (1 au choix)
+			+6	Sécurité électronique
+			+6	Terratech
+			+6	Armes d'épaule
+			+6	Armurerie
 	ARMOR	Light ArmorJack	Head	11	Body 11
 	WEAPONS	Big Knucks	2d6	Heavy Pistol	3d6	Shotgun	5d6
 	CYBERWARE	CyberArms with Big Knucks	CyberOptic (Camera)

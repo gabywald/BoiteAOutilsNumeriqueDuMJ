@@ -1,14 +1,18 @@
 Was in gears : 
-    // The clothing styles of 2020 break into five basic fashion statements:
-    // Generic Chic:
-    // This is the standard Streetwear, made up of colorful modular components in many colors. Belts, coats, sashes, boots predominate.
-    // lelsurewear:
-    // This is the equivalent of 21st century athletic wear. Padded fleece, corporate and athletic logos.
-    // Buslnesswear:
-    // This is the equivalent of the standard business suit; understated colors, pinstripes, real leather shoes etc. Wool and other natural fabrics are considered the proper outfitting for the up and coming Corp.
-    // High Fashion:
-    // Sophisticated and expensive dressing for the upper class. Designer labels like Miyake, SJ.fui Van, and Anne Calvin.
-    // Urban Flash:
-    // Video jackets, colorshift fabrics, cammo, leathers, metal spikes, Logowear, jeans, leather skirts, boots. The wildest and most \ltterly chilled in cyberfashion.
+	// The clothing styles of 2020 break into five basic fashion statements:
+	// Generic Chic:
+	// This is the standard Streetwear, made up of colorful modular components in many colors. Belts, coats, sashes, boots predominate.
+	// Leisurewear:
+	// This is the equivalent of 21st century athletic wear. Padded fleece, corporate and athletic logos.
+	// Businesswear:
+	// This is the equivalent of the standard business suit; understated colors, pinstripes, real leather shoes etc. Wool and other natural fabrics are considered the proper outfitting for the up and coming Corp.
+	// High Fashion:
+	// Sophisticated and expensive dressing for the upper class. Designer labels like Miyake, SJ.fui Van, and Anne Calvin.
+	// Urban Flash:
+	// Video jackets, colorshift fabrics, cammo, leathers, metal spikes, Logowear, jeans, leather skirts, boots. The wildest and most \ltterly chilled in cyberfashion.
 
-    // Tools
+	// Tools
+	
+Wazs in role_stats
+	// "Lawman": []
+	// "Exec": []
