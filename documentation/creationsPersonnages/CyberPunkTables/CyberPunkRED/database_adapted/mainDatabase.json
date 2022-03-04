@@ -13,7 +13,16 @@
 	    "Shotgun": 				{ "damage" : "5d6" },
 	    "Missile Launcher": 	{ "special" : "Explosive", "damage" : "7d6" },
 	    "C9 Explosive Pack": 	{ "special" : "Explosive", "damage" : "8d6" }
-	}, 
+	},
+	"armor" : [
+	    { "name": "Leathers", 			"sp": 4 },
+	    { "name": "Kevlar", 			"sp": 7 },
+	    { "name": "Bodyweight Suit",	"sp": 11 },
+	    { "name": "Light Armorjack",	"sp": 11 },
+	    { "name": "Heavy Armorjack",	"sp": 15 },
+	    { "name": "MetalGear",			"sp": 25 },
+	    { "name": "Cloth",				"sp": 0 }
+	], 
 	"cyberware": {
 		"Cyberarm": 						{ "description": "A Cyberweapon concealed in a cyberarm." },
 		"Cyberleg (Paired Jump Boosters)": 	{ "description": "You can leap 6 m/yds straight up or make a running jump of up to 8 m/yds." },
@@ -434,7 +443,7 @@
 			"description": "Playing an Instrument and Writing Music"
 		}
 	},
-	"backgroundLIST": [
+	"biography-background": [
 		"Your family lost everything through betrayal.",
 		"Your family lost everything through bad management.",
 		"Your family was exiled or otherwise driven from their original home/nation/Corporation.",
@@ -446,7 +455,7 @@
 		"Your family is cursed with a hereditary feud that has lasted for generations.",
 		"You are the inheritor of a family debt; you must honor this debt before moving on with your life"
 	],
-	"ennemiesLIST": [
+	"biography-ennemies": [
 		"Ex–friend",
 		"Ex–lover",
 		"Relative",
@@ -458,7 +467,7 @@
 		"Corporate Exec",
 		"Government official"
 	],
-	"friendsLIST": [
+	"biography-friends": [
 		"Like an older sibling to you ",
 		"Like a younger sibling to you ",
 		"A teacher or mentor",
@@ -470,7 +479,7 @@
 		"A relative ",
 		"Someone with a common interest"
 	],
-	"goalsLIST": [
+	"biography-goals": [
 		"Get rid of a bad reputation. ",
 		"Gain power and control.",
 		"Get off the street no matter what it takes.",
@@ -482,7 +491,7 @@
 		"Gain fame and recognition. ",
 		"Become feared and respected."
 	],
-	"motivationsLIST": [
+	"biography-motivations": [
 		"Money ",
 		"Honor",
 		"Your word",
@@ -494,7 +503,7 @@
 		"Having a good time",
 		"Friendship"
 	],
-	"personnalityLIST": [
+	"biography-personnality": [
 		"Shy and secretive ",
 		"Rebellious, antisocial, violent ",
 		"Arrogant, proud and aloof ",
@@ -506,7 +515,7 @@
 		"Intellectual and detached ",
 		"Friendly and outgoing"
 	], 
-	"romanceLIST" : [
+	"biography-romance" : [
 	    "Your lover died in an accident. ",
 	    "Your lover mysteriously vanished. ",
 	    "It just didn’t work out. ",
@@ -517,14 +526,5 @@
 	    "Your lover was killed in a fight.",
 	    "A rival cut you out of the action. ",
 	    "Your lover is imprisoned or exiled"
-	],
-	"armorLIST" : [
-	    { "name": "Leathers", 			"sp": 4 },
-	    { "name": "Kevlar", 			"sp": 7 },
-	    { "name": "Bodyweight Suit",	"sp": 11 },
-	    { "name": "Light Armorjack",	"sp": 11 },
-	    { "name": "Heavy Armorjack",	"sp": 15 },
-	    { "name": "MetalGear",			"sp": 25 },
-	    { "name": "Cloth",				"sp": 0 }
 	]
 }

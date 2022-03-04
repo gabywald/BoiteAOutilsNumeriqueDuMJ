@@ -12,12 +12,12 @@ __status__ = "Development"
 
 class PersonnaeCyberPunkRED( object ) :
   def __init__(self,
-               name      = None, classe   = None, image     = "img/personnageAnonymous.jpg", 
-               title     = None, healpoint= None, impact    = None, 
-               int       = None, ref      = None, dex       = None, 
-               tech      = None, pres     = None, vol       = None, cha = None, 
-               mouv      = None, cor      = None, emp       = None,  
-               biography = [], lightbio    = []): 
+               name      = None, classe    = None, image     = "img/personnageAnonymous.jpg", 
+               title     = None, healpoint = None, impact    = None, 
+               int       = None, ref       = None, dex       = None, 
+               tech      = None, pres      = None, vol       = None, cha = None, 
+               mouv      = None, cor       = None, emp       = None, 
+               biography = {}, lightbio    = {},   style     = {}): 
         self.name       = name
         self.classe     = classe
         self.image      = image
@@ -38,6 +38,7 @@ class PersonnaeCyberPunkRED( object ) :
         self.mouv       = mouv
         self.cor        = cor
         self.emp        = emp
+        self.style      = style
         self.lightbio   = lightbio
         self.biography  = biography
         
@@ -64,12 +65,16 @@ class PersonnaeCyberPunkRED( object ) :
     str += "emp " + self.emp + "\n"
     str += "BEGIN lightbio" + "\n";
     for item in self.lightbio:
-      str += item + "\n"
+      str += item + " : " + self.lightbio[ item ] + "\n"
     str += "END lightbio " + "\n"
     str += "BEGIN biography" + "\n"
     for item in self.biography:
-      str += item + "\n"
+      str += item + " : " + self.biography[ item ] + "\n"
     str += "END biography" + "\n";
+    str += "BEGIN style" + "\n"
+    for item in self.style:
+      str += item + " : " + self.style[ item ] + "\n"
+    str += "END style" + "\n";
     str += "END personnae" + "\n";
     return str
   

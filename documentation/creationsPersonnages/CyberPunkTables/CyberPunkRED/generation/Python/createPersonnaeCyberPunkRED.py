@@ -16,13 +16,7 @@ from PersonnaeCyberPunkRED import PersonnaeCyberPunkRED
 
 dataBaseJSONtest = ModuleHelper.loadJSONConfig( "mainDatabase" )
 
-roleListBase = list(dataBaseJSONtest["role_stats"])
-roleListSelector = []
-for item in roleListBase:
-  if ( not item.startswith( "**" ) ): 
-    roleListSelector.append( item )
-    print( item )
-
+## Personnae
 personnaeToOuput = PersonnaeCyberPunkRED()
 
 ## Nom
@@ -34,6 +28,14 @@ while( (name == None) or (name == "") ):
     print("\t\t Nom: {", name, "}")
 
 personnaeToOuput.name = name
+
+## Classe
+roleListBase = list(dataBaseJSONtest["role_stats"])
+roleListSelector = []
+for item in roleListBase:
+  if ( not item.startswith( "**" ) ): 
+    roleListSelector.append( item )
+    print( item )
 
 classe = None
 while ( ( (classe == None) or (classe == "") ) or (classe not in roleListSelector) ):
@@ -111,16 +113,68 @@ personnaeToOuput.deathsave = personnaeToOuput.cor
 print( "healpoint: ", personnaeToOuput.healpoint )
 print( "seriously: ", personnaeToOuput.seriously )
 print( "deathsave: ", personnaeToOuput.deathsave )
-print( )
-print( personnaeToOuput )
 
-## TODO biography (light)
+## ***** biography (light) *****
+biographySelector = []
+for item in dataBaseJSONtest:
+  if ( item.startswith( "biography-" ) ): 
+    biographySelector.append( item )
+    print( item )
+
+lightbio = {}
+for item in biographySelector:
+  shortname = item.replace("biography-", "")
+  select    = random.choice(dataBaseJSONtest[item])
+  print( shortname, " => ", select )
+  lightbio[ shortname ] = select
+
+personnaeToOuput.lightbio = lightbio
+
+## ***** appearance *****
+## appearance = dataBaseJSONtest["appearance"]
+clothes      = random.choice(dataBaseJSONtest["appearance"]["Clothes"])
+hairstyle    = random.choice(dataBaseJSONtest["appearance"]["Hairstyle"])
+affectations = random.choice(dataBaseJSONtest["appearance"]["Affectations"])
+origines     = random.choice(dataBaseJSONtest["appearance"]["Origins"])
+print( "\t **** Attributs ***** " )
+validateAttributes = None
+while (validateAttributes == None):
+    print( "\t\t clothes : (", clothes, ")")
+    print( "\t\t hairstyle : (", hairstyle, ")")
+    print( "\t\t affectations : (", affectations, ")")
+    print( "\t\t origines : (", origines, ")")
+    print( "\t Valider ? [y/N]")
+    validateAttributes = str(input());
+    validateAttributes = validateAttributes.strip()
+    if ( (validateAttributes == "Y") or (validateAttributes == "y") ):
+        validateAttributes = "y"
+    else:
+        validateAttributes = "N"
+    print("\t\t Validation: {" + validateAttributes + "}")
+    
+    if ( validateAttributes != "y" ):
+      clothes      = random.choice(dataBaseJSONtest["appearance"]["Clothes"])
+      hairstyle    = random.choice(dataBaseJSONtest["appearance"]["Hairstyle"])
+      affectations = random.choice(dataBaseJSONtest["appearance"]["Affectations"])
+      origines     = random.choice(dataBaseJSONtest["appearance"]["Origins"])
+      validateAttributes = None
+
+style = {}
+style[ "clothes" ]      = clothes
+style[ "hairstyle" ]    = hairstyle
+style[ "affectations" ] = affectations
+style[ "origines"]      = origines
+personnaeToOuput.style  = style
+
+## TODO Skills
+
+## TODO Weapons
+
+## TODO Armor
 
 ## TODO CyberWare
 
 ## TODO Gear
 
-## TODO appearance
-
-## TODO skills
-
+print( )
+print( personnaeToOuput )
