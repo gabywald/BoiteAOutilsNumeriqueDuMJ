@@ -214,9 +214,61 @@ for i in range(selector):
       selected = weaponLIST[ select ]
       personnaeToOuput.weapons[ selected ] = dataBaseJSONtest["weapons"][ selected ]["damage"]
 
-## TODO CyberWare
+## ***** CyberWare *****
+print( "\t **** CyberWare ***** " )
+index         = 0
+cyberwareLIST = []
+for item in dataBaseJSONtest["cyberware"]:
+  print( index, " -- ", item, ":", dataBaseJSONtest["cyberware"][ item ]["description"] )
+  cyberwareLIST.append( item )
+  index += 1
 
-## TODO Gear
+selector = None
+maxWeaps = 5
+while (selector == None):
+  print( "Number[0-5] ?" )
+  selector = int(input())
+  if ( (selector < 0) or (selector > maxWeaps) ):
+    selector = None
+
+for i in range(selector):
+  select = None
+  while (select == None):
+    print( "Which one ?" )
+    select = int(input())
+    if ( (select < 0) or (select >= len(cyberwareLIST)) ):
+      select = None
+    else:
+      selected = cyberwareLIST[ select ]
+      personnaeToOuput.cyberware[ selected ] = selected
+
+## ***** Gear *****
+print( "\t **** Gear ***** " )
+index    = 0
+gearLIST = []
+for item in dataBaseJSONtest["gears"]:
+  print( index, " -- ", item, ":", dataBaseJSONtest["gears"][ item ]["description"] )
+  gearLIST.append( item )
+  index += 1
+
+selector = None
+maxWeaps = 5
+while (selector == None):
+  print( "Number[0-5] ?" )
+  selector = int(input())
+  if ( (selector < 0) or (selector > maxWeaps) ):
+    selector = None
+
+for i in range(selector):
+  select = None
+  while (select == None):
+    print( "Which one ?" )
+    select = int(input())
+    if ( (select < 0) or (select >= len(gearLIST)) ):
+      select = None
+    else:
+      selected = gearLIST[ select ]
+      personnaeToOuput.gears[ selected ] = selected
 
 ## TODO Skills
 

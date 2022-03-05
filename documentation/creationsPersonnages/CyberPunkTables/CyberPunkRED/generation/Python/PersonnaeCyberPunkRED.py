@@ -85,6 +85,10 @@ class PersonnaeCyberPunkRED( object ) :
       str += "armor : " + item + " (" + self.armor[ item ] + ") " + "\n"
     for item in self.weapons:
       str += "weapon : " + item + " (" + self.weapons[ item ] + ") " + "\n"
+    for item in self.cyberware:
+      str += "cyberware : " + item + "\n"
+    for item in self.gears:
+      str += "gear : " + item + "\n"
     str += "END personnae" + "\n";
     return str
   
