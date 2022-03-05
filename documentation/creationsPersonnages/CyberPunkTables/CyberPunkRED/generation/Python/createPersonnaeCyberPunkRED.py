@@ -272,5 +272,21 @@ for i in range(selector):
 
 ## TODO Skills
 
+
 print( )
-print( personnaeToOuput )
+
+## EXPORT DATA to generated DIRECTORY ***** 
+import os, re
+if not os.path.exists("../generated"):
+    os.makedirs("../generated")
+
+outputFile = classe + "-" + name;
+outputFile = re.sub(" ", "", outputFile)
+outputFile = "../generated/personnae" + outputFile + ".txt"
+with open(outputFile, "w", encoding = "utf-8") as file:
+    file.write( personnaeToOuput.toStringPersonnae() )
+
+os.system( "../convertLaTeXChars.pl " + outputFile)
+
+print( outputFile )
+

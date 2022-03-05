@@ -497,13 +497,13 @@ import os
 if not os.path.exists("../generated"):
     os.makedirs("../generated")
 
-outputFile = concept + "-" + name;
+outputFile = concept + "-" + name
 outputFile = re.sub(" ", "", outputFile)
-outputFile = "../generated/personnae" + outputFile + ".txt";
+outputFile = "../generated/personnae" + outputFile + ".txt"
 with open(outputFile, "w", encoding = "utf-8") as file:
     file.write( personnaeToOuput.toStringPersonnae() )
 
-os.system( "../convertLaTeXChars.pl " + outputFile);
+os.system( "../convertLaTeXChars.pl " + outputFile)
 
 ## ## ## ...
 

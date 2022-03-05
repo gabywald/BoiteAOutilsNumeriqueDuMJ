@@ -12,7 +12,7 @@ __status__ = "Development"
 
 class PersonnaeCyberPunkRED( object ) :
   def __init__(self,
-               name      = None, classe    = None, image     = "img/personnageAnonymous.jpg", 
+               name      = None, classe    = None, image     = "NONE", 
                title     = None, healpoint = None, impact    = None, 
                int       = None, ref       = None, dex       = None, 
                tech      = None, pres      = None, vol       = None, cha = None, 
@@ -53,42 +53,58 @@ class PersonnaeCyberPunkRED( object ) :
     str += "BEGIN personnae\n";
     str += "CLASSE " + self.classe + "\n"
     str += "NAME " + self.name + "\n"
-    str += "IMAGE " + self.image + "\n"
+    str += "ICON " + self.image + "\n"
     str += "TITLE " + self.title + "\n"
-    str += "healpoint " + self.healpoint + "\n"
-    str += "seriously " + self.seriously + "\n"
-    str += "deathsave " + self.deathsave + "\n"
-    str += "int " + self.int + "\n"
-    str += "ref " + self.ref + "\n"
-    str += "dex " + self.dex + "\n"
-    str += "tech " + self.tech + "\n"
-    str += "pres " + self.pres + "\n"
-    str += "vol " + self.vol + "\n"
-    str += "cha " + self.cha + "\n"
-    str += "mouv " + self.mouv + "\n"
-    str += "cor " + self.cor + "\n"
-    str += "emp " + self.emp + "\n"
+    str += "HEALPOINTS " + self.healpoint + "\n"
+    str += "SERIOUSLYWOUNDED " + self.seriously + "\n"
+    str += "DEATHSAVE " + self.deathsave + "\n"
+    str += "INT " + self.int + "\n"
+    str += "REF " + self.ref + "\n"
+    str += "DEX " + self.dex + "\n"
+    str += "TECH " + self.tech + "\n"
+    str += "COOL " + self.pres + "\n"
+    str += "WILL " + self.vol + "\n"
+    str += "LUCK " + self.cha + "\n"
+    str += "MOVE " + self.mouv + "\n"
+    str += "BODY " + self.cor + "\n"
+    str += "EMP " + self.emp + "\n"
     str += "BEGIN lightbio" + "\n"
     for item in self.lightbio:
-      str += item + " : " + self.lightbio[ item ] + "\n"
+      str += item.upper() + "\t" + self.lightbio[ item ] + "\n"
     str += "END lightbio " + "\n"
     str += "BEGIN biography" + "\n"
     for item in self.biography:
-      str += item + " : " + self.biography[ item ] + "\n"
+      str += item.upper() + "\t" + self.biography[ item ] + "\n"
     str += "END biography" + "\n"
     str += "BEGIN style" + "\n"
     for item in self.style:
-      str += item + " : " + self.style[ item ] + "\n"
+      str += item.upper() + "\t" + self.style[ item ] + "\n"
     str += "END style" + "\n"
     # str += "armor : " + self.armor["name"] + " (" + self.armor["sp"] + ") " + "\n"
     for item in self.armor:
-      str += "armor : " + item + " (" + self.armor[ item ] + ") " + "\n"
+      # str += "armor : " + item + " (" + self.armor[ item ] + ") " + "\n"
+      str += "ARMORDESC\t" + item + "\n"
+      str += "ARMORHEADDESC\tTête" + "\n"
+      str += "ARMORTORSODESC\tTorse" +  "\n"
+      str += "ARMORHEADVALUE\t" + self.armor[ item ] + "\n"
+      str += "ARMORTORSOVALUE\t" + self.armor[ item ] + "\n"
     for item in self.weapons:
-      str += "weapon : " + item + " (" + self.weapons[ item ] + ") " + "\n"
+      # str += "weapon : " + item + " (" + self.weapons[ item ] + ") " + "\n"
+      str += "WEAPONNAME\t" + item + "\n"
+      str += "WEAPONDAMAGE\t" + self.weapons[ item ] + "\n"
+      ## TODO if more than one weapon : concatenate with " / "
     for item in self.cyberware:
-      str += "cyberware : " + item + "\n"
+      # str += "cyberware : " + item + "\n"
+      # CyberWarePartOne	*****
+      # CyberWarePartTwo	\resizebox{0.46\linewidth}{25pt}{\includegraphics{../../../../../images/pixel.png}}
+      str += "CyberWarePartOne\t" + item + "\n"
+      str += "CyberWarePartTwo\t\\resizebox{0.46\\linewidth}{25pt}{\\includegraphics{../../../../../images/pixel.png}}" + "\n"
     for item in self.gears:
-      str += "gear : " + item + "\n"
+      # str += "gear : " + item + "\n"
+      # GearPartOne	*****
+      # GearPartTwo	\resizebox{0.46\linewidth}{25pt}{\includegraphics{../../../../../images/pixel.png}}
+      str += "GearPartOne\t" + item + "\n"
+      str += "GearPartTwo\t\\resizebox{0.46\\linewidth}{25pt}{\\includegraphics{../../../../../images/pixel.png}}" + "\n"
     str += "END personnae" + "\n";
     return str
   
