@@ -39,7 +39,7 @@ for item in roleListBase:
 
 classe = None
 while ( ( (classe == None) or (classe == "") ) or (classe not in roleListSelector) ):
-    print("\t **** classe ***** ")
+    print("\t **** Classe ***** ")
     classe = str(input())
     classe = classe.strip()
     print("\t\t Classe: {", classe, "}")
@@ -59,7 +59,7 @@ MOUV = stats["move"]
 COR  = stats["body"]
 EMP  = stats["emp"]
 
-print( "\t **** Attributs ***** " )
+print( "\t **** Caracteristics ***** " )
 validateAttributes = None
 while (validateAttributes == None):
     print( "\t\t INT : (", INT, ")")
@@ -114,12 +114,13 @@ print( "healpoint: ", personnaeToOuput.healpoint )
 print( "seriously: ", personnaeToOuput.seriously )
 print( "deathsave: ", personnaeToOuput.deathsave )
 
-## ***** biography (light) *****
+## ***** Biography (light) *****
+print( "***** Biography (light) *****" )
 biographySelector = []
 for item in dataBaseJSONtest:
   if ( item.startswith( "biography-" ) ): 
     biographySelector.append( item )
-    print( item )
+    # print( item )
 
 lightbio = {}
 for item in biographySelector:
@@ -130,13 +131,13 @@ for item in biographySelector:
 
 personnaeToOuput.lightbio = lightbio
 
-## ***** appearance *****
+## ***** Appearance *****
 ## appearance = dataBaseJSONtest["appearance"]
 clothes      = random.choice(dataBaseJSONtest["appearance"]["Clothes"])
 hairstyle    = random.choice(dataBaseJSONtest["appearance"]["Hairstyle"])
 affectations = random.choice(dataBaseJSONtest["appearance"]["Affectations"])
 origines     = random.choice(dataBaseJSONtest["appearance"]["Origins"])
-print( "\t **** Attributs ***** " )
+print( "\t **** Appearance ***** " )
 validateAttributes = None
 while (validateAttributes == None):
     print( "\t\t clothes : (", clothes, ")")
@@ -144,7 +145,7 @@ while (validateAttributes == None):
     print( "\t\t affectations : (", affectations, ")")
     print( "\t\t origines : (", origines, ")")
     print( "\t Valider ? [y/N]")
-    validateAttributes = str(input());
+    validateAttributes = str(input())
     validateAttributes = validateAttributes.strip()
     if ( (validateAttributes == "Y") or (validateAttributes == "y") ):
         validateAttributes = "y"
@@ -166,15 +167,58 @@ style[ "affectations" ] = affectations
 style[ "origines"]      = origines
 personnaeToOuput.style  = style
 
-## TODO Skills
+## ***** Armor *****
+print( "\t **** Armor ***** " )
+index     = 0
+armorLIST = []
+for item in dataBaseJSONtest["armor"]:
+  print( index, " -- ", item["name"], " : ", item["sp"] )
+  armorLIST.append( item )
+  index += 1
 
-## TODO Weapons
+select = None
+while (select == None):
+  print( "Which one ?" )
+  select = int(input())
+  if ( (select < 0) or (select >= len(armorLIST)) ):
+    select = None
+  else:
+    selected = armorLIST[ select ]
+    personnaeToOuput.armor[ selected["name"] ] = str(selected["sp"])
 
-## TODO Armor
+## ***** Weapons *****
+print( "\t **** Weapons ***** " )
+index      = 0
+weaponLIST = []
+for item in dataBaseJSONtest["weapons"]:
+  print( index, " -- ", item )
+  weaponLIST.append( item )
+  index += 1
+
+selector = None
+maxWeaps = 3
+while (selector == None):
+  print( "Number[0-3] ?" )
+  selector = int(input())
+  if ( (selector < 0) or (selector > maxWeaps) ):
+    selector = None
+
+for i in range(selector):
+  select = None
+  while (select == None):
+    print( "Which one ?" )
+    select = int(input())
+    if ( (select < 0) or (select >= len(armorLIST)) ):
+      select = None
+    else:
+      selected = weaponLIST[ select ]
+      personnaeToOuput.weapons[ selected ] = dataBaseJSONtest["weapons"][ selected ]["damage"]
 
 ## TODO CyberWare
 
 ## TODO Gear
+
+## TODO Skills
 
 print( )
 print( personnaeToOuput )

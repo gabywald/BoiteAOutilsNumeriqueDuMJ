@@ -17,7 +17,8 @@ class PersonnaeCyberPunkRED( object ) :
                int       = None, ref       = None, dex       = None, 
                tech      = None, pres      = None, vol       = None, cha = None, 
                mouv      = None, cor       = None, emp       = None, 
-               biography = {}, lightbio    = {},   style     = {}): 
+               biography = {}, lightbio    = {},   style     = {}, 
+               armor     = {}, weapons     = {},   gears     = {}, cyberware = {}): 
         self.name       = name
         self.classe     = classe
         self.image      = image
@@ -41,6 +42,10 @@ class PersonnaeCyberPunkRED( object ) :
         self.style      = style
         self.lightbio   = lightbio
         self.biography  = biography
+        self.armor      = armor
+        self.weapons    = weapons
+        self.gears      = gears
+        self.cyberware  = cyberware
         
   ## implement for str representation ! => print( [ <instance>] )
   def __str__(self) : 
@@ -63,18 +68,23 @@ class PersonnaeCyberPunkRED( object ) :
     str += "mouv " + self.mouv + "\n"
     str += "cor " + self.cor + "\n"
     str += "emp " + self.emp + "\n"
-    str += "BEGIN lightbio" + "\n";
+    str += "BEGIN lightbio" + "\n"
     for item in self.lightbio:
       str += item + " : " + self.lightbio[ item ] + "\n"
     str += "END lightbio " + "\n"
     str += "BEGIN biography" + "\n"
     for item in self.biography:
       str += item + " : " + self.biography[ item ] + "\n"
-    str += "END biography" + "\n";
+    str += "END biography" + "\n"
     str += "BEGIN style" + "\n"
     for item in self.style:
       str += item + " : " + self.style[ item ] + "\n"
-    str += "END style" + "\n";
+    str += "END style" + "\n"
+    # str += "armor : " + self.armor["name"] + " (" + self.armor["sp"] + ") " + "\n"
+    for item in self.armor:
+      str += "armor : " + item + " (" + self.armor[ item ] + ") " + "\n"
+    for item in self.weapons:
+      str += "weapon : " + item + " (" + self.weapons[ item ] + ") " + "\n"
     str += "END personnae" + "\n";
     return str
   
