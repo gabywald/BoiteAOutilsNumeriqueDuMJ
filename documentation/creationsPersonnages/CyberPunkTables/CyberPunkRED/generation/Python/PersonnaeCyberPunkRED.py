@@ -27,7 +27,7 @@ class PersonnaeCyberPunkRED( object ) :
         if (healpoint != None):
           self.seriously  = str(int(healpoint) / 2)
         else: 
-          self.seriously  = healpoint
+          self.seriously  = cor
         self.deathsave  = cor
         self.int        = int
         self.ref        = ref

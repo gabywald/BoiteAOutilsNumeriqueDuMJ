@@ -271,6 +271,8 @@ for i in range(selector):
       personnaeToOuput.gears[ selected ] = selected
 
 ## TODO Skills
+## ## numnber or '\dotfill'
+## ## remove spaces in names for generation
 
 
 print( )
