@@ -12,16 +12,17 @@ __status__ = "Development"
 
 class PersonnaeCyberPunkRED( object ) :
   def __init__(self,
-               name      = None, classe    = None, image     = "NONE", 
+               name      = None, classe    = None, image     = "NONE", age = None, 
                title     = None, healpoint = None, impact    = None, 
                int       = None, ref       = None, dex       = None, 
                tech      = None, pres      = None, vol       = None, cha = None, 
                mouv      = None, cor       = None, emp       = None, 
-               biography = {}, lightbio    = {},   style     = {}, 
+               biography = {}, lightbio    = {},   style     = {}, skills    = {}, 
                armor     = {}, weapons     = {},   gears     = {}, cyberware = {}): 
         self.name       = name
         self.classe     = classe
         self.image      = image
+        self.age        = age
         self.title      = title
         self.healpoint  = healpoint
         if (healpoint != None):
@@ -39,6 +40,7 @@ class PersonnaeCyberPunkRED( object ) :
         self.mouv       = mouv
         self.cor        = cor
         self.emp        = emp
+        self.skills     = skills
         self.style      = style
         self.lightbio   = lightbio
         self.biography  = biography
@@ -54,6 +56,7 @@ class PersonnaeCyberPunkRED( object ) :
     str += "CLASSE " + self.classe + "\n"
     str += "NAME " + self.name + "\n"
     str += "ICON " + self.image + "\n"
+    str += "AGE " + self.age + "\n"
     str += "TITLE " + self.title + "\n"
     str += "HEALPOINTS " + self.healpoint + "\n"
     str += "SERIOUSLYWOUNDED " + self.seriously + "\n"
@@ -68,6 +71,8 @@ class PersonnaeCyberPunkRED( object ) :
     str += "MOVE " + self.mouv + "\n"
     str += "BODY " + self.cor + "\n"
     str += "EMP " + self.emp + "\n"
+    for item in self.skills:
+      str += item + "\t" + self.skills[ item ] + "\n"
     str += "BEGIN lightbio" + "\n"
     for item in self.lightbio:
       str += item.upper() + "\t" + self.lightbio[ item ] + "\n"

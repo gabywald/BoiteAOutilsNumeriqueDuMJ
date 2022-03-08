@@ -270,10 +270,103 @@ for i in range(selector):
       selected = gearLIST[ select ]
       personnaeToOuput.gears[ selected ] = selected
 
-## TODO Skills
-## ## numnber or '\dotfill'
+## ***** Skills *****
+## ## number or '\dotfill' if 0
 ## ## remove spaces in names for generation
 
+def choiceWithIn(i: int):
+  """ Make a (good) choice within 0 and i. """
+  choice = 0
+  while( not ( (choice > 0) and (choice <= i) ) ):
+    print("\t\t [1-", (i), "]?")
+    try:
+      choice = int(input())
+    except:
+      choice = -1
+    if ( (choice == 0) or (choice > i) ):
+      choice = -1
+    print("\t\t => [", choice, "]") 
+  return choice
+
+def choiceWithTwo():
+  choice = 0
+  while( not ( (choice >= 2) and (choice <= 6) ) ):
+    try:
+      choice = int(input())
+    except:
+      choice = -1
+    if ( (choice <= 1) or (choice > 6) ):
+      choice = -1
+    print("\t\t => [", choice, "]") 
+  return choice
+
+## TODO select age
+age = random.randint(12, 51)
+print ( "age: ", age)
+
+countJobTalent = 0
+countJobMaxims = 40
+baseTPC        = 40 ## +1 by year after 28
+agesAndTPCchanges = [
+                    (12, 5, -15), 
+                    (13, 5, -10), 
+                    (14, 4, -5), 
+                    (15, 4, -1), 
+                    (16, 3, 3), 
+                    (17, 3, 6), 
+                    (18, 3, 9), 
+                    (19, 3, 12), 
+                    (20, 2, 14), 
+                    (21, 2, 16), 
+                    (22, 2, 18), 
+                    (23, 2, 20), 
+                    (24, 1, 21), 
+                    (25, 1, 22), 
+                    (26, 1, 23), 
+                    (27, 1, 24), 
+                    (28, 1, 25)
+                    ]
+if (age < 28):
+    for elt in agesAndTPCchanges:
+        if (age == elt[0]):
+            countJobMaxims += elt[2]
+            break
+else:
+    countJobMaxims += (age-28)
+
+print( "TPC: ", countJobMaxims)
+
+skillsToSet = {}
+for skill in dataBaseJSONtest["skills"]:
+  skillsToSet[ skill ] = 0
+  print( item )
+
+while( countJobTalent < countJobMaxims):
+  print("\t **** Choix valeurs par compétence ? (min 2, max 6) TPCmax: ", countJobMaxims, "\tactual: ", countJobTalent)
+  i = 0
+  for skill in skillsToSet: 
+    print("\t\t (", (i+1), ")-{", skill, "} = ", skillsToSet[ skill ], end='\n')
+    i += 1
+  choice = choiceWithIn(i)         
+  selectedSkill = list(skillsToSet.keys())[choice-1];
+  print("\t\t Selected {", selectedSkill, "}")
+  print("\t **** Choix valeurs ? (min 2, max 6) TPCmax: ", countJobMaxims, "\tactual: ", countJobTalent)
+  value2set = choiceWithTwo()
+  ## Pour la dernière note : si excessive, sur ce qui reste par rapport au maximum
+  if ( (countJobTalent + value2set) > countJobMaxims):
+    value2set = countJobMaxims - countJobTalent
+    print( value2set )
+  skillsToSet[ selectedSkill ] += value2set
+  countJobTalent += value2set
+
+personnaeToOuput.age = str(age)
+
+for elt in skillsToSet.keys():
+  value = skillsToSet[ elt ]
+  if (value == 0):
+    personnaeToOuput.skills[ elt.replace(" ", "") ] = "\\dotfill"
+  else:
+    personnaeToOuput.skills[ elt.replace(" ", "") ] = str(value)
 
 print( )
 
