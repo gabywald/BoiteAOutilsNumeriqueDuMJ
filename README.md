@@ -37,6 +37,7 @@ Quelques idées de base pour ce 'repository' :
   * Faire un lien avec un annuaire de ressources en JdR ?
   * Pourquoi mettre / indiquer le JdR sur son CV ?
   * Fiche mémo des "Trigger Warning" (situations sensibles pour certaines personnes) ; 
+  * Licence de publication, OGL / Open Game License, similarités avec les Licences informatiques (cf. https://choosealicense.com/ -- Choose an open source license )
   * ... 
 
 ### Autres idées
