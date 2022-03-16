@@ -12,7 +12,7 @@
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{ClassePretiresCyberPunkRED}[202220225 Pretire JdR CyberPunk Red V0.1.0]
  
-%%%  Chargement de la classe article, avec transfert d'options
+%%% Chargement de la classe article, avec transfert d'options
 \PassOptionsToClass{10pt,twoside,a4paper}{article} % format a4paper par défaut
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{article}}
 % \ProcessOptions
@@ -70,6 +70,3 @@
 \newcommand{\CaracANYone}[1]{
 	#1	
 }
-
-
-

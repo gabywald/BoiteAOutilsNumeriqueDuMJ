@@ -465,7 +465,7 @@ Brawling	4
 MeleeWeapon	\dotfill
 BasicTech	4
 PlayInstrument	\dotfill
-Interface	\dotfill
+Interface	7
 ARMORDESC	Combinaison connectée
 ARMORHEADDESC	Tête
 ARMORTORSODESC	Torse
