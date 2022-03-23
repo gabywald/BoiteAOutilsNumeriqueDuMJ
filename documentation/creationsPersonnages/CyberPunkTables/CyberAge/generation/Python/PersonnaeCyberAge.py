@@ -1,13 +1,22 @@
 #!/usr/bin/python3
 
-class Personnae( object ) :
+__author__ = "Gabriel Chandesris"
+__copyright__ = "CC Gabriel Chandesris (2022)"
+__credits__ = ""
+__licence__ = "GNU GENERAL PUBLIC LICENSE v3"
+__version__ = "1.0.0"
+__maintainer__ = "Gabriel Chandesris"
+__email__ = "gabywald[at]laposte.net"
+__contact__ = "gabywald[at]laposte.net"
+__status__ = "Development"
+
+class PersonnaeCyberAge( object ) :
   def __init__(self,
                name      = None, concept  = None, image     = "img/personnageAnonymous.jpg", 
                title     = None, pv       = None, impact    = None, 
-               humanite  = None, int      = None, ref       = None, 
-               dex       = None, tech     = None, pres      = None, 
-               vol       = None, cha      = None, mouv      = None, 
-               cor       = None, emp      = None,  
+               san       = None, app      = None, con       = None, 
+               dex       = None, force    = None, tai       = None, 
+               edu       = None, int      = None, pou       = None,  
                age       = None, sexe     = None, parrain   = None,  
                argent    = None, metier   = None, divers    = None,  
                biography = [], cyberequip = [], cailloux    = [], 
@@ -16,19 +25,17 @@ class Personnae( object ) :
         self.concept    = concept
         self.image      = image
         self.title      = title
-        self.impact     = impact
         self.pv         = pv
-        self.humanite   = humanite
-        self.int        = int
-        self.ref        = ref
+        self.impact     = impact
+        self.san        = san
+        self.app        = app
+        self.con        = con
         self.dex        = dex
-        self.tech       = tech
-        self.pres       = pres
-        self.vol        = vol
-        self.cha        = cha
-        self.mouv       = mouv
-        self.cor        = cor
-        self.emp        = emp
+        self.force      = force
+        self.tai        = tai
+        self.edu        = edu
+        self.int        = int
+        self.pou        = pou
         self.cyberequip = cyberequip
         self.cailloux   = cailloux
         self.programs   = programs
@@ -51,17 +58,16 @@ class Personnae( object ) :
     str += "IMAGE " + self.image + "\n"
     str += "TITLE " + self.title + "\n"
     str += "PV " + self.pv + "\n"
-    str += "HUMANITE " + self.humanite + "\n"
-    str += "INT " + self.int + "\n"
-    str += "REF " + self.ref + "\n"
+    str += "IMPACT " + self.impact + "\n"
+    str += "SAN " + self.san + "\n"
+    str += "APP " + self.app + "\n"
+    str += "CON " + self.con + "\n"
     str += "DEX " + self.dex + "\n"
-    str += "TECH " + self.tech + "\n"
-    str += "PRES " + self.pres + "\n"
-    str += "VOL " + self.vol + "\n"
-    str += "CHA " + self.cha + "\n"
-    str += "MOUV " + self.mouv + "\n"
-    str += "COR " + self.cor + "\n"
-    str += "EMP " + self.emp + "\n"
+    str += "FOR " + self.force + "\n"
+    str += "TAI " + self.tai + "\n"
+    str += "EDU " + self.edu + "\n"
+    str += "INT " + self.int + "\n"
+    str += "POU " + self.pou + "\n"
     str += "BEGIN cyberequipement" + "\n"
     for item in self.cyberequip: 
       str += item + "\n"

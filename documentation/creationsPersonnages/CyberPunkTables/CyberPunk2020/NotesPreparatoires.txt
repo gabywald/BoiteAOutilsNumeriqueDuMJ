@@ -1,20 +1,47 @@
 
-Voir ce qui est fait équivalent pour CyberPunk RED (reprendre directement ?!)
+Renommer *CyberPunkRED* => *CyberPunk2020* (vieilles archives pouvant prêter à confusion)
+
+CyberPunkREDBiography.txt
+	TODO revoir ce fichier + fichiers associés à créer (liens talents, métiers, groupes de compétences à partir de caractéristiques)
+	DONE (?) interrogation mutiples de tables en simultané
+	TODO re-codage (au moins partiel) à partir de celui fait pour CyberAge
+
+TODO tirages sur tables FEC (si nécessaire)
+DONE liste des compétences pour chacun des 10 archétypes possibles
+
+DONE tirage des caractéristiques de base (différent de celui de CyberAge, que ce soit en SimulacreS ou BasicRPG)
+
+DONE complétion des compétences de base
+DONE calcul des points disponibles pour compétences <= TO REVIEW
+
+"Tagging" spécifiques ? (utilisation des annotations entre accolades)
+
+TODO attribution automatique de points aux caractéristiques (6, 4, 2)
+
+TODO Parrains, Talents... pour biographic processing
+
+
 Voir également ressources "historiques" : 
 	https://cyberpunk.fandom.com/fr/wiki/Cyberpunk_2020#R.C3.B4les_des_personnages
 	https://fr.wikipedia.org/wiki/Cyberpunk_2020
+	https://github.com/benabus/cyberpunk-red-character-generator
+	
+	https://cyberpunk-char-gen.neocities.org/
+	https://ripperdocred.web.app/character
+	
+	https://cyberpunk-jdr.fr/aides_de_jeu_cyberpunk.php
 
 Liste des types possibles : 
-    Rockerboy
-    Solo
-    Fixer
-    Nomade
-    Netrunner
-    Techie
-    MedTechie
-    Corporate
-    Média
-    Cop / Justicier
-    
-    
-    
+	Rockerboy
+	Solo
+	Fixer
+	Nomade
+	Netrunner
+	Techie
+	MedTechie
+	Corporate
+	Média
+	Cop / Justicier
+
+Quelques changements pour CyberPunk RED (2045) : ressources à retravailler. 
+Voir ce qui est fait équivalent pour CyberPunk RED (reprendre directement ?!)

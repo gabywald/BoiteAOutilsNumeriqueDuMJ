@@ -247,19 +247,19 @@ class BiographicDataLoad( object ) :
     @classmethod
     def loadBiographicsTables( self ) : 
         """Load / Return Biographic Tables"""
-        return self.subLoad( self._tables, "biographyCyberPunkRED" )
+        return self.subLoad( self._tables, "biographyCyberPunk2020" )
     
     @classmethod
     def loadEquipmentTables( self ) : 
         """Load / Return Equipment Tables"""
-        return self.subLoad( self._equipments, "tableEquipementsCyberPunkRED" )
+        return self.subLoad( self._equipments, "tableEquipementsCyberPunk2020" )
     
     @classmethod
     def loadJobsToSkills( self ) : 
         if (self._jobsToSkills != None) : 
             return self._jobsToSkills
         self._jobsToSkills = {}
-        data = ModuleHelper.loadFileConfig( "metiersEtTalentsCyberPunkRED" )
+        data = ModuleHelper.loadFileConfig( "metiersEtTalentsCyberPunk2020" )
         nextTable = None
         for line in data : 
             resultTableHead = re.match( "^(.*?)\t(.*?)$", line)
@@ -277,7 +277,7 @@ class BiographicDataLoad( object ) :
         if (self._skills != None) : 
             return self._skills
         self._skills = {}
-        data = ModuleHelper.loadFileConfig( "talentsCyberPunkRED" )
+        data = ModuleHelper.loadFileConfig( "talentsCyberPunk2020" )
         nextTable = None
         for line in data : 
             if ( ( not line.startswith( "#" ) ) and (line != "") ) :

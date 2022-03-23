@@ -47,7 +47,7 @@
 
 \def\TIKZcyberpunkRED{%
 	\begin{tikzpicture}[remember picture,overlay]
-	\node[rotate=60,scale=10,text opacity=0.1] at (current page.center) {Cyberpunk RED};
+	\node[rotate=60,scale=10,text opacity=0.1] at (current page.center) {-- Cyberpunk RED};
 	\end{tikzpicture}
 }%
 
@@ -99,23 +99,15 @@
 }%
 
 %%%%%%%%%%% SOME VALUES IN ENGLISH %%%%%%%%%%%%%%%%%%%%%
-\def\ENdefNom{\textbf{Name} \dotfill }
+%% \def\ENdefNom{\textbf{Name} \dotfill }
 
+%%%%%%%%%%% 
+\definecolor{verylightred}{rgb}{1.0,0.9,0.9}
+\definecolor{lightred}{rgb}{1.0,0.75,0.75}
+\definecolor{red}{rgb}{1.0,0.5,0.5}
 
-%%%%%%%%%%% QUELQUES VALEURS EN FRANCAIS %%%%%%%%%%%%%%%%%%%%%
-\def\FRdefNom{\small \textbf{Nom} \dotfill }
-\def\FRdefRole{\small \textbf{R{\^o}le} \dotfill }
-\def\FRdefPPerso{\small \textbf{Points de \newline Personnage} \dotfill }
-\def\FRdefCaract{\small \textbf{Caract{\'e}ristiques} \dotfill }
-\def\FRdefLocali{\small \textbf{Localisation \newline Armure PA} \dotfill }
-\def\FRdefSauveg{\small \textbf{Sauvegarde} \hrulefill \dotfill }
-\def\FRdefMCMCMC{\small \textbf{MC} \hrulefill \dotfill }
-\def\FRdefBonusD{\small \textbf{Bonus Domages} \hrulefill \dotfill }
-\def\FRdefCOMPET{\small \textbf{Comp{\'e}tences} \dotfill }
-
-%%%%% exchange (find & replace) between 'ENdef' end 'FRdef' from here to forward (43 occurences) %%%%%
-
-\def\CELblackTXTWhite{\cellcolor{black} \color{white}}
+\def\CELLredTXTWhite{\cellcolor{black} \color{white}}
+\def\CELLredTXTWhite{\cellcolor{red} \color{black}}
 
 
 %============================= Corps =================================
@@ -195,7 +187,7 @@
 			\footnotesize
 			\begin{tabular}{|p{0.48\textwidth}|c|c|c|}
 				\hline
-				\CELblackTXTWhite 
+				\CELLredTXTWhite 
 				Compétences de Contrôle					&	NIV		&	CAR		&	BAS		\\
 				\hline
 				Conduite de véhicule Terrestre (RÉF)	&			&			&		 	\\
@@ -210,7 +202,7 @@
 
 			\begin{tabular}{|p{0.48\textwidth}|c|c|c|}
 				\hline
-				\CELblackTXTWhite 
+				\CELLredTXTWhite 
 				Compétences \newline de Combat			&	NIV		&	CAR		&	BAS		\\
 				\hline
 				Arme de mêlée (DEX)						&			&			&		 	\\
@@ -225,7 +217,7 @@
 			
 			\begin{tabular}{|p{0.48\textwidth}|c|c|c|}
 				\hline
-				\CELblackTXTWhite 
+				\CELLredTXTWhite 
 				Compétences de Corps					&	NIV		&	CAR		&	BAS		\\
 				\hline
 				Athlétisme (DEX)						&			&			&		 	\\
@@ -244,7 +236,7 @@
 			
 			\begin{tabular}{|p{0.48\textwidth}|c|c|c|}
 				\hline
-				\CELblackTXTWhite 
+				\CELLredTXTWhite 
 				Compétences \newline d'Éducation		&	NIV		&	CAR		&	BAS		\\
 				\hline
 				Bibliothèque (INT)						&			&			&		 	\\
@@ -280,7 +272,7 @@
 			\footnotesize
 			\begin{tabular}{|p{0.48\textwidth}|c|c|c|}
 				\hline
-				\CELblackTXTWhite 
+				\CELLredTXTWhite 
 				Compétences \newline d'Éducation		&	NIV		&	CAR		&	BAS		\\
 				\hline
 				Guide Local (INT)						&			&			&		 	\\
@@ -313,7 +305,7 @@
 			
 			\begin{tabular}{|p{0.48\textwidth}|c|c|c|}
 				\hline
-				\CELblackTXTWhite 
+				\CELLredTXTWhite 
 				Compétences \newline de représentration	&	NIV		&	CAR		&	BAS		\\
 				\hline
 				Instrument (TECH)						&			&			&		 	\\
@@ -332,7 +324,7 @@
 			
 			\begin{tabular}{|p{0.48\textwidth}|c|c|c|}
 				\hline
-				\CELblackTXTWhite 
+				\CELLredTXTWhite 
 				Compétences \newline de Sociabilité		&	NIV		&	CAR		&	BAS		\\
 				\hline
 				Connaissance de la rue (PRES)			&			&			&		 	\\
@@ -364,7 +356,7 @@
 			\footnotesize
 			\begin{tabular}{|p{0.48\textwidth}|c|c|c|}
 				\hline
-				\CELblackTXTWhite 
+				\CELLredTXTWhite 
 				Compétences \newline de Technique		&	NIV		&	CAR		&	BAS		\\
 				\hline
 				Aérotech (TECH)							&			&			&		 	\\
@@ -401,7 +393,7 @@
 			
 			\begin{tabular}{|p{0.48\textwidth}|c|c|c|}
 				\hline
-				\CELblackTXTWhite 
+				\CELLredTXTWhite 
 				Compétences de Tir						&	NIV		&	CAR		&	BAS		\\
 				\hline
 				Armes d'épaule (RÉF)					&			&			&		 	\\
@@ -418,8 +410,8 @@
 			
 			\begin{tabular}{|p{0.48\textwidth}|c|c|c|}
 				\hline
-				\CELblackTXTWhite 
-				Compétences de Vigilance				&	NIV		&	CAR		&	BAS		\\
+				\CELLredTXTWhite 
+				Compétences de~\newline Vigilance		&	NIV		&	CAR		&	BAS		\\
 				\hline
 				\textbf{Concentration} (VOL)			&			&			&		 	\\
 				\hline
@@ -462,7 +454,7 @@
 			\hline
 			\textsc{\Large Armes et armures}			&		\multirow{2}{*}{
 			\begin{tabular}{|p{0.10\textwidth}|p{0.10\textwidth}|p{0.10\textwidth}|p{0.10\textwidth}|p{0.10\textwidth}|} \hline
-				\CELblackTXTWhite Arme		&	DG	&	Munitions	&	ATT/Round	&	Notes	\\ \hline
+				\CELLredTXTWhite Arme		&	DG	&	Munitions	&	ATT/Round	&	Notes	\\ \hline
 											&		&				&				&			\\ \hline
 											&		&				&				&			\\ \hline
 											&		&				&				&			\\ \hline
@@ -474,7 +466,7 @@
 			\end{tabular} }											\\
 			%% \hline
 			\begin{tabular}{|p{0.08\textwidth}|p{0.08\textwidth}|p{0.08\textwidth}|} \hline
-				\CELblackTXTWhite Armure	&	PA	&	Pénalité	\\ \hline
+				\CELLredTXTWhite Armure		&	PA	&	Pénalité	\\ \hline
 				Tête						&		&				\\ \hline
 				Corps						&		&				\\ \hline
 				Bouclier					&		&				\\ \hline
@@ -526,7 +518,7 @@
 	\end{tabular}
 	&
 	\begin{tabular}{|p{0.20\textwidth}|p{0.55\textwidth}|} \hline
-		\CELblackTXTWhite ÉQUIPEMENT	&	\CELblackTXTWhite NOTES			\\ \hline 
+		\CELLredTXTWhite ÉQUIPEMENT	&	\CELLredTXTWhite NOTES		\\ \hline 
 										&									\\ \hline
 										&									\\ \hline
 										&									\\ \hline
@@ -542,8 +534,8 @@
 										&									\\ \hline
 										&									\\ \hline
 										&									\\ \hline
-		\CELblackTXTWhite Munitions		&									\\ \hline
-		\CELblackTXTWhite Eurodollars	&									\\ \hline
+		\CELLredTXTWhite Munitions		&									\\ \hline
+		\CELLredTXTWhite Eurodollars	&									\\ \hline
 		
 		\multicolumn{2}{ p{0.80\textwidth} }{ }	\\
 		\multicolumn{2}{ p{0.80\textwidth} }{ }	\\
@@ -587,35 +579,35 @@
 	\begin{tabular}{ p{0.30\textwidth} p{0.32\textwidth} p{0.30\textwidth} }
 		&	
 		\begin{tabular}{|p{0.14\textwidth}|p{0.14\textwidth}|} \hline
-			\CELblackTXTWhite Kit Cyberaudio	&	\CELblackTXTWhite Données		\\ \hline 
+			\CELLredTXTWhite Kit Cyberaudio		&	\CELLredTXTWhite Données		\\ \hline 
 												&									\\ \hline
 												&									\\ \hline
 												&									\\ \hline
 		\end{tabular}	&	\\
 		&	&	\\
 		\begin{tabular}{|p{0.14\textwidth}|p{0.14\textwidth}|} \hline
-			\CELblackTXTWhite Cyber\oe il gauche	&	\CELblackTXTWhite Données		\\ \hline 
+			\CELLredTXTWhite Cyber\oe il gauche		&	\CELLredTXTWhite Données		\\ \hline 
 													&									\\ \hline
 													&									\\ \hline
 													&									\\ \hline
 		\end{tabular}
 		&	&	
 		\begin{tabular}{|p{0.14\textwidth}|p{0.14\textwidth}|} \hline
-			\CELblackTXTWhite Cyber\oe il droit		&	\CELblackTXTWhite Données		\\ \hline 
+			\CELLredTXTWhite Cyber\oe il droit		&	\CELLredTXTWhite Données		\\ \hline 
 													&									\\ \hline
 													&									\\ \hline
 													&									\\ \hline
 		\end{tabular} \\
 		&	&	\\
 		\begin{tabular}{|p{0.14\textwidth}|p{0.14\textwidth}|} \hline
-			\CELblackTXTWhite Cyberbras gauche	&	\CELblackTXTWhite Données		\\ \hline 
+			\CELLredTXTWhite Cyberbras gauche	&	\CELLredTXTWhite Données		\\ \hline 
 												&									\\ \hline
 												&									\\ \hline
 												&									\\ \hline
 		\end{tabular}
 		&	&	
 		\begin{tabular}{|p{0.14\textwidth}|p{0.14\textwidth}|} \hline
-			\CELblackTXTWhite Cyberbras droit	&	\CELblackTXTWhite Données		\\ \hline 
+			\CELLredTXTWhite Cyberbras droit	&	\CELLredTXTWhite Données		\\ \hline 
 												&									\\ \hline
 												&									\\ \hline
 												&									\\ \hline
@@ -623,7 +615,7 @@
 		&	&	\\
 		Pour un cyberimplant qui nécessite un cyberimplant de base (par exemple un cyber\oe il), cochez la case pour indiquer que vous avez l'implant de base. Inscrivez les extensions dans les lignes en dessous.~\newline &	
 		\begin{tabular}{|p{0.14\textwidth}|p{0.14\textwidth}|} \hline
-			\CELblackTXTWhite Câblage neural	&	\CELblackTXTWhite Données		\\ \hline 
+			\CELLredTXTWhite Câblage neural		&	\CELLredTXTWhite Données		\\ \hline 
 												&									\\ \hline
 												&									\\ \hline
 												&									\\ \hline
@@ -633,24 +625,24 @@
 		\end{tabular}	&	Pour un cyberimplant qui ne nécessite pas de cyberimplant de base (par exemple un cyberimplant interne), contentez-vous d'inscrire chaque cyberimplant dans les lignes en dessous du nom de la catégorie.~\newline	\\
 		&	&	\\
 		\begin{tabular}{|p{0.14\textwidth}|p{0.14\textwidth}|} \hline
-			\CELblackTXTWhite Cyberjambe gauche	&	\CELblackTXTWhite Données		\\ \hline 
-												&									\\ \hline
-												&									\\ \hline
-												&									\\ \hline
+			\CELLredTXTWhite Cyberjambe gauche		&	\CELLredTXTWhite Données		\\ \hline 
+													&									\\ \hline
+													&									\\ \hline
+													&									\\ \hline
 		\end{tabular}
 		&	&	
 		\begin{tabular}{|p{0.14\textwidth}|p{0.14\textwidth}|} \hline
-			\CELblackTXTWhite Cyberjambe droite	&	\CELblackTXTWhite Données		\\ \hline 
-												&									\\ \hline
-												&									\\ \hline
-												&									\\ \hline
+			\CELLredTXTWhite Cyberjambe droite		&	\CELLredTXTWhite Données		\\ \hline 
+													&									\\ \hline
+													&									\\ \hline
+													&									\\ \hline
 		\end{tabular} \\
 	
 	\end{tabular}
 	
 	&
 	\begin{tabular}{|p{0.10\textwidth}|p{0.10\textwidth}|} \hline
-		\CELblackTXTWhite Cyberimplant interne	&	\CELblackTXTWhite Données		\\ \hline 
+		\CELLredTXTWhite Cyberimplant interne	&	\CELLredTXTWhite Données		\\ \hline 
 												&									\\ \hline
 												&									\\ \hline
 												&									\\ \hline
@@ -659,7 +651,7 @@
 	\end{tabular} \newline 
 	
 	\begin{tabular}{|p{0.10\textwidth}|p{0.10\textwidth}|} \hline
-		\CELblackTXTWhite Cyberimplant externe	&	\CELblackTXTWhite Données		\\ \hline 
+		\CELLredTXTWhite Cyberimplant externe	&	\CELLredTXTWhite Données		\\ \hline 
 												&									\\ \hline
 												&									\\ \hline
 												&									\\ \hline
@@ -668,7 +660,7 @@
 	\end{tabular} \newline 
 	
 	\begin{tabular}{|p{0.10\textwidth}|p{0.10\textwidth}|} \hline
-		\CELblackTXTWhite Cyberfashion		&	\CELblackTXTWhite Données		\\ \hline 
+		\CELLredTXTWhite Cyberfashion		&	\CELLredTXTWhite Données		\\ \hline 
 											&									\\ \hline
 											&									\\ \hline
 											&									\\ \hline
@@ -677,7 +669,7 @@
 	\end{tabular} \newline 
 	
 	\begin{tabular}{|p{0.10\textwidth}|p{0.10\textwidth}|} \hline
-		\CELblackTXTWhite Cyborgimplant		&	\CELblackTXTWhite Données		\\ \hline 
+		\CELLredTXTWhite Cyborgimplant		&	\CELLredTXTWhite Données		\\ \hline 
 											&									\\ \hline
 											&									\\ \hline
 											&									\\ \hline

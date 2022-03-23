@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Cuir",
+        "sp": 4
+    },
+    {
+        "name": "Kevlar®",
+        "sp": 7
+    },
+    {
+        "name": "Combinaison connectée",
+        "sp": 11
+    },
+    {
+        "name": "Tenue pare-balles Légère",
+        "sp": 11
+    },
+    {
+        "name": "Tenue pare-balles lourde",
+        "sp": 15
+    },
+    {
+        "name": "Metalgear",
+        "sp": 25
+    },
+    {
+        "name": "Vétement",
+        "sp": 0
+    }
+]

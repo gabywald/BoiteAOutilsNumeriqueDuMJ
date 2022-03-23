@@ -1,0 +1,29 @@
+{
+    "Cyberarm": {
+        "description": "Une cyber-arme dissimulée dans un cyberbras."
+    },
+    "Cyberleg (Paired Jump Boosters)": {
+        "description": "Vous pouvez faire un saut en hauteur de 6m, ou de 8m en longeur si vous prenez votre élan."
+    },
+    "Cyberaudio  (Amped Hearing)": {
+        "description": "Ajoute +1 aux jets d’action liés à l’audition."
+    },
+    "Cyberaudio  (Radio Link)": {
+        "description": "Micro-radio qui vous permet de communiquer avec un récepteur réglé sur la même fréquence, situé à un maximum de 1,6 km."
+    },
+    "Cyberoptic  (Camera)": {
+        "description": "Vous pouvez enregistrer des images dans le disque dur de la puce et les télécharger dans un appareil d’enregistrement ou un agent."
+    },
+    "Cyberoptic  (Low Light)": {
+        "description": "Vous voyez distinctement dans la pénombre (ciel nocturne voilé n rue faiblement éclairée)."
+    },
+    "Cyberoptic  (Targeting)": {
+        "description": "Un dispositif de visée inclus dans u organisme qui vous donne +1 en Tir précis."
+    },
+    "Interface Plugs": {
+        "description": "Prises permettant à l’utilisateur de se brancher directement aux machines et aux cybertechnologies."
+    },
+    "Reflex Boost (Speedware)": {
+        "description": "ous devenez plus rapide pendant cinqss tours complets (+3 aux jets d’initiatives) avant que l’accélération soit coupée. Vous devez attendre 2 tours pour reprendre un nouveau rush de mégadrénaline."
+    }
+}
