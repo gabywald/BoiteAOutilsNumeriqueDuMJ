@@ -175,7 +175,7 @@ GOALS	Informer (en plus de l'enquête).
 FRIENDS	Gangs, Corporations. 
 ENEMIES	Anciens Employeurs. 
 ROMANCE	Doublé par un rival. 
-PERSONALITY	Chaleureux et extroverti. 
+PERSONALITY	Chaleureux et extraverti. 
 CyberWarePartOne	CyberOptique (enregistrement) \newline Cablage Auditif (téléphone)
 CyberWarePartTwo	\resizebox{0.46\linewidth}{25pt}{\includegraphics{../../../../../images/pixel.png}}
 GearPartOne	Agent \newline Découpeur (cable monofilament)
@@ -231,7 +231,7 @@ ARMORHEADDESC	Tête
 ARMORTORSODESC	Torse
 ARMORHEADVALUE	11
 ARMORTORSOVALUE	11
-BACKGROUND	Ma famille est poursuivie par une vendetta qui dure depuisn des générations. 
+BACKGROUND	Ma famille est poursuivie par une vendetta qui dure depuis des générations. 
 MOTIVATION	La Vengeance. 
 GOALS	Me débarasser de ma mauvaise réputation. 
 FRIENDS	Il / Elle est comme un père / une mère. 
