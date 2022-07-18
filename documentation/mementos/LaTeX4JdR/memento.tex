@@ -14,7 +14,6 @@
 \usepackage{float}           % pour le placement des figure
 \usepackage{verbatim}
 
-
 \usepackage{longtable} % pour les tableaux de plusieurs pages
 
 \usepackage[table]{xcolor} % couleur de fond des cellules de tableaux
@@ -39,8 +38,8 @@
 \usepackage{lscape} % changement orientation page
 \usepackage{pdflscape}
 % --- style de page (pour les en-tete) ---
-% \pagestyle{headings}
-\pagestyle{empty}
+\pagestyle{headings}
+% \pagestyle{empty}
 
 % % % en-tete et pieds de page configurables : fancyhdr.sty
 
@@ -81,25 +80,90 @@
 % \thispagestyle{empty}
 
 \begin{multicols}{2}
-	\section*{Memento LaTeX pour le JdR}
+
+	\textsc{\Huge Memento LaTeX pour le JdR}~\\
 	
-\begin{itemize}
-	\item En-Tête, type de documents (livre, article, lettre...) ; 
-	\item Table des matières : chapter, section, subsection, subsection... ; 
-	\item Table des figures ; 
-	\item Table de tableaux ; 
-	\item Insertions figures / images : ... ; 
-	\item En-tête et Pied de page : types par défaut et pezrsonnalisation (fancyhdr) ; 
-	\item Table des index et références ; 
-	\item Mise en page (par défaut, changements possibles, boites...) ;
-	\item Tableaux, Tableaux Longs ; 
-	\item Tikz : décoration, frises, schémas, personnages, texte en travers, tikzpeople... ; 
-	\item Polices de caractères / Fontes : usages, changements... ; 
-\end{itemize}
-	
-	\columnbreak
+	\tableofcontents
 	
 	\vfill
+	\columnbreak
+	
+	\section{Idées de base}
+	\begin{itemize}
+		\item En-Tête, type de documents (livre, article, lettre...) ; 
+		\item Comment compiler un document LaTeX ?
+		\item Mise en page (par défaut, changements possibles, boites...) ;
+		\item Table des matières : chapter, section, subsection, subsection... ; 
+		\item Table des figures ; 
+		\item Table de tableaux ; 
+		\item Table des index et références ; 
+		\item Insertions figures / images : ... ; 
+		\item En-tête et Pied de page : types par défaut et personnalisation (fancyhdr) ; 
+		\item Tableaux, Tableaux Longs ; 
+		\item Tikz : décoration, frises, schémas, personnages, texte en travers, tikzpeople... ; 
+		\item Polices de caractères / Fontes : usages, changements... ; 
+		\item Beamer (faire des présentations)... ; 
+	\end{itemize}
+	
+	\section{Rappel de règles de rédaction}
+	
+	\textbf{\textsc{Tu veux publier un document propre et clair ?~\\ Tu es au bon endroit !}}~\\
+	
+	Quelques rappels tout de même, que \LaTeX~ facilitera sans faire à ta place : 
+	\begin{itemize}
+		\item Accepte les relectures et corrections !
+		\item L'orthographe et la grammaire sont importants (et essentiels), surtout pour que tes écrits persistent dans le temps et qu'ils puissent être facilement relus par d'autres (y compris le <<toi du futur>>) ;~\newline
+			$\rightarrow$ Fait-toi relire (à défaut d'un correcteur orthographique correct) !!
+		\item Concernant le style d'écriture : tant que tu trouves un public pour te lire et apprécier ton contenu, tout ira bien (sinon, il faut en changer). 
+	\end{itemize}
+
+	\vfill~\\
+	\columnbreak
+	
+	\section{Introduction à \LaTeX}
+	
+	\subsection{Ce que permet \LaTeX}
+	
+	\begin{itemize}
+		\item Offre une configuration par défaut et une mise en page conforme aux normes et standards de lisibilité et d'impression par défaut ; 
+		\item Faire un minimum de mise en page sans trop réfléchir au départ (taille des caractères, police de caractère / fonte, justification du texte / égalisation sur les côtés par défaut...
+		\item Des éléments de mise en page qui maintiennent la lisibilité en étant inclus dans celui-ci. 
+		\item Utiliser des documents en texte brut (avec un logiciel du type de NotePad++, TextEditor, VIm, Nano, Emacs, Geany, Gedit, Jedit...) : 
+		\begin{itemize}
+			\item Utilise moins de place sur le disque dur ; 
+			\item Compatible avec n'importe quel éditeur sur n'importe quel système ; 
+			\item Éditable en WYSIWIG avec LyX ; 
+			\item De la documentation et une communauté disponible en ligne (ou offline) et éprouvée ; 
+			\item ...
+		\end{itemize}
+	\end{itemize}
+
+	\subsection{Ce que NE permet PAS \LaTeX}
+	
+	\begin{itemize}
+		\item Écrire à ta place. 
+		\item Avoir un texte correct pour la grammaire et l'orthographe. 
+		\item Avoir un style correct / lisible. 
+		\item Avoir des idées à ta place (et empêcher d'en avoir). 
+		\item ...
+	\end{itemize}
+	
+	\vfill~\\
+	\columnbreak
+	
+	\section{Bases : En-Tête, type de documents (livre, lettre...)}
+	\section{Comment compiler un document LaTeX ?}
+	\section{Mise en page (par défaut, changements possibles, boites...)} 
+	\section{Table des matières : part, chapter, section, subsection, subsection...} 
+	\section{Table des figures} 
+	\section{Table de tableaux} 
+	\section{Table des index et références} 
+	\section{Insertions figures / images}  
+	\section{En-tête et Pied de page : types par défaut et personnalisation (fancyhdr)} 
+	\section{Tableaux, Tableaux Longs} 
+	\section{Tikz : décoration, frises, schémas, personnages, texte en travers, tikzpeople...}  
+	\section{Polices de caractères / Fontes : usages, changements...} 
+	\section{Beamer (faire des présentations)...}
 	
 	...
 \end{multicols}
