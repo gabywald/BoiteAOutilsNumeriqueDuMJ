@@ -25,11 +25,11 @@ clean : $(LATEXFILE).log mrproper
 	# rm $(LATEXFILE).dvi
 	# rm $(LATEXFILE).pdf
 
-mrproper : $(LATEXFILE).aux ## $(LATEXFILE).bbl $(LATEXFILE).blg $(LATEXFILE).toc
+mrproper : $(LATEXFILE).aux $(LATEXFILE).toc ## $(LATEXFILE).bbl $(LATEXFILE).blg 
 	rm $(LATEXFILE).aux
+	rm $(LATEXFILE).toc
 	## rm $(LATEXFILE).bbl
 	## rm $(LATEXFILE).blg
-	## rm $(LATEXFILE).toc
 
 $(LATEXFILE).dvi : $(LATEXFILE).tex ## $(BIBTEFILE).bib
 	$(CCLATEX) $(LATEXFILE).tex
