@@ -19,3 +19,10 @@ Voire également (idées "sources")
 	Tikz : décoration, frises, schémas, personnages... ; 
 	Polices de caractères / Fontes : usages, changements... ; 
 	... 
+	
+20240420 : Data et outils de traitement de données pour le JdR
+    Bases informatiques (fichiers textes, bases de données, SQL)
+    Outils (MindMap, FreeMind...)
+    Types de données (numériques, textes, booléens...)
+    Outils locaux (terminal / console)
+    Outils web (installables en local ou sur un serveur; frama* : calc, calendar...)
