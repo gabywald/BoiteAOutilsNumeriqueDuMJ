@@ -4,6 +4,8 @@ Une "Boite à outils" / ToolBox pour MJ / Meneur de Jeu, pour du Jeu de Rôle (J
 
 **Un outil d'assistance au MJ (scénario, improvisation, fiche de PJ et PNJ, génération de fiches...)** ; dans l'idée : un écran / paravent du MJ, dans un objectif fonctionnel et utilitaire. 
 
+**Pour démarrer** (20240816 ou 16 août 2024) : voyez d'abord les idées rassemblées ici (ci-dessous) et dansle README du répertoire 'documentation'
+
 ## Qui peut participer ?
 
 Toute personne désireuse de le faire, avec quelques idées, de la débrouillardise et de la bonne volonté. Un message à **gabywald[at]laposte.net** fera toujours plaisir (**remplacez '[at]' par une arobase '@'**). 
