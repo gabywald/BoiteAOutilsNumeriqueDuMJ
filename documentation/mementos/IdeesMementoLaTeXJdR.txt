@@ -1,0 +1,28 @@
+
+20220115 : 
+	Recenser ici quelques idées pour faire un memento utile d'utilisation de LaTeX pour faire des documents,pour du JdR
+	Exemples déjà présent dans ce pojet / repository
+	Autres idées / exemples / resources
+
+Voire également (idées "sources")
+	https://mobile.twitter.com/archonoir/status/1480824920200384517
+	https://mobile.twitter.com/gaby_wald/status/1481232923806289921
+
+20220117 : LaTeX bases et éléments utilisables : 
+	En-Tête, type de documents (livre, article, lettre...) ; 
+	Table des matières : chapter, section, subsection, subsection... ; 
+	Insertions figures / images : ... ; 
+	En-tête et Pied de page : types par défaut et pezrsonnalisation (fancyhdr) ; 
+	Table des index et références ; 
+	Mise en page (par défaut, changements possibles, boites...) ;
+	Tableaux, Tableaux Longs ; 
+	Tikz : décoration, frises, schémas, personnages... ; 
+	Polices de caractères / Fontes : usages, changements... ; 
+	... 
+	
+20240420 : Data et outils de traitement de données pour le JdR
+    Bases informatiques (fichiers textes, bases de données, SQL)
+    Outils (MindMap, FreeMind...)
+    Types de données (numériques, textes, booléens...)
+    Outils locaux (terminal / console)
+    Outils web (installables en local ou sur un serveur; frama* : calc, calendar...)

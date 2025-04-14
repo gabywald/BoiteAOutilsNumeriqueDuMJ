@@ -4,6 +4,8 @@ Une "Boite à outils" / ToolBox pour MJ / Meneur de Jeu, pour du Jeu de Rôle (J
 
 **Un outil d'assistance au MJ (scénario, improvisation, fiche de PJ et PNJ, génération de fiches...)** ; dans l'idée : un écran / paravent du MJ, dans un objectif fonctionnel et utilitaire. 
 
+**Pour démarrer** (20240816 ou 16 août 2024) : voyez d'abord les idées rassemblées ici (ci-dessous) et dansle README du répertoire 'documentation'
+
 ## Qui peut participer ?
 
 Toute personne désireuse de le faire, avec quelques idées, de la débrouillardise et de la bonne volonté. Un message à **gabywald[at]laposte.net** fera toujours plaisir (**remplacez '[at]' par une arobase '@'**). 
@@ -56,17 +58,20 @@ Voir aussi pour quelques ressources :
     * https://fr.wikipedia.org/wiki/Fichier_texte
     * https://techlib.fr/definition/plaintext.html
   * *Outils pour le texte brut* : 
-    * (Tout système)n'importe quel IDE correct ; voir également : https://fr.wikipedia.org/wiki/Éditeur_de_texte
+    * (Tout système)Éditeur de texte : https://fr.wikipedia.org/wiki/Éditeur_de_texte
     * (Windows) NotePad++ https://notepad-plus-plus.org/ ; 
-    * (Mac OS X) TextEdit, SimpleText
+    * (Mac OS X) TextEdit, SimpleText, BBEdit... 
     * (Linux, Unix, ...) vi, emacs, gedit, jedit... *Normalement vous savez / avez déjà, demandez si vous ne savez pas* ; 
     * ...
   * Comment formatter du texte / indiquer une mise en page en texte brut ?
     * MarkDown : https://fr.wikipedia.org/wiki/Markdown
     * AsciiDoc : https://fr.wikipedia.org/wiki/AsciiDoc
     * (plus avancé) LaTeX : https://fr.wikipedia.org/wiki/LaTeX
+    * (générique) PanDoc : https://fr.wikipedia.org/wiki/Pandoc -- https://pandoc.org/
+    * ... 
   * ... 
   * Concernant le dev (outils, IDE / environnements de développement et gestionnaires de code source) : 
+    * IDE / Environnement de développement : https://fr.wikipedia.org/wiki/Environnement_de_développement
     * Eclipse est plutôt recommandé (quoique si vous préférez IntelliJ, ça passe aussi)
     * Git ! (ressources facilement disponibles, sinon demandez gentiment !)
     * Maven 3
@@ -82,7 +87,7 @@ L'organisation de ce projet (basé sur Eclipse 2020+) comprend :
   * Licence GPL v3
   * Divers fichiers de configuration 
     - pom.xml de Maven, 
-    - '.gitignore' de base pout GIT, 
+    - '.gitignore' de base pour GIT, 
     - préférences / settings Eclipse
   * Répertoires de codes sources et de ressources : 
     * src/main/java
