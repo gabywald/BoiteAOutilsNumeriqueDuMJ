@@ -9,6 +9,13 @@
 \usepackage{vmargin}
 \setmarginsrb{0.10cm}{0.10cm}{0.10cm}{0.10cm}{0pt}{0pt}{0pt}{0pt}
 
+\usepackage{mathtools}
+% \usepackage{fontspec} %% fontes / polices de caracteres
+% \usepackage{jeuxcartes/tex/JeuxCartes}
+
+% \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
+% \setmainfont{Ubuntu Mono} 
+
 \usepackage{tikz}
 \usetikzlibrary{decorations.pathmorphing, shapes}
 \usetikzlibrary{shapes.geometric, intersections, calc}
@@ -23,7 +30,7 @@
 \DeclareMathSymbol{\varheart}{\mathalpha}{extraup}{86}
 \DeclareMathSymbol{\vardiamond}{\mathalpha}{extraup}{87}
 
-\usepackage{fancybox}
+\usepackage{fancybox} %% boxes
 
 \begin{document}
 
@@ -35,19 +42,33 @@
 % {\color{red} $\varheart$ }
 % {\color{red} $\vardiamond$ }
 
-\begin{minipage}[ht]{0.48\textwidth}
-	\shadowbox{ \begin{minipage}[ht]{1.00\textwidth}
-		Portrait~\newline~\newline~\newline~\newline~\newline~\newline~\newline~\newline~\newline~\newline
-	\end{minipage} }
-\end{minipage} \hfill \begin{minipage}[ht]{0.48\textwidth}
-	NOM~\newline~\newline~\newline~\newline~\newline
-	
-	ARCHÉTYPE~\newline
-\end{minipage}
+{\centering \Huge{Château FalkenStein}~\\
+{\centering \large{Fiche Principale}~\\
 
-\begin{tabular}[c]{|p{0.25\textwidth}|p{0.10\textwidth}|p{0.10\textwidth}|p{0.10\textwidth}|p{0.10\textwidth}|p{0.10\textwidth}|p{0.10\textwidth}|}
+%% {\centering \setmainfont{Chomsky} \Huge{Château FalkenStein}~\\
+%% {\centering \setmainfont{Z003} \large{Fiche Principale}~\\
+
+\begin{minipage}[ht]{0.48\textwidth}
+	NOM~\newline~\newline
+\end{minipage} \hfill \begin{minipage}[ht]{0.48\textwidth}
+	ARCHÉTYPE~\newline~\newline
+\end{minipage}~\\~\\
+
+%% \begin{minipage}[ht]{0.48\textwidth}
+%% 	\shadowbox{ \begin{minipage}[ht]{1.00\textwidth}
+%% 		Portrait~\newline~\newline~\newline~\newline~\newline~\newline~\newline~\newline~\newline~\newline
+%% 	\end{minipage} }
+%% \end{minipage} \hfill \begin{minipage}[ht]{0.48\textwidth}
+%% 	NOM~\newline~\newline~\newline~\newline~\newline
+%% 	ARCHÉTYPE~\newline
+%% \end{minipage}
+
+%% FAIble ; MOYen ; BON ; EXCellent ; EXcePtionnel ; EXTradordinaire
+%% FAIble ; MOYen ; BON ; EXCellent ; MAGistral ; PROdigieux
+
+\begin{tabular}[c]{|p{0.30\textwidth}|p{0.09\textwidth}|p{0.09\textwidth}|p{0.09\textwidth}|p{0.09\textwidth}|p{0.09\textwidth}|p{0.09\textwidth}|}
 	\hline
-	\textbf{TALENTS}									&	FAI (2)	&	MOY (4)	&	BON (6)	&	EXC (8)	&	EXP (10)	&	EXT (12)	\\ \hline
+	\textbf{TALENTS}									&	FAI (2)	&	MOY (4)	&	BON (6)	&	EXC (8)	&	MAG (10)	&	PRO (12)	\\ \hline
 	AGILITÉ { $\clubsuit$ }								&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$		&	$\circ$		\\ \hline
 	AISANCE SOCIALE { $\spadesuit$ }					&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$		&	$\circ$		\\ \hline
 	ARTISANAT {\color{red} $\vardiamond$ }				&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$		&	$\circ$		\\ \hline	
@@ -84,16 +105,15 @@
 	SCIENCES NATURELLES {\color{red} $\vardiamond$ }	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$		&	$\circ$		\\ \hline
 	SORCELLERIE {\color{red} $\vardiamond$ }			&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$		&	$\circ$		\\ \hline
 	TIR { $\clubsuit$ }									&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$		&	$\circ$		\\ \hline
-\end{tabular}~\\
+\end{tabular}~\\~\\
 
-
-\begin{tabular}[c]{|p{0.10\textwidth}|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|}
+\begin{tabular}[c]{|p{0.25\textwidth}|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|}
 	%% \foreach \x in {-7,-6,...,10,11}	{ \x &	} 
 	%% 12	\\
 	\hline
 	\textbf{Santé}	&	-7	&	-6	&	-5	&	-4	&	-3	&	-2	&	-1	&	0	&	1	&	2	&	3	&	4	&	5	&	6	&	7	&	8	&	9	&	10	&	11	&	12	\\
 	\hline
-\end{tabular}
+\end{tabular}~\\~\\
 
 \begin{tabular}[c]{|p{0.15\textwidth}|p{0.15\textwidth}|p{0.10\textwidth}|p{0.15\textwidth}|p{0.10\textwidth}|p{0.10\textwidth}|p{0.10\textwidth}|} 
 	\hline
@@ -109,9 +129,111 @@
 
 \shadowbox{ \begin{minipage}[ht]{0.97\textwidth}
 	\textbf{BIENS, SORTS ET NOTES}~\\~\\~\\~\\~\\
-\end{minipage} }
+\end{minipage} }~\\~\\~\\
+
+
+	\shadowbox{ \begin{minipage}[ht]{0.97\textwidth}
+			Portrait~\newline~\newline~\newline~\newline~\newline~\newline~\newline~\newline~\newline~\newline
+	\end{minipage} }~\\~\\
+
+\begin{minipage}[ht]{0.75\textwidth}
+	Niveau des Talents : FAIble ; MOYen ; BON ; EXCellent ; MAGistral ; PROdigieux~\newline~\newline
+	Par défaut un Talent est MOYen ; personnage a un Talent EXCellent, un Talent FAIble et quatre Talents BON.~\newline
+	Pour tous talent supplémentaire EXCellent, choisir un Talent FAIble.~\newline
+	Pour tous talent supplémentaire MAGistral, choisir deux Talent FAIble.~\newline
+	Pour tous talent supplémentaire PROdigieux, choisir trois Talent FAIble.~\newline~\newline
+	Lors d'une épreuve, toute carte de la bonne couleur a sa valeur faciale : du 2 à 10, plus Valet (11), Dame (12), Roi (13), As (14), un Joker vaut 15, tout autre carte vaut 1 !
+\end{minipage}~\\~\\
+
+%% TODO memo des tirages possibles
 
 \clearpage
+
+{\centering \Huge{Château FalkenStein}~\\
+{\centering \large{Journal Intime}~\\
+
+%% {\centering \setmainfont{Chomsky} \Huge{Château FalkenStein}~\\
+%% {\centering \setmainfont{Z003} \large{Journal Intime}~\\
+
+
+\begin{tabular}[c]{ p{0.45\textwidth} p{0.45\textwidth} }
+	NOM						&									\\
+	ORIGINE					&		RÉSIDENCE					\\
+	APPARENCE PHYSIQUE		&									\\
+							&									\\
+							&									\\
+							&									\\
+	ENFANCE / ÉDUCATION		&									\\
+							&									\\
+							&									\\
+							&									\\
+	GRANDES QUALITÉS		&		PIRES DÉFAUTS				\\
+							&									\\
+							&									\\
+							&									\\
+	STYLE					&									\\
+							&									\\
+							&									\\
+							&									\\
+	PERSONNALITÉ			&									\\
+							&									\\
+							&									\\
+							&									\\
+	CHOSES LES PLUS AIMÉES	&		CHOSES LES PLUS DÉTESTÉES	\\
+							&									\\
+							&									\\
+							&									\\
+	PRINCIPES				&									\\
+	BIEN LE PLUS PRÉCIEUX	&									\\
+	PERSONNE LA PLUS AIMÉE	&									\\
+	ENNEMI JURÉ				&		ALLIÉS						\\
+							&									\\
+							&									\\
+							&									\\
+	VIE ROMANTIQUE			&									\\
+	BUT SOCIAL				&									\\
+	BUT PROFESSIONNEL		&									\\
+	BUT AMOUREUX			&									\\
+	PLUS GRAND REGRET		&		PLUS GRANDE FIERTÉ			\\
+							&									\\
+							&									\\
+							&									\\
+	HISTOIRE RÉCENTE		&									\\
+							&									\\
+							&									\\
+							&									\\
+\end{tabular}
+
+\clearpage
+
+TODO décorations "art déco" (géométrique) / "art nouveau" (floral)
+
+01 \includegraphics[width=0.15\textwidth]{../../images/artsdecos/ornement01whiteBG.png}~\\
+02 \includegraphics[width=0.15\textwidth]{../../images/artsdecos/ornement02whiteBG.png}~\\
+03 \includegraphics[width=0.15\textwidth]{../../images/artsdecos/ornement03whiteBG.png}~\\
+04 \includegraphics[width=0.15\textwidth]{../../images/artsdecos/ornement04whiteBG.png}~\\
+05 \includegraphics[width=0.15\textwidth]{../../images/artsdecos/ornement05whiteBG.png}~\\
+06 \includegraphics[width=0.15\textwidth]{../../images/artsdecos/ornement06whiteBG.png}~\\
+07 \includegraphics[width=0.15\textwidth]{../../images/artsdecos/ornement07whiteBG.png}~\\
+08 \includegraphics[width=0.15\textwidth]{../../images/artsdecos/ornement08whiteBG.png}~\\
+09 \includegraphics[width=0.15\textwidth]{../../images/artsdecos/ornement09whiteBG.png}~\\
+10 \includegraphics[width=0.15\textwidth]{../../images/artsdecos/ornement10whiteBG.png}~\\
+
+\clearpage
+
+TODO utilisation de JeuxCartes
+
+%% \MainCartesJeu{7K § 8P § DT § AC}
+%% ~ou \MainCartesJeu[Eventail,EspH=0,EspV=0.1]{7K § 8P § DT § AC}
+%% ~ou \MainCartesJeu[Eventail,EspH=0.5]{7K § 8P § DT § AC}
+
+%% Ça c'est une belle poignée ! \MainCartesJeu[Inverse,Eventail,Hauteur=3,TypeJeu=Tarot,EspH=0,EspV=0.1]%
+%% {Exc § 1AT § 2AT § 3AT § 4AT § 5AT § 6AT § %
+%% 10AT § 11AT § 15AT § 16AT § 19AT § 20AT § 21AT}
+
+\clearpage
+
+TODO répéter page pointillée !!
 
 	% \tikz \foreach \x / \y in {1/1,2/2...,30/20} \draw (\x,\y) circle (0.25);
 	\begin{tikzpicture}
