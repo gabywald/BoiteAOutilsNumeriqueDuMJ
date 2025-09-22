@@ -5,11 +5,19 @@
 % \usepackage[top=0.10cm, bottom=0.10cm, left=0.10cm, right=0.10cm]{geometry}
 % gauche, haut, droite, bas, entete, ente2txt, pied, txt2pied
 \usepackage{vmargin}
-\setmarginsrb{0.10cm}{0.10cm}{0.10cm}{0.10cm}{0pt}{0pt}{0pt}{0pt}
+\setmarginsrb{0.20cm}{0.20cm}{0.20cm}{0.20cm}{0pt}{0pt}{0pt}{0pt}
 
 \usepackage{mathtools}
 \usepackage{fontspec} %% fontes / polices de caracteres
+
+% \usepackage{xkeyval}
+% \usepackage{graphicx}
 % \usepackage{jeuxcartes/tex/JeuxCartes}
+%% \usepackage{JeuxCartes} %% \usepackage{jeuxcartes/tex/JeuxCartes}
+% \usepackage{babel}
+
+% \usepackage{xkeyval}    % Load xkeyval first
+% \usepackage{JeuxCartes}
 
 % \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
 \setmainfont{Ubuntu Mono} 
@@ -40,10 +48,15 @@
 %% {\centering \Huge{Château FalkenStein} }~\\
 %% {\centering \large{Journal Intime} }~\\
 
-\begin{center} 
-	{ \Huge{\setmainfont{Chomsky} Château FalkenStein } }~\\
-	{ \large{ \setmainfont{Z003} Journal Intime } }
-\end{center}~\\ 
+\begin{center}
+	\begin{tabular}[c]{ p{0.20\textwidth} p{0.45\textwidth} p{0.20\textwidth} }
+		\includegraphics[width=0.20\textwidth]{../../images/artsdecos/ornement01whiteBG.png} & 
+			\centering
+			{ \Huge{\setmainfont{Chomsky} Château FalkenStein } }~\newline~\newline~\newline
+			{ \LARGE{ \setmainfont{Z003} Journal Intime } }
+		& \includegraphics[width=0.20\textwidth]{../../images/artsdecos/ornement01whiteBG.png} \\
+	\end{tabular}
+\end{center}
 
 \begin{tabular}[c]{ p{0.45\textwidth} p{0.45\textwidth} }
 	NOM						&									\\
@@ -102,10 +115,15 @@
 %% {\centering \Huge{Château FalkenStein} }~\\
 %% {\centering \large{Fiche Principale} }~\\
 
-\begin{center} 
-	{ \Huge{\setmainfont{Chomsky} Château FalkenStein } }~\\
-	{ \large{ \setmainfont{Z003} Fiche Principale } }
-\end{center}~\\ 
+\begin{center}
+	\begin{tabular}[c]{ p{0.20\textwidth} p{0.45\textwidth} p{0.20\textwidth} }
+		\includegraphics[width=0.20\textwidth]{../../images/artsdecos/ornement08whiteBG.png} & 
+			\centering
+			{ \Huge{\setmainfont{Chomsky} Château FalkenStein } }~\newline~\newline~\newline
+			{ \LARGE{ \setmainfont{Z003} Fiche Principale } }
+		& \includegraphics[width=0.20\textwidth]{../../images/artsdecos/ornement08whiteBG.png} \\
+	\end{tabular}
+\end{center}
 
 \begin{minipage}[ht]{0.48\textwidth}
 	NOM~\newline~\newline
@@ -181,15 +199,20 @@
 	\textbf{BIENS, SORTS ET NOTES}~\\~\\~\\~\\~\\
 \end{minipage} }~\\~\\~\\
 
-\clearpage
+%% \clearpage
 
 	\shadowbox{ \begin{minipage}[ht]{0.97\textwidth}
 			Portrait~\newline~\newline~\newline~\newline~\newline~\newline~\newline~\newline~\newline~\newline
 	\end{minipage} }~\\~\\
 
-\begin{minipage}[ht]{0.75\textwidth}
+\begin{minipage}[ht]{0.95\textwidth}
 	Niveau des Talents : FAIble ; MOYen ; BON ; EXCellent ; MAGistral ; PROdigieux~\newline~\newline
-	Par défaut un Talent est MOYen ; personnage a un Talent EXCellent, un Talent FAIble et quatre Talents BON.~\newline
+	Par défaut un Talent est MOYen ; à la création un personnage a : 
+	\begin{itemize}
+		\item un Talent EXCellent, 
+		\item un Talent FAIble et, 
+		\item quatre Talents BON. 
+	\end{itemize}~\\
 	Pour tous talent supplémentaire EXCellent, choisir un Talent FAIble.~\newline
 	Pour tous talent supplémentaire MAGistral, choisir deux Talent FAIble.~\newline
 	Pour tous talent supplémentaire PROdigieux, choisir trois Talent FAIble.~\newline~\newline
@@ -198,24 +221,38 @@
 
 %% TODO memo des tirages possibles
 
+\begin{center}
+	\begin{tabular}[c]{ c c c c c }
+		\includegraphics[width=0.15\textwidth]{../../images/artsdecos/ornement01whiteBG.png}	&	
+		\includegraphics[width=0.15\textwidth]{../../images/artsdecos/ornement02whiteBG.png}	&	
+		\includegraphics[width=0.15\textwidth]{../../images/artsdecos/ornement03whiteBG.png}	&	
+		\includegraphics[width=0.15\textwidth]{../../images/artsdecos/ornement04whiteBG.png}	&	
+		\includegraphics[width=0.15\textwidth]{../../images/artsdecos/ornement05whiteBG.png}	\\
+		\includegraphics[width=0.15\textwidth]{../../images/artsdecos/ornement06whiteBG.png}	&	
+		\includegraphics[width=0.15\textwidth]{../../images/artsdecos/ornement07whiteBG.png}	&	
+		\includegraphics[width=0.15\textwidth]{../../images/artsdecos/ornement08whiteBG.png}	&	
+		\includegraphics[width=0.15\textwidth]{../../images/artsdecos/ornement09whiteBG.png}	&	
+		\includegraphics[width=0.15\textwidth]{../../images/artsdecos/ornement10whiteBG.png}	\\
+	\end{tabular}
+\end{center}
+
 \clearpage
 
-TODO décorations "art déco" (géométrique) / "art nouveau" (floral)
+%% DONE décorations "art déco" (géométrique) / "art nouveau" (floral)
+%% 01 \includegraphics[width=0.15\textwidth]{../../images/artsdecos/ornement01whiteBG.png}~\\
+%% 02 \includegraphics[width=0.15\textwidth]{../../images/artsdecos/ornement02whiteBG.png}~\\
+%% 03 \includegraphics[width=0.15\textwidth]{../../images/artsdecos/ornement03whiteBG.png}~\\
+%% 04 \includegraphics[width=0.15\textwidth]{../../images/artsdecos/ornement04whiteBG.png}~\\
+%% 05 \includegraphics[width=0.15\textwidth]{../../images/artsdecos/ornement05whiteBG.png}~\\
+%% 06 \includegraphics[width=0.15\textwidth]{../../images/artsdecos/ornement06whiteBG.png}~\\
+%% 07 \includegraphics[width=0.15\textwidth]{../../images/artsdecos/ornement07whiteBG.png}~\\
+%% 08 \includegraphics[width=0.15\textwidth]{../../images/artsdecos/ornement08whiteBG.png}~\\
+%% 09 \includegraphics[width=0.15\textwidth]{../../images/artsdecos/ornement09whiteBG.png}~\\
+%% 10 \includegraphics[width=0.15\textwidth]{../../images/artsdecos/ornement10whiteBG.png}~\\
 
-01 \includegraphics[width=0.15\textwidth]{../../images/artsdecos/ornement01whiteBG.png}~\\
-02 \includegraphics[width=0.15\textwidth]{../../images/artsdecos/ornement02whiteBG.png}~\\
-03 \includegraphics[width=0.15\textwidth]{../../images/artsdecos/ornement03whiteBG.png}~\\
-04 \includegraphics[width=0.15\textwidth]{../../images/artsdecos/ornement04whiteBG.png}~\\
-05 \includegraphics[width=0.15\textwidth]{../../images/artsdecos/ornement05whiteBG.png}~\\
-06 \includegraphics[width=0.15\textwidth]{../../images/artsdecos/ornement06whiteBG.png}~\\
-07 \includegraphics[width=0.15\textwidth]{../../images/artsdecos/ornement07whiteBG.png}~\\
-08 \includegraphics[width=0.15\textwidth]{../../images/artsdecos/ornement08whiteBG.png}~\\
-09 \includegraphics[width=0.15\textwidth]{../../images/artsdecos/ornement09whiteBG.png}~\\
-10 \includegraphics[width=0.15\textwidth]{../../images/artsdecos/ornement10whiteBG.png}~\\
+%% \clearpage
 
-\clearpage
-
-TODO utilisation de JeuxCartes
+%% TODO utilisation de JeuxCartes
 
 %% \MainCartesJeu{7K § 8P § DT § AC}
 %% ~ou \MainCartesJeu[Eventail,EspH=0,EspV=0.1]{7K § 8P § DT § AC}
@@ -225,7 +262,7 @@ TODO utilisation de JeuxCartes
 %% {Exc § 1AT § 2AT § 3AT § 4AT § 5AT § 6AT § %
 %% 10AT § 11AT § 15AT § 16AT § 19AT § 20AT § 21AT}
 
-\clearpage
+%% \clearpage
 
 %% DONE répéter page pointillée !!
 \foreach \pages in {1,2,...,5}{% %% TODO complétion à 64 PAGES !! (57 À PRIORI)
