@@ -8,13 +8,13 @@
 \setmarginsrb{0.10cm}{0.10cm}{0.10cm}{0.10cm}{0pt}{0pt}{0pt}{0pt}
 
 \usepackage{mathtools}
-% \usepackage{fontspec} %% fontes / polices de caracteres
+\usepackage{fontspec} %% fontes / polices de caracteres
 % \usepackage{jeuxcartes/tex/JeuxCartes}
 
 % \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
-% \setmainfont{Ubuntu Mono} 
+\setmainfont{Ubuntu Mono} 
 
-\usepackage{fdsymbol}
+%% \usepackage{fdsymbol} %% commented because confliect with packages 'fontspec' / 'JeuxCartes'
 %% \clubsuit
 %% \vardiamondsuit
 %% \spadesuit
@@ -37,12 +37,13 @@
 % {\color{red} $\varheart$ }
 % {\color{red} $\vardiamond$ }
 
-{\centering \Huge{Château FalkenStein}~\\
-{\centering \large{Journal Intime}~\\
+%% {\centering \Huge{Château FalkenStein} }~\\
+%% {\centering \large{Journal Intime} }~\\
 
-%% {\centering \setmainfont{Chomsky} \Huge{Château FalkenStein}~\\
-%% {\centering \setmainfont{Z003} \large{Journal Intime}~\\
-
+\begin{center} 
+	{ \Huge{\setmainfont{Chomsky} Château FalkenStein } }~\\
+	{ \large{ \setmainfont{Z003} Journal Intime } }
+\end{center}~\\ 
 
 \begin{tabular}[c]{ p{0.45\textwidth} p{0.45\textwidth} }
 	NOM						&									\\
@@ -98,11 +99,13 @@
 
 \clearpage
 
-{\centering \Huge{Château FalkenStein}~\\
-{\centering \large{Fiche Principale}~\\
+%% {\centering \Huge{Château FalkenStein} }~\\
+%% {\centering \large{Fiche Principale} }~\\
 
-%% {\centering \setmainfont{Chomsky} \Huge{Château FalkenStein}~\\
-%% {\centering \setmainfont{Z003} \large{Fiche Principale}~\\
+\begin{center} 
+	{ \Huge{\setmainfont{Chomsky} Château FalkenStein } }~\\
+	{ \large{ \setmainfont{Z003} Fiche Principale } }
+\end{center}~\\ 
 
 \begin{minipage}[ht]{0.48\textwidth}
 	NOM~\newline~\newline
