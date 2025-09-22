@@ -1,10 +1,8 @@
 \documentclass[a5paper]{letter}
 
-% \usepackage{a5paper}
-
 \pagestyle{empty}
 
-% \usepackage[top=0.0cm, bottom=0.0cm, left=0.0cm, right=0.0cm]{geometry}
+% \usepackage[top=0.10cm, bottom=0.10cm, left=0.10cm, right=0.10cm]{geometry}
 % gauche, haut, droite, bas, entete, ente2txt, pied, txt2pied
 \usepackage{vmargin}
 \setmarginsrb{0.10cm}{0.10cm}{0.10cm}{0.10cm}{0pt}{0pt}{0pt}{0pt}
@@ -15,11 +13,6 @@
 
 % \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
 % \setmainfont{Ubuntu Mono} 
-
-\usepackage{tikz}
-\usetikzlibrary{decorations.pathmorphing, shapes}
-\usetikzlibrary{shapes.geometric, intersections, calc}
-\usetikzlibrary{decorations.markings, arrows}
 
 \usepackage{fdsymbol}
 %% \clubsuit
@@ -32,6 +25,8 @@
 
 \usepackage{fancybox} %% boxes
 
+\usepackage{tikz}
+
 \begin{document}
 
 % $\heartsuit \varheart \diamondsuit \vardiamond \clubsuit \spadesuit$ ~\\
@@ -41,113 +36,6 @@
 
 % {\color{red} $\varheart$ }
 % {\color{red} $\vardiamond$ }
-
-{\centering \Huge{Château FalkenStein}~\\
-{\centering \large{Fiche Principale}~\\
-
-%% {\centering \setmainfont{Chomsky} \Huge{Château FalkenStein}~\\
-%% {\centering \setmainfont{Z003} \large{Fiche Principale}~\\
-
-\begin{minipage}[ht]{0.48\textwidth}
-	NOM~\newline~\newline
-\end{minipage} \hfill \begin{minipage}[ht]{0.48\textwidth}
-	ARCHÉTYPE~\newline~\newline
-\end{minipage}~\\~\\
-
-%% \begin{minipage}[ht]{0.48\textwidth}
-%% 	\shadowbox{ \begin{minipage}[ht]{1.00\textwidth}
-%% 		Portrait~\newline~\newline~\newline~\newline~\newline~\newline~\newline~\newline~\newline~\newline
-%% 	\end{minipage} }
-%% \end{minipage} \hfill \begin{minipage}[ht]{0.48\textwidth}
-%% 	NOM~\newline~\newline~\newline~\newline~\newline
-%% 	ARCHÉTYPE~\newline
-%% \end{minipage}
-
-%% FAIble ; MOYen ; BON ; EXCellent ; EXcePtionnel ; EXTradordinaire
-%% FAIble ; MOYen ; BON ; EXCellent ; MAGistral ; PROdigieux
-
-\begin{tabular}[c]{|p{0.30\textwidth}|p{0.09\textwidth}|p{0.09\textwidth}|p{0.09\textwidth}|p{0.09\textwidth}|p{0.09\textwidth}|p{0.09\textwidth}|}
-	\hline
-	\textbf{TALENTS}									&	FAI (2)	&	MOY (4)	&	BON (6)	&	EXC (8)	&	MAG (10)	&	PRO (12)	\\ \hline
-	AGILITÉ { $\clubsuit$ }								&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$		&	$\circ$		\\ \hline
-	AISANCE SOCIALE { $\spadesuit$ }					&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$		&	$\circ$		\\ \hline
-	ARTISANAT {\color{red} $\vardiamond$ }				&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$		&	$\circ$		\\ \hline	
-	ATTRACTION {\color{red} $\varheart$ }				&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$		&	$\circ$		\\ \hline
-	BARREUR {\color{red} $\vardiamond$ }				&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$		&	$\circ$		\\ \hline
-	BRICOLAGE {\color{red} $\vardiamond$ }				&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$		&	$\circ$		\\ \hline
-	CHARISME {\color{red} $\varheart$ }					&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$		&	$\circ$		\\ \hline
-	CHARME ( FAË ) {\color{red} $\varheart$ }			&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$		&	$\circ$		\\ \hline
-	COMMANDEMENT {\color{red} $\varheart$ }				&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$		&	$\circ$		\\ \hline
-	COMMERCE {\color{red} $\varheart$ }					&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$		&	$\circ$		\\ \hline
-	CONDUITE { $\clubsuit$ }							&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$		&	$\circ$		\\ \hline
-	COURAGE {\color{red} $\varheart$ }					&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$		&	$\circ$		\\ \hline
-	DISCRÉTION { $\clubsuit$ }							&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$		&	$\circ$		\\ \hline
-	ÉLEVAGE {\color{red} $\varheart$ }					&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$		&	$\circ$		\\ \hline
-	ÉQUITATION { $\clubsuit$ }							&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$		&	$\circ$		\\ \hline
-	ESCRIME { $\clubsuit$ }								&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$		&	$\circ$		\\ \hline
-	ÉTHÉRÉITÉ ( FAË ) { $\clubsuit$ }					&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$		&	$\circ$		\\ \hline
-	FINANCES { $\spadesuit$ }							&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$		&	$\circ$		\\ \hline
-	INGÉNIERIE MAGIQUE {\color{red} $\vardiamond$ }		&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$		&	$\circ$		\\ \hline
-	INSTRUCTION {\color{red} $\vardiamond$ }			&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$		&	$\circ$		\\ \hline
-	INTERPRÉTATION {\color{red} $\varheart$ }			&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$		&	$\circ$		\\ \hline
-	INVENTION {\color{red} $\vardiamond$ }				&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$		&	$\circ$		\\ \hline
-	JEU {\color{red} $\vardiamond$ }					&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$		&	$\circ$		\\ \hline
-	MÉDECINE {\color{red} $\vardiamond$ }				&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$		&	$\circ$		\\ \hline
-	MÊLÉE { $\clubsuit$ }								&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$		&	$\circ$		\\ \hline
-	MÉTAMORPHOSE ( FAË ) { $\clubsuit$ }				&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$		&	$\circ$		\\ \hline
-	MESMÉRISME {\color{red} $\varheart$ }				&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$		&	$\circ$		\\ \hline
-	PERCEPTION {\color{red} $\vardiamond$ }				&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$		&	$\circ$		\\ \hline
-	PHYSIQUE { $\clubsuit$ }							&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$		&	$\circ$		\\ \hline
-	PISTOLERO { $\clubsuit$ }							&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$		&	$\circ$		\\ \hline
-	POUVOIR FAË {\color{red} $\vardiamond$ }			&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$		&	$\circ$		\\ \hline
-	RELATIONS { $\spadesuit$ }							&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$		&	$\circ$		\\ \hline
-	RENOM { $\spadesuit$ }								&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$		&	$\circ$		\\ \hline
-	SCIENCES NATURELLES {\color{red} $\vardiamond$ }	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$		&	$\circ$		\\ \hline
-	SORCELLERIE {\color{red} $\vardiamond$ }			&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$		&	$\circ$		\\ \hline
-	TIR { $\clubsuit$ }									&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$		&	$\circ$		\\ \hline
-\end{tabular}~\\~\\
-
-\begin{tabular}[c]{|p{0.25\textwidth}|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|}
-	%% \foreach \x in {-7,-6,...,10,11}	{ \x &	} 
-	%% 12	\\
-	\hline
-	\textbf{Santé}	&	-7	&	-6	&	-5	&	-4	&	-3	&	-2	&	-1	&	0	&	1	&	2	&	3	&	4	&	5	&	6	&	7	&	8	&	9	&	10	&	11	&	12	\\
-	\hline
-\end{tabular}~\\~\\
-
-\begin{tabular}[c]{|p{0.15\textwidth}|p{0.15\textwidth}|p{0.10\textwidth}|p{0.15\textwidth}|p{0.10\textwidth}|p{0.10\textwidth}|p{0.10\textwidth}|} 
-	\hline
-	\textbf{ARMES}	&	PORTÉE	&	MUN.	&	DISCRÉTION	&	BP	&	BT	&	BM	\\
-	\hline
-					&			&			&				&		&		&		\\
-	\hline
-					&			&			&				&		&		&		\\
-	\hline
-					&			&			&				&		&		&		\\
-	\hline
-\end{tabular}
-
-\shadowbox{ \begin{minipage}[ht]{0.97\textwidth}
-	\textbf{BIENS, SORTS ET NOTES}~\\~\\~\\~\\~\\
-\end{minipage} }~\\~\\~\\
-
-
-	\shadowbox{ \begin{minipage}[ht]{0.97\textwidth}
-			Portrait~\newline~\newline~\newline~\newline~\newline~\newline~\newline~\newline~\newline~\newline
-	\end{minipage} }~\\~\\
-
-\begin{minipage}[ht]{0.75\textwidth}
-	Niveau des Talents : FAIble ; MOYen ; BON ; EXCellent ; MAGistral ; PROdigieux~\newline~\newline
-	Par défaut un Talent est MOYen ; personnage a un Talent EXCellent, un Talent FAIble et quatre Talents BON.~\newline
-	Pour tous talent supplémentaire EXCellent, choisir un Talent FAIble.~\newline
-	Pour tous talent supplémentaire MAGistral, choisir deux Talent FAIble.~\newline
-	Pour tous talent supplémentaire PROdigieux, choisir trois Talent FAIble.~\newline~\newline
-	Lors d'une épreuve, toute carte de la bonne couleur a sa valeur faciale : du 2 à 10, plus Valet (11), Dame (12), Roi (13), As (14), un Joker vaut 15, tout autre carte vaut 1 !
-\end{minipage}~\\~\\
-
-%% TODO memo des tirages possibles
-
-\clearpage
 
 {\centering \Huge{Château FalkenStein}~\\
 {\centering \large{Journal Intime}~\\
@@ -206,6 +94,109 @@
 
 \clearpage
 
+\hfill~\\ \dotfill~\\ \hfill~\\
+
+\clearpage
+
+{\centering \Huge{Château FalkenStein}~\\
+{\centering \large{Fiche Principale}~\\
+
+%% {\centering \setmainfont{Chomsky} \Huge{Château FalkenStein}~\\
+%% {\centering \setmainfont{Z003} \large{Fiche Principale}~\\
+
+\begin{minipage}[ht]{0.48\textwidth}
+	NOM~\newline~\newline
+\end{minipage} \hfill \begin{minipage}[ht]{0.48\textwidth}
+	ARCHÉTYPE~\newline~\newline
+\end{minipage}~\\~\\
+
+%% FAIble ; MOYen ; BON ; EXCellent ; EXcePtionnel ; EXTradordinaire
+%% FAIble ; MOYen ; BON ; EXCellent ; MAGistral ; PROdigieux
+
+\begin{tabular}[c]{|p{0.30\textwidth}|p{0.09\textwidth}|p{0.09\textwidth}|p{0.09\textwidth}|p{0.09\textwidth}|p{0.09\textwidth}|p{0.09\textwidth}|}
+	\hline
+	\textbf{TALENTS}									&	FAI (2)	&	MOY (4)	&	BON (6)	&	EXC (8)	&	MAG (10)	&	PRO (12)	\\ \hline
+	AGILITÉ { $\clubsuit$ }								&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$		&	$\circ$		\\ \hline
+	AISANCE SOCIALE { $\spadesuit$ }					&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$		&	$\circ$		\\ \hline
+	ARTISANAT {\color{red} $\vardiamond$ }				&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$		&	$\circ$		\\ \hline	
+	% ATTRACTION {\color{red} $\varheart$ }				&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$		&	$\circ$		\\ \hline
+	BARREUR {\color{red} $\vardiamond$ }				&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$		&	$\circ$		\\ \hline
+	BRICOLAGE {\color{red} $\vardiamond$ }				&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$		&	$\circ$		\\ \hline
+	CHARISME {\color{red} $\varheart$ }					&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$		&	$\circ$		\\ \hline
+	CHARME ( FAË ) {\color{red} $\varheart$ }			&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$		&	$\circ$		\\ \hline
+	COMMANDEMENT {\color{red} $\varheart$ }				&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$		&	$\circ$		\\ \hline
+	COMMERCE {\color{red} $\varheart$ }					&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$		&	$\circ$		\\ \hline
+	CONDUITE { $\clubsuit$ }							&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$		&	$\circ$		\\ \hline
+	COURAGE {\color{red} $\varheart$ }					&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$		&	$\circ$		\\ \hline
+	DISCRÉTION { $\clubsuit$ }							&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$		&	$\circ$		\\ \hline
+	% ÉLEVAGE {\color{red} $\varheart$ }					&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$		&	$\circ$		\\ \hline
+	ÉQUITATION { $\clubsuit$ }							&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$		&	$\circ$		\\ \hline
+	ESCRIME { $\clubsuit$ }								&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$		&	$\circ$		\\ \hline
+	ÉTHÉRALITÉ ( FAË ) { $\clubsuit$ }					&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$		&	$\circ$		\\ \hline
+	FINANCES { $\spadesuit$ }							&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$		&	$\circ$		\\ \hline
+	INGÉNIERIE MAGIQUE {\color{red} $\vardiamond$ }		&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$		&	$\circ$		\\ \hline
+	INSTRUCTION {\color{red} $\vardiamond$ }			&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$		&	$\circ$		\\ \hline
+	INTERPRÉTATION {\color{red} $\varheart$ }			&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$		&	$\circ$		\\ \hline
+	INVENTION {\color{red} $\vardiamond$ }				&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$		&	$\circ$		\\ \hline
+	JEU {\color{red} $\vardiamond$ }					&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$		&	$\circ$		\\ \hline
+	MÉDECINE {\color{red} $\vardiamond$ }				&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$		&	$\circ$		\\ \hline
+	% MÊLÉE { $\clubsuit$ }								&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$		&	$\circ$		\\ \hline
+	MÉTAMORPHOSE ( FAË ) { $\clubsuit$ }				&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$		&	$\circ$		\\ \hline
+	MESMÉRISME {\color{red} $\varheart$ }				&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$		&	$\circ$		\\ \hline
+	PERCEPTION {\color{red} $\vardiamond$ }				&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$		&	$\circ$		\\ \hline
+	PHYSIQUE { $\clubsuit$ }							&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$		&	$\circ$		\\ \hline
+	PUGILAT { $\clubsuit$ }								&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$		&	$\circ$		\\ \hline
+	POUVOIR FAË {\color{red} $\vardiamond$ }			&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$		&	$\circ$		\\ \hline
+	RELATIONS { $\spadesuit$ }							&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$		&	$\circ$		\\ \hline
+	% RENOM { $\spadesuit$ }								&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$		&	$\circ$		\\ \hline
+	% SCIENCES NATURELLES {\color{red} $\vardiamond$ }	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$		&	$\circ$		\\ \hline
+	SORCELLERIE {\color{red} $\vardiamond$ }			&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$		&	$\circ$		\\ \hline
+	TIR { $\clubsuit$ }									&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$		&	$\circ$		\\ \hline
+\end{tabular}~\\~\\
+
+\begin{tabular}[c]{|p{0.25\textwidth}|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|}
+	%% \foreach \x in {-7,-6,...,10,11}	{ \x &	} 
+	%% 12	\\
+	\hline
+	\textbf{Santé}	&	-7	&	-6	&	-5	&	-4	&	-3	&	-2	&	-1	&	0	&	1	&	2	&	3	&	4	&	5	&	6	&	7	&	8	&	9	&	10	&	11	&	12	\\
+	\hline
+\end{tabular}~\\~\\
+
+\begin{tabular}[c]{|p{0.15\textwidth}|p{0.15\textwidth}|p{0.10\textwidth}|p{0.15\textwidth}|p{0.10\textwidth}|p{0.10\textwidth}|p{0.10\textwidth}|} 
+	\hline
+	\textbf{ARMES}	&	PORTÉE	&	MUN.	&	DISCRÉTION	&	BP	&	BT	&	BM	\\
+	\hline
+					&			&			&				&		&		&		\\
+	\hline
+					&			&			&				&		&		&		\\
+	\hline
+					&			&			&				&		&		&		\\
+	\hline
+\end{tabular}~\\~\\
+
+\shadowbox{ \begin{minipage}[ht]{0.97\textwidth}
+	\textbf{BIENS, SORTS ET NOTES}~\\~\\~\\~\\~\\
+\end{minipage} }~\\~\\~\\
+
+\clearpage
+
+	\shadowbox{ \begin{minipage}[ht]{0.97\textwidth}
+			Portrait~\newline~\newline~\newline~\newline~\newline~\newline~\newline~\newline~\newline~\newline
+	\end{minipage} }~\\~\\
+
+\begin{minipage}[ht]{0.75\textwidth}
+	Niveau des Talents : FAIble ; MOYen ; BON ; EXCellent ; MAGistral ; PROdigieux~\newline~\newline
+	Par défaut un Talent est MOYen ; personnage a un Talent EXCellent, un Talent FAIble et quatre Talents BON.~\newline
+	Pour tous talent supplémentaire EXCellent, choisir un Talent FAIble.~\newline
+	Pour tous talent supplémentaire MAGistral, choisir deux Talent FAIble.~\newline
+	Pour tous talent supplémentaire PROdigieux, choisir trois Talent FAIble.~\newline~\newline
+	Lors d'une épreuve, toute carte de la bonne couleur a sa valeur faciale : du 2 à 10, plus Valet (11), Dame (12), Roi (13), As (14), un Joker vaut 15, tout autre carte vaut 1 !
+\end{minipage}~\\~\\
+
+%% TODO memo des tirages possibles
+
+\clearpage
+
 TODO décorations "art déco" (géométrique) / "art nouveau" (floral)
 
 01 \includegraphics[width=0.15\textwidth]{../../images/artsdecos/ornement01whiteBG.png}~\\
@@ -233,12 +224,26 @@ TODO utilisation de JeuxCartes
 
 \clearpage
 
-TODO répéter page pointillée !!
-
+%% DONE répéter page pointillée !!
+\foreach \pages in {1,2,...,5}{% %% TODO complétion à 64 PAGES !! (57 À PRIORI)
 	% \tikz \foreach \x / \y in {1/1,2/2...,30/20} \draw (\x,\y) circle (0.25);
 	\begin{tikzpicture}
 		\foreach \x in {0,0.5,...,21} %% 15 | paperwidth | textwidth
 			\foreach \y in {0,0.5,...,29} %% 29 | paperheight | textheight
 				{ \draw (\x,\y) circle (0.01); }
 	\end{tikzpicture}
+	\clearpage
+}%
+
+\clearpage
+
+~\\ \dotfill~\\
+
+\hfill
+
+\emph{Château FalkenStein} est un Jeu de Rôle "sur table" (JdR / TTRPG en anglais) créé par \emph{Mike Ponsmith} (CyberPunk 2020, CyberPunk Red, CyberPunk 2077, Mekton Z...) en 1994, marque déposée par R.TalsorianGames.~\\ 
+\emph{Château FalkenStein} re-édité en France par les éditions \emph{Lapin Marteau} en 2021.~\\
+
+Le présent carnet conçu par \emph{Gabriel Chandesris} en 2025 pour les joueuses et joueurs rôlistes de la \emph{Ligue Ludique} (Paris).~\\ 
+  
 \end{document}

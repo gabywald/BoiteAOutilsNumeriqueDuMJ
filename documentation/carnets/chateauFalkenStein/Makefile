@@ -11,7 +11,7 @@ CCBIBTE=bibtex
 CCPDFTE=dvipdf
 CCPSTEX=dvips
 
-all : pdflatex
+all : xelatex
 ## NOTE : xelatex for fontspec / JeuxCartes !!
 
 clean : $(LATEXFILE).log mrproper
