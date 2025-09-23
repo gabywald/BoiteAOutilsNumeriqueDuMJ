@@ -1,28 +1,27 @@
-\documentclass[a5paper]{letter}
+\documentclass[a5paper,french]{article}
 
 \pagestyle{empty}
 
 % \usepackage[top=0.10cm, bottom=0.10cm, left=0.10cm, right=0.10cm]{geometry}
 % gauche, haut, droite, bas, entete, ente2txt, pied, txt2pied
 \usepackage{vmargin}
-\setmarginsrb{0.20cm}{0.20cm}{0.20cm}{0.20cm}{0pt}{0pt}{0pt}{0pt}
+\setmarginsrb{0.25cm}{0.25cm}{0.25cm}{0.25cm}{0pt}{0pt}{0pt}{0pt}
 
 \usepackage{mathtools}
 \usepackage{fontspec} %% fontes / polices de caracteres
 
 % \usepackage{xkeyval}
-% \usepackage{graphicx}
 % \usepackage{jeuxcartes/tex/JeuxCartes}
-%% \usepackage{JeuxCartes} %% \usepackage{jeuxcartes/tex/JeuxCartes}
+% \usepackage{JeuxCartes} %% \usepackage{jeuxcartes/tex/JeuxCartes}
 % \usepackage{babel}
 
 % \usepackage{xkeyval}    % Load xkeyval first
 % \usepackage{JeuxCartes}
 
 % \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
-\setmainfont{Ubuntu Mono} 
+\setmainfont{Liberation Serif} 
 
-%% \usepackage{fdsymbol} %% commented because confliect with packages 'fontspec' / 'JeuxCartes'
+%% \usepackage{fdsymbol} %% commented because conflict with packages 'fontspec' / 'JeuxCartes'
 %% \clubsuit
 %% \vardiamondsuit
 %% \spadesuit
@@ -110,6 +109,49 @@
 
 \hfill~\\ \dotfill~\\ \hfill~\\
 
+\begin{minipage}[ht]{0.95\textwidth}
+	Niveau des Talents : FAIble ; MOYen ; BON ; EXCellent ; MAGistral ; PROdigieux~\newline~\newline
+	Par défaut un Talent est MOYen ; à la création un personnage dispose de : 
+	\begin{itemize}
+		\item un Talent EXCellent, 
+		\item un Talent FAIble et, 
+		\item quatre Talents BON. 
+	\end{itemize}~\\
+	Pour tous talent supplémentaire EXCellent, choisir un Talent FAIble.~\newline
+	Pour tous talent supplémentaire MAGistral, choisir deux Talents FAIble.~\newline
+	Pour tous talent supplémentaire PROdigieux, choisir trois Talents FAIble.~\newline~\newline
+	Lors d'une épreuve, toute carte de la bonne couleur a sa valeur faciale : du 2 à 10, plus Valet (11), Dame (12), Roi (13), As (14), un Joker vaut 15, tout autre carte vaut 1 !
+\end{minipage}~\\~\\
+
+%% DONE memo des tirages possibles
+
+\begin{center}
+	\begin{tabular}[c]{ c c c c c }
+		\includegraphics[width=0.15\textwidth]{../../images/artsdecos/ornement01whiteBG.png}	&	
+		\includegraphics[width=0.15\textwidth]{../../images/artsdecos/ornement02whiteBG.png}	&	
+		\includegraphics[width=0.15\textwidth]{../../images/artsdecos/ornement03whiteBG.png}	&	
+		\includegraphics[width=0.15\textwidth]{../../images/artsdecos/ornement04whiteBG.png}	&	
+		\includegraphics[width=0.15\textwidth]{../../images/artsdecos/ornement05whiteBG.png}	\\
+		\includegraphics[width=0.15\textwidth]{../../images/artsdecos/ornement06whiteBG.png}	&	
+		\includegraphics[width=0.15\textwidth]{../../images/artsdecos/ornement07whiteBG.png}	&	
+		\includegraphics[width=0.15\textwidth]{../../images/artsdecos/ornement08whiteBG.png}	&	
+		\includegraphics[width=0.15\textwidth]{../../images/artsdecos/ornement09whiteBG.png}	&	
+		\includegraphics[width=0.15\textwidth]{../../images/artsdecos/ornement10whiteBG.png}	\\
+	\end{tabular}
+\end{center}
+
+%% TODO utilisation de JeuxCartes
+
+%% \MainCartesJeu{7K § 8P § DT § AC}
+%% ~ou \MainCartesJeu[Eventail,EspH=0,EspV=0.1]{7K § 8P § DT § AC}
+%% ~ou \MainCartesJeu[Eventail,EspH=0.5]{7K § 8P § DT § AC}
+
+%% Ça c'est une belle poignée ! \MainCartesJeu[Inverse,Eventail,Hauteur=3,TypeJeu=Tarot,EspH=0,EspV=0.1]%
+%% {Exc § 1AT § 2AT § 3AT § 4AT § 5AT § 6AT § %
+%% 10AT § 11AT § 15AT § 16AT § 19AT § 20AT § 21AT}
+
+%% \clearpage
+
 \clearpage
 
 %% {\centering \Huge{Château FalkenStein} }~\\
@@ -134,7 +176,7 @@
 %% FAIble ; MOYen ; BON ; EXCellent ; EXcePtionnel ; EXTradordinaire
 %% FAIble ; MOYen ; BON ; EXCellent ; MAGistral ; PROdigieux
 
-\begin{tabular}[c]{|p{0.30\textwidth}|p{0.09\textwidth}|p{0.09\textwidth}|p{0.09\textwidth}|p{0.09\textwidth}|p{0.09\textwidth}|p{0.09\textwidth}|}
+\begin{tabular}[c]{|p{0.29\textwidth}|p{0.09\textwidth}|p{0.09\textwidth}|p{0.09\textwidth}|p{0.09\textwidth}|p{0.09\textwidth}|p{0.09\textwidth}|}
 	\hline
 	\textbf{TALENTS}									&	FAI (2)	&	MOY (4)	&	BON (6)	&	EXC (8)	&	MAG (10)	&	PRO (12)	\\ \hline
 	AGILITÉ { $\clubsuit$ }								&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$		&	$\circ$		\\ \hline
@@ -183,7 +225,7 @@
 	\hline
 \end{tabular}~\\~\\
 
-\begin{tabular}[c]{|p{0.15\textwidth}|p{0.15\textwidth}|p{0.10\textwidth}|p{0.15\textwidth}|p{0.10\textwidth}|p{0.10\textwidth}|p{0.10\textwidth}|} 
+\begin{tabular}[c]{|p{0.14\textwidth}|p{0.14\textwidth}|p{0.10\textwidth}|p{0.15\textwidth}|p{0.10\textwidth}|p{0.10\textwidth}|p{0.10\textwidth}|} 
 	\hline
 	\textbf{ARMES}	&	PORTÉE	&	MUN.	&	DISCRÉTION	&	BP	&	BT	&	BM	\\
 	\hline
@@ -195,81 +237,26 @@
 	\hline
 \end{tabular}~\\~\\
 
-\shadowbox{ \begin{minipage}[ht]{0.97\textwidth}
+\shadowbox{ \begin{minipage}[ht]{0.95\textwidth}
 	\textbf{BIENS, SORTS ET NOTES}~\\~\\~\\~\\~\\
 \end{minipage} }~\\~\\~\\
 
 %% \clearpage
 
-	\shadowbox{ \begin{minipage}[ht]{0.97\textwidth}
+	\shadowbox{ \begin{minipage}[ht]{0.95\textwidth}
 			Portrait~\newline~\newline~\newline~\newline~\newline~\newline~\newline~\newline~\newline~\newline
+			~\newline~\newline~\newline~\newline~\newline~\newline~\newline~\newline~\newline~\newline
+			~\newline~\newline~\newline~\newline~\newline~\newline~\newline~\newline~\newline~\newline
 	\end{minipage} }~\\~\\
-
-\begin{minipage}[ht]{0.95\textwidth}
-	Niveau des Talents : FAIble ; MOYen ; BON ; EXCellent ; MAGistral ; PROdigieux~\newline~\newline
-	Par défaut un Talent est MOYen ; à la création un personnage a : 
-	\begin{itemize}
-		\item un Talent EXCellent, 
-		\item un Talent FAIble et, 
-		\item quatre Talents BON. 
-	\end{itemize}~\\
-	Pour tous talent supplémentaire EXCellent, choisir un Talent FAIble.~\newline
-	Pour tous talent supplémentaire MAGistral, choisir deux Talent FAIble.~\newline
-	Pour tous talent supplémentaire PROdigieux, choisir trois Talent FAIble.~\newline~\newline
-	Lors d'une épreuve, toute carte de la bonne couleur a sa valeur faciale : du 2 à 10, plus Valet (11), Dame (12), Roi (13), As (14), un Joker vaut 15, tout autre carte vaut 1 !
-\end{minipage}~\\~\\
-
-%% TODO memo des tirages possibles
-
-\begin{center}
-	\begin{tabular}[c]{ c c c c c }
-		\includegraphics[width=0.15\textwidth]{../../images/artsdecos/ornement01whiteBG.png}	&	
-		\includegraphics[width=0.15\textwidth]{../../images/artsdecos/ornement02whiteBG.png}	&	
-		\includegraphics[width=0.15\textwidth]{../../images/artsdecos/ornement03whiteBG.png}	&	
-		\includegraphics[width=0.15\textwidth]{../../images/artsdecos/ornement04whiteBG.png}	&	
-		\includegraphics[width=0.15\textwidth]{../../images/artsdecos/ornement05whiteBG.png}	\\
-		\includegraphics[width=0.15\textwidth]{../../images/artsdecos/ornement06whiteBG.png}	&	
-		\includegraphics[width=0.15\textwidth]{../../images/artsdecos/ornement07whiteBG.png}	&	
-		\includegraphics[width=0.15\textwidth]{../../images/artsdecos/ornement08whiteBG.png}	&	
-		\includegraphics[width=0.15\textwidth]{../../images/artsdecos/ornement09whiteBG.png}	&	
-		\includegraphics[width=0.15\textwidth]{../../images/artsdecos/ornement10whiteBG.png}	\\
-	\end{tabular}
-\end{center}
 
 \clearpage
 
-%% DONE décorations "art déco" (géométrique) / "art nouveau" (floral)
-%% 01 \includegraphics[width=0.15\textwidth]{../../images/artsdecos/ornement01whiteBG.png}~\\
-%% 02 \includegraphics[width=0.15\textwidth]{../../images/artsdecos/ornement02whiteBG.png}~\\
-%% 03 \includegraphics[width=0.15\textwidth]{../../images/artsdecos/ornement03whiteBG.png}~\\
-%% 04 \includegraphics[width=0.15\textwidth]{../../images/artsdecos/ornement04whiteBG.png}~\\
-%% 05 \includegraphics[width=0.15\textwidth]{../../images/artsdecos/ornement05whiteBG.png}~\\
-%% 06 \includegraphics[width=0.15\textwidth]{../../images/artsdecos/ornement06whiteBG.png}~\\
-%% 07 \includegraphics[width=0.15\textwidth]{../../images/artsdecos/ornement07whiteBG.png}~\\
-%% 08 \includegraphics[width=0.15\textwidth]{../../images/artsdecos/ornement08whiteBG.png}~\\
-%% 09 \includegraphics[width=0.15\textwidth]{../../images/artsdecos/ornement09whiteBG.png}~\\
-%% 10 \includegraphics[width=0.15\textwidth]{../../images/artsdecos/ornement10whiteBG.png}~\\
-
-%% \clearpage
-
-%% TODO utilisation de JeuxCartes
-
-%% \MainCartesJeu{7K § 8P § DT § AC}
-%% ~ou \MainCartesJeu[Eventail,EspH=0,EspV=0.1]{7K § 8P § DT § AC}
-%% ~ou \MainCartesJeu[Eventail,EspH=0.5]{7K § 8P § DT § AC}
-
-%% Ça c'est une belle poignée ! \MainCartesJeu[Inverse,Eventail,Hauteur=3,TypeJeu=Tarot,EspH=0,EspV=0.1]%
-%% {Exc § 1AT § 2AT § 3AT § 4AT § 5AT § 6AT § %
-%% 10AT § 11AT § 15AT § 16AT § 19AT § 20AT § 21AT}
-
-%% \clearpage
-
 %% DONE répéter page pointillée !!
-\foreach \pages in {1,2,...,5}{% %% TODO complétion à 64 PAGES !! (57 À PRIORI)
+\foreach \pages in {1,2,...,59}{% %% TODO complétion à 64 PAGES !! (59 à priori)
 	% \tikz \foreach \x / \y in {1/1,2/2...,30/20} \draw (\x,\y) circle (0.25);
 	\begin{tikzpicture}
-		\foreach \x in {0,0.5,...,21} %% 15 | paperwidth | textwidth
-			\foreach \y in {0,0.5,...,29} %% 29 | paperheight | textheight
+		\foreach \x in {0,0.5,...,19 } %% 15 | paperwidth | textwidth
+			\foreach \y in {0,0.5,...,29 } %% 29 | paperheight | textheight
 				{ \draw (\x,\y) circle (0.01); }
 	\end{tikzpicture}
 	\clearpage
@@ -284,6 +271,8 @@
 \emph{Château FalkenStein} est un Jeu de Rôle "sur table" (JdR / TTRPG en anglais) créé par \emph{Mike Ponsmith} (CyberPunk 2020, CyberPunk Red, CyberPunk 2077, Mekton Z...) en 1994, marque déposée par R.TalsorianGames.~\\ 
 \emph{Château FalkenStein} re-édité en France par les éditions \emph{Lapin Marteau} en 2021.~\\
 
-Le présent carnet conçu par \emph{Gabriel Chandesris} en 2025 pour les joueuses et joueurs rôlistes de la \emph{Ligue Ludique} (Paris).~\\ 
+Le présent carnet conçu par \emph{Gabriel Chandesris} en 2025 pour les joueuses et joueurs rôlistes de la \emph{Ligue Ludique} (Paris).~\today~\\
+
+Réalisé avec \LaTeX ; polices de caractères "Liberation Serif", {\setmainfont{Chomsky} Chomsky } et { \setmainfont{Z003} Z003 } ; package 'JeuxCartes' (et 'tikz', forcément). 
   
 \end{document}
