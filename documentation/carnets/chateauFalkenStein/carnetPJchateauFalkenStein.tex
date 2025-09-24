@@ -10,13 +10,9 @@
 \usepackage{mathtools}
 \usepackage{fontspec} %% fontes / polices de caracteres
 
-% \usepackage{xkeyval}
-% \usepackage{jeuxcartes/tex/JeuxCartes}
-% \usepackage{JeuxCartes} %% \usepackage{jeuxcartes/tex/JeuxCartes}
+% \usepackage{xkeyval}		% Load xkeyval first ??
+% \usepackage{JeuxCartes} %% dépendance vers defKV dans simplekv, version 2021++
 % \usepackage{babel}
-
-% \usepackage{xkeyval}    % Load xkeyval first
-% \usepackage{JeuxCartes}
 
 % \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
 \setmainfont{Liberation Serif} 
@@ -141,6 +137,16 @@
 \end{center}
 
 %% TODO utilisation de JeuxCartes
+
+\begin{center}
+	\begin{tabular}[c]{ c c c }
+
+		\includegraphics[width=0.20\textwidth]{img/MainCarteExample1.png} &	
+		\includegraphics[width=0.20\textwidth]{img/MainCarteExample2.png} &	
+		\includegraphics[width=0.20\textwidth]{img/MainCarteExample3.png} \\
+
+	\end{tabular}
+\end{center}
 
 %% \MainCartesJeu{7K § 8P § DT § AC}
 %% ~ou \MainCartesJeu[Eventail,EspH=0,EspV=0.1]{7K § 8P § DT § AC}
