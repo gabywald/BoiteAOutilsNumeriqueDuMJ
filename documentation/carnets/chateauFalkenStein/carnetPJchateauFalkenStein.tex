@@ -1,17 +1,20 @@
-\documentclass[a5paper,french]{article}
+\documentclass[a5paper,pagesize,french]{book}
+
+\usepackage{babel}
 
 \pagestyle{empty}
 
-% \usepackage[top=0.10cm, bottom=0.10cm, left=0.10cm, right=0.10cm]{geometry}
+%% better use this ('usepackage') for a5paper !!
+\usepackage[top=0.25cm, bottom=0.25cm, left=0.25cm, right=0.25cm]{geometry}
 % gauche, haut, droite, bas, entete, ente2txt, pied, txt2pied
-\usepackage{vmargin}
-\setmarginsrb{0.25cm}{0.25cm}{0.25cm}{0.25cm}{0pt}{0pt}{0pt}{0pt}
+% \usepackage{vmargin}
+% \setmarginsrb{0.25cm}{0.25cm}{0.25cm}{0.25cm}{0pt}{0pt}{0pt}{0pt}
 
 \usepackage{mathtools}
 \usepackage{fontspec} %% fontes / polices de caracteres
 
 % \usepackage{xkeyval}		% Load xkeyval first ??
-% \usepackage{JeuxCartes} %% dépendance vers defKV dans simplekv, version 2021++
+% \usepackage{JeuxCartes}	%% dépendance vers defKV dans simplekv, version 2021++
 % \usepackage{babel}
 
 % \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
@@ -32,6 +35,8 @@
 
 \begin{document}
 
+\setlength\parindent{0pt} % \noindent for all document
+
 % $\heartsuit \varheart \diamondsuit \vardiamond \clubsuit \spadesuit$ ~\\
 
 % {\color{red} $\heartsuit$ }
@@ -49,6 +54,7 @@
 			\centering
 			{ \Huge{\setmainfont{Chomsky} Château FalkenStein } }~\newline~\newline~\newline
 			{ \LARGE{ \setmainfont{Z003} Journal Intime } }
+			{ \Large{ \setmainfont{Z003} Description Partie 1 sur 2} }
 		& \includegraphics[width=0.20\textwidth]{../../images/artsdecos/ornement01whiteBG.png} \\
 	\end{tabular}
 \end{center}
@@ -80,17 +86,40 @@
 							&									\\
 							&									\\
 							&									\\
+\end{tabular}
+
+\clearpage
+
+\begin{center}
+	\begin{tabular}[c]{ p{0.20\textwidth} p{0.45\textwidth} p{0.20\textwidth} }
+		\includegraphics[width=0.20\textwidth]{../../images/artsdecos/ornement04whiteBG.png} & 
+			\centering
+			{ \Huge{\setmainfont{Chomsky} Château FalkenStein } }~\newline~\newline~\newline
+			{ \LARGE{ \setmainfont{Z003} Journal Intime } }
+			{ \Large{ \setmainfont{Z003} Description Partie 2 sur 2} }
+		& \includegraphics[width=0.20\textwidth]{../../images/artsdecos/ornement04whiteBG.png} \\
+	\end{tabular}
+\end{center}
+
+\begin{tabular}[c]{ p{0.45\textwidth} p{0.45\textwidth} }
 	PRINCIPES				&									\\
+							&									\\
 	BIEN LE PLUS PRÉCIEUX	&									\\
+							&									\\
 	PERSONNE LA PLUS AIMÉE	&									\\
+							&									\\
 	ENNEMI JURÉ				&		ALLIÉS						\\
 							&									\\
 							&									\\
 							&									\\
 	VIE ROMANTIQUE			&									\\
+							&									\\
 	BUT SOCIAL				&									\\
+							&									\\
 	BUT PROFESSIONNEL		&									\\
+							&									\\
 	BUT AMOUREUX			&									\\
+							&									\\
 	PLUS GRAND REGRET		&		PLUS GRANDE FIERTÉ			\\
 							&									\\
 							&									\\
@@ -103,7 +132,15 @@
 
 \clearpage
 
-\hfill~\\ \dotfill~\\ \hfill~\\
+\begin{center}
+	\begin{tabular}[c]{ p{0.20\textwidth} p{0.45\textwidth} p{0.20\textwidth} }
+		\includegraphics[width=0.20\textwidth]{../../images/artsdecos/ornement03whiteBG.png} & 
+			\centering
+			{ \Huge{\setmainfont{Chomsky} Château FalkenStein } }~\newline~\newline~\newline
+			{ \LARGE{ \setmainfont{Z003} Memento \& Usages } }
+		& \includegraphics[width=0.20\textwidth]{../../images/artsdecos/ornement03whiteBG.png} \\
+	\end{tabular}
+\end{center}
 
 \begin{minipage}[ht]{0.95\textwidth}
 	Niveau des Talents : FAIble ; MOYen ; BON ; EXCellent ; MAGistral ; PROdigieux~\newline~\newline
@@ -135,6 +172,10 @@
 		\includegraphics[width=0.15\textwidth]{../../images/artsdecos/ornement10whiteBG.png}	\\
 	\end{tabular}
 \end{center}
+
+\begin{center}
+	{ \setmainfont{Z003} Merci de favoriser le Jeu Du Rôle (<<RolePlay>>) et restez digne en toutes circonstances ! }
+\end{center}~\\
 
 %% TODO utilisation de JeuxCartes
 
@@ -168,21 +209,21 @@
 		\includegraphics[width=0.20\textwidth]{../../images/artsdecos/ornement08whiteBG.png} & 
 			\centering
 			{ \Huge{\setmainfont{Chomsky} Château FalkenStein } }~\newline~\newline~\newline
-			{ \LARGE{ \setmainfont{Z003} Fiche Principale } }
+			{ \LARGE{ \setmainfont{Z003} Fiche Principale (2 Pages) } }
 		& \includegraphics[width=0.20\textwidth]{../../images/artsdecos/ornement08whiteBG.png} \\
 	\end{tabular}
 \end{center}
 
 \begin{minipage}[ht]{0.48\textwidth}
-	NOM~\newline~\newline
+	NOM~\newline
 \end{minipage} \hfill \begin{minipage}[ht]{0.48\textwidth}
-	ARCHÉTYPE~\newline~\newline
+	ARCHÉTYPE~\newline
 \end{minipage}~\\~\\
 
 %% FAIble ; MOYen ; BON ; EXCellent ; EXcePtionnel ; EXTradordinaire
 %% FAIble ; MOYen ; BON ; EXCellent ; MAGistral ; PROdigieux
 
-\begin{tabular}[c]{|p{0.29\textwidth}|p{0.09\textwidth}|p{0.09\textwidth}|p{0.09\textwidth}|p{0.09\textwidth}|p{0.09\textwidth}|p{0.09\textwidth}|}
+\begin{tabular}[c]{|p{0.30\textwidth}|p{0.08\textwidth}|p{0.08\textwidth}|p{0.08\textwidth}|p{0.08\textwidth}|p{0.08\textwidth}|p{0.08\textwidth}|}
 	\hline
 	\textbf{TALENTS}									&	FAI (2)	&	MOY (4)	&	BON (6)	&	EXC (8)	&	MAG (10)	&	PRO (12)	\\ \hline
 	AGILITÉ { $\clubsuit$ }								&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$		&	$\circ$		\\ \hline
@@ -221,17 +262,24 @@
 	% SCIENCES NATURELLES {\color{red} $\vardiamond$ }	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$		&	$\circ$		\\ \hline
 	SORCELLERIE {\color{red} $\vardiamond$ }			&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$		&	$\circ$		\\ \hline
 	TIR { $\clubsuit$ }									&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$		&	$\circ$		\\ \hline
-\end{tabular}~\\~\\
+\end{tabular}
 
-\begin{tabular}[c]{|p{0.25\textwidth}|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|}
-	%% \foreach \x in {-7,-6,...,10,11}	{ \x &	} 
-	%% 12	\\
-	\hline
-	\textbf{Santé}	&	-7	&	-6	&	-5	&	-4	&	-3	&	-2	&	-1	&	0	&	1	&	2	&	3	&	4	&	5	&	6	&	7	&	8	&	9	&	10	&	11	&	12	\\
-	\hline
-\end{tabular}~\\~\\
+\clearpage
 
-\begin{tabular}[c]{|p{0.14\textwidth}|p{0.14\textwidth}|p{0.10\textwidth}|p{0.15\textwidth}|p{0.10\textwidth}|p{0.10\textwidth}|p{0.10\textwidth}|} 
+\begin{minipage}[ht]{0.48\textwidth}
+	\begin{tabular}[c]{|p{0.10\textwidth}|c|c|c|c|c|c|c|}
+		%% \foreach \x in {-7,-6,...,10,11}	{ \x &	} 
+		%% 12	\\
+		\hline
+		\textbf{Santé}	&	-7	&	-6	&	-5	&	-4	&	-3	&	-2	&	-1	\\ \hline
+						&	0	&	1	&	2	&	3	&	4	&	5	&	6	\\ \hline
+						&	7	&	8	&	9	&	10	&	11	&	12	&		\\ \hline
+	\end{tabular}
+\end{minipage} \hfill \begin{minipage}[ht]{0.48\textwidth}
+	\includegraphics[width=0.50\textwidth]{../../images/artsdecos/ornement06whiteBG.png}
+\end{minipage}~\\~\\
+
+\begin{tabular}[c]{|p{0.10\textwidth}|p{0.10\textwidth}|p{0.10\textwidth}|p{0.15\textwidth}|p{0.10\textwidth}|p{0.10\textwidth}|p{0.10\textwidth}|} 
 	\hline
 	\textbf{ARMES}	&	PORTÉE	&	MUN.	&	DISCRÉTION	&	BP	&	BT	&	BM	\\
 	\hline
@@ -245,24 +293,24 @@
 
 \shadowbox{ \begin{minipage}[ht]{0.95\textwidth}
 	\textbf{BIENS, SORTS ET NOTES}~\\~\\~\\~\\~\\
-\end{minipage} }~\\~\\~\\
+\end{minipage} }~\\~\\
 
 %% \clearpage
 
 	\shadowbox{ \begin{minipage}[ht]{0.95\textwidth}
-			Portrait~\newline~\newline~\newline~\newline~\newline~\newline~\newline~\newline~\newline~\newline
-			~\newline~\newline~\newline~\newline~\newline~\newline~\newline~\newline~\newline~\newline
-			~\newline~\newline~\newline~\newline~\newline~\newline~\newline~\newline~\newline~\newline
+			\textbf{Portrait}	~\newline~\newline~\newline~\newline~\newline~\newline~\newline~\newline
+								~\newline~\newline~\newline~\newline~\newline~\newline~\newline~\newline
+								~\newline~\newline~\newline~\newline~\newline~\newline~\newline~\newline
 	\end{minipage} }~\\~\\
 
 \clearpage
 
 %% DONE répéter page pointillée !!
-\foreach \pages in {1,2,...,59}{% %% TODO complétion à 64 PAGES !! (59 à priori)
+\foreach \pages in {1,2,...,58}{% DONE complétion à 64 PAGES !! (58 à priori)
 	% \tikz \foreach \x / \y in {1/1,2/2...,30/20} \draw (\x,\y) circle (0.25);
 	\begin{tikzpicture}
-		\foreach \x in {0,0.5,...,19 } %% 15 | paperwidth | textwidth
-			\foreach \y in {0,0.5,...,29 } %% 29 | paperheight | textheight
+		\foreach \x in {0,0.5,...,14 } %% 15 | paperwidth | textwidth
+			\foreach \y in {0,0.5,...,20 } %% 20 | paperheight | textheight
 				{ \draw (\x,\y) circle (0.01); }
 	\end{tikzpicture}
 	\clearpage
@@ -274,10 +322,11 @@
 
 \hfill
 
-\emph{Château FalkenStein} est un Jeu de Rôle "sur table" (JdR / TTRPG en anglais) créé par \emph{Mike Ponsmith} (CyberPunk 2020, CyberPunk Red, CyberPunk 2077, Mekton Z...) en 1994, marque déposée par R.TalsorianGames.~\\ 
+\emph{Château FalkenStein} est un Jeu de Rôle "sur table" (JdR / TTRPG en anglais) créé par \emph{Mike Ponsmith} (CyberPunk 2020, CyberPunk Red, CyberPunk 2077, Mekton Z...) en 1994, marque déposée par R.TalsorianGames.~\\
 \emph{Château FalkenStein} re-édité en France par les éditions \emph{Lapin Marteau} en 2021.~\\
 
-Le présent carnet conçu par \emph{Gabriel Chandesris} en 2025 pour les joueuses et joueurs rôlistes de la \emph{Ligue Ludique} (Paris).~\today~\\
+Le présent carnet conçu par \emph{Gabriel Chandesris} en 2025 pour les rôlistes de la \emph{Ligue Ludique} (Paris).~\\
+\today~\\
 
 Réalisé avec \LaTeX ; polices de caractères "Liberation Serif", {\setmainfont{Chomsky} Chomsky } et { \setmainfont{Z003} Z003 } ; package 'JeuxCartes' (et 'tikz', forcément). 
   
