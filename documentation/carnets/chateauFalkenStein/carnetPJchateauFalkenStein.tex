@@ -13,9 +13,8 @@
 \usepackage{mathtools}
 \usepackage{fontspec} %% fontes / polices de caracteres
 
-% \usepackage{xkeyval}		% Load xkeyval first ??
-% \usepackage{JeuxCartes}	%% dépendance vers defKV dans simplekv, version 2021++
-% \usepackage{babel}
+\usepackage{JeuxCartes}
+\usepackage{coffeestains}
 
 % \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
 \setmainfont{Liberation Serif} 
@@ -182,22 +181,12 @@
 \begin{center}
 	\begin{tabular}[c]{ c c c }
 
-		\includegraphics[width=0.20\textwidth]{img/MainCarteExample1.png} &	
-		\includegraphics[width=0.20\textwidth]{img/MainCarteExample2.png} &	
-		\includegraphics[width=0.20\textwidth]{img/MainCarteExample3.png} \\
+		\MainCartesJeu[Hauteur=2.00]{7K § 8P § DT § AC} &	
+		\MainCartesJeu[Eventail,EspH=0,EspV=0.1,Hauteur=2.00]{7K § 8P § DT § AC} &	
+		\MainCartesJeu[Eventail,EspH=0.5,Hauteur=2.00]{7K § 8P § DT § AC} \\
 
 	\end{tabular}
-\end{center}
-
-%% \MainCartesJeu{7K § 8P § DT § AC}
-%% ~ou \MainCartesJeu[Eventail,EspH=0,EspV=0.1]{7K § 8P § DT § AC}
-%% ~ou \MainCartesJeu[Eventail,EspH=0.5]{7K § 8P § DT § AC}
-
-%% Ça c'est une belle poignée ! \MainCartesJeu[Inverse,Eventail,Hauteur=3,TypeJeu=Tarot,EspH=0,EspV=0.1]%
-%% {Exc § 1AT § 2AT § 3AT § 4AT § 5AT § 6AT § %
-%% 10AT § 11AT § 15AT § 16AT § 19AT § 20AT § 21AT}
-
-%% \clearpage
+\end{center}~\\
 
 \clearpage
 
@@ -328,6 +317,23 @@
 Le présent carnet conçu par \emph{Gabriel Chandesris} en 2025 pour les rôlistes de la \emph{Ligue Ludique} (Paris).~\\
 \today~\\
 
-Réalisé avec \LaTeX ; polices de caractères "Liberation Serif", {\setmainfont{Chomsky} Chomsky } et { \setmainfont{Z003} Z003 } ; package 'JeuxCartes' (et 'tikz', forcément). 
+Réalisé avec \LaTeX ; polices de caractères "Liberation Serif", {\setmainfont{Chomsky} Chomsky } et { \setmainfont{Z003} Z003 } ; package 'JeuxCartes' (et 'tikz', forcément).~\\
+
+\dotfill~\\
+
+\MainCartesJeu[Inverse,Eventail,Hauteur=2.00,TypeJeu=Tarot,EspH=0,EspV=0.1]%
+{Exc § 1AT § 2AT § 3AT § 4AT § 5AT § 19AT § 20AT § 21AT} \hfill %
+%
+\MainCartesJeu[TypeJeu=Tarot,EspH=1,EspV=-0.15,Hauteur=2.25]%
+{Exc § 1AT § CC § 8T § 2K § 5AT § 2AT § DP § 7T § 10C § 19AT § VP} \hfill %
+%
+\MainCartesJeu[Eventail,Hauteur=2,TypeJeu=Tarot,EspH=0.5,EspV=0.15,Rotation=20]%
+{DK § 10AT § 16AT § VP § 1AT}~\\
+
+\dotfill~\\
+
+\coffeestainA{0.5}{0.75}{0.0cm}{0.0cm}{0.0cm}~\\
+
+\dotfill~\\
   
 \end{document}
