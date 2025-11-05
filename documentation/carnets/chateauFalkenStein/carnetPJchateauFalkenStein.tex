@@ -15,6 +15,7 @@
 
 \usepackage{JeuxCartes}
 \usepackage{coffeestains}
+\usepackage{eso-pic} %% mettre une image de fond !!
 
 % \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
 \setmainfont{Liberation Serif} 
@@ -32,9 +33,50 @@
 
 \usepackage{tikz}
 
+\def\backgroundStampOnPage{%
+	\begin{tikzpicture}[opacity=0.25] %%, scale=2.00]
+		\begin{scope}[xshift=-15.00,yshift=-8.00]
+			%% \draw [very thin, gray] (-3,-3) grid (3,3);
+			\draw [very thick, blue   ] (-1.50, 0.00) ..controls +(0, 2) and +(0, 2).. ( 1.50, 0.00);
+			\draw [very thick, red    ] (-1.50, 0.00) ..controls +(0,-2) and +(0,-2).. ( 1.50, 0.00);
+			\draw [very thick, green  ] (-1.50, 0.00) ..controls +(0, 2) and +(0,-2).. ( 1.50, 0.00);
+			\draw [very thick, magenta] (-1.00, 1.00) ..controls +(0, 2) and +(0,-2).. ( 1.00,-1.00);
+			\draw [very thick, yellow ] ( 0.00, 1.50) ..controls +(0, 2) and +(0,-2).. ( 0.00,-1.50);
+			\draw [very thick, black  ] (-1.50, 0.00) ..controls +(0,-2) and +(0, 2).. ( 1.50, 0.00);
+			\draw [very thick, cyan   ] ( 1.00, 1.00) ..controls +(0, 2) and +(0,-2).. (-1.00,-1.00);
+			\draw [very thick, gray, fill=white] (0.00,0.00) circle (0.75);
+			\draw [very thick, white, fill=gray] (0.00,0.00) circle (0.25);
+		\end{scope}
+	\end{tikzpicture}
+}%
+
+\def\backgroundStamp{%
+	%% \begin{tikzpicture} %%, scale=2.00]
+		\begin{scope}[opacity=0.25,xshift=15.00,yshift=5.00]
+			%% \draw [very thin, gray] (-3,-3) grid (3,3);
+			\draw [very thick, blue   ] (-1.50, 0.00) ..controls +(0, 2) and +(0, 2).. ( 1.50, 0.00);
+			\draw [very thick, red    ] (-1.50, 0.00) ..controls +(0,-2) and +(0,-2).. ( 1.50, 0.00);
+			\draw [very thick, green  ] (-1.50, 0.00) ..controls +(0, 2) and +(0,-2).. ( 1.50, 0.00);
+			\draw [very thick, magenta] (-1.00, 1.00) ..controls +(0, 2) and +(0,-2).. ( 1.00,-1.00);
+			\draw [very thick, yellow ] ( 0.00, 1.50) ..controls +(0, 2) and +(0,-2).. ( 0.00,-1.50);
+			\draw [very thick, black  ] (-1.50, 0.00) ..controls +(0,-2) and +(0, 2).. ( 1.50, 0.00);
+			\draw [very thick, cyan   ] ( 1.00, 1.00) ..controls +(0, 2) and +(0,-2).. (-1.00,-1.00);
+			\draw [very thick, gray, fill=white] (0.00,0.00) circle (0.75);
+			\draw [very thick, white, fill=gray] (0.00,0.00) circle (0.25);
+		\end{scope}
+	%% \end{tikzpicture}
+}%
+
 \begin{document}
 
 \setlength\parindent{0pt} % \noindent for all document
+
+\AddToShipoutPicture{
+    %% \AtPageCenter{ AtPageCenter }
+    %% \AtTextCenter{ AtTextCenter }
+    %% \AtStockCenter{ AtStockCenter }
+    %% \AtPageCenter{ \backgroundStampOnPage }
+}
 
 % $\heartsuit \varheart \diamondsuit \vardiamond \clubsuit \spadesuit$ ~\\
 
@@ -176,7 +218,7 @@
 	{ \setmainfont{Z003} Merci de favoriser le Jeu Du Rôle (<<RolePlay>>) et restez digne en toutes circonstances ! }
 \end{center}~\\
 
-%% TODO utilisation de JeuxCartes
+%% DONE utilisation de JeuxCartes
 
 \begin{center}
 	\begin{tabular}[c]{ c c c }
@@ -228,7 +270,7 @@
 	CONDUITE { $\clubsuit$ }							&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$		&	$\circ$		\\ \hline
 	COURAGE {\color{red} $\varheart$ }					&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$		&	$\circ$		\\ \hline
 	DISCRÉTION { $\clubsuit$ }							&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$		&	$\circ$		\\ \hline
-	% ÉLEVAGE {\color{red} $\varheart$ }					&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$		&	$\circ$		\\ \hline
+	% ÉLEVAGE {\color{red} $\varheart$ }				&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$		&	$\circ$		\\ \hline
 	ÉQUITATION { $\clubsuit$ }							&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$		&	$\circ$		\\ \hline
 	ESCRIME { $\clubsuit$ }								&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$		&	$\circ$		\\ \hline
 	ÉTHÉRALITÉ ( FAË ) { $\clubsuit$ }					&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$		&	$\circ$		\\ \hline
@@ -247,7 +289,7 @@
 	PUGILAT { $\clubsuit$ }								&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$		&	$\circ$		\\ \hline
 	POUVOIR FAË {\color{red} $\vardiamond$ }			&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$		&	$\circ$		\\ \hline
 	RELATIONS { $\spadesuit$ }							&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$		&	$\circ$		\\ \hline
-	% RENOM { $\spadesuit$ }								&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$		&	$\circ$		\\ \hline
+	% RENOM { $\spadesuit$ }							&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$		&	$\circ$		\\ \hline
 	% SCIENCES NATURELLES {\color{red} $\vardiamond$ }	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$		&	$\circ$		\\ \hline
 	SORCELLERIE {\color{red} $\vardiamond$ }			&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$		&	$\circ$		\\ \hline
 	TIR { $\clubsuit$ }									&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$	&	$\circ$		&	$\circ$		\\ \hline
@@ -294,20 +336,39 @@
 
 \clearpage
 
+\AddToShipoutPicture{
+    %% \AtPageCenter{ AtPageCenter }
+    %% \AtTextCenter{ AtTextCenter }
+    %% \AtStockCenter{ AtStockCenter }
+    \AtPageCenter{ \backgroundStampOnPage }
+}
+
 %% DONE répéter page pointillée !!
-\foreach \pages in {1,2,...,58}{% DONE complétion à 64 PAGES !! (58 à priori)
+\foreach \pages in {1,2,...,60}{% DONE complétion à 64 PAGES !! (58 à priori)
 	% \tikz \foreach \x / \y in {1/1,2/2...,30/20} \draw (\x,\y) circle (0.25);
 	\begin{tikzpicture}
-		\foreach \x in {0,0.5,...,14 } %% 15 | paperwidth | textwidth
-			\foreach \y in {0,0.5,...,20 } %% 20 | paperheight | textheight
-				{ \draw (\x,\y) circle (0.01); }
+		%% \backgroundStamp
+		\begin{scope}
+			\foreach \x in {0,0.5,...,14 } %% 15 | paperwidth | textwidth
+				\foreach \y in {0,0.5,...,20 } %% 20 | paperheight | textheight
+					{ \draw (\x,\y) circle (0.01); }
+		\end{scope}
 	\end{tikzpicture}
 	\clearpage
 }%
 
 \clearpage
 
+\AddToShipoutPicture{
+    %% \AtPageCenter{ AtPageCenter }
+    %% \AtTextCenter{ AtTextCenter }
+    %% \AtStockCenter{ AtStockCenter }
+    %% \AtPageCenter{ \backgroundStampOnPage }
+}
+
 ~\\ \dotfill~\\
+
+\coffeestainA{0.35}{0.75}{0.0cm}{00.0cm}{01.0cm}~\\
 
 \hfill
 
@@ -317,7 +378,7 @@
 Le présent carnet conçu par \emph{Gabriel Chandesris} en 2025 pour les rôlistes de la \emph{Ligue Ludique} (Paris).~\\
 \today~\\
 
-Réalisé avec \LaTeX ; polices de caractères "Liberation Serif", {\setmainfont{Chomsky} Chomsky } et { \setmainfont{Z003} Z003 } ; package 'JeuxCartes' (et 'tikz', forcément).~\\
+Réalisé avec \LaTeX ; polices de caractères "Liberation Serif", {\setmainfont{Chomsky} Chomsky } et { \setmainfont{Z003} Z003 } ; package 'JeuxCartes' et 'coffeestains' et 'eso-pic' (et 'tikz', forcément).~\\
 
 \dotfill~\\
 
@@ -332,8 +393,4 @@ Réalisé avec \LaTeX ; polices de caractères "Liberation Serif", {\setmainfont
 
 \dotfill~\\
 
-\coffeestainA{0.5}{0.75}{0.0cm}{0.0cm}{0.0cm}~\\
-
-\dotfill~\\
-  
 \end{document}
