@@ -67,16 +67,31 @@
 	%% \end{tikzpicture}
 }%
 
+\def\title{Carnet De Voyage Pour Le Grand Jeu (Château FalkenStein)}
+\usepackage{hyperref}
+%% http://www.andy-roberts.net/writing/latex/pdfs -- for some properties...
+%% https://tex.stackexchange.com/questions/26529/how-can-i-generate-pdf-metadata-from-latex
+\hypersetup{
+	pdfauthor={Gaby Wald / Gabriel Chandesris},
+	pdftitle={\title },
+	pdfsubject={\title },
+	pdfkeywords={\title },
+	pdfproducer={PDFLaTeX / XeLaTeX (production)},
+	pdfcreator={PDFLaTeX / XeLaTeX (production)}
+	%% urlcolor=green,
+}
+%% https://tex.stackexchange.com/questions/79395/option-clash-for-hyperref-package
+
 \begin{document}
 
 \setlength\parindent{0pt} % \noindent for all document
 
-\AddToShipoutPicture{
+%% \AddToShipoutPicture{
     %% \AtPageCenter{ AtPageCenter }
     %% \AtTextCenter{ AtTextCenter }
     %% \AtStockCenter{ AtStockCenter }
     %% \AtPageCenter{ \backgroundStampOnPage }
-}
+%% }
 
 % $\heartsuit \varheart \diamondsuit \vardiamond \clubsuit \spadesuit$ ~\\
 
@@ -430,8 +445,6 @@ Cœurs
 	\item[] A{\color{red} $\varheart$ } : Affronter une créature tentaculaire dans un des grands réservoirs d'eau potable que l'on construit autour de la capitale, et retarder leur mise en service.
 \end{itemize}~\\
 
-
-
 \clearpage
 
 \begin{center}
@@ -484,12 +497,12 @@ Trèfles
 
 \clearpage
 
-\AddToShipoutPicture{
+%% \AddToShipoutPicture{
     %% \AtPageCenter{ AtPageCenter }
     %% \AtTextCenter{ AtTextCenter }
     %% \AtStockCenter{ AtStockCenter }
     %% \AtPageCenter{ \backgroundStampOnPage }
-}
+%% }
 
 ~\\ \dotfill~\\
 
