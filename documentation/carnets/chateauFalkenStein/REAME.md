@@ -19,7 +19,6 @@ NOTES : vérifier comment installer les polices de caractères (ici TTF) !
 
 Utilisation de texlive-latex-\* sur une Distribution Linux Ubuntu 
 
-
 NOTE : make avec 'xelatex' plutôt que 'pdflatex' à cause de certains packages (notamment polices de caractères). 
 Packages 'fontspec' et 'JeuxCartes' (attention compatibilité avec packages de mathématiques). 
 
@@ -30,7 +29,7 @@ Notes un peu particulières pour "linuxiens LaTeXiens avancés".
 JeuxCartes est dans "texlive-games" => "texlive-extra" dans texlive-* à partir de 2021
 	- Jusqu'à cette date, installé dans /usr/share/texlive/... ; Ensuite dans /usr/local/texlive/<year> !!
 	- Historiquement 20.04 si installation texlive postérieure à 2021 effectuée séparément (voir ci-dessous) ; 
-	- Sur une Ubuntu postérieure (LTS 22 ou 24 ou +/plus), cela devrait fonctionner sans soucis !
+	- Sur une Ubuntu postérieure (LTS 24 ou +/plus), cela fonctionne sans soucis ! (ignorer les éléments suivants dans ce cas). 
 	
  -- Sinon soucis compatibilité JeuxCartes avec packages xkeyval / simplekv ?! (pour version à partir de 2021)
 
