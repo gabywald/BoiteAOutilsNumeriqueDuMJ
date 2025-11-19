@@ -7,11 +7,8 @@
 \usepackage{a4}	             % pour la taille   
 \usepackage[T1]{fontenc}     % pour les font postscript
 \usepackage{epsfig}          % pour gerer les images
-%\usepackage{psfig}
 \usepackage{amsmath, amsthm} % tres bon mode mathematique
 \usepackage{amsfonts,amssymb}% permet la definition des ensembles
-\usepackage{float}           % pour le placement des figure
-\usepackage{verbatim}
 
 \usepackage{longtable} % pour les tableaux de plusieurs pages
 
@@ -29,7 +26,6 @@
 \setmarginsrb{0.50cm}{0.50cm}{0.50cm}{0.50cm}{22pt}{3pt}{15pt}{10pt}
 
 \usepackage{lscape} % changement orientation page
-%\usepackage{frbib} % enlever pour obtenir references en anglais
 % --- style de page (pour les en-tete) ---
 \pagestyle{empty}
 
@@ -286,15 +282,7 @@
 	\renewcommand{\headrulewidth}{0pt}
 }
 
-
-
 \usepackage{fancybox}
-
-%--- Definitions de nouvelles couleurs ---
-\definecolor{verylightgrey}{rgb}{0.8,0.8,0.8}
-\definecolor{verylightgray}{gray}{0.80}
-\definecolor{lightgrey}{rgb}{0.6,0.6,0.6}
-\definecolor{lightgray}{gray}{0.6}
 
 %============================= Corps =================================
 \begin{document}
@@ -312,10 +300,10 @@ Style de jeu \dotfill Guardien \dotfill Campagne \dotfill ~\\
 		\FRdefBOXTITLEPersonalInforma~\\ %% ~\\
 		%% 
 		\begin{tabular}[c]{ p{0.15\textwidth} p{0.30\textwidth} p{0.15\textwidth} p{0.30\textwidth} }
-			\FRdefPersonnalInfosNAM	& \dotfill					& \FRdefPersonnalInfosFNA & \dotfill	\\
-			\FRdefPersonnalInfosOCC	& \dotfill					&		\FRdefPersonnalInfosAGE & \dotfill	\\
-			\FRdefPersonnalInfosPRO	& \dotfill					& 			\FRdefPersonnalInfosSEX	& \dotfill	\\
-			\FRdefPersonnalInfosPER	& \dotfill					& \FRdefPersonnalInfosNAT & \dotfill	\\
+			\FRdefPersonnalInfosNAM	& \dotfill					& \FRdefPersonnalInfosFNA	& \dotfill	\\
+			\FRdefPersonnalInfosOCC	& \dotfill					& \FRdefPersonnalInfosAGE	& \dotfill	\\
+			\FRdefPersonnalInfosPRO	& \dotfill					& \FRdefPersonnalInfosSEX	& \dotfill	\\
+			\FRdefPersonnalInfosPER	& \dotfill					& \FRdefPersonnalInfosNAT	& \dotfill	\\
 			Niveau de vie		& \dotfill	& 		\dotfill & \%	\\
 		\end{tabular}
 	\end{minipage}} % end fbox
@@ -433,7 +421,7 @@ Style de jeu \dotfill Guardien \dotfill Campagne \dotfill ~\\
 	\end{tabular} }~\\
 	
 	\begin{center}
-		\includegraphics[width=2.50cm]{../../../../../imgGraphics/artsDecos/ornement06whiteBG.png}
+		\includegraphics[width=2.50cm]{../../../images/artsdecos/ornement06whiteBG.png}
 	\end{center}
 	
 	\vfill
