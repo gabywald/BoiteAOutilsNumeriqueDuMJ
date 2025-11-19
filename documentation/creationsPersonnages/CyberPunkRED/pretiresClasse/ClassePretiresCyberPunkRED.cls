@@ -30,7 +30,7 @@
 \RequirePackage{amsthm}		% tres bon mode mathematique
 \RequirePackage{amsfonts}
 \RequirePackage{amssymb}	% permet la definition des ensembles
-\RequirePackage{float}      % pour le placement des figure
+\RequirePackage{float}      % pour le placement des figures
 
 \RequirePackage{multicol}	% multicolonnes
 \RequirePackage{longtable}	% pour les tableaux de plusieurs pages
