@@ -1,0 +1,269 @@
+\documentclass[12pt,twoside,a5paper]{article}
+% http://www-h.eng.cam.ac.uk/help/tpl/textprocessing/latex_maths+pix/node6.html symboles de math
+% http://fr.wikibooks.org/wiki/Programmation_LaTeX Programmation latex (wikibook)
+%=========================== En-Tete =================================
+%--- Insertion de paquetages (optionnel) ---
+\usepackage[french]{babel}   % pour dire que le texte est en fran{\'e}ais
+\usepackage{a4}	             % pour la taille   
+\usepackage[T1]{fontenc}     % pour les font postscript
+\usepackage{epsfig}          % pour gerer les images
+\usepackage{amsmath, amsthm} % tres bon mode mathematique
+\usepackage{amsfonts,amssymb}% permet la definition des ensembles
+
+\usepackage{lastpage}
+
+\usepackage[top=1.0cm, bottom=1.0cm, left=1.0cm, right=1.0cm]{geometry}
+% gauche, haut, droite, bas, entete, ente2txt, pied, txt2pied
+% \usepackage{vmargin}
+% \setmarginsrb{1.0cm}{1.0cm}{1.0cm}{1.0cm}{15pt}{3pt}{57pt}{3pt}
+
+\usepackage{lscape} % changement orientation page
+
+\pagestyle{empty}
+
+% % % en-tete et pieds de page configurables : fancyhdr.sty
+% http://www.trustonme.net/didactels/250.html
+% http://ww3.ac-poitiers.fr/math/tex/pratique/entete/entete.htm
+% http://www.ctan.org/tex-archive/macros/latex/contrib/fancyhdr/fancyhdr.pdf
+% \usepackage{fancyhdr}
+% \pagestyle{fancy}
+% % \newcommand{\chaptermark}[1]{\markboth{#1}{}}
+% % \newcommand{\sectionmark}[1]{\markright{\thesection\ #1}}
+% \fancyhf{}
+% \fancyhead[LE,RO]{\bfseries\thepage}
+% \fancyhead[LO]{\bfseries\rightmark}
+% \fancyhead[RE]{\bfseries\leftmark}
+% \fancyfoot[LE]{\thepage /\pageref{LastPage} \hfill
+	% TITLE
+% \hfill \includegraphics[width=0.5cm]{img/logo_glider.png} }
+% \fancyfoot[RO]{\includegraphics[width=0.5cm]{img/logo_glider.png} \hfill
+	% TITLE
+% \hfill \thepage /\pageref{LastPage}}
+% \renewcommand{\headrulewidth}{0.5pt}
+% \renewcommand{\footrulewidth}{0.5pt}
+% \addtolength{\headheight}{0.5pt}
+% \fancypagestyle{plain}{
+	% \fancyhead{}
+	% \renewcommand{\headrulewidth}{0pt}
+% }
+
+%--- Definitions de nouvelles couleurs ---
+% \definecolor{verylightgrey}{rgb}{0.8,0.8,0.8}
+% \definecolor{verylightgray}{gray}{0.80}
+% \definecolor{lightgrey}{rgb}{0.6,0.6,0.6}
+% \definecolor{lightgray}{gray}{0.6}
+
+\usepackage{fancybox}
+\usepackage{tikz}
+\usepackage{graphics}
+
+%% \newcommand{TitleVerticalOnLeft}[1][notitle]{ \begin{minipage}[h]{0.05\textwidth} \rotatebox{90}{ \textsc{#1} } \end{minipage} \hfill \begin{minipage}[h]{0.95\textwidth} }%
+
+%============================= Corps =================================
+\begin{document}
+
+\setlength\parindent{0pt} % \noindent for all document
+
+SUR LES FRONTIÈRES~\\~\\
+
+%% L'Héritier/L'Héritière
+\begin{minipage}[h]{0.05\textwidth} \rotatebox{90}{ \textsc{L'Héritier/L'Héritière} } \end{minipage} \hfill \begin{minipage}[h]{0.95\textwidth}
+%% \TitleVerticalOnLeft{L'Héritier/L'Héritière}
+	Je suis \hrulefill~le/la \hrulefill ~\\
+	Qui \hrulefill ~\\
+	<< \hrulefill >>~\\
+	Faille :  \hrulefill~(  \hrulefill )~\\
+	Ami : \hrulefill ~\\
+	Ennemi : \hrulefill Âge :  \hrulefill ~\\
+	Destin :  \hrulefill~\Ovalbox{~} \Ovalbox{~} \Ovalbox{~} \Ovalbox{~} \Ovalbox{~}~\\
+\end{minipage}
+
+\begin{minipage}[h]{0.45\textwidth}
+	\begin{tikzpicture}[scale=0.75]
+		% \draw [very thin, gray] (-5,-5) grid ( 5, 5);
+		% \draw (-2, 0) node {-2, 0};
+		
+		\draw [black]( 0.80, 0.50) node {ÂME};
+		\draw [black](-0.90, 0.50) node {CORPS};
+		\draw [black]( 0.00,-1.00) node {ESPRIT};
+	
+		\draw [thick, black]   ( 0.00, 0.00) -- ( 1.75,-1.00)arc(-30: 90:2.00cm) -- cycle;
+		\draw [thick, black]   ( 0.00, 0.00) -- ( 0.00, 2.00)arc( 90:210:2.00cm) -- cycle;
+		\draw [thick, black]   ( 0.00, 0.00) -- (-1.75,-1.00)arc(210:330:2.00cm) -- cycle;
+		
+		\draw [thick, black]   ( 0.00, 0.00) -- ( 3.50,-2.00)arc(-30: 90:4.00cm) -- cycle;
+		\draw [thick, black]   ( 0.00, 0.00) -- ( 0.00, 4.00)arc( 90:210:4.00cm) -- cycle;
+		\draw [thick, black]   ( 0.00, 0.00) -- (-3.50,-2.00)arc(210:330:4.00cm) -- cycle;
+	\end{tikzpicture}
+\end{minipage} \hfill \begin{minipage}[h]{0.45\textwidth}
+
+	Caractéristiques \& Notes~\newline~\newline~\newline~\newline~\newline~\newline~\newline
+	
+	%% Traumatismes
+	\begin{minipage}[h]{0.05\textwidth} \rotatebox{90}{ \textsc{Traumatismes} } \end{minipage} \hfill \begin{minipage}[h]{0.95\textwidth}
+		{ \scriptsize
+			\Ovalbox{~} Humilié \emph{Pas de caractéristiques}~\newline
+			\Ovalbox{~} Déchu 	\emph{Pas de don/trait/devise}~\newline
+			\Ovalbox{~} Blessé 	\emph{Circonstances d{\'e}favorables}~\newline
+			\Ovalbox{~} Mutilé 	\emph{Ne lance plus les d{\'e}s}~\newline
+			\Ovalbox{~} Mort 	\emph{Ne peut plus agir}~\newline
+		}
+	\end{minipage}
+	
+\end{minipage}
+
+\hrule~\\
+
+%% Résolution~\\
+\begin{minipage}[h]{0.05\textwidth} \rotatebox{90}{ \textsc{Résolution} } \end{minipage} \hfill \begin{minipage}[h]{0.95\textwidth}
+	{ 	\scriptsize
+		Lancez 1D6 et ajouter la caractéristique appropriée. Comptez vos succès en fonction du total :
+		\begin{itemize}
+			\item[] 1-2 : 0 succès / 3-5 : 1 succès / 6-8 : 2 succès / 9-11 : 3 succès / 12 : 4 succès
+		\end{itemize}
+		Le trait, le don et la devise donnent des circonstances favorables : vous lancez 2D6 et gardez le meilleur~\\
+		La faille et certains traumatismes donnent des circonstances défavorables : vous lancez 2D6 et gardez le moins bon.~\\
+		Pour réussir une action, vous devez cumuler un certain nombre de succès :
+		\begin{itemize}
+			\item[] Action difficile : 1 succès / ardue : 2 succès / inhumaine : 3 succès / impossible : 4 succès
+		\end{itemize}
+	}
+\end{minipage}
+
+\clearpage
+
+\hrule~\\
+
+%% \textsc{Héritier}~\\
+\begin{minipage}[h]{0.05\textwidth} \rotatebox{90}{ \textsc{Héritier} } \end{minipage} \hfill \begin{minipage}[h]{0.95\textwidth}
+	NOM \hrulefill~FAILLE \hrulefill~\\
+	AMI \hrulefill~ENNEMI \hrulefill~\\
+	DEVISE \hrulefill~\\
+	DESTIN \hrulefill~\Ovalbox{~} \Ovalbox{~} \Ovalbox{~} \Ovalbox{~} \Ovalbox{~}~\\
+\end{minipage}
+
+\hrule~\\
+
+%% \textsc{Héritier}~\\
+\begin{minipage}[h]{0.05\textwidth} \rotatebox{90}{ \textsc{Héritier} } \end{minipage} \hfill \begin{minipage}[h]{0.95\textwidth}
+	NOM \hrulefill~FAILLE \hrulefill~\\
+	AMI \hrulefill~ENNEMI \hrulefill~\\
+	DEVISE \hrulefill~\\
+	DESTIN \hrulefill~\Ovalbox{~} \Ovalbox{~} \Ovalbox{~} \Ovalbox{~} \Ovalbox{~}~\\
+\end{minipage}
+
+\hrule~\\
+
+%% \textsc{Héritier}~\\
+\begin{minipage}[h]{0.05\textwidth} \rotatebox{90}{ \textsc{Héritier} } \end{minipage} \hfill \begin{minipage}[h]{0.95\textwidth}
+	NOM \hrulefill~FAILLE \hrulefill~\\
+	AMI \hrulefill~ENNEMI \hrulefill~\\
+	DEVISE \hrulefill~\\
+	DESTIN \hrulefill~\Ovalbox{~} \Ovalbox{~} \Ovalbox{~} \Ovalbox{~} \Ovalbox{~}~\\
+\end{minipage}
+
+\hrule~\\
+
+%% \textsc{MOMENTS}
+\begin{minipage}[h]{0.05\textwidth} \rotatebox{90}{ \textsc{Moments} } \end{minipage} \hfill \begin{minipage}[h]{0.95\textwidth}
+	\begin{tabular}[c]{ p{0.35\textwidth}|p{0.18\textwidth}|p{0.18\textwidth}|p{0.18\textwidth}|}
+		\textsc{Héritiers}				&					&					&					\\ \hline
+		\textsc{Épreuve : Corps}		&					&					&					\\ \hline
+		\textsc{Épreuve : Esprit}		&					&					&					\\ \hline
+		\textsc{Épreuve : Âme}			&					&					&					\\ \hline
+		\textsc{Question : Barbares}	&					&					&					\\ \hline
+		\textsc{Question : Bêtes}		&					&					&					\\ \hline
+		\textsc{Question : Héritiers}	&					&					&					\\ \hline
+		\textsc{Question : Héros}		&					&					&					\\ \hline
+		\textsc{Question : Empire}		&					&					&					\\ \hline
+		\textsc{Question : Famille}		&					&					&					\\ \hline
+		\textsc{Question : Ami}			&					&					&					\\ \hline
+		\textsc{Question : Ennemi}		&					&					&					\\ \hline
+		\textsc{Question : Réalité}		&					&					&					\\ \hline
+	\end{tabular}~\\
+\end{minipage}
+
+\hrule
+
+\clearpage
+
+%% \textsc{Contrée}~\\
+\begin{minipage}[h]{0.05\textwidth} \rotatebox{90}{ \textsc{Contrée} } \end{minipage} \hfill \begin{minipage}[h]{0.95\textwidth}
+	\textsc{Nom de la communauté} 			\hrulefill~\\
+	\textsc{Quel est le paysage ?} 			\hrulefill~\\
+	\textsc{Qui est le sénéchal ?} 			\hrulefill~\\
+	\textsc{Quelle est la forteresse ?} 	\hrulefill~\\
+	\textsc{Quel est le trouble ?} 			\hrulefill~\\
+	\textsc{Quelle est la ressource ?} 		\hrulefill~\\
+	\textsc{Quel est le secret ?} 			\hrulefill~\\
+	\textsc{Qui est le héros passé ?} 		\hrulefill~\\
+	\textsc{Quelles sont les bêtes ?} 		\hrulefill~\\
+	\textsc{Qui sont les barbares ?} 		\hrulefill~\\
+	\textsc{Quelles sont les rumeurs ?} 	\hrulefill~\\
+\end{minipage}
+
+\foreach \x in {1,2,...,25}{ \hrule~\\ }%
+
+\clearpage
+
+\textsc{Mémo}~\\
+
+%% \textsc{Épreuves}
+\begin{minipage}[h]{0.05\textwidth} \rotatebox{90}{ \textsc{Épreuves} } \end{minipage} \hfill \begin{minipage}[h]{0.95\textwidth}
+	\begin{tabular}[c]{ p{0.20\textwidth} p{0.23\textwidth} p{0.26\textwidth} p{0.23\textwidth}|}
+		Résultats	&	Succès		&	Difficulté			&	Seuil		\\ 
+		3			&	1 succès	&	Action difficile	&	1 succès	\\ 
+		6			&	2 succès	&	Action ardue		&	2 succès	\\ 
+		9			&	3 succès	&	Action inhumaine	&	3 succès	\\ 
+		12			&	4 succès	&	Action impossible	&	4 succès	\\ 
+	\end{tabular}~\\
+\end{minipage}
+
+L'usage de \textbf{Don}, \textbf{Trait}, \textbf{Devise} apportent des circonstances favorables.~\\
+La \textbf{Faille}, les \textbf{Traumatismes} et le \textbf{sous-nombre} apportent des circonstances défavorables.~\\
+Quand les circonstances sont favorables, on lance \textbf{deux dés et on garde le meilleur}. 
+Quand elles sont défavorables, on lance \textbf{deux dés et on garde le moins bon}.~\\
+Si il y a des circonstances favorables et défavorables, la situation reste neutre.~\\
+
+\textsc{Utiliser le destin}~\\
+%% \begin{minipage}[h]{0.05\textwidth} \rotatebox{90}{ \textsc{Utiliser le destin} } \end{minipage} \hfill \begin{minipage}[h]{0.95\textwidth}
+	\begin{minipage}[h]{0.60\textwidth}
+		\small
+		\begin{itemize}
+			\setlength{\parskip}{0pt}
+			\setlength{\itemsep}{0pt plus 1pt}
+			\item[$\bullet$] Réusssir une action
+			\item[$\bullet$] Réussir une action dans les temps
+			\item[$\bullet$] Aider un autre à réussir une action
+			\item[$\bullet$] Récupérer de toutes ses blessures
+			\item[$\bullet$] Emporter un affrontement
+			\item[$\bullet$] Connaître une information utile
+			\item[$\bullet$] Connaître une personne qui peut aider
+			\item[$\bullet$] Disposer d'un objet approprié
+		\end{itemize}
+	\end{minipage} \hfill \begin{minipage}[h]{0.38\textwidth}
+		\small
+		Les héritiers disposent de \textbf{6 points de Destin}. Quand tout est dépensé, ils sont prisonniers de leur Destin, qui finira par s'accomplir. Ils perdent l'usage de leur don et sont désormais appelés \textbf{Compagnons}.
+		
+		Les points de Destin doivent toujours être dépensés avant de lancer les dés.
+	\end{minipage}
+%% \end{minipage}
+
+~\\
+
+%% \textsc{Traumatismes}~\\
+\begin{minipage}[h]{0.05\textwidth} \rotatebox{90}{ \textsc{Traumatismes} } \end{minipage} \hfill \begin{minipage}[h]{0.95\textwidth}
+	\begin{itemize}
+		\item[\Ovalbox{~}] \textsc{Humilié} Vous ne pouvez plus utiliser vos traits, dons, et devises
+		\item[\Ovalbox{~}] \textsc{Déchu} Vous n'ajoutez plus vos caractéristiques à vos jets de dés
+		\item[\Ovalbox{~}] \textsc{Blessé} Vous avez une faille permanente, vous pouvez être mutilé
+		\item[\Ovalbox{~}] \textsc{Mutilé} Vous ne lancez plus les dés, vous pouvez mourir
+		\item[\Ovalbox{~}] \textsc{Mort} Vous ne pouvez plus agir. Vous pouvez toujours influencer le récit avec des points de Destin et conseiller les Héritiers survivants 
+	\end{itemize}
+\end{minipage}
+
+%% \clearpage
+%% Affrontements
+%% Protagonistes
+
+\end{document}
