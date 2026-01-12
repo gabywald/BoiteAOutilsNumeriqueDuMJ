@@ -1,0 +1,120 @@
+\documentclass[a5paper,pagesize,french]{book}
+
+\usepackage{babel}
+
+\pagestyle{empty}
+
+%% better use this ('usepackage') for a5paper !!
+\usepackage[top=0.25cm, bottom=0.25cm, left=0.25cm, right=0.25cm]{geometry}
+% gauche, haut, droite, bas, entete, ente2txt, pied, txt2pied
+% \usepackage{vmargin}
+% \setmarginsrb{0.25cm}{0.25cm}{0.25cm}{0.25cm}{0pt}{0pt}{0pt}{0pt}
+
+\usepackage{mathtools}
+\usepackage{fontspec} %% fontes / polices de caracteres
+
+\usepackage{JeuxCartes}
+\usepackage{coffeestains}
+\usepackage{eso-pic} %% mettre une image de fond !!
+
+% \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
+\setmainfont{Liberation Serif} 
+
+%% \usepackage{fdsymbol} %% commented because conflict with packages 'fontspec' / 'JeuxCartes'
+%% \clubsuit
+%% \vardiamondsuit
+%% \spadesuit
+%% \varheartsuit
+\DeclareSymbolFont{extraup}{U}{zavm}{m}{n}
+\DeclareMathSymbol{\varheart}{\mathalpha}{extraup}{86}
+\DeclareMathSymbol{\vardiamond}{\mathalpha}{extraup}{87}
+
+\usepackage{fancybox} %% boxes
+
+\usepackage{tikz}
+
+\def\backgroundStampOnPage{%
+	\begin{tikzpicture}[opacity=0.25] %%, scale=2.00]
+		\begin{scope}[xshift=-15.00,yshift=-8.00]
+			%% \draw [very thin, gray] (-3,-3) grid (3,3);
+			\draw [very thick, blue   ] (-1.50, 0.00) ..controls +(0, 2) and +(0, 2).. ( 1.50, 0.00);
+			\draw [very thick, red    ] (-1.50, 0.00) ..controls +(0,-2) and +(0,-2).. ( 1.50, 0.00);
+			\draw [very thick, green  ] (-1.50, 0.00) ..controls +(0, 2) and +(0,-2).. ( 1.50, 0.00);
+			\draw [very thick, magenta] (-1.00, 1.00) ..controls +(0, 2) and +(0,-2).. ( 1.00,-1.00);
+			\draw [very thick, yellow ] ( 0.00, 1.50) ..controls +(0, 2) and +(0,-2).. ( 0.00,-1.50);
+			\draw [very thick, black  ] (-1.50, 0.00) ..controls +(0,-2) and +(0, 2).. ( 1.50, 0.00);
+			\draw [very thick, cyan   ] ( 1.00, 1.00) ..controls +(0, 2) and +(0,-2).. (-1.00,-1.00);
+			\draw [very thick, gray, fill=white] (0.00,0.00) circle (0.75);
+			\draw [very thick, white, fill=gray] (0.00,0.00) circle (0.25);
+		\end{scope}
+	\end{tikzpicture}
+}%
+
+\def\backgroundStamp{%
+	%% \begin{tikzpicture} %%, scale=2.00]
+		\begin{scope}[opacity=0.25,xshift=15.00,yshift=5.00]
+			%% \draw [very thin, gray] (-3,-3) grid (3,3);
+			\draw [very thick, blue   ] (-1.50, 0.00) ..controls +(0, 2) and +(0, 2).. ( 1.50, 0.00);
+			\draw [very thick, red    ] (-1.50, 0.00) ..controls +(0,-2) and +(0,-2).. ( 1.50, 0.00);
+			\draw [very thick, green  ] (-1.50, 0.00) ..controls +(0, 2) and +(0,-2).. ( 1.50, 0.00);
+			\draw [very thick, magenta] (-1.00, 1.00) ..controls +(0, 2) and +(0,-2).. ( 1.00,-1.00);
+			\draw [very thick, yellow ] ( 0.00, 1.50) ..controls +(0, 2) and +(0,-2).. ( 0.00,-1.50);
+			\draw [very thick, black  ] (-1.50, 0.00) ..controls +(0,-2) and +(0, 2).. ( 1.50, 0.00);
+			\draw [very thick, cyan   ] ( 1.00, 1.00) ..controls +(0, 2) and +(0,-2).. (-1.00,-1.00);
+			\draw [very thick, gray, fill=white] (0.00,0.00) circle (0.75);
+			\draw [very thick, white, fill=gray] (0.00,0.00) circle (0.25);
+		\end{scope}
+	%% \end{tikzpicture}
+}%
+
+\def\title{Carnet De Suivi Pour JdR PBTA}
+\usepackage{hyperref}
+%% http://www.andy-roberts.net/writing/latex/pdfs -- for some properties...
+%% https://tex.stackexchange.com/questions/26529/how-can-i-generate-pdf-metadata-from-latex
+\hypersetup{
+	pdfauthor={Gaby Wald / Gabriel Chandesris},
+	pdftitle={\title },
+	pdfsubject={\title },
+	pdfkeywords={\title },
+	pdfproducer={PDFLaTeX / XeLaTeX (production)},
+	pdfcreator={PDFLaTeX / XeLaTeX (production)}
+	%% urlcolor=green,
+}
+%% https://tex.stackexchange.com/questions/79395/option-clash-for-hyperref-package
+
+\begin{document}
+
+\setlength\parindent{0pt} % \noindent for all document
+
+%% \AddToShipoutPicture{
+    %% \AtPageCenter{ AtPageCenter }
+    %% \AtTextCenter{ AtTextCenter }
+    %% \AtStockCenter{ AtStockCenter }
+    %% \AtPageCenter{ \backgroundStampOnPage }
+%% }
+
+% $\heartsuit \varheart \diamondsuit \vardiamond \clubsuit \spadesuit$ ~\\
+
+% {\color{red} $\heartsuit$ }
+% {\color{red} $\diamondsuit$ }
+
+% {\color{red} $\varheart$ }
+% {\color{red} $\vardiamond$ }
+
+%% {\centering \Huge{Château FalkenStein} }~\\
+%% {\centering \large{Journal Intime} }~\\
+
+\begin{center}
+	\begin{tabular}[c]{ p{0.20\textwidth} p{0.45\textwidth} p{0.20\textwidth} }
+		\includegraphics[width=0.20\textwidth]{../../images/artsdecos/ornement01whiteBG.png} & 
+			\centering
+			{ \Huge{ Carnet De Suivi JdR PBTA } }~\newline~\newline~\newline
+			{ \LARGE{ --- } }
+			{ \Large{ --- } }
+		& \includegraphics[width=0.20\textwidth]{../../images/artsdecos/ornement01whiteBG.png} \\
+	\end{tabular}
+\end{center}
+
+%% ... 
+
+\end{document}
