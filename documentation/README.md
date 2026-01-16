@@ -8,7 +8,7 @@ Dans ce répertoire sont regroupés divers documents qui vont servir de point de
 
   * Présentations (format final, PDF) ; 
     * presentationARGgamixlab.pdf : Présentation sur les Alternate Reality Games / Jeu en Réalité Alternée
-    * presentationAtelierCreerIntrigueJdR.pdf : Atelier "créer une intrigue de JdR" (JdR : Jeu de Rôle")
+    * presentationAtelierCreerIntrigueJdR.pdf : Atelier "créer une intrigue de JdR" (JdR : Jeu de Rôle)
     * presentationAtelierMJ.pdf : des notes pour animer des ateliers pour les MJ (Meneurs de Jeu)
   * Quelques idées de flyers pour des salons / conventions ; 
     * des flyers utilisés dans les années 2010 pour quelques salons et conventions avec du JdR ; 
@@ -19,6 +19,7 @@ Dans ce répertoire sont regroupés divers documents qui vont servir de point de
     * CyberPunk 2020 ; 
     * CyberPunk RED ; 
     * Cyber Age (CyberPunk sur base SimulacreS, adaptation avec Basic RPG Chaosium) ; 
+    * Autres Exemples de fihces de personnages : NanoChrome, NumenÉra, RememberTomorrow, SurLesFrontières, TechNoir, TheSprawl ; 
     * Templates de fiches de personnages (en LaTeX / PDF, précisions à venir) : AdC, SimulacreS...
   * Divers : 
     * Casus Belli 1980/1990 : Aspects légal du Grandeur Nature (JdR GN) ; 
@@ -32,6 +33,24 @@ Dans ce répertoire sont regroupés divers documents qui vont servir de point de
     * Circuit électronique stylisé (bleu) ; 
     * Processus d'écriture ; 
     * Récit porté par l'univers ; 
+    * Images "Art Déco" d'illustrations ; 
+    * autres images utilisées comme ressources diverses au travers de ce projet ; 
   * "Out of Game" : pour des éléments hors du JdR, mais qui en dépendent !
     * Filling your Resume with TTRPG Skills ! 
     * Trigger Warnings for TTRPG (and generic uses ?)
+  * Journal : exemples de une de journaux et de mises en page ; 
+  * mementos : 
+    * LaTeX4JdR : "LaTeX pour le Jeu de Rôle" (en cours de rédaction) ; 
+    * otherLaTeXideas : aides-mémoires et packages LaTeX sources d'idées (tâches de café, jeux de cartes, faire des dessins de façon programmatique, images de fond, ...) ; 
+  * Carnets : 
+    * Château FalkenStein ; 
+    * Gestion pour PBTA (prévu) ; 
+
+## Cachier des charges pour la partie "code"
+
+Outil de gestion pour MJ : 
+  * Gestion de fiches de personnages (systèmes de JdR à préciser) ; 
+  * Gestion de parties / campagne PBTA ("Powered By The Apocalypse") ; 
+  * ... 
+
+## Autres idées 

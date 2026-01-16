@@ -2,9 +2,11 @@
 
 Une "Boite à outils" / ToolBox pour MJ / Meneur de Jeu, pour du Jeu de Rôle (JdR). 
 
+Gabriel "GabyWald" Chandesris, Licence GNU GPL (v3?)
+
 **Un outil d'assistance au MJ (scénario, improvisation, fiche de PJ et PNJ, génération de fiches...)** ; dans l'idée : un écran / paravent du MJ, dans un objectif fonctionnel et utilitaire. 
 
-**Pour démarrer** (20240816 ou 16 août 2024) : voyez d'abord les idées rassemblées ici (ci-dessous) et dansle README du répertoire 'documentation'
+**Pour démarrer** (20240816 ou 16 août 2024) : voyez d'abord les idées rassemblées ici (ci-dessous) et dans le README du répertoire 'documentation'
 
 ## Qui peut participer ?
 
@@ -72,10 +74,10 @@ Voir aussi pour quelques ressources :
   * ... 
   * Concernant le dev (outils, IDE / environnements de développement et gestionnaires de code source) : 
     * IDE / Environnement de développement : https://fr.wikipedia.org/wiki/Environnement_de_développement
-    * Eclipse est plutôt recommandé (quoique si vous préférez IntelliJ, ça passe aussi)
-    * Git ! (ressources facilement disponibles, sinon demandez gentiment !)
+    * Eclipse est plutôt recommandé (quoique si vous préférez IntelliJ, ça passe aussi), il existe aussi IntelliJ, VSCode...
+    * Git ! (ressources facilement disponibles, sinon demandez gentiment !), idem pour ses "ancêtres" comme RCS, CVS, SVN...) ; 
     * Maven 3
-    * Java 8
+    * Java 8+
     * Python 3
     * ... 
   * ... 
@@ -92,7 +94,7 @@ L'organisation de ce projet (basé sur Eclipse 2020+) comprend :
   * Répertoires de codes sources et de ressources : 
     * src/main/java
     * src/main/python
-    * src/main/main/resources
+    * src/main/resources
     * src/test/java
     * src/test/resources
   * Répertoire "documentation" : voir fichier README.md dédié !
