@@ -19,5 +19,6 @@ buildNumber.properties
 *.toc
 *.bbl
 *.blg
+*.out
 
 **/chateauFalkenStein/tex-local**

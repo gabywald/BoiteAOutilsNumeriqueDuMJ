@@ -31,7 +31,8 @@
 
 \usepackage{fancybox} %% boxes
 
-\usepackage{tikz}
+\usepackage{tikz} %% + 'pgf' ?
+\usetikzlibrary{shapes.geometric,intersections,calc}
 
 \def\backgroundStampOnPage{%
 	\begin{tikzpicture}[opacity=0.25] %%, scale=2.00]
@@ -82,6 +83,22 @@
 }
 %% https://tex.stackexchange.com/questions/79395/option-clash-for-hyperref-package
 
+\def\hexWithTrayTORIGHT{
+	%% \draw [very thin, gray] (0,0) grid (5,5);
+	\def\rot{-60} %% rotate=30,  
+	\node[thick, regular polygon, regular polygon sides=6, shape aspect=0.5, minimum width=2.0cm, minimum height=1cm, draw, shape border rotate=\rot] (reg) {};
+	\node[thick, regular polygon, regular polygon sides=6, shape aspect=0.5, minimum width=1.8cm, minimum height=1cm, draw, shape border rotate=\rot] (reg) {};
+	\draw[thick, black] (1.0,0.0) -- (5.0,0.0) ;
+}
+
+\def\hexWithTrayTOLEFT{
+	%% \draw [very thin, gray] (0,0) grid (5,5);
+	\def\rot{-60} %% rotate=30,  
+	\node[thick, regular polygon, regular polygon sides=6, shape aspect=0.5, minimum width=2.0cm, minimum height=1cm, draw, shape border rotate=\rot] (reg) {};
+	\node[thick, regular polygon, regular polygon sides=6, shape aspect=0.5, minimum width=1.8cm, minimum height=1cm, draw, shape border rotate=\rot] (reg) {};
+	\draw[thick, black] (-1.0,0.0) -- (-5.0,0.0) ;
+}
+
 \begin{document}
 
 \setlength\parindent{0pt} % \noindent for all document
@@ -106,15 +123,55 @@
 
 \begin{center}
 	\begin{tabular}[c]{ p{0.20\textwidth} p{0.45\textwidth} p{0.20\textwidth} }
-		\includegraphics[width=0.20\textwidth]{../../images/artsdecos/ornement01whiteBG.png} & 
+		\includegraphics[width=0.10\textwidth]{../../images/glider/logo-glider-left.png} & 
 			\centering
-			{ \Huge{ Carnet De Suivi JdR PBTA } }~\newline~\newline~\newline
+			{ \Huge{ Carnet De Suivi -- JdR PBTA } }~\newline~\newline~\newline
 			{ \LARGE{ --- } }
 			{ \Large{ --- } }
-		& \includegraphics[width=0.20\textwidth]{../../images/artsdecos/ornement01whiteBG.png} \\
+		& \includegraphics[width=0.10\textwidth]{../../images/glider/logo-glider-right.png} \\
 	\end{tabular}
 \end{center}
 
 %% ... 
+
+%% Compte à rebours (commande / modèle-template de style
+
+%% Résumé persos
+
+%% Antagonistes
+
+%% Menaces
+
+%% Tags / étiquettes
+
+%% ... 
+
+\begin{center}
+	\begin{tikzpicture}
+		%% \draw [very thin, gray] (00,00) grid (15,10);
+		\begin{scope}[shift={(-0.80, 0.00)}] %% rotate=180,
+			\hexWithTrayTOLEFT
+		\end{scope}
+		\begin{scope}[shift={( 0.80, 1.00)}] %% rotate=000,
+			\hexWithTrayTORIGHT
+		\end{scope}
+		\begin{scope}[shift={(-0.80, 2.00)}]
+			\hexWithTrayTOLEFT
+		\end{scope}
+		\begin{scope}[shift={( 0.80, 3.00)}]
+			\hexWithTrayTORIGHT
+		\end{scope}
+		\begin{scope}[shift={(-0.80, 4.00)}]
+			\hexWithTrayTOLEFT
+		\end{scope}
+		\begin{scope}[shift={( 0.80, 5.00)}]
+			\hexWithTrayTORIGHT
+		\end{scope}
+	\end{tikzpicture}
+\end{center}
+
+\clearpage
+
+...
 
 \end{document}

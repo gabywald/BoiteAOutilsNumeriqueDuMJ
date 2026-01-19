@@ -11,7 +11,7 @@ CCBIBTE=bibtex
 CCPDFTE=dvipdf
 CCPSTEX=dvips
 
-all : pdflatex
+all : xelatex
 
 clean : $(LATEXFILE).log mrproper
 	rm $(LATEXFILE).log
