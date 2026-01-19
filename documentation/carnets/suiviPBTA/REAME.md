@@ -11,13 +11,8 @@ Couverture du carnet fait de façon séparée.
 
  - "Standard" : 'Liberation Serif'
  
-NOTES : vérifier comment installer les polices de caractères (ici TTF) !
-
 ## Usage de LaTeX et packages dédiés
 
 Utilisation de texlive-latex-\* sur une Distribution Linux Ubuntu 
-
-NOTE : make avec 'xelatex' plutôt que 'pdflatex' à cause de certains packages (notamment polices de caractères). 
-Packages 'fontspec' et 'JeuxCartes' (attention compatibilité avec packages de mathématiques). 
 
 ...
