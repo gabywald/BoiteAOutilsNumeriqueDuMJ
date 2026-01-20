@@ -1,3 +1,26 @@
+https://www.legrog.org/systemes/apocalypse
+
+Apocalypse (PbtA)
+
+Historique
+
+Le système Apocalypse est né avec le jeu Apocalypse World de D. Vincent Baker. Ses principes ont ensuite été repris par plusieurs jeux sur des thèmes divers, étiquetés Powered by the Apocalypse (en français Motorisés par l'Apocalypse), processus facilité par la licence Creative Commons sous laquelle était placé Apocalypse World.
+
+Mécanique
+
+Les éléments distinctifs du système Apocalypse reposent essentiellement sur deux piliers.
+
+Le premier est la création des personnages des joueurs (PJ) par archétypes matérialisés par des livrets (playbooks) recensant les possibilités spécifiques à ces archétypes, dépendants du thème couvert par le jeu. Une fois l'archétype choisi, le joueur est ensuite guidé, de façon plus ou moins détaillée, dans le choix d'options permettant de personnaliser son alter-ego. Il est généralement impossible que deux joueurs choisissent le même archétype. Chaque archétype donnera ainsi des valeurs à chacune des caractéristiques prévues par le jeu et donc dépendant du genre couvert : Cool / Dur / Sexy / Rusé / Zarb pour Apocalypse World, contre Raison / passion / Puissance / Chance / Affinité / Richesse / Savoir pour Tremulus ou Smash / Influence / Maneuvers / Protect / Investigate pour Worlds in Peril. La plupart ont également une caractéristique fluctuante représentant les liens entre le PJ et soit les autres PJ (l'Historique de Apocalypse World, la Confiance de Tremulus) ou de certains aspects du monde qui l'entoure (les Liens de Worlds in Peril).
+
+Les caractéristiques ont des valeurs allant généralement de -1 à +2 à la création du personnage, pouvant monter à +3.
+
+L'autre base du jeu est la décomposition par les auteurs des actions spécifiques au genre abordé en Actions (Moves) auxquelles reviennent systématiquement les joueurs pour déterminer l'évolution d'une situation. Ces Actions (qui peuvent être reprises d'un jeu à l'autre ou laisser place à une liste spécifique) se répartissent entre Actions de base (ouvertes à tous les personnages), Actions spéciales (réservées à certains types de personnages) et Actions du meneur de jeu (MJ), qu'il peut mettre en jeu dans certaines conditions pour relancer l'histoire en rendant la situation des joueurs plus instable.
+
+Chaque situation nécessitant qu'un joueur lance un dé (le MJ n'a généralement pas à le faire) revient à tester une Action. Cela se fait en jetant deux dés à 6 faces dont le total est modifié par la valeur d'une caractéristique adéquate. Un résultat de 1 à 6 indique un échec, la description du résultat de l'action étant alors de ressort du MJ. Un résultat de 10 ou plus correspond à une réussite franche, dont le joueur peut narrer l'issue. Entre les deux, un résultat de 7 à 9 indique une réussite mais avec des complications ou un prix à payer. Chaque Action (Move) définit le type de résultat en fonction de ces trois niveaux.
+
+Chaque jeu a sa manière de suivre l'opposition se dressant face aux PJ, nécessitant plus ou moins de préparation. La première catégorie inclut ainsi les personnages non-joueurs (PNJ) préparés par le MJ de Worlds in Peril, tandis que la gestion des Fronts de Apocalypse World ou des Factions de Urban Shadows peut se faire plus au fur et à mesure du jeu, le MJ n'ayant alors qu'à suivre ces évolutions pour ses propres Actions.
+
+Enfin, chaque jeu définit les conditions dans lesquels le PJ peut prétendre à une progression : utilisation d'un Attribut sélectionné pour la partie dans Apocalypse World, déblocage de Moves du livret de Motivation dans Worlds in Peril, etc. Cette progression peut être plus ou moins libre : plusieurs options possibles pour dépenser les points gagnés dans Worlds in Peril, contre une liste d'avancements précise avec des éléments à cocher dans Apocalypse World.
 
 https://la-caravelle.itch.io/guide-pbta	
 	Les jeux “propulsés par l’apocalypse” (powered by the apocalypse ou pbta en anglais) sont des jeux de rôles qui partagent des aspects d’une même « structure », prenant origine dans le jeu Apocalypse World de Vincent Baker.
