@@ -49,8 +49,17 @@ Dans ce répertoire sont regroupés divers documents qui vont servir de point de
 ## Cachier des charges pour la partie "code"
 
 Outil de gestion pour MJ : 
-  * Gestion de fiches de personnages (systèmes de JdR à préciser) ; 
+  * Gestion de fiches de personnages (systèmeS de JdR à préciser) ; 
   * Gestion de parties / campagne PBTA ("Powered By The Apocalypse") ; 
-  * ... 
+  * Utilisation de picocli (ou autre équivalent scops pour les arguments de la partie CLI / Command-Line-Interface)
+    * besoin ici est d'avoir une commande avec des sous-commandes (et arguments spécifiques), "à la façon de git", pour chaque "évènement" nécessaire ; 
+    * "status" (global, pour partie en cours / répertoire courant) ; 
+    * "init" pour démarrer une campagne (personnages, menaces...) ; 
+    * gestion des menaces (mise à jour des comptes à rebours) ; 
+    * gestion des personnages (caractéristiques, compteurs divers, étiquettes...)
+    * ...
+  * Interface Graphique "User-Friendly" (à priori Java Swing pour partie Java) ; 
 
 ## Autres idées 
+
+... 
