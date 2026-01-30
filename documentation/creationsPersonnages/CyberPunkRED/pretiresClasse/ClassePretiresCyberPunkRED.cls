@@ -31,7 +31,6 @@
 \RequirePackage{amsfonts}
 \RequirePackage{amssymb}	% permet la definition des ensembles
 \RequirePackage{float}      % pour le placement des figure
-\RequirePackage{verbatim}
 
 \RequirePackage{multicol}	% multicolonnes
 \RequirePackage{longtable}	% pour les tableaux de plusieurs pages
