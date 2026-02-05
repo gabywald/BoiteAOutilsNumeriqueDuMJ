@@ -146,9 +146,7 @@
 \def\forHEXalternate{
 	%% \draw [very thin, gray] (00,00) grid (15,10);
 	\foreach \x/\y/\z in {-0.80/0.00/\hexWithTrayTOLEFT, 0.80/1.00/\hexWithTrayTORIGHT,-0.80/2.00/\hexWithTrayTOLEFT, 0.80/3.00/\hexWithTrayTORIGHT} 
-		{ \begin{scope}[shift={(\x, \y)}]
-				\z
-			\end{scope} }
+		{ \begin{scope}[shift={(\x, \y)}] \z \end{scope} }
 }
 
 \def\compteArebours{
