@@ -99,54 +99,98 @@
 	\draw[thick, black] (-1.0,0.0) -- (-5.0,0.0) ;
 }
 
+\def\hexWithTrayTORIGHTnamed{
+	%% \draw [very thin, gray] (0,0) grid (5,5);
+	\def\rot{-60} %% rotate=30,  
+	\node[thick, regular polygon, regular polygon sides=6, shape aspect=0.5, minimum width=2.0cm, minimum height=1cm, draw, shape border rotate=\rot] (reg) {};
+	\node[thick, regular polygon, regular polygon sides=6, shape aspect=0.5, minimum width=1.8cm, minimum height=1cm, draw, shape border rotate=\rot] (reg) {};
+	\node (NAME) at (2.0,0.25) {NAMED} (NAME) ;
+	\draw[thick, black] (1.0,0.0) -- (5.0,0.0) ;
+}
+
+\def\hexWithTrayTOLEFTnamed{
+	%% \draw [very thin, gray] (0,0) grid (5,5);
+	\def\rot{-60} %% rotate=30,  
+	\node[thick, regular polygon, regular polygon sides=6, shape aspect=0.5, minimum width=2.0cm, minimum height=1cm, draw, shape border rotate=\rot] (reg) {};
+	\node[thick, regular polygon, regular polygon sides=6, shape aspect=0.5, minimum width=1.8cm, minimum height=1cm, draw, shape border rotate=\rot] (reg) {};
+	\node (NAME) at (-2.0,0.25) {NAMED};
+	\draw[thick, black] (-1.0,0.0) -- (-5.0,0.0) (NAME) ;
+}
+
 \def\sixHEX{
-	%% \draw [very thin, gray] (00,00) grid (15,10);
-	\begin{scope}[shift={(-0.80, 0.00)}] %% rotate=180,
-		\hexWithTrayTOLEFT
-	\end{scope}
-	\begin{scope}[shift={( 0.80, 1.00)}] %% rotate=000,
-		\hexWithTrayTORIGHT
-	\end{scope}
-	\begin{scope}[shift={(-0.80, 2.00)}]
-		\hexWithTrayTOLEFT
-	\end{scope}
-	\begin{scope}[shift={( 0.80, 3.00)}]
-		\hexWithTrayTORIGHT
-	\end{scope}
-	\begin{scope}[shift={(-0.80, 4.00)}]
-		\hexWithTrayTOLEFT
-	\end{scope}
-	\begin{scope}[shift={( 0.80, 5.00)}]
-		\hexWithTrayTORIGHT
-	\end{scope}
+	\begin{center}
+		\begin{tikzpicture}
+			%% \draw [very thin, gray] (00,00) grid (15,10);
+			\begin{scope}[shift={(-0.80, 0.00)}] %% rotate=180,
+				\hexWithTrayTOLEFT
+			\end{scope}
+			\begin{scope}[shift={( 0.80, 1.00)}] %% rotate=000,
+				\hexWithTrayTORIGHT
+			\end{scope}
+			\begin{scope}[shift={(-0.80, 2.00)}]
+				\hexWithTrayTOLEFT
+			\end{scope}
+			\begin{scope}[shift={( 0.80, 3.00)}]
+				\hexWithTrayTORIGHT
+			\end{scope}
+			\begin{scope}[shift={(-0.80, 4.00)}]
+				\hexWithTrayTOLEFT
+			\end{scope}
+			\begin{scope}[shift={( 0.80, 5.00)}]
+				\hexWithTrayTORIGHT
+			\end{scope}
+		\end{tikzpicture}
+	\end{center}
 }
 
 \def\forHEX{
-	%% \draw [very thin, gray] (00,00) grid (15,10);
-	\begin{scope}[shift={(-0.80, 0.00)}] %% rotate=180,
-		\hexWithTrayTOLEFT
-	\end{scope}
-	\begin{scope}[shift={( 0.80, 1.00)}] %% rotate=000,
-		\hexWithTrayTORIGHT
-	\end{scope}
-	\begin{scope}[shift={(-0.80, 2.00)}]
-		\hexWithTrayTOLEFT
-	\end{scope}
-	\begin{scope}[shift={( 0.80, 3.00)}]
-		\hexWithTrayTORIGHT
-	\end{scope}
+	\begin{center}
+		\begin{tikzpicture}
+			%% \draw [very thin, gray] (00,00) grid (15,10);
+			\begin{scope}[shift={(-0.80, 0.00)}] %% rotate=180,
+				\hexWithTrayTOLEFT
+			\end{scope}
+			\begin{scope}[shift={( 0.80, 1.00)}] %% rotate=000,
+				\hexWithTrayTORIGHT
+			\end{scope}
+			\begin{scope}[shift={(-0.80, 2.00)}]
+				\hexWithTrayTOLEFT
+			\end{scope}
+			\begin{scope}[shift={( 0.80, 3.00)}]
+				\hexWithTrayTORIGHT
+			\end{scope}
+		\end{tikzpicture}
+	\end{center}
 }
 
 \def\sixHEXalternate{
-	%% \draw [very thin, gray] (00,00) grid (15,10);
-	\foreach \x/\y/\z in {-0.80/0.00/\hexWithTrayTOLEFT, 0.80/1.00/\hexWithTrayTORIGHT,-0.80/2.00/\hexWithTrayTOLEFT, 0.80/3.00/\hexWithTrayTORIGHT,-0.80/4.00/\hexWithTrayTOLEFT, 0.80/5.00/\hexWithTrayTORIGHT} 
-		{ \begin{scope}[shift={(\x, \y)}] \z \end{scope} }
+	\begin{center}
+		\begin{tikzpicture}
+			%% \draw [very thin, gray] (00,00) grid (15,10);
+			\foreach \x/\y/\z in {-0.80/0.00/\hexWithTrayTOLEFT, 0.80/1.00/\hexWithTrayTORIGHT,-0.80/2.00/\hexWithTrayTOLEFT, 0.80/3.00/\hexWithTrayTORIGHT,-0.80/4.00/\hexWithTrayTOLEFT, 0.80/5.00/\hexWithTrayTORIGHT} 
+				{ \begin{scope}[shift={(\x, \y)}] \z \end{scope} }
+		\end{tikzpicture}
+	\end{center}
 }
 
 \def\forHEXalternate{
-	%% \draw [very thin, gray] (00,00) grid (15,10);
-	\foreach \x/\y/\z in {-0.80/0.00/\hexWithTrayTOLEFT, 0.80/1.00/\hexWithTrayTORIGHT,-0.80/2.00/\hexWithTrayTOLEFT, 0.80/3.00/\hexWithTrayTORIGHT} 
-		{ \begin{scope}[shift={(\x, \y)}] \z \end{scope} }
+	\begin{center}
+		\begin{tikzpicture}
+			%% \draw [very thin, gray] (00,00) grid (15,10);
+			\foreach \x/\y/\z in {-0.80/0.00/\hexWithTrayTOLEFT, 0.80/1.00/\hexWithTrayTORIGHT,-0.80/2.00/\hexWithTrayTOLEFT, 0.80/3.00/\hexWithTrayTORIGHT} 
+				{ \begin{scope}[shift={(\x, \y)}] \z \end{scope} }
+		\end{tikzpicture}
+	\end{center}
+}
+
+\def\forHEXalternateNAMED{
+	\begin{center}
+		\begin{tikzpicture}
+			%% \draw [very thin, gray] (00,00) grid (15,10);
+			\foreach \x/\y/\z in {-0.80/0.00/\hexWithTrayTOLEFTnamed, 0.80/1.00/\hexWithTrayTORIGHTnamed,-0.80/2.00/\hexWithTrayTOLEFTnamed, 0.80/3.00/\hexWithTrayTORIGHTnamed} 
+				{ \begin{scope}[shift={(\x, \y)}] \z \end{scope} }
+		\end{tikzpicture}
+	\end{center}
 }
 
 \def\compteArebours{
@@ -208,24 +252,16 @@
 
 %% ... 
 
-\compteArebours~\\
+	\compteArebours~\\
 
 \hrule~\\
 
-\begin{center}
-	\begin{tikzpicture}
-		\sixHEXalternate
-	\end{tikzpicture}
-\end{center}
+	\sixHEXalternate
 
 \hrule~\\
 
-\begin{center}
-	\begin{tikzpicture}
-		\forHEXalternate
-	\end{tikzpicture}
-\end{center}
-
+	\forHEXalternate
+		
 \hrule~\\
 
 \clearpage
@@ -251,20 +287,18 @@
 
 \hrule~\\
 
-\begin{center}
-	\begin{tikzpicture}
-		\sixHEX
-	\end{tikzpicture}
-\end{center}
+	\sixHEX
 
 \hrule~\\
 
-\begin{center}
-	\begin{tikzpicture}
-		\forHEX
-	\end{tikzpicture}
-\end{center}
+	\forHEX
 
+\hrule~\\
+
+\clearpage
+
+	\forHEXalternateNAMED
+		
 \hrule~\\
 
 ...

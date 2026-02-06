@@ -66,7 +66,7 @@
 
 \newcommand{\titleONELINES}[1]{ \textsc{\LARGE \bfseries #1 }~\\~\rule{0.50\textwidth}{0.5px}~\\}
 
-\newcommand{\underTitleChoices}[1]{ {\raggedright \emph{#1} }~\\ }
+\newcommand{\underTitleChoices}[1]{ {\raggedright \footnotesize \emph{#1} }~\\ }
 
 \newcommand{\reverseCounter}[0]{
 	\begin{tabular}[h]{ r r r r r r }
@@ -96,28 +96,118 @@
 	\draw[thick, black] (-1.0,0.0) -- (-4.0,0.0) ;
 }
 
-%% TODO hexWithTray with names !
-
-\newcommand{\sixHEXalternateBLANK}[0]{
-	%% \draw [very thin, gray] (00,00) grid (15,10);
-	\foreach \x/\y/\z in {-0.80/0.00/\hexWithTrayTOLEFT, 0.80/1.00/\hexWithTrayTORIGHT,-0.80/2.00/\hexWithTrayTOLEFT, 0.80/3.00/\hexWithTrayTORIGHT,-0.80/4.00/\hexWithTrayTOLEFT, 0.80/5.00/\hexWithTrayTORIGHT} 
-		{ \begin{scope}[shift={(\x, \y)}] \z \end{scope} }
+\newcommand\hexWithTrayTORIGHTnamed[1]{
+	%% \draw [very thin, gray] (0,0) grid (5,5);
+	\def\rot{-60} %% rotate=30,  
+	\node[thick, regular polygon, regular polygon sides=6, shape aspect=0.5, minimum width=2.0cm, minimum height=1cm, draw, shape border rotate=\rot] (reg) {};
+	\node[thick, regular polygon, regular polygon sides=6, shape aspect=0.5, minimum width=1.8cm, minimum height=1cm, draw, shape border rotate=\rot] (reg) {};
+	\node (NAME) at (2.0,0.25) {#1};
+	\draw[thick, black] (1.0,0.0) -- (4.0,0.0) ;
 }
 
-\newcommand{\sixHEXalternate}[0]{
-	%% \draw [very thin, gray] (00,00) grid (15,10);
-	\foreach \x/\y/\z in {-0.80/0.00/\hexWithTrayTOLEFT, 0.80/1.00/\hexWithTrayTORIGHT,-0.80/2.00/\hexWithTrayTOLEFT, 0.80/3.00/\hexWithTrayTORIGHT,-0.80/4.00/\hexWithTrayTOLEFT, 0.80/5.00/\hexWithTrayTORIGHT} 
-		{ \begin{scope}[shift={(\x, \y)}] \z \end{scope} }
+\newcommand\hexWithTrayTOLEFTnamed[1]{
+	%% \draw [very thin, gray] (0,0) grid (5,5);
+	\def\rot{-60} %% rotate=30,  
+	\node[thick, regular polygon, regular polygon sides=6, shape aspect=0.5, minimum width=2.0cm, minimum height=1cm, draw, shape border rotate=\rot] (reg) {};
+	\node[thick, regular polygon, regular polygon sides=6, shape aspect=0.5, minimum width=1.8cm, minimum height=1cm, draw, shape border rotate=\rot] (reg) {};
+	\node (NAME) at (-2.0,0.25) {#1};
+	\draw[thick, black] (-1.0,0.0) -- (-4.0,0.0) (NAME) ;
+}
+
+\newcommand\hexWithTrayTORIGHTvaluedANDnamed[2]{
+	%% \draw [very thin, gray] (0,0) grid (5,5);
+	\def\rot{-60} %% rotate=30,  
+	\node[thick, regular polygon, regular polygon sides=6, shape aspect=0.5, minimum width=2.0cm, minimum height=1cm, draw, shape border rotate=\rot] (reg) {};
+	\node[thick, regular polygon, regular polygon sides=6, shape aspect=0.5, minimum width=1.8cm, minimum height=1cm, draw, shape border rotate=\rot] (reg) {#2};
+	\node (NAME) at (2.0,0.25) {#1};
+	\draw[thick, black] (1.0,0.0) -- (4.0,0.0) ;
+}
+
+\newcommand\hexWithTrayTOLEFTvaluedANDnamed[2]{
+	%% \draw [very thin, gray] (0,0) grid (5,5);
+	\def\rot{-60} %% rotate=30,  
+	\node[thick, regular polygon, regular polygon sides=6, shape aspect=0.5, minimum width=2.0cm, minimum height=1cm, draw, shape border rotate=\rot] (reg) {};
+	\node[thick, regular polygon, regular polygon sides=6, shape aspect=0.5, minimum width=1.8cm, minimum height=1cm, draw, shape border rotate=\rot] (reg) {#2};
+	\node (NAME) at (-2.0,0.25) {#1};
+	\draw[thick, black] (-1.0,0.0) -- (-4.0,0.0) (NAME) ;
+}
+
+\newcommand{\threeHEXalternate}[0]{
+	\begin{center}
+		\begin{tikzpicture}
+			%% \draw [very thin, gray] (00,00) grid (15,10);
+			\foreach \x/\y/\z in {-0.80/0.00/\hexWithTrayTOLEFT, 0.80/1.00/\hexWithTrayTORIGHT,-0.80/2.00/\hexWithTrayTOLEFT} 
+				{ \begin{scope}[shift={(\x, \y)}] \z \end{scope} }
+		\end{tikzpicture}
+	\end{center}
 }
 
 \newcommand{\forHEXalternate}[0]{
-	%% \draw [very thin, gray] (00,00) grid (15,10);
-	\foreach \x/\y/\z in {-0.80/0.00/\hexWithTrayTOLEFT, 0.80/1.00/\hexWithTrayTORIGHT,-0.80/2.00/\hexWithTrayTOLEFT, 0.80/3.00/\hexWithTrayTORIGHT} 
-		{ \begin{scope}[shift={(\x, \y)}] \z \end{scope} }
+	\begin{center}
+		\begin{tikzpicture}
+			%% \draw [very thin, gray] (00,00) grid (15,10);
+			\foreach \x/\y/\z in {-0.80/0.00/\hexWithTrayTOLEFT, 0.80/1.00/\hexWithTrayTORIGHT,-0.80/2.00/\hexWithTrayTOLEFT, 0.80/3.00/\hexWithTrayTORIGHT} 
+				{ \begin{scope}[shift={(\x, \y)}] \z \end{scope} }
+		\end{tikzpicture}
+	\end{center}
 }
 
-%% \newcommand{\sixHEXalternateNAMED}[0]{
-%% 	%% \draw [very thin, gray] (00,00) grid (15,10);
-%% 	\foreach \x/\y/\z/\t in {-0.80/0.00/\hexWithTrayTOLEFT/CRAN, 0.80/1.00/\hexWithTrayTORIGHT/PRO,-0.80/2.00/\hexWithTrayTOLEFT/CHAIR, 0.80/3.00/\hexWithTrayTORIGHT/ESPRIT,-0.80/4.00/\hexWithTrayTOLEFT/STYLE, 0.80/5.00/\hexWithTrayTORIGHT/SYNTH} 
-%% 		{ \begin{scope}[shift={(\x, \y)}] \z[\t] \end{scope} }
-%% }
+\newcommand{\sixHEXalternateBLANK}[0]{
+	\begin{center}
+		\begin{tikzpicture}
+			%% \draw [very thin, gray] (00,00) grid (15,10);
+			\foreach \x/\y/\z in {-0.80/0.00/\hexWithTrayTOLEFT, 0.80/1.00/\hexWithTrayTORIGHT,-0.80/2.00/\hexWithTrayTOLEFT, 0.80/3.00/\hexWithTrayTORIGHT,-0.80/4.00/\hexWithTrayTOLEFT, 0.80/5.00/\hexWithTrayTORIGHT} 
+				{ \begin{scope}[shift={(\x, \y)}] \z \end{scope} }
+		\end{tikzpicture}
+	\end{center}
+}
+
+\newcommand{\sixHEXalternate}[0]{
+	\begin{center}
+		\begin{tikzpicture}
+			%% \draw [very thin, gray] (00,00) grid (15,10);
+			\foreach \x/\y/\z in {-0.80/0.00/\hexWithTrayTOLEFT, 0.80/1.00/\hexWithTrayTORIGHT,-0.80/2.00/\hexWithTrayTOLEFT, 0.80/3.00/\hexWithTrayTORIGHT,-0.80/4.00/\hexWithTrayTOLEFT, 0.80/5.00/\hexWithTrayTORIGHT} 
+				{ \begin{scope}[shift={(\x, \y)}] \z \end{scope} }
+		\end{tikzpicture}
+	\end{center}
+}
+
+\newcommand{\sixHEXalternateNAMEDdefault}[0]{
+	\begin{center}
+		\begin{tikzpicture}
+			%% \draw [very thin, gray] (00,00) grid (15,10);
+			\foreach \x/\y/\z/\t in {-0.80/0.00/\hexWithTrayTOLEFTnamed/CRAN, 0.80/1.00/\hexWithTrayTORIGHTnamed/PRO,-0.80/2.00/\hexWithTrayTOLEFTnamed/CHAIR, 0.80/3.00/\hexWithTrayTORIGHTnamed/ESPRIT,-0.80/4.00/\hexWithTrayTOLEFTnamed/STYLE, 0.80/5.00/\hexWithTrayTORIGHTnamed/SYNTH} 
+				{ \begin{scope}[shift={(\x, \y)}] \z{\t} \end{scope} }
+		\end{tikzpicture}
+	\end{center}
+}
+
+\newcommand{\sixHEXalternateNAMEDparams}[6]{
+	\begin{center}
+		\begin{tikzpicture}
+			%% \draw [very thin, gray] (00,00) grid (15,10);
+			\foreach \x/\y/\z/\t in {-0.80/0.00/\hexWithTrayTOLEFTnamed{#1}, 0.80/1.00/\hexWithTrayTORIGHTnamed{#1},-0.80/2.00/\hexWithTrayTOLEFTnamed{#3}, 0.80/3.00/\hexWithTrayTORIGHTnamed{#4},-0.80/4.00/\hexWithTrayTOLEFTnamed{#5}, 0.80/5.00/\hexWithTrayTORIGHTnamed{#6}} 
+				{ \begin{scope}[shift={(\x, \y)}] \z \end{scope} }
+		\end{tikzpicture}
+	\end{center}
+}
+
+\newcommand{\forHEXalternateNAMEDparams}[8]{
+	\begin{center}
+		\begin{tikzpicture}
+			%% \draw [very thin, gray] (00,00) grid (15,10);
+			\foreach \x/\y/\z in {-0.80/0.00/\hexWithTrayTOLEFTvaluedANDnamed{#1}{#2}, 0.80/1.00/\hexWithTrayTORIGHTvaluedANDnamed{#3}{#4},-0.80/2.00/\hexWithTrayTOLEFTvaluedANDnamed{#5}{#6}, 0.80/3.00/\hexWithTrayTORIGHTvaluedANDnamed{#7}{#8}} 
+				{ \begin{scope}[shift={(\x, \y)}] \z \end{scope} }
+		\end{tikzpicture}
+	\end{center}
+}
+
+\newcommand{\threeHEXalternateNAMEDparams}[6]{
+	\begin{center}
+		\begin{tikzpicture}
+			%% \draw [very thin, gray] (00,00) grid (15,10);
+			\foreach \x/\y/\z in {-0.80/0.00/\hexWithTrayTOLEFTvaluedANDnamed{#1}{#2}, 0.80/1.00/\hexWithTrayTORIGHTvaluedANDnamed{#3}{#4},-0.80/2.00/\hexWithTrayTOLEFTvaluedANDnamed{#5}{#6}} 
+				{ \begin{scope}[shift={(\x, \y)}] \z \end{scope} }
+		\end{tikzpicture}
+	\end{center}
+}
