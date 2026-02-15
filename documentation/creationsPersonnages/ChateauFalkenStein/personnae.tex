@@ -34,13 +34,30 @@
 % \definecolor{lightgrey}{rgb}{0.6,0.6,0.6}
 % \definecolor{lightgray}{gray}{0.6}
 
+%% \usepackage{fdsymbol} %% commented because conflict with packages 'fontspec' / 'JeuxCartes'
+%% \clubsuit
+%% \vardiamondsuit
+%% \spadesuit
+%% \varheartsuit
+\DeclareSymbolFont{extraup}{U}{zavm}{m}{n}
+\DeclareMathSymbol{\varheart}{\mathalpha}{extraup}{86}
+\DeclareMathSymbol{\vardiamond}{\mathalpha}{extraup}{87}
+
+% \providecommand{\competencebox}[1][~~]{ \fbox{\begin{minipage}[ht]{0.20\textwidth} #1 \end{minipage} } }
+% \newcommand{\competencebox}[1][~~]{ \fbox{ \begin{minipage}[ht]{0.21\textwidth} #1 \end{minipage} } }%
+\newcommand{\competencebox}[1][~~]{ #1 }%
+
 %============================= Corps =================================
 \begin{document}
 \begin{landscape}
-
+% $\heartsuit \varheart \diamondsuit \vardiamond \clubsuit \spadesuit$ ~\\
+% {\color{red} $\heartsuit$ }
+% {\color{red} $\diamondsuit$ }
+% {\color{red} $\varheart$ }
+% {\color{red} $\vardiamond$ }
 \setlength\parindent{0pt}
 
-\begin{tabular}[h]{ p{0.17\textwidth} p{0.17\textwidth} p{0.17\textwidth} p{0.17\textwidth} p{0.17\textwidth} p{0.17\textwidth} }
+\begin{tabular}[h]{ p{0.20\textwidth} p{0.25\textwidth}|p{0.20\textwidth} p{0.25\textwidth}|p{0.20\textwidth} p{0.25\textwidth} }
 
 	\multirow{2}{*}{\fbox{ \begin{minipage}[ht]{0.16\textwidth} 
 		-- 
@@ -66,16 +83,21 @@
 						&						&							&		&										&		\\
 						&						&							&		&										&		\\
 	\hline
-
-
-	Je suis				&	en					&							&		&										&		\\
-	\fbox{	\begin{minipage}[ht]{0.16\textwidth} -- \end{minipage} }	&
-	\fbox{	\begin{minipage}[ht]{0.16\textwidth} -- \end{minipage} }	&
-	\fbox{	\begin{minipage}[ht]{0.16\textwidth} -- \end{minipage} }	&
-	\fbox{	\begin{minipage}[ht]{0.16\textwidth} -- \end{minipage} }	&
-	\fbox{	\begin{minipage}[ht]{0.16\textwidth} -- \end{minipage} }	&
-	\fbox{	\begin{minipage}[ht]{0.16\textwidth} -- \end{minipage} }	\\
-
+	Je suis					&	en															&							&																&						&						\\
+	%% \competencebox{--}	&	\competencebox{--}											&	\competencebox{--}		&	\competencebox{--}											&	\competencebox{--}	&	\competencebox{--}	\\
+	\competencebox{~~}		&	\competencebox{AISANCE SOCIALE { $\spadesuit$ }}			&	\competencebox{~~}		&	\competencebox{INSTRUCTION {\color{red} $\vardiamond$ }}	&	\competencebox{~~}	&	\competencebox{~~}	\\
+	\competencebox{~~}		&	\competencebox{ATHLÉTISME { $\clubsuit$ }}					&	\competencebox{~~}		&	\competencebox{INTERPRÉTATION {\color{red} $\varheart$ }}	&	\competencebox{~~}	&	\competencebox{~~}	\\
+	\competencebox{~~}		&	\competencebox{ATTRACTION {\color{red} $\varheart$ }}		&	\competencebox{~~}		&	\competencebox{MÉDECINE {\color{red} $\vardiamond$ }}		&	\competencebox{~~}	&	\competencebox{~~}	\\
+	\competencebox{~~}		&	\competencebox{BRICOLAGE {\color{red} $\vardiamond$ }}		&	\competencebox{~~}		&	\competencebox{PERCEPTION {\color{red} $\vardiamond$ }}		&	\competencebox{~~}	&	\competencebox{~~}	\\
+	\competencebox{~~}		&	\competencebox{CHARISME {\color{red} $\varheart$ }}			&	\competencebox{~~}		&	\competencebox{PHYSIQUE { $\clubsuit$ }}					&	\competencebox{~~}	&	\competencebox{~~}	\\
+	\competencebox{~~}		&	\competencebox{CHARME ( FAË ) {\color{red} $\varheart$ }}	&	\competencebox{~~}		&	\competencebox{PILOTAGE {\color{red} $\vardiamond$ }}		&						&						\\
+	\competencebox{~~}		&	\competencebox{COURAGE {\color{red} $\varheart$ }}			&	\competencebox{~~}		&	\competencebox{POUVOIR FAË {\color{red} $\vardiamond$ }}	&						&						\\
+	\competencebox{~~}		&	\competencebox{DISCRÉTION { $\clubsuit$ }}					&	\competencebox{~~}		&	\competencebox{PUGILAT { $\clubsuit$ }}						&						&						\\
+	\competencebox{~~}		&	\competencebox{ESCRIME { $\clubsuit$ }}						&	\competencebox{~~}		&	\competencebox{RELATIONS { $\spadesuit$ }}					&						&						\\
+	\competencebox{~~}		&		\competencebox{ÉTHÉRALITÉ ( FAË ) { $\clubsuit$ }}		&	\competencebox{~~}		&	\competencebox{SORCELLERIE {\color{red} $\vardiamond$ }}	&						&						\\
+	\competencebox{~~}		&	\competencebox{FINANCES { $\spadesuit$ }}					&	\competencebox{~~}		&	\competencebox{TIR { $\clubsuit$ }}							&						&						\\
+	\hline
+	Biographie \& Récits	&																&							&																&						&						\\	
 
 \end{tabular}
 
