@@ -151,7 +151,7 @@ sub toLaTeX {
 	my $toReturn = "";
 	$toReturn .= "\\input{../personnaeHeader.tex}\n\n"; 
 
-	## $toReturn .= "\\def\\FRdefCharacterSheetHeaderTitle{Feuille de Personnage Cyber Age -- \\emph{\\PersonnaeName } }\n\n"; 
+	## $toReturn .= "\\def\\FRdefCharacterSheetHeaderTitle{Feuille de Personnage CyberPunk RED -- \\emph{\\PersonnaeName } }\n\n"; 
 
 	$toReturn .= "\\def\\contentNAME{".$self->{NAME}."}\n";
 	$toReturn .= "\\def\\contentCLASS{".$self->{CLASS}."}\n";

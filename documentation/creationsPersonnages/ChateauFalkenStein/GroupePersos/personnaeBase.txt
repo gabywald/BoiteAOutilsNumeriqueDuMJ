@@ -1,0 +1,50 @@
+BEGIN personnae
+NAME	Lucien de Valmont
+ORIGIN	
+CHARACTER	
+CLASS	Gentilhomme/Dueliste
+BIOGRAPHY	Lucien est le dernier héritier d'une famille aristocratique ruinée. Son talent pour l'escrime est légendaire, mais son mépris pour les "roturiers" et la magie le rend vulnérable hors de son milieu. Il cherche à restaurer l'honneur des Valmont, mais son orgueil et ses dettes de jeu le retiennent. Il est impliqué malgré lui dans des intrigues politiques, où son sens aigu de l'honneur est à la fois sa force et sa faiblesse.
+EQUIPMENT	Rapière de famille (gravée aux armes des Valmont) ; Pistolet de duel (un coup) ; Carnet de dettes ; Vêtements de soirée et cape noire
+AISANCE_SOCIALE	
+ATHLÉTISME	
+ATTRACTION	
+BRICOLAGE	
+CHARISME	
+CHARME_FAE	
+COURAGE	
+DISCRÉTION	
+ESCRIME	Prodigieux (12)
+ÉTHÉRALITÉ_FAE	
+FINANCES	
+INSTRUCTION	
+INTERPRÉTATION	
+MÉDECINE	
+PERCEPTION	
+PHYSIQUE	
+PILOTAGE	
+POUVOIR_FAË	---
+PUGILAT	
+RELATIONS	Excellent (8) [Noblesse]
+SORCELLERIE	
+TIR	Moyen (4) [Pistolet]
+OTHERS	ETIQUETTE	Magistral (10)
+OTHERS	ÉQUITATION	Bon (6)
+OTHERS	PERSUASION	Faible (2) [hors aristocratie]
+OTHERS	MAGIE	Faible (2)
+% AGILITÉ
+% ARTISANAT	
+% BARREUR
+% COMMANDEMENT
+% COMMERCE
+% CONDUITE
+% ÉLEVAGE
+% ÉQUITATION
+% INGÉNIERIE_MAGIQUE
+% INVENTION
+% JEU
+% RENOM
+% MÊLÉE
+% MÉTAMORPHOSE_FAE
+% MESMÉRISME
+% SCIENCES_NATURELLES
+END personnae
