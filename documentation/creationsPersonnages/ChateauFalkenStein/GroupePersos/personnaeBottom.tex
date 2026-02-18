@@ -26,34 +26,40 @@
 								\end{minipage} }			\\
 	\cline{2-6}
 						&	Nom	et Qualités		&	Provenance				&			&	Armes							&			\\
-						&						&							&			&	\begin{tabular}[h]{ c c c c }
+						&	\contentNAME		&	\contentORIGIN			&			&	\begin{tabular}[h]{ c c c c }
 																							Arme	&	Portée		&	Mun.	&	Blessure	\\
 																									&				&			&				\\
 																									&				&			&				\\
 																									&				&			&				\\
 																							\end{tabular}					&		\\
-						&						&							&		&										&		\\
+						&	\contentCLASS		&							&		&										&		\\
 						&						&	Caractère				&		&										&		\\
-						&						&							&		&										&		\\
+						&						&	\contentCHARACTER		&		&										&		\\
 						&						&							&		&										&		\\
 	\hline
 	Je suis					&	en															&							&																&						&						\\
 	%% \competencebox{--}	&	\competencebox{--}											&	\competencebox{--}		&	\competencebox{--}											&	\competencebox{--}	&	\competencebox{--}	\\
-	\competencebox{~~}		&	\competencebox{AISANCE SOCIALE { $\spadesuit$ }}			&	\competencebox{~~}		&	\competencebox{INSTRUCTION {\color{red} $\vardiamond$ }}	&	\competencebox{~~}	&	\competencebox{~~}	\\
-	\competencebox{~~}		&	\competencebox{ATHLÉTISME { $\clubsuit$ }}					&	\competencebox{~~}		&	\competencebox{INTERPRÉTATION {\color{red} $\varheart$ }}	&	\competencebox{~~}	&	\competencebox{~~}	\\
-	\competencebox{~~}		&	\competencebox{ATTRACTION {\color{red} $\varheart$ }}		&	\competencebox{~~}		&	\competencebox{MÉDECINE {\color{red} $\vardiamond$ }}		&	\competencebox{~~}	&	\competencebox{~~}	\\
-	\competencebox{~~}		&	\competencebox{BRICOLAGE {\color{red} $\vardiamond$ }}		&	\competencebox{~~}		&	\competencebox{PERCEPTION {\color{red} $\vardiamond$ }}		&	\competencebox{~~}	&	\competencebox{~~}	\\
-	\competencebox{~~}		&	\competencebox{CHARISME {\color{red} $\varheart$ }}			&	\competencebox{~~}		&	\competencebox{PHYSIQUE { $\clubsuit$ }}					&	\competencebox{~~}	&	\competencebox{~~}	\\
-	\competencebox{~~}		&	\competencebox{CHARME ( FAË ) {\color{red} $\varheart$ }}	&	\competencebox{~~}		&	\competencebox{PILOTAGE {\color{red} $\vardiamond$ }}		&						&						\\
-	\competencebox{~~}		&	\competencebox{COURAGE {\color{red} $\varheart$ }}			&	\competencebox{~~}		&	\competencebox{POUVOIR FAË {\color{red} $\vardiamond$ }}	&						&						\\
-	\competencebox{~~}		&	\competencebox{DISCRÉTION { $\clubsuit$ }}					&	\competencebox{~~}		&	\competencebox{PUGILAT { $\clubsuit$ }}						&						&						\\
-	\competencebox{~~}		&	\competencebox{ESCRIME { $\clubsuit$ }}						&	\competencebox{~~}		&	\competencebox{RELATIONS { $\spadesuit$ }}					&						&						\\
-	\competencebox{~~}		&		\competencebox{ÉTHÉRALITÉ ( FAË ) { $\clubsuit$ }}		&	\competencebox{~~}		&	\competencebox{SORCELLERIE {\color{red} $\vardiamond$ }}	&						&						\\
-	\competencebox{~~}		&	\competencebox{FINANCES { $\spadesuit$ }}					&	\competencebox{~~}		&	\competencebox{TIR { $\clubsuit$ }}							&						&						\\
+	\competencebox{\contentAISANCE_SOCIALE}	&	\competencebox{AISANCE SOCIALE { $\spadesuit$ }}			&	\competencebox{\contentINSTRUCTION}		&	\competencebox{INSTRUCTION {\color{red} $\vardiamond$ }}	&	\competencebox{\contentOTHERZERNAMEE}	&	\competencebox{\contentOTHERZERVALUE}	\\
+	\competencebox{\contentATHLETISME}		&	\competencebox{ATHLÉTISME { $\clubsuit$ }}					&	\competencebox{\contentINTERPRETATION}	&	\competencebox{INTERPRÉTATION {\color{red} $\varheart$ }}	&	\competencebox{\contentOTHERONENAMEE}	&	\competencebox{\contentOTHERONEVALUE}	\\
+	\competencebox{\contentATTRACTION}		&	\competencebox{ATTRACTION {\color{red} $\varheart$ }}		&	\competencebox{\contentMEDECINE}		&	\competencebox{MÉDECINE {\color{red} $\vardiamond$ }}		&	\competencebox{\contentOTHERTWONAMEE}	&	\competencebox{\contentOTHERTWOVALUE}	\\
+	\competencebox{\contentBRICOLAGE}		&	\competencebox{BRICOLAGE {\color{red} $\vardiamond$ }}		&	\competencebox{\contentPERCEPTION}		&	\competencebox{PERCEPTION {\color{red} $\vardiamond$ }}		&	\competencebox{\contentOTHERTHRNAMEE}	&	\competencebox{\contentOTHERTHRVALUE}	\\
+	\competencebox{\contentCHARISME}		&	\competencebox{CHARISME {\color{red} $\varheart$ }}			&	\competencebox{\contentPHYSIQUE}		&	\competencebox{PHYSIQUE { $\clubsuit$ }}					&	\competencebox{\contentOTHERFORNAMEE}	&	\competencebox{\contentOTHERFORVALUE}	\\
+	\competencebox{\contentCHARME_FAE}		&	\competencebox{CHARME ( FAË ) {\color{red} $\varheart$ }}	&	\competencebox{\contentPILOTAGE}		&	\competencebox{PILOTAGE {\color{red} $\vardiamond$ }}		&						&						\\
+	\competencebox{\contentCOURAGE}			&	\competencebox{COURAGE {\color{red} $\varheart$ }}			&	\competencebox{\contentPOUVOIR_FAE}		&	\competencebox{POUVOIR FAË {\color{red} $\vardiamond$ }}	&						&						\\
+	\competencebox{\contentDISCRETION}		&	\competencebox{DISCRÉTION { $\clubsuit$ }}					&	\competencebox{\contentPUGILAT}			&	\competencebox{PUGILAT { $\clubsuit$ }}						&						&						\\
+	\competencebox{\contentESCRIME}			&	\competencebox{ESCRIME { $\clubsuit$ }}						&	\competencebox{\contentRELATIONS}		&	\competencebox{RELATIONS { $\spadesuit$ }}					&						&						\\
+	\competencebox{\contentETHERALITE_FAE}	&	\competencebox{ÉTHÉRALITÉ ( FAË ) { $\clubsuit$ }}			&	\competencebox{\contentSORCELLERIE}		&	\competencebox{SORCELLERIE {\color{red} $\vardiamond$ }}	&						&						\\
+	\competencebox{\contentFINANCES}		&	\competencebox{FINANCES { $\spadesuit$ }}					&	\competencebox{\contentTIR}				&	\competencebox{TIR { $\clubsuit$ }}							&						&						\\
 	\hline
 	Biographie \& Récits	&																&							&																&						&						\\	
-
 \end{tabular}
+
+\contentBIOGRAPHY~\\
+
+Équipement : \contentEQUIPMENT~\\
+
+\vfill
+
 
 \end{landscape}
 \end{document}

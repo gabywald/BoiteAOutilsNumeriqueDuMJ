@@ -6,23 +6,23 @@ CLASS	Gentilhomme/Dueliste
 BIOGRAPHY	Lucien est le dernier héritier d'une famille aristocratique ruinée. Son talent pour l'escrime est légendaire, mais son mépris pour les "roturiers" et la magie le rend vulnérable hors de son milieu. Il cherche à restaurer l'honneur des Valmont, mais son orgueil et ses dettes de jeu le retiennent. Il est impliqué malgré lui dans des intrigues politiques, où son sens aigu de l'honneur est à la fois sa force et sa faiblesse.
 EQUIPMENT	Rapière de famille (gravée aux armes des Valmont) ; Pistolet de duel (un coup) ; Carnet de dettes ; Vêtements de soirée et cape noire
 AISANCE_SOCIALE	
-ATHLÉTISME	
+ATHLETISME	
 ATTRACTION	
 BRICOLAGE	
 CHARISME	
-CHARME_FAE	
+CHARME_FAE	---
 COURAGE	
-DISCRÉTION	
+DISCRETION	
 ESCRIME	Prodigieux (12)
-ÉTHÉRALITÉ_FAE	
+ETHERALITE_FAE	---
 FINANCES	
 INSTRUCTION	
-INTERPRÉTATION	
-MÉDECINE	
+INTERPRETATION	
+MEDECINE	
 PERCEPTION	
 PHYSIQUE	
 PILOTAGE	
-POUVOIR_FAË	---
+POUVOIR_FAE	---
 PUGILAT	
 RELATIONS	Excellent (8) [Noblesse]
 SORCELLERIE	
@@ -48,3 +48,182 @@ OTHERS	MAGIE	Faible (2)
 % MESMÉRISME
 % SCIENCES_NATURELLES
 END personnae
+
+BEGIN personnae
+NAME	Céleste Dubois
+ORIGIN	
+CHARACTER	
+CLASS	Demi-mondaine/Espionne
+BIOGRAPHY	Céleste a gravi les échelons sociaux grâce à son intelligence et sa beauté. Elle est une espionne redoutable, capable de manipuler les puissants avec un sourire. Cependant, son manque de compétences en combat et son mépris pour la loyauté la rendent vulnérable si ses plans échouent. Elle est actuellement impliquée dans une mission délicate : récupérer un artefact volé lors d'un bal, tout en jouant un double jeu entre la Cour Sombre et des révolutionnaires.
+EQUIPMENT	Robe du soir à poches secrètes (couteaux, fioles de poison) ; Éventail empoisonné ; Parfum ensorcelé ; Faux passeport autrichien
+AISANCE_SOCIALE	
+ATHLETISME	
+ATTRACTION	
+BRICOLAGE	
+CHARISME	Prodigieux (12)
+CHARME_FAE	---
+COURAGE	
+DISCRETION	Magistral (10)
+ESCRIME	
+ETHERALITE_FAE	---
+FINANCES	
+INSTRUCTION	
+INTERPRETATION	
+MEDECINE	
+PERCEPTION	
+PHYSIQUE	
+PILOTAGE	
+POUVOIR_FAE	---
+PUGILAT	Faible (2)
+RELATIONS	
+SORCELLERIE	
+TIR	
+OTHERS	POISONS	Excellent (8)
+OTHERS	DANSE	Bon (6)
+OTHERS	LANGUE	Bon (6) [Allemand]
+OTHERS	LANGUE	Bon (6) [Anglais]
+OTHERS	EQUITATION	Moyen (4)
+END personnae
+
+BEGIN personnae
+NAME	Étienne Moreau
+ORIGIN	
+CHARACTER	
+CLASS	Inventeur/Savant Fou
+BIOGRAPHY	Étienne est un génie incompris, radié de l'École Polytechnique pour ses expériences dangereuses. Ses inventions attirent l'attention des services secrets et des faës. Il est obsédé par un métal inconnu découvert dans les catacombes, capable de résister à la magie. Malgré son génie, il est socialement maladroit et méprise toute forme d'autorité, ce qui le met souvent en danger.
+EQUIPMENT	Lunettes à vision nocturne ; Boîte à outils complète ; Plans de machines volantes ; Poudre explosive expérimentale (instable)
+AISANCE_SOCIALE	
+ATHLETISME	
+ATTRACTION	
+BRICOLAGE	
+CHARISME	Faible (2)
+CHARME_FAE	---
+COURAGE	
+DISCRETION	
+ESCRIME	
+ETHERALITE_FAE	---
+FINANCES	
+INSTRUCTION	
+INTERPRETATION	
+MEDECINE	
+PERCEPTION	
+PHYSIQUE	
+PILOTAGE	Bon (6) [Dirigeables]
+POUVOIR_FAE	---
+PUGILAT	
+RELATIONS	
+SORCELLERIE	
+TIR	
+OTHERS	MECANIQUE	Prodigieux (12)
+OTHERS	CHIMIE	Magistral (10)
+OTHERS	CALCUL	Excellent (8)
+OTHERS	LANGUE	Bon (6) [Anglais]
+OTHERS	EQUITATION	Faible (2)
+END personnae
+
+BEGIN personnae
+NAME	Isabelle Leroy
+ORIGIN	
+CHARACTER	
+CLASS	Journaliste/Enquêtrice
+BIOGRAPHY	Isabelle est une journaliste d'investigation respectée, spécialisée dans les affaires criminelles. Son sens aigu de l'observation et son réseau d'informateurs en font une enquêtrice redoutable. Cependant, son manque de DISCRETION et sa tendance à poser trop de questions la mettent souvent en danger. Elle enquête actuellement sur une série de disparitions liées à des automates et à un savant fou disparu.
+EQUIPMENT	Carnet et stylo ; Revolver de poche ; Appareil photo rudimentaire ; Carte de presse
+AISANCE_SOCIALE	
+ATHLETISME	
+ATTRACTION	
+BRICOLAGE	
+CHARISME	
+CHARME_FAE	---
+COURAGE	
+DISCRETION	Faible (2)
+ESCRIME	
+ETHERALITE_FAE	---
+FINANCES	
+INSTRUCTION	
+INTERPRETATION	
+MEDECINE	Moyen (4) [MEDECINE légale]
+PERCEPTION	
+PHYSIQUE	
+PILOTAGE	
+POUVOIR_FAE	---
+PUGILAT	
+RELATIONS	
+SORCELLERIE	
+TIR	Moyen (4) [revolver]
+OTHERS	OBSERVATION	Magistral (10)
+OTHERS	ÉCRITURE	Excellent (8)
+OTHERS	PERSUASION	Bon (6)
+OTHERS	LANGUE	Bon (6) [Anglais, Italien]
+OTHERS	EQUITATION	Faible (4)
+END personnae
+
+BEGIN personnae
+NAME	Gaspard le Rouge 
+ORIGIN	
+CHARACTER	
+CLASS	Gentleman-cambrioleur
+BIOGRAPHY	Gaspard est le cambrioleur le plus élégant et insaisissable de Paris. Il ne vole que les riches et laisse toujours une rose rouge sur les lieux de ses méfaits. Bien qu'il soit un maître de l'acrobatie et du déguisement, son mépris pour l'autorité et la magie le rend vulnérable face à des ennemis plus puissants. Il est actuellement impliqué dans une affaire bien plus grande que lui : le vol d'un artefact faë capable de contrôler les automates.
+EQUIPMENT	Cape rouge ; Kit de crochetage ultra-léger ; Couteau de lancer ; Masque de velours noir
+AISANCE_SOCIALE	
+ATHLETISME	Magistral (10)
+ATTRACTION	
+BRICOLAGE	
+CHARISME	
+CHARME_FAE	---
+COURAGE	
+DISCRETION	
+ESCRIME	Bon (6) [couteau]
+ETHERALITE_FAE	---
+FINANCES	
+INSTRUCTION	
+INTERPRETATION	
+MEDECINE	
+PERCEPTION	
+PHYSIQUE	
+PILOTAGE	
+POUVOIR_FAE	---
+PUGILAT	
+RELATIONS	Faible (2) [autorités]
+SORCELLERIE	
+TIR	
+OTHERS	CROCHETAGE	Prodigieux (12)
+OTHERS	DÉQUISEMENT	Excellent (8)
+OTHERS	TOITS DE PARIS	Bon (6)
+OTHERS	MAGIE	Faible (2)
+END personnae
+
+BEGIN personnae
+NAME	Aurélie de la Tour
+ORIGIN	
+CHARACTER	
+CLASS	Thaumaturge/Noble
+BIOGRAPHY	Aurélie est la dernière descendante d'une lignée de thaumaturges au service des rois de France. Elle croit en la nécessité de réguler l'usage de la magie, surtout depuis que des artefacts dangereux circulent à Paris. Bien qu'elle soit une magicienne hors pair, son mépris pour la technologie et son manque de compétences sociales hors de l'aristocratie la rendent vulnérable dans des situations imprévues.
+EQUIPMENT	Amulette protectrice ; Grimoire annoté ; Robe de cérémonie brodée ; Arc miniature
+AISANCE_SOCIALE	Excellent (8)
+ATHLETISME	
+ATTRACTION	
+BRICOLAGE	
+CHARISME	
+CHARME_FAE	---
+COURAGE	
+DISCRETION	
+ESCRIME	
+ETHERALITE_FAE	---
+FINANCES	
+INSTRUCTION	
+INTERPRETATION	
+MEDECINE	
+PERCEPTION	
+PHYSIQUE	Faible (2) [mécanique]
+PILOTAGE	
+POUVOIR_FAE	---
+PUGILAT	
+RELATIONS	
+SORCELLERIE	
+TIR	Moyen (4) [arc]
+OTHERS	MAGIE	Prodigieux (12) [thaumaturgie]
+OTHERS	HISTOIRE	Magistral (10) [occultisme]
+OTHERS	LANGUE	Bon (6) [Latin, Grec Ancien]
+OTHERS	ALCHIMIE	Bon (6)
+END personnae
+

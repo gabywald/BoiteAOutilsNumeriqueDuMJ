@@ -88,6 +88,8 @@ sub toStringPersonnae {
 	return $toReturn."\n\n";
 }
 
+my @arrayOfNumbers = ("ZER", "ONE", "TWO", "THR", "FOR");
+
 sub toLaTeX {
 	my $self = shift;
 	my $toReturn = "";
@@ -128,9 +130,15 @@ sub toLaTeX {
 	foreach my $caractOthers (keys %{$self->{OTHERS}}) {
 		print "\t'".$caractOthers."' => '".%{$self->{OTHERS}}{$caractOthers}."'\n";
 		# $toReturn .= "\t'".$caractOthers."' => '".%{$self->{OTHERS}}{$caractOthers}."'\n";
-		$toReturn .= "\\def\\contentOTHER0".$i."NAMEE{".$caractOthers."}\n";
-		$toReturn .= "\\def\\contentOTHER0".$i."VALUE{".%{$self->{OTHERS}}{$caractOthers}."}\n";
+		$toReturn .= "\\def\\contentOTHER".$arrayOfNumbers[$i]."NAMEE{".$caractOthers."}\n";
+		my $value = %{$self->{OTHERS}}{$caractOthers};
+		$value =~ s/\) \[/\)~\\newline\[/;
+		$toReturn .= "\\def\\contentOTHER".$arrayOfNumbers[$i]."VALUE{".$value."}\n";
 		$i += 1;
+	}
+	for ( ; $i < 5 ; $i++) { 
+		$toReturn .= "\\def\\contentOTHER".$arrayOfNumbers[$i]."NAMEE{---}\n";
+		$toReturn .= "\\def\\contentOTHER".$arrayOfNumbers[$i]."VALUE{---}\n";
 	}
 
 	$toReturn .= "\\input{../personnaeBottom.tex}\n";
