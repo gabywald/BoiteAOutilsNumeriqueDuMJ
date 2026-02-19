@@ -132,14 +132,16 @@ sub toLaTeX {
 		# $toReturn .= "\t'".$caractOthers."' => '".%{$self->{OTHERS}}{$caractOthers}."'\n";
 		$toReturn .= "\\def\\contentOTHER".$arrayOfNumbers[$i]."NAMEE{".$caractOthers."}\n";
 		my $value = %{$self->{OTHERS}}{$caractOthers};
-		$value =~ s/\) \[/\)~\\newline\[/;
+		# $value =~ s/\) \[/\)~\\newline\[/;
 		$toReturn .= "\\def\\contentOTHER".$arrayOfNumbers[$i]."VALUE{".$value."}\n";
 		$i += 1;
 	}
 	for ( ; $i < 5 ; $i++) { 
-		$toReturn .= "\\def\\contentOTHER".$arrayOfNumbers[$i]."NAMEE{---}\n";
-		$toReturn .= "\\def\\contentOTHER".$arrayOfNumbers[$i]."VALUE{---}\n";
+		$toReturn .= "\\def\\contentOTHER".$arrayOfNumbers[$i]."NAMEE{~~~}\n";
+		$toReturn .= "\\def\\contentOTHER".$arrayOfNumbers[$i]."VALUE{~~~}\n";
 	}
+	
+	$toReturn =~ s/\) \[/\)~\\newline\[/g;
 
 	$toReturn .= "\\input{../personnaeBottom.tex}\n";
 	return $toReturn;

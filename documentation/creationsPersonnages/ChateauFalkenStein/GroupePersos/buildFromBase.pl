@@ -69,7 +69,8 @@ my @filesToCompileAsTEX = ();
 foreach my $perso (@personnaes) {
 	my $currentName = $perso->{NAME};
 	print "\t {" .$currentName."}\n";
-	
+	$currentName =~ tr/àéèêëÀÉÈÊË/aeeeeAEEEE/;
+	print "\t {" .$currentName."}\n";
 	my $fileTEXname = $baseNameOutputFiles.$currentName.".tex";
 	$fileTEXname =~ s/[ \{\\\}\'\`\^\¨\~]//g;
 	push (@filesToCompileAsTEX, $fileTEXname);
