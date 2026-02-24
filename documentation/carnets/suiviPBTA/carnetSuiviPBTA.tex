@@ -193,6 +193,54 @@
 	\end{center}
 }
 
+\newcommand\hexWithTrayTORIGHTvaluedANDnamed[2]{
+	%% \draw [very thin, gray] (0,0) grid (5,5);
+	\def\rot{-60} %% rotate=30,  
+	\node[thick, regular polygon, regular polygon sides=6, shape aspect=0.5, minimum width=2.0cm, minimum height=1cm, draw, shape border rotate=\rot] (reg) {};
+	\node[thick, regular polygon, regular polygon sides=6, shape aspect=0.5, minimum width=1.8cm, minimum height=1cm, draw, shape border rotate=\rot] (reg) {#2};
+	\node (NAME) at (2.0,0.25) {#1};
+	\draw[thick, black] (1.0,0.0) -- (2.5,0.0) ;
+}
+
+\newcommand\hexWithTrayTOLEFTvaluedANDnamed[2]{
+	%% \draw [very thin, gray] (0,0) grid (5,5);
+	\def\rot{-60} %% rotate=30,  
+	\node[thick, regular polygon, regular polygon sides=6, shape aspect=0.5, minimum width=2.0cm, minimum height=1cm, draw, shape border rotate=\rot] (reg) {};
+	\node[thick, regular polygon, regular polygon sides=6, shape aspect=0.5, minimum width=1.8cm, minimum height=1cm, draw, shape border rotate=\rot] (reg) {#2};
+	\node (NAME) at (-2.0,0.25) {#1};
+	\draw[thick, black] (-1.0,0.0) -- (-2.5,0.0) (NAME) ;
+}
+
+\newcommand{\threeHEXalternateNAMEDparams}[6]{
+	\begin{center}
+		\begin{tikzpicture}
+			%% \draw [very thin, gray] (00,00) grid (15,10);
+			\foreach \x/\y/\z in {-0.80/0.00/\hexWithTrayTOLEFTvaluedANDnamed{#1}{#2}, 0.80/1.00/\hexWithTrayTORIGHTvaluedANDnamed{#3}{#4},-0.80/2.00/\hexWithTrayTOLEFTvaluedANDnamed{#5}{#6}} 
+				{ \begin{scope}[shift={(\x, \y)}] \z \end{scope} }
+		\end{tikzpicture}
+	\end{center}
+}
+
+%% https://texfaq.org/FAQ-moren9 : more than 9 arguments !! ??
+%% https://tex.stackexchange.com/questions/2132/how-to-define-a-command-that-takes-more-than-9-arguments
+%% https://davidcarlisle.github.io/uk-tex-faq/FAQ-moren9.html
+\def\fiveHEXalternateNAMEDparams#1#2#3#4{
+	\def\tempa{#1}%
+	\def\tempb{#2}%
+	\def\tempc{#3}%
+	\def\tempd{#4}%
+	\fiveHEXalternateNAMEDparamscontinued
+}
+\newcommand{\fiveHEXalternateNAMEDparamscontinued[6]}{
+	\begin{center}
+		\begin{tikzpicture}
+			%% \draw [very thin, gray] (-5,-1) grid (05,05);
+			\foreach \x/\y/\z in {-0.80/0.00/\hexWithTrayTOLEFTvaluedANDnamed{#2}{#1}, 0.80/1.00/\hexWithTrayTORIGHTvaluedANDnamed{#4}{#3},-0.80/2.00/\hexWithTrayTOLEFTvaluedANDnamed{#6}{#5}, 0.80/3.00/\hexWithTrayTORIGHTvaluedANDnamed{\tempc}{\tempd},-0.80/4.00/\hexWithTrayTOLEFTvaluedANDnamed{\tempa}{\tempb}} 
+				{ \begin{scope}[shift={(\x, \y)}] \z \end{scope} }
+		\end{tikzpicture}
+	\end{center}
+}
+
 \def\compteArebours{
 	\begin{tabular}[h]{ r r r r r r }
 			15h		&	18h		&	21h		&	22h		&	23h		&	24h 	\\
@@ -298,8 +346,16 @@
 \clearpage
 
 	\forHEXalternateNAMED
-		
-\hrule~\\
+	
+	\hrule~\\
+
+    \fiveHEXalternateNAMEDparams{TECH}{+4}{SHARP}{+3}{COOL}{+1}{CHA}{+2}{LEAD}{+0}
+    
+    \hrule~\\
+
+	\threeHEXalternateNAMEDparams{TECH}{+4}{SHARP}{+3}{COOL}{+1}
+	
+    \hrule~\\
 
 ...
 
