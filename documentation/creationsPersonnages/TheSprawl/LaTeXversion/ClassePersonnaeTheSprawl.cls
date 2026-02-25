@@ -136,7 +136,7 @@
 	\begin{center}
 		\begin{tikzpicture}
 			%% \draw [very thin, gray] (00,00) grid (15,10);
-			\foreach \x/\y/\z in {-0.80/0.00/\hexWithTrayTOLEFT, 0.80/1.00/\hexWithTrayTORIGHT,-0.80/2.00/\hexWithTrayTOLEFT} 
+			\foreach \x/\y/\z in {-0.80/-0.00/\hexWithTrayTOLEFT, 0.80/-1.00/\hexWithTrayTORIGHT,-0.80/-2.00/\hexWithTrayTOLEFT} 
 				{ \begin{scope}[shift={(\x, \y)}] \z \end{scope} }
 		\end{tikzpicture}
 	\end{center}
@@ -146,7 +146,7 @@
 	\begin{center}
 		\begin{tikzpicture}
 			%% \draw [very thin, gray] (00,00) grid (15,10);
-			\foreach \x/\y/\z in {-0.80/0.00/\hexWithTrayTOLEFT, 0.80/1.00/\hexWithTrayTORIGHT,-0.80/2.00/\hexWithTrayTOLEFT, 0.80/3.00/\hexWithTrayTORIGHT} 
+			\foreach \x/\y/\z in {-0.80/-0.00/\hexWithTrayTOLEFT, 0.80/-1.00/\hexWithTrayTORIGHT,-0.80/-2.00/\hexWithTrayTOLEFT, 0.80/-3.00/\hexWithTrayTORIGHT} 
 				{ \begin{scope}[shift={(\x, \y)}] \z \end{scope} }
 		\end{tikzpicture}
 	\end{center}
@@ -156,7 +156,7 @@
 	\begin{center}
 		\begin{tikzpicture}
 			%% \draw [very thin, gray] (00,00) grid (15,10);
-			\foreach \x/\y/\z in {-0.80/0.00/\hexWithTrayTOLEFT, 0.80/1.00/\hexWithTrayTORIGHT,-0.80/2.00/\hexWithTrayTOLEFT, 0.80/3.00/\hexWithTrayTORIGHT,-0.80/4.00/\hexWithTrayTOLEFT, 0.80/5.00/\hexWithTrayTORIGHT} 
+			\foreach \x/\y/\z in {-0.80/-0.00/\hexWithTrayTOLEFT, 0.80/-1.00/\hexWithTrayTORIGHT,-0.80/-2.00/\hexWithTrayTOLEFT, 0.80/-3.00/\hexWithTrayTORIGHT,-0.80/-4.00/\hexWithTrayTOLEFT, 0.80/-5.00/\hexWithTrayTORIGHT} 
 				{ \begin{scope}[shift={(\x, \y)}] \z \end{scope} }
 		\end{tikzpicture}
 	\end{center}
@@ -166,7 +166,7 @@
 	\begin{center}
 		\begin{tikzpicture}
 			%% \draw [very thin, gray] (00,00) grid (15,10);
-			\foreach \x/\y/\z in {-0.80/0.00/\hexWithTrayTOLEFT, 0.80/1.00/\hexWithTrayTORIGHT,-0.80/2.00/\hexWithTrayTOLEFT, 0.80/3.00/\hexWithTrayTORIGHT,-0.80/4.00/\hexWithTrayTOLEFT, 0.80/5.00/\hexWithTrayTORIGHT} 
+			\foreach \x/\y/\z in {-0.80/-0.00/\hexWithTrayTOLEFT, 0.80/-1.00/\hexWithTrayTORIGHT,-0.80/2.00/\hexWithTrayTOLEFT, 0.80/-3.00/\hexWithTrayTORIGHT,-0.80/-4.00/\hexWithTrayTOLEFT, 0.80/-5.00/\hexWithTrayTORIGHT} 
 				{ \begin{scope}[shift={(\x, \y)}] \z \end{scope} }
 		\end{tikzpicture}
 	\end{center}
@@ -182,11 +182,11 @@
 	\end{center}
 }
 
-\newcommand{\sixHEXalternateNAMEDparams}[6]{
+\newcommand{\sixHEXalternateNAMEDparamsONLYNAMES}[6]{
 	\begin{center}
 		\begin{tikzpicture}
 			%% \draw [very thin, gray] (00,00) grid (15,10);
-			\foreach \x/\y/\z/\t in {-0.80/0.00/\hexWithTrayTOLEFTnamed{#1}, 0.80/1.00/\hexWithTrayTORIGHTnamed{#1},-0.80/2.00/\hexWithTrayTOLEFTnamed{#3}, 0.80/3.00/\hexWithTrayTORIGHTnamed{#4},-0.80/4.00/\hexWithTrayTOLEFTnamed{#5}, 0.80/5.00/\hexWithTrayTORIGHTnamed{#6}} 
+			\foreach \x/\y/\z/\t in {-0.80/-0.00/\hexWithTrayTOLEFTnamed{#1}, 0.80/-1.00/\hexWithTrayTORIGHTnamed{#1},-0.80/-2.00/\hexWithTrayTOLEFTnamed{#3}, 0.80/-3.00/\hexWithTrayTORIGHTnamed{#4},-0.80/-4.00/\hexWithTrayTOLEFTnamed{#5}, 0.80/-5.00/\hexWithTrayTORIGHTnamed{#6}} 
 				{ \begin{scope}[shift={(\x, \y)}] \z \end{scope} }
 		\end{tikzpicture}
 	\end{center}
@@ -196,7 +196,7 @@
 	\begin{center}
 		\begin{tikzpicture}
 			%% \draw [very thin, gray] (00,00) grid (15,10);
-			\foreach \x/\y/\z in {-0.80/0.00/\hexWithTrayTOLEFTvaluedANDnamed{#1}{#2}, 0.80/1.00/\hexWithTrayTORIGHTvaluedANDnamed{#3}{#4},-0.80/2.00/\hexWithTrayTOLEFTvaluedANDnamed{#5}{#6}, 0.80/3.00/\hexWithTrayTORIGHTvaluedANDnamed{#7}{#8}} 
+			\foreach \x/\y/\z in {-0.80/-0.00/\hexWithTrayTOLEFTvaluedANDnamed{#1}{#2}, 0.80/-1.00/\hexWithTrayTORIGHTvaluedANDnamed{#3}{#4},-0.80/-2.00/\hexWithTrayTOLEFTvaluedANDnamed{#5}{#6}, 0.80/-3.00/\hexWithTrayTORIGHTvaluedANDnamed{#7}{#8}} 
 				{ \begin{scope}[shift={(\x, \y)}] \z \end{scope} }
 		\end{tikzpicture}
 	\end{center}
@@ -206,7 +206,61 @@
 	\begin{center}
 		\begin{tikzpicture}
 			%% \draw [very thin, gray] (00,00) grid (15,10);
-			\foreach \x/\y/\z in {-0.80/0.00/\hexWithTrayTOLEFTvaluedANDnamed{#1}{#2}, 0.80/1.00/\hexWithTrayTORIGHTvaluedANDnamed{#3}{#4},-0.80/2.00/\hexWithTrayTOLEFTvaluedANDnamed{#5}{#6}} 
+			\foreach \x/\y/\z in {-0.80/-0.00/\hexWithTrayTOLEFTvaluedANDnamed{#1}{#2}, 0.80/-1.00/\hexWithTrayTORIGHTvaluedANDnamed{#3}{#4},-0.80/-2.00/\hexWithTrayTOLEFTvaluedANDnamed{#5}{#6}} 
+				{ \begin{scope}[shift={(\x, \y)}] \z \end{scope} }
+		\end{tikzpicture}
+	\end{center}
+}
+
+%% https://texfaq.org/FAQ-moren9 : more than 9 arguments !! ??
+%% https://tex.stackexchange.com/questions/2132/how-to-define-a-command-that-takes-more-than-9-arguments
+%% https://davidcarlisle.github.io/uk-tex-faq/FAQ-moren9.html
+%% %% %% \fiveHEXalternateNAMEDparams{TECH}{+4}{SHARP}{+3}{COOL}{+1}{CHA}{+2}{LEAD}{+0}
+%% %% %% \fiveHEXalternateNAMEDparams{SYNTH}{+4}{STYLE}{+3}{ESPRIT}{+3}{CHAIR}{+1}{PRO}{+2}
+\def\fiveHEXalternateNAMEDparams#1#2#3#4{
+	\def\HEXaNAMEE{#1}%
+	\def\HEXaVALUE{#2}%
+	\def\HEXbNAMEE{#3}%
+	\def\HEXbVALUE{#4}%
+	\fiveHEXalternateNAMEDparamscontinued
+}
+\def\fiveHEXalternateNAMEDparamscontinued#1#2#3#4#5#6{
+	\def\HEXdNAMEE{#1}%
+	\def\HEXdVALUE{#2}%
+	\def\HEXeNAMEE{#3}%
+	\def\HEXeVALUE{#4}%
+	\def\HEXfNAMEE{#5}%
+	\def\HEXfVALUE{#6}%
+	\begin{center}
+		\begin{tikzpicture}
+			%% \draw [very thin, gray] (-6,-6) grid (05,01);
+			\foreach \x/\y/\z in {-0.80/-0.00/\hexWithTrayTOLEFTvaluedANDnamed{\HEXaNAMEE}{\HEXaVALUE}, 0.80/-1.00/\hexWithTrayTORIGHTvaluedANDnamed{\HEXbNAMEE}{\HEXbVALUE},-0.80/-2.00/\hexWithTrayTOLEFTvaluedANDnamed{\HEXdNAMEE}{\HEXdVALUE}, 0.80/-3.00/\hexWithTrayTORIGHTvaluedANDnamed{\HEXeNAMEE}{\HEXeVALUE},-0.80/-4.00/\hexWithTrayTOLEFTvaluedANDnamed{\HEXfNAMEE}{\HEXfVALUE}} 
+				{ \begin{scope}[shift={(\x, \y)}] \z \end{scope} }
+		\end{tikzpicture}
+	\end{center}
+}
+
+%% %% %% \sixHEXalternateNAMEDparams{SYNTH}{+4}{STYLE}{+3}{ESPRIT}{+3}{CHAIR}{+1}{PRO}{+2}{CRAN}{+0}
+\def\sixHEXalternateNAMEDparams#1#2#3#4#5#6{
+	\def\HEXaNAMEE{#1}%
+	\def\HEXaVALUE{#2}%
+	\def\HEXbNAMEE{#3}%
+	\def\HEXbVALUE{#4}%
+	\def\HEXcNAMEE{#5}%
+	\def\HEXcVALUE{#6}%
+	\sixHEXalternateNAMEDparamscontinued
+}
+\def\sixHEXalternateNAMEDparamscontinued#1#2#3#4#5#6{
+	\def\HEXdNAMEE{#1}%
+	\def\HEXdVALUE{#2}%
+	\def\HEXeNAMEE{#3}%
+	\def\HEXeVALUE{#4}%
+	\def\HEXfNAMEE{#5}%
+	\def\HEXfVALUE{#6}%
+	\begin{center}
+		\begin{tikzpicture}
+			%% \draw [very thin, gray] (-6,-6) grid (05,01);
+			\foreach \x/\y/\z in {-0.80/-0.00/\hexWithTrayTOLEFTvaluedANDnamed{\HEXaNAMEE}{\HEXaVALUE}, 0.80/-1.00/\hexWithTrayTORIGHTvaluedANDnamed{\HEXbNAMEE}{\HEXbVALUE},-0.80/-2.00/\hexWithTrayTOLEFTvaluedANDnamed{\HEXcNAMEE}{\HEXcVALUE}, 0.80/-3.00/\hexWithTrayTORIGHTvaluedANDnamed{\HEXdNAMEE}{\HEXdVALUE},-0.80/-4.00/\hexWithTrayTOLEFTvaluedANDnamed{\HEXeNAMEE}{\HEXeVALUE}, 0.80/-5.00/\hexWithTrayTORIGHTvaluedANDnamed{\HEXfNAMEE}{\HEXfVALUE}} 
 				{ \begin{scope}[shift={(\x, \y)}] \z \end{scope} }
 		\end{tikzpicture}
 	\end{center}
