@@ -60,8 +60,6 @@
 
 \newcommand{\titleTHESPRAWL}[0]{ \rotatebox{90}{ \textsc{\small \bfseries THE} } \textsc{\Huge \bfseries SPRAWL} }
 
-%% \newcommand{\specificHRULE4title}[1]{~\\~\rule{0.50\textwidth}{#1px}~\\}
-
 \newcommand{\titleTWOLINES}[1]{ \textsc{\huge \bfseries #1 }~\\~\rule{0.50\textwidth}{1px}~\\~\rule{0.50\textwidth}{1px}~\\} 
 
 \newcommand{\titleONELINES}[1]{ \textsc{\LARGE \bfseries #1 }~\\~\rule{0.50\textwidth}{0.5px}~\\}
@@ -130,6 +128,16 @@
 	\node[thick, regular polygon, regular polygon sides=6, shape aspect=0.5, minimum width=1.8cm, minimum height=1cm, draw, shape border rotate=\rot] (reg) {#2};
 	\node (NAME) at (-2.0,0.25) {#1};
 	\draw[thick, black] (-1.0,0.0) -- (-4.0,0.0) (NAME) ;
+}
+
+\newcommand{\twoHEXalternate}[0]{
+	\begin{center}
+		\begin{tikzpicture}
+			%% \draw [very thin, gray] (00,00) grid (15,10);
+			\foreach \x/\y/\z in {-0.80/-0.00/\hexWithTrayTOLEFT, 0.80/-1.00/\hexWithTrayTORIGHT} 
+				{ \begin{scope}[shift={(\x, \y)}] \z \end{scope} }
+		\end{tikzpicture}
+	\end{center}
 }
 
 \newcommand{\threeHEXalternate}[0]{
@@ -207,6 +215,16 @@
 		\begin{tikzpicture}
 			%% \draw [very thin, gray] (00,00) grid (15,10);
 			\foreach \x/\y/\z in {-0.80/-0.00/\hexWithTrayTOLEFTvaluedANDnamed{#1}{#2}, 0.80/-1.00/\hexWithTrayTORIGHTvaluedANDnamed{#3}{#4},-0.80/-2.00/\hexWithTrayTOLEFTvaluedANDnamed{#5}{#6}} 
+				{ \begin{scope}[shift={(\x, \y)}] \z \end{scope} }
+		\end{tikzpicture}
+	\end{center}
+}
+
+\newcommand{\twoHEXalternateNAMEDparams}[4]{
+	\begin{center}
+		\begin{tikzpicture}
+			%% \draw [very thin, gray] (00,00) grid (15,10);
+			\foreach \x/\y/\z in {-0.80/-0.00/\hexWithTrayTOLEFTvaluedANDnamed{#1}{#2}, 0.80/-1.00/\hexWithTrayTORIGHTvaluedANDnamed{#3}{#4}} 
 				{ \begin{scope}[shift={(\x, \y)}] \z \end{scope} }
 		\end{tikzpicture}
 	\end{center}
