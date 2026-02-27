@@ -16,8 +16,9 @@ all : xelatex
 clean : $(LATEXFILE).log mrproper
 	rm $(LATEXFILE).log
 
-mrproper : $(LATEXFILE).aux
+mrproper : $(LATEXFILE).aux $(LATEXFILE).out
 	rm $(LATEXFILE).aux
+	rm $(LATEXFILE).out
 
 pdflatex : $(LATEXFILE).tex
 	$(CCPDFLA) $(LATEXFILE).tex
