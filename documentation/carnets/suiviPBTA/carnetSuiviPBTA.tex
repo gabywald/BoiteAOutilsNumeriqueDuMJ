@@ -41,9 +41,11 @@
 	% Author: Alex Hirzel
 	% License: Public Domain
 	\begin{tikzpicture}[thick]
-		\draw (0,0) grid (3,3);
-		\foreach \c in {(0,0), (1,0), (2,0), (2,1), (1,2)}
-		    \fill \c + (0.5,0.5) circle (0.42);
+		\begin{scope}[scale=0.39]
+			\draw (0,0) grid (3,3);
+			\foreach \c in {(0,0), (1,0), (2,0), (2,1), (1,2)}
+				\fill \c + (0.5,0.5) circle (0.42);
+		\end{scope}
 	\end{tikzpicture}
 } %% 
 
@@ -53,9 +55,11 @@
 	% Author: Alex Hirzel
 	% License: Public Domain
 	\begin{tikzpicture}[thick]
-		\draw (0,0) grid (3,3);
-		\foreach \c in {(0,0), (1,0), (2,0), (0,1), (1,2)}
-		    \fill \c + (0.5,0.5) circle (0.42);
+		\begin{scope}[scale=0.39]
+			\draw (0,0) grid (3,3);
+			\foreach \c in {(0,0), (1,0), (2,0), (0,1), (1,2)}
+				\fill \c + (0.5,0.5) circle (0.42);
+		\end{scope}
 	\end{tikzpicture}
 } %% 
 
@@ -459,12 +463,12 @@
 % {\color{red} $\vardiamond$ }
 
 \begin{center}
-	\begin{tabular}[c]{ p{0.20\textwidth} p{0.45\textwidth} p{0.20\textwidth} }
-		\multirow{5}{*}{\GliderHackerEmblemLEFT	}	&	{\centering \Huge{ Carnet De Suivi -- JdR PBTA } }	& \multirow{5}{*}{\GliderHackerEmblemRIGHT }	\\
-													&	{ \LARGE{ --- } }									&		\\
-													&	{ \Large{ --- } }									&		\\
-													&	{ \large{ --- } }									&		\\
-													&	{ \small{ --- } }									&		\\
+	\begin{tabular}[c]{ c p{0.45\textwidth} c } %% \begin{tabular}[c]{ p{0.20\textwidth} p{0.45\textwidth} p{0.20\textwidth} }
+		\multirow{5}{*}{\GliderHackerEmblemLEFT	}	&	{ \Huge{ Carnet De Suivi -- JdR PBTA } }	& \multirow{5}{*}{\GliderHackerEmblemRIGHT }	\\
+													&	{ \LARGE{ Personnages } }					&		\\
+													&	{ \Large{ Antagonistes } }					&		\\
+													&	{ \large{ Menaces } }						&		\\
+													&	{ \small{ Lieux } }							&		\\
 	\end{tabular}
 \end{center}
 
@@ -484,6 +488,24 @@
 
 \reverseCounter~\\
 
+\begin{multicols}{2}
+	\threeHEXalternateNAMEDparams{~~}{~~}{~~}{~~}{~~}{~~}~\\
+	
+	\dotfill~\\
+	
+	\threeHEXalternateNAMEDparams{~~}{~~}{~~}{~~}{~~}{~~}~\\
+	
+	\columnbreak
+	
+	\sixHEXalternate~\\
+	
+	\dotfill~\\
+	
+	\dotfill~\\
+	
+	\dotfill~\\
+\end{multicols}
+
 \begin{tabular}[ht]{ p{0.48\textwidth}|p{0.48\textwidth} }
 	\begin{minipage}[ht]{0.15\textwidth}
 		\reverseCounter
@@ -495,20 +517,46 @@
 	\\
 \end{tabular}~\\
 
+\dotfill~\\
+
 \clearpage
 
-\baseFichePJ
+\foreach \pages in {1,2,...,16}{
+	\baseFichePJ
+	
+	\newpage
+}
 
-\newpage
+\foreach \pages in {1,2,...,30}{
+	\begin{multicols}{2}
+	
+		\MenaceEtPNJantagonistes
+		
+		\vfill~\\
+		
+		\begin{center} \GliderHackerEmblemLEFT \end{center}
+		
+		\columnbreak
+		
+		\MenaceEtPNJantagonistes
+		
+		\vfill~\\
+		
+		\begin{center} \GliderHackerEmblemRIGHT \end{center}
+		
+	\end{multicols}
+	
+	\newpage
+}
 
-\begin{multicols}{2}
+\vfill~\\
 
-\MenaceEtPNJantagonistes
+\begin{minipage}[ht]{0.45\textwidth}
+	\begin{center} \GliderHackerEmblemLEFT \end{center}
+\end{minipage} \hfill \begin{minipage}[ht]{0.45\textwidth} 
+	\begin{center} \GliderHackerEmblemRIGHT \end{center}
+\end{minipage}
 
-\columnbreak
-
-\MenaceEtPNJantagonistes
-
-\end{multicols}
+\vfill~\\
 
 \end{document}
