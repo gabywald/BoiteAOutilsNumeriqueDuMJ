@@ -1,0 +1,440 @@
+\documentclass[a5paper,french]{book}
+
+\usepackage{babel}
+
+\pagestyle{empty}
+
+%% better use this ('usepackage') for a5paper !!
+\usepackage[top=0.25cm, bottom=0.25cm, left=0.25cm, right=0.25cm]{geometry}
+% gauche, haut, droite, bas, entete, ente2txt, pied, txt2pied
+% \usepackage{vmargin}
+% \setmarginsrb{0.25cm}{0.25cm}{0.25cm}{0.25cm}{0pt}{0pt}{0pt}{0pt}
+
+\usepackage{mathtools}
+\usepackage{fontspec} %% fontes / polices de caracteres
+
+\usepackage{multicol}	% pour {\'e}crire dans certaines zones en colonnes : \begin{multicols}{nb colonnes}...\end{multicols}
+
+\usepackage{JeuxCartes}
+\usepackage{coffeestains}
+\usepackage{eso-pic} %% mettre une image de fond !!
+
+% \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
+\setmainfont{Liberation Serif} 
+
+%% \usepackage{fdsymbol} %% commented because conflict with packages 'fontspec' / 'JeuxCartes'
+%% \clubsuit
+%% \vardiamondsuit
+%% \spadesuit
+%% \varheartsuit
+\DeclareSymbolFont{extraup}{U}{zavm}{m}{n}
+\DeclareMathSymbol{\varheart}{\mathalpha}{extraup}{86}
+\DeclareMathSymbol{\vardiamond}{\mathalpha}{extraup}{87}
+
+\usepackage{tikz} %% + 'pgf' ?
+\usetikzlibrary{shapes.geometric,intersections,calc}
+
+\def\backgroundStampOnPage{%
+	\begin{tikzpicture}[opacity=0.25] %%, scale=2.00]
+		\begin{scope}[xshift=-15.00,yshift=-8.00]
+			%% \draw [very thin, gray] (-3,-3) grid (3,3);
+			\draw [very thick, blue   ] (-1.50, 0.00) ..controls +(0, 2) and +(0, 2).. ( 1.50, 0.00);
+			\draw [very thick, red	] (-1.50, 0.00) ..controls +(0,-2) and +(0,-2).. ( 1.50, 0.00);
+			\draw [very thick, green  ] (-1.50, 0.00) ..controls +(0, 2) and +(0,-2).. ( 1.50, 0.00);
+			\draw [very thick, magenta] (-1.00, 1.00) ..controls +(0, 2) and +(0,-2).. ( 1.00,-1.00);
+			\draw [very thick, yellow ] ( 0.00, 1.50) ..controls +(0, 2) and +(0,-2).. ( 0.00,-1.50);
+			\draw [very thick, black  ] (-1.50, 0.00) ..controls +(0,-2) and +(0, 2).. ( 1.50, 0.00);
+			\draw [very thick, cyan   ] ( 1.00, 1.00) ..controls +(0, 2) and +(0,-2).. (-1.00,-1.00);
+			\draw [very thick, gray, fill=white] (0.00,0.00) circle (0.75);
+			\draw [very thick, white, fill=gray] (0.00,0.00) circle (0.25);
+		\end{scope}
+	\end{tikzpicture}
+}%
+
+\def\backgroundStamp{%
+	%% \begin{tikzpicture} %%, scale=2.00]
+		\begin{scope}[opacity=0.25,xshift=15.00,yshift=5.00]
+			%% \draw [very thin, gray] (-3,-3) grid (3,3);
+			\draw [very thick, blue   ] (-1.50, 0.00) ..controls +(0, 2) and +(0, 2).. ( 1.50, 0.00);
+			\draw [very thick, red	] (-1.50, 0.00) ..controls +(0,-2) and +(0,-2).. ( 1.50, 0.00);
+			\draw [very thick, green  ] (-1.50, 0.00) ..controls +(0, 2) and +(0,-2).. ( 1.50, 0.00);
+			\draw [very thick, magenta] (-1.00, 1.00) ..controls +(0, 2) and +(0,-2).. ( 1.00,-1.00);
+			\draw [very thick, yellow ] ( 0.00, 1.50) ..controls +(0, 2) and +(0,-2).. ( 0.00,-1.50);
+			\draw [very thick, black  ] (-1.50, 0.00) ..controls +(0,-2) and +(0, 2).. ( 1.50, 0.00);
+			\draw [very thick, cyan   ] ( 1.00, 1.00) ..controls +(0, 2) and +(0,-2).. (-1.00,-1.00);
+			\draw [very thick, gray, fill=white] (0.00,0.00) circle (0.75);
+			\draw [very thick, white, fill=gray] (0.00,0.00) circle (0.25);
+		\end{scope}
+	%% \end{tikzpicture}
+}%
+
+\def\title{Carnet De Suivi Pour JdR PBTA}
+\usepackage{hyperref}
+%% http://www.andy-roberts.net/writing/latex/pdfs -- for some properties...
+%% https://tex.stackexchange.com/questions/26529/how-can-i-generate-pdf-metadata-from-latex
+\hypersetup{
+	pdfauthor={Gaby Wald / Gabriel Chandesris},
+	pdftitle={\title },
+	pdfsubject={\title },
+	pdfkeywords={\title },
+	pdfproducer={PDFLaTeX / XeLaTeX (production)},
+	pdfcreator={PDFLaTeX / XeLaTeX (production)}
+	%% urlcolor=green,
+}
+%% https://tex.stackexchange.com/questions/79395/option-clash-for-hyperref-package
+
+\newcommand{\titleTWOLINES}[1]{ \textsc{\huge \bfseries #1 }~\\~\rule{0.50\textwidth}{1pt}~\\~\rule{0.50\textwidth}{1pt}~\\} 
+
+\newcommand{\titleONELINES}[1]{ \textsc{\LARGE \bfseries #1 }~\\~\rule{0.50\textwidth}{0.5pt}~\\}
+
+\newcommand{\underTitleChoices}[1]{ {\raggedright \footnotesize \emph{#1} }~\\ }
+
+\def\hexWithTrayTORIGHT{
+	%% \draw [very thin, gray] (0,0) grid (5,5);
+	\def\rot{-60} %% rotate=30,  
+	\node[thick, regular polygon, regular polygon sides=6, shape aspect=0.5, minimum width=2.0cm, minimum height=1cm, draw, shape border rotate=\rot] (reg) {};
+	\node[thick, regular polygon, regular polygon sides=6, shape aspect=0.5, minimum width=1.8cm, minimum height=1cm, draw, shape border rotate=\rot] (reg) {};
+	\draw[thick, black] (1.0,0.0) -- ( 2.5,0.0) ;
+}
+
+\def\hexWithTrayTOLEFT{
+	%% \draw [very thin, gray] (0,0) grid (5,5);
+	\def\rot{-60} %% rotate=30,  
+	\node[thick, regular polygon, regular polygon sides=6, shape aspect=0.5, minimum width=2.0cm, minimum height=1cm, draw, shape border rotate=\rot] (reg) {};
+	\node[thick, regular polygon, regular polygon sides=6, shape aspect=0.5, minimum width=1.8cm, minimum height=1cm, draw, shape border rotate=\rot] (reg) {};
+	\draw[thick, black] (-1.0,0.0) -- (-2.5,0.0) ;
+}
+
+\def\hexWithTrayTORIGHTnamed{
+	%% \draw [very thin, gray] (0,0) grid (5,5);
+	\def\rot{-60} %% rotate=30,  
+	\node[thick, regular polygon, regular polygon sides=6, shape aspect=0.5, minimum width=2.0cm, minimum height=1cm, draw, shape border rotate=\rot] (reg) {};
+	\node[thick, regular polygon, regular polygon sides=6, shape aspect=0.5, minimum width=1.8cm, minimum height=1cm, draw, shape border rotate=\rot] (reg) {};
+	\node (NAME) at (2.0,0.25) {NAMED} (NAME) ;
+	\draw[thick, black] (1.0,0.0) -- ( 2.5,0.0) ;
+}
+
+\def\hexWithTrayTOLEFTnamed{
+	%% \draw [very thin, gray] (0,0) grid (5,5);
+	\def\rot{-60} %% rotate=30,  
+	\node[thick, regular polygon, regular polygon sides=6, shape aspect=0.5, minimum width=2.0cm, minimum height=1cm, draw, shape border rotate=\rot] (reg) {};
+	\node[thick, regular polygon, regular polygon sides=6, shape aspect=0.5, minimum width=1.8cm, minimum height=1cm, draw, shape border rotate=\rot] (reg) {};
+	\node (NAME) at (-2.0,0.25) {NAMED};
+	\draw[thick, black] (-1.0,0.0) -- (-2.5,0.0) (NAME) ;
+}
+
+\def\sixHEXalternate{
+	\begin{center}
+		\begin{tikzpicture}
+			%% \draw [very thin, gray] (00,00) grid (15,10);
+			\foreach \x/\y/\z in {-0.80/-0.00/\hexWithTrayTOLEFT, 0.80/-1.00/\hexWithTrayTORIGHT,-0.80/-2.00/\hexWithTrayTOLEFT, 0.80/-3.00/\hexWithTrayTORIGHT,-0.80/-4.00/\hexWithTrayTOLEFT, 0.80/-5.00/\hexWithTrayTORIGHT} 
+				{ \begin{scope}[shift={(\x, \y)}] \z \end{scope} }
+		\end{tikzpicture}
+	\end{center}
+}
+
+\def\forHEXalternate{
+	\begin{center}
+		\begin{tikzpicture}
+			%% \draw [very thin, gray] (00,00) grid (15,10);
+			\foreach \x/\y/\z in {-0.80/-0.00/\hexWithTrayTOLEFT, 0.80/-1.00/\hexWithTrayTORIGHT,-0.80/-2.00/\hexWithTrayTOLEFT, 0.80/-3.00/\hexWithTrayTORIGHT} 
+				{ \begin{scope}[shift={(\x, \y)}] \z \end{scope} }
+		\end{tikzpicture}
+	\end{center}
+}
+
+\newcommand\hexWithTrayTORIGHTvaluedANDnamed[2]{
+	%% \draw [very thin, gray] (0,0) grid (5,5);
+	\def\rot{-60} %% rotate=30,  
+	\node[thick, regular polygon, regular polygon sides=6, shape aspect=0.5, minimum width=2.0cm, minimum height=1cm, draw, shape border rotate=\rot] (reg) {};
+	\node[thick, regular polygon, regular polygon sides=6, shape aspect=0.5, minimum width=1.8cm, minimum height=1cm, draw, shape border rotate=\rot] (reg) {#2};
+	\node (NAME) at (2.0,0.25) {#1};
+	\draw[thick, black] (1.0,0.0) -- (2.5,0.0) ;
+}
+
+\newcommand\hexWithTrayTOLEFTvaluedANDnamed[2]{
+	%% \draw [very thin, gray] (0,0) grid (5,5);
+	\def\rot{-60} %% rotate=30,  
+	\node[thick, regular polygon, regular polygon sides=6, shape aspect=0.5, minimum width=2.0cm, minimum height=1cm, draw, shape border rotate=\rot] (reg) {};
+	\node[thick, regular polygon, regular polygon sides=6, shape aspect=0.5, minimum width=1.8cm, minimum height=1cm, draw, shape border rotate=\rot] (reg) {#2};
+	\node (NAME) at (-2.0,0.25) {#1};
+	\draw[thick, black] (-1.0,0.0) -- (-2.5,0.0) (NAME) ;
+}
+
+\newcommand{\threeHEXalternateNAMEDparams}[6]{
+	\begin{center}
+		\begin{tikzpicture}
+			%% \draw [very thin, gray] (00,00) grid (15,10);
+			\foreach \x/\y/\z in {-0.80/-0.00/\hexWithTrayTOLEFTvaluedANDnamed{#1}{#2}, 0.80/-1.00/\hexWithTrayTORIGHTvaluedANDnamed{#3}{#4},-0.80/-2.00/\hexWithTrayTOLEFTvaluedANDnamed{#5}{#6}} 
+				{ \begin{scope}[shift={(\x, \y)}] \z \end{scope} }
+		\end{tikzpicture}
+	\end{center}
+}
+
+\newcommand{\twoHEXalternateNAMEDparams}[4]{
+	\begin{center}
+		\begin{tikzpicture}
+			%% \draw [very thin, gray] (00,00) grid (15,10);
+			\foreach \x/\y/\z in {-0.80/-0.00/\hexWithTrayTOLEFTvaluedANDnamed{#1}{#2}, 0.80/-1.00/\hexWithTrayTORIGHTvaluedANDnamed{#3}{#4}} 
+				{ \begin{scope}[shift={(\x, \y)}] \z \end{scope} }
+		\end{tikzpicture}
+	\end{center}
+}
+
+\newcommand{\forHEXalternateNAMEDparams}[8]{
+	\begin{center}
+		\begin{tikzpicture}
+			%% \draw [very thin, gray] (00,00) grid (15,10);
+			\foreach \x/\y/\z in {-0.80/-0.00/\hexWithTrayTOLEFTvaluedANDnamed{#1}{#2}, 0.80/-1.00/\hexWithTrayTORIGHTvaluedANDnamed{#3}{#4},-0.80/-2.00/\hexWithTrayTOLEFTvaluedANDnamed{#5}{#6}, 0.80/-3.00/\hexWithTrayTORIGHTvaluedANDnamed{#7}{#8}} 
+				{ \begin{scope}[shift={(\x, \y)}] \z \end{scope} }
+		\end{tikzpicture}
+	\end{center}
+}
+
+%% https://texfaq.org/FAQ-moren9 : more than 9 arguments !! ??
+%% https://tex.stackexchange.com/questions/2132/how-to-define-a-command-that-takes-more-than-9-arguments
+%% https://davidcarlisle.github.io/uk-tex-faq/FAQ-moren9.html
+%% %% %% \fiveHEXalternateNAMEDparams{TECH}{+4}{SHARP}{+3}{COOL}{+1}{CHA}{+2}{LEAD}{+0}
+%% %% %% \fiveHEXalternateNAMEDparams{SYNTH}{+4}{STYLE}{+3}{ESPRIT}{+3}{CHAIR}{+1}{PRO}{+2}
+\def\fiveHEXalternateNAMEDparams#1#2#3#4{
+	\def\HEXaNAMEE{#1}%
+	\def\HEXaVALUE{#2}%
+	\def\HEXbNAMEE{#3}%
+	\def\HEXbVALUE{#4}%
+	\fiveHEXalternateNAMEDparamscontinued
+}
+\def\fiveHEXalternateNAMEDparamscontinued#1#2#3#4#5#6{
+	\def\HEXdNAMEE{#1}%
+	\def\HEXdVALUE{#2}%
+	\def\HEXeNAMEE{#3}%
+	\def\HEXeVALUE{#4}%
+	\def\HEXfNAMEE{#5}%
+	\def\HEXfVALUE{#6}%
+	\begin{center}
+		\begin{tikzpicture}
+			\draw [very thin, gray] (-6,-6) grid (05,01);
+			\foreach \x/\y/\z in {-0.80/-0.00/\hexWithTrayTOLEFTvaluedANDnamed{\HEXaNAMEE}{\HEXaVALUE}, 0.80/-1.00/\hexWithTrayTORIGHTvaluedANDnamed{\HEXbNAMEE}{\HEXbVALUE},-0.80/-2.00/\hexWithTrayTOLEFTvaluedANDnamed{\HEXdNAMEE}{\HEXdVALUE}, 0.80/-3.00/\hexWithTrayTORIGHTvaluedANDnamed{\HEXeNAMEE}{\HEXeVALUE},-0.80/-4.00/\hexWithTrayTOLEFTvaluedANDnamed{\HEXfNAMEE}{\HEXfVALUE}} 
+				{ \begin{scope}[shift={(\x, \y)}] \z \end{scope} }
+		\end{tikzpicture}
+	\end{center}
+}
+
+%% %% %% \sixHEXalternateNAMEDparams{SYNTH}{+4}{STYLE}{+3}{ESPRIT}{+3}{CHAIR}{+1}{PRO}{+2}{CRAN}{+0}
+\def\sixHEXalternateNAMEDparams#1#2#3#4#5#6{
+	\def\HEXaNAMEE{#1}%
+	\def\HEXaVALUE{#2}%
+	\def\HEXbNAMEE{#3}%
+	\def\HEXbVALUE{#4}%
+	\def\HEXcNAMEE{#5}%
+	\def\HEXcVALUE{#6}%
+	\sixHEXalternateNAMEDparamscontinued
+}
+\def\sixHEXalternateNAMEDparamscontinued#1#2#3#4#5#6{
+	\def\HEXdNAMEE{#1}%
+	\def\HEXdVALUE{#2}%
+	\def\HEXeNAMEE{#3}%
+	\def\HEXeVALUE{#4}%
+	\def\HEXfNAMEE{#5}%
+	\def\HEXfVALUE{#6}%
+	\begin{center}
+		\begin{tikzpicture}
+			\draw [very thin, gray] (-6,-6) grid (05,01);
+			\foreach \x/\y/\z in {-0.80/-0.00/\hexWithTrayTOLEFTvaluedANDnamed{\HEXaNAMEE}{\HEXaVALUE}, 0.80/-1.00/\hexWithTrayTORIGHTvaluedANDnamed{\HEXbNAMEE}{\HEXbVALUE},-0.80/-2.00/\hexWithTrayTOLEFTvaluedANDnamed{\HEXcNAMEE}{\HEXcVALUE}, 0.80/-3.00/\hexWithTrayTORIGHTvaluedANDnamed{\HEXdNAMEE}{\HEXdVALUE},-0.80/-4.00/\hexWithTrayTOLEFTvaluedANDnamed{\HEXeNAMEE}{\HEXeVALUE}, 0.80/-5.00/\hexWithTrayTORIGHTvaluedANDnamed{\HEXfNAMEE}{\HEXfVALUE}} 
+				{ \begin{scope}[shift={(\x, \y)}] \z \end{scope} }
+		\end{tikzpicture}
+	\end{center}
+}
+
+\usepackage{fancybox} %% boxes
+
+\def\reverseCounter{
+	\begin{tabular}[h]{ r r r r r r }
+			15h		&	18h		&	21h		&	22h		&	23h		&	24h 	\\
+		\shadowbox{ \begin{minipage}[ht]{0.15\textwidth} ~ \end{minipage} } &	
+			\shadowbox{ \begin{minipage}[ht]{0.15\textwidth} ~ \end{minipage} } &
+			\shadowbox{ \begin{minipage}[ht]{0.15\textwidth} ~ \end{minipage} } & 
+			\shadowbox{ \begin{minipage}[ht]{0.05\textwidth} ~ \end{minipage} } & 
+			\shadowbox{ \begin{minipage}[ht]{0.05\textwidth} ~ \end{minipage} } & 
+			\shadowbox{ \begin{minipage}[ht]{0.05\textwidth} ~ \end{minipage} } \\ 
+	\end{tabular}
+}
+
+\begin{document}
+
+\setlength\parindent{0pt} % \noindent for all document
+
+%% \AddToShipoutPicture{
+	%% \AtPageCenter{ AtPageCenter }
+	%% \AtTextCenter{ AtTextCenter }
+	%% \AtStockCenter{ AtStockCenter }
+	%% \AtPageCenter{ \backgroundStampOnPage }
+%% }
+
+% $\heartsuit \varheart \diamondsuit \vardiamond \clubsuit \spadesuit$ ~\\
+
+% {\color{red} $\heartsuit$ }
+% {\color{red} $\diamondsuit$ }
+
+% {\color{red} $\varheart$ }
+% {\color{red} $\vardiamond$ }
+
+%% {\centering \Huge{Château FalkenStein} }~\\
+%% {\centering \large{Journal Intime} }~\\
+
+\begin{center}
+	\begin{tabular}[c]{ p{0.20\textwidth} p{0.45\textwidth} p{0.20\textwidth} }
+		\includegraphics[width=0.10\textwidth]{../../images/glider/logo-glider-left.png} & 
+			\centering
+			{ \Huge{ Carnet De Suivi -- JdR PBTA } }~\newline~\newline~\newline
+			{ \LARGE{ --- } }
+			{ \Large{ --- } }
+		& \includegraphics[width=0.10\textwidth]{../../images/glider/logo-glider-right.png} \\
+	\end{tabular}
+\end{center}
+
+%% ... 
+
+%% Compte à rebours (commande / modèle-template de style
+
+%% Résumé persos
+
+%% Antagonistes
+
+%% Menaces
+
+%% Tags / étiquettes
+
+%% ... 
+
+\reverseCounter~\\
+
+\begin{tabular}[ht]{ p{0.48\textwidth}|p{0.48\textwidth} }
+	\begin{minipage}[ht]{0.15\textwidth}
+		\reverseCounter
+	\end{minipage}
+	&	
+	\begin{minipage}[ht]{0.15\textwidth}
+		\reverseCounter
+	\end{minipage}
+	\\
+\end{tabular}~\\
+
+\clearpage
+
+\hrule~\\
+
+\begin{multicols}{2}
+
+\titleTWOLINES{NOM}
+
+\underTitleChoices{..., un nom commercial, un nom sociable, un nom mystérieux...}
+
+\titleTWOLINES{APPARENCE}
+
+\titleONELINES{Regard}
+
+\underTitleChoices{digne de confiance, concentré, calme, artificiel}
+
+\titleONELINES{Visage}
+
+\underTitleChoices{séduisant, balafré, dissimulé, amical}
+
+\titleONELINES{Corps}
+
+\underTitleChoices{petit, mince, corpulent, tonique, musclé, bien en chair}
+
+\titleONELINES{Carnation}
+
+\underTitleChoices{artificielle, tatouée, asiatique, noire, hispanique, moyen-orientale, blanche, …}
+
+\titleONELINES{Tenue}
+
+\underTitleChoices{corporative, formelle, de rue, militaire, utilitaire}
+
+\vfill~\\
+\columnbreak
+
+\titleTWOLINES{STATS}
+
+\underTitleChoices{Assigne à chacune des stats un de ces scores : +2, +1, +1, +0, +0, -1.}
+
+	\sixHEXalternate
+	%% \sixHEXalternateNAMEDparamsONLYNAMES{SYNTH}{STYLE}{ESPRIT}{CHAIR}{PRO}{CRAN}
+
+%% \titleTHESPRAWL ~\\
+
+\titleTWOLINES{BLESSURES}
+
+%% \reverseCounter~\\~\\~\\
+\begin{tabular}[ht]{ p{0.48\textwidth}|p{0.48\textwidth} }
+	\begin{minipage}[ht]{0.15\textwidth}
+		\reverseCounter
+	\end{minipage}
+	& ~~ \\
+\end{tabular}~\\
+
+\vfill~\\
+\columnbreak
+
+\titleTWOLINES{LIENS}
+
+	\sixHEXalternate
+
+\titleTWOLINES{MAN\OE UVRES}
+
+\titleTWOLINES{DIRECTIVES}
+
+\titleTWOLINES{ÉQUIPEMENT}
+
+	\twoHEXalternateNAMEDparams{CRED}{~~}{XP}{~~}
+	
+\vfill~\\
+\columnbreak
+
+\titleTWOLINES{MAGOUILLE}
+
+\titleTWOLINES{AVANCEMENT}
+
+\titleTWOLINES{CYBERNÉTIQUE}
+
+\titleTWOLINES{CONTACTS}
+
+\dotfill~\\\dotfill~\\\dotfill~\\
+
+\vfill~\\
+\columnbreak
+\vfill~\\
+
+\end{multicols}
+
+\newpage
+
+\titleTWOLINES{NOM}
+
+\dotfill~\\
+
+\titleTWOLINES{NIVEAU MENACE}
+
+\reverseCounter~\\
+
+\titleTWOLINES{RESSOURCES}
+	
+\dotfill~\\ \dotfill
+
+\hrule~\\
+
+\titleTWOLINES{NOM}
+
+\dotfill~\\
+
+\titleTWOLINES{NIVEAU MENACE}
+
+\reverseCounter~\\
+
+\titleTWOLINES{RESSOURCES}
+	
+\dotfill~\\ \dotfill
+
+\hrule~\\
+
+\end{document}

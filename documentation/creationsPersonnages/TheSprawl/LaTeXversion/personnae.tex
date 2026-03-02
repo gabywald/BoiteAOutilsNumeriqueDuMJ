@@ -1,0 +1,139 @@
+\documentclass{ClassePersonnaeTheSprawl}
+%=========================== En-Tete =================================
+
+\usetikzlibrary{shapes.geometric,intersections,calc}
+
+\setmarginsrb{0.20cm}{0.20cm}{0.20cm}{0.20cm}{15pt}{3pt}{42pt}{15pt}
+	
+% --- style de page (pour les en-tete) ---
+\pagestyle{empty}
+
+% mettre du texte en diagonale sur le fond : tikz
+\usepackage{tikz} 
+\def\confidentialTIKZ{%
+	\begin{tikzpicture}[remember picture,overlay]
+	\node[rotate=60,scale=15,text opacity=0.1] at (current page.center) {Confidentiel};
+	\end{tikzpicture}
+}%
+
+\def\TIKZtheSprawlFR{%
+	\begin{tikzpicture}[remember picture,overlay]
+	\node[rotate=60,scale= 8,text opacity=0.1] at (current page.center) {-- The Sprawl FR --};
+	\end{tikzpicture}
+}%
+
+\def\txtTITLE{Feuille de personnage The Sprawl} %%%%% !! TITRE !! %%%%%
+\def\imgCORNER{\includegraphics[width=0.25cm]{../../../images/glider/logo-glider.png}}
+
+\def\imgGLIDERLEFTT{\includegraphics[width=1.95cm]{../../../images/glider/logo-glider-left.png}}
+\def\imgGLIDERRIGHT{\includegraphics[width=1.95cm]{../../../images/glider/logo-glider-right.png}}
+
+\def\imgGLIDERLEFTTsmall{\includegraphics[width=0.25cm]{../../../images/glider/logo-glider-left.png}}
+\def\imgGLIDERRIGHTsmall{\includegraphics[width=0.25cm]{../../../images/glider/logo-glider-right.png}}
+
+% % % en-tete et pieds de page configurables : fancyhdr.sty
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+	% \renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+	% \renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}}
+\fancyhf{}
+\fancyhead[LE,RO]{\bfseries\thepage \TIKZtheSprawlFR }
+\fancyhead[LO]{\bfseries\rightmark}
+\fancyhead[RE]{\bfseries\leftmark}
+\fancyfoot[LE]{\thepage /\pageref{LastPage} \hfill
+	\scriptsize{\txtTITLE} % TITLE
+\hfill \imgGLIDERLEFTTsmall }
+\fancyfoot[RO]{\imgGLIDERRIGHTsmall \hfill
+	\scriptsize{\txtTITLE} % TITLE
+\hfill \thepage /\pageref{LastPage}}
+\renewcommand{\headrulewidth}{0.5pt}
+\renewcommand{\footrulewidth}{0.5pt}
+\addtolength{\headheight}{0.5pt}
+% \fancypagestyle{plain}{
+	% \fancyhead{}
+	% \renewcommand{\headrulewidth}{0pt}
+% }
+
+%============================= Corps =================================
+\begin{document}
+\setlength\parindent{0pt}
+
+\begin{multicols}{2}
+
+\titleTWOLINES{NOM}
+
+\underTitleChoices{..., un nom commercial, un nom sociable, un nom mystérieux...}
+
+\titleTWOLINES{APPARENCE}
+
+\titleONELINES{Regard}
+
+\underTitleChoices{digne de confiance, concentré, calme, artificiel}
+
+\titleONELINES{Visage}
+
+\underTitleChoices{séduisant, balafré, dissimulé, amical}
+
+\titleONELINES{Corps}
+
+\underTitleChoices{petit, mince, corpulent, tonique, musclé, bien en chair}
+
+\titleONELINES{Carnation}
+
+\underTitleChoices{artificielle, tatouée, asiatique, noire, hispanique, moyen-orientale, blanche, …}
+
+\titleONELINES{Tenue}
+
+\underTitleChoices{corporative, formelle, de rue, militaire, utilitaire}
+
+\titleTWOLINES{STATS}
+
+\underTitleChoices{Assigne à chacune de tes stats un de ces scores : +2, +1, +1, +0, +0, -1.}
+
+	\sixHEXalternateNAMEDparamsONLYNAMES{SYNTH}{STYLE}{ESPRIT}{CHAIR}{PRO}{CRAN}
+
+\columnbreak
+
+\titleTHESPRAWL ~\\
+
+\titleTWOLINES{BLESSURES}
+
+\reverseCounter~\\~\\~\\
+
+\titleTWOLINES{LIENS}
+
+		\sixHEXalternate
+
+\titleTWOLINES{MAN\OE UVRES}
+
+\vfill~\vfill
+
+\columnbreak
+
+		\twoHEXalternateNAMEDparams{CRED}{~~}{XP}{~~}
+		
+		%% \threeHEXalternateNAMEDparams{CRAN}{1}{PRO}{2}{SYNTH}{0}
+		%% \forHEXalternateNAMEDparams{CRAN}{1}{PRO}{2}{SYNTH}{0}{STYLE}{-5}
+		%% \fiveHEXalternateNAMEDparams{SYNTH}{+4}{STYLE}{+3}{ESPRIT}{+3}{CHAIR}{+1}{PRO}{+2}
+		
+\titleTWOLINES{DIRECTIVES}
+
+\titleTWOLINES{ÉQUIPEMENT}
+
+\titleTWOLINES{MAGOUILLE}
+
+\titleTWOLINES{AVANCEMENT}
+
+\titleTWOLINES{CYBERNÉTIQUE}
+
+\titleTWOLINES{CONTACTS}
+
+\dotfill~\\\dotfill~\\\dotfill~\\
+
+\vfill~\\
+\columnbreak
+\vfill~\\
+
+\end{multicols}
+
+\end{document}

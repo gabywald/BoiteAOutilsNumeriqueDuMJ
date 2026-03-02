@@ -1,0 +1,7 @@
+
+Ajouter dans ressources pour software / logiciel
+	- éléments présents dans 
+		* {BoiteAOutilsNumeriqueDuMJ/documentation/creationsPersonnages/CyberPunkTables/*}
+		* {BoiteAOutilsNumeriqueDuMJ/documentation/creationsPersonnages/CyberPunkRED/autresElements/*}
+	- voir fichiers {BoiteAOutilsNumeriqueDuMJ/documentation/creationsPersonnages/creationPersonnage*.txt}
+	- ... 

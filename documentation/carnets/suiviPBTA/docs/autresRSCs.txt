@@ -1,0 +1,276 @@
+https://www.legrog.org/systemes/apocalypse
+
+Apocalypse (PbtA)
+
+Historique
+
+Le système Apocalypse est né avec le jeu Apocalypse World de D. Vincent Baker. Ses principes ont ensuite été repris par plusieurs jeux sur des thèmes divers, étiquetés Powered by the Apocalypse (en français Motorisés par l'Apocalypse), processus facilité par la licence Creative Commons sous laquelle était placé Apocalypse World.
+
+Mécanique
+
+Les éléments distinctifs du système Apocalypse reposent essentiellement sur deux piliers.
+
+Le premier est la création des personnages des joueurs (PJ) par archétypes matérialisés par des livrets (playbooks) recensant les possibilités spécifiques à ces archétypes, dépendants du thème couvert par le jeu. Une fois l'archétype choisi, le joueur est ensuite guidé, de façon plus ou moins détaillée, dans le choix d'options permettant de personnaliser son alter-ego. Il est généralement impossible que deux joueurs choisissent le même archétype. Chaque archétype donnera ainsi des valeurs à chacune des caractéristiques prévues par le jeu et donc dépendant du genre couvert : Cool / Dur / Sexy / Rusé / Zarb pour Apocalypse World, contre Raison / passion / Puissance / Chance / Affinité / Richesse / Savoir pour Tremulus ou Smash / Influence / Maneuvers / Protect / Investigate pour Worlds in Peril. La plupart ont également une caractéristique fluctuante représentant les liens entre le PJ et soit les autres PJ (l'Historique de Apocalypse World, la Confiance de Tremulus) ou de certains aspects du monde qui l'entoure (les Liens de Worlds in Peril).
+
+Les caractéristiques ont des valeurs allant généralement de -1 à +2 à la création du personnage, pouvant monter à +3.
+
+L'autre base du jeu est la décomposition par les auteurs des actions spécifiques au genre abordé en Actions (Moves) auxquelles reviennent systématiquement les joueurs pour déterminer l'évolution d'une situation. Ces Actions (qui peuvent être reprises d'un jeu à l'autre ou laisser place à une liste spécifique) se répartissent entre Actions de base (ouvertes à tous les personnages), Actions spéciales (réservées à certains types de personnages) et Actions du meneur de jeu (MJ), qu'il peut mettre en jeu dans certaines conditions pour relancer l'histoire en rendant la situation des joueurs plus instable.
+
+Chaque situation nécessitant qu'un joueur lance un dé (le MJ n'a généralement pas à le faire) revient à tester une Action. Cela se fait en jetant deux dés à 6 faces dont le total est modifié par la valeur d'une caractéristique adéquate. Un résultat de 1 à 6 indique un échec, la description du résultat de l'action étant alors de ressort du MJ. Un résultat de 10 ou plus correspond à une réussite franche, dont le joueur peut narrer l'issue. Entre les deux, un résultat de 7 à 9 indique une réussite mais avec des complications ou un prix à payer. Chaque Action (Move) définit le type de résultat en fonction de ces trois niveaux.
+
+Chaque jeu a sa manière de suivre l'opposition se dressant face aux PJ, nécessitant plus ou moins de préparation. La première catégorie inclut ainsi les personnages non-joueurs (PNJ) préparés par le MJ de Worlds in Peril, tandis que la gestion des Fronts de Apocalypse World ou des Factions de Urban Shadows peut se faire plus au fur et à mesure du jeu, le MJ n'ayant alors qu'à suivre ces évolutions pour ses propres Actions.
+
+Enfin, chaque jeu définit les conditions dans lesquels le PJ peut prétendre à une progression : utilisation d'un Attribut sélectionné pour la partie dans Apocalypse World, déblocage de Moves du livret de Motivation dans Worlds in Peril, etc. Cette progression peut être plus ou moins libre : plusieurs options possibles pour dépenser les points gagnés dans Worlds in Peril, contre une liste d'avancements précise avec des éléments à cocher dans Apocalypse World.
+
+https://la-caravelle.itch.io/guide-pbta	
+	Les jeux “propulsés par l’apocalypse” (powered by the apocalypse ou pbta en anglais) sont des jeux de rôles qui partagent des aspects d’une même « structure », prenant origine dans le jeu Apocalypse World de Vincent Baker.
+	Comme son nom l’indique, ce guide permet au lecteur, à partir de ses idées ou de la fiction qu’il souhaite émuler, de bâtir son jeu à travers les grands principes du «système» apocalypse. Transféré sur le wiki du site des jeux pbta, il est conçu comme la première pierre d’un living rules qui ne demande qu’a être développé.
+	Un guide écrit par Bastien «Acritarche» Wauthoz en 2016.
+	Rendez-vous sur :
+		https://www.pbta.fr/apocalypse-2/les-jeux-pbta-en-vf/	pbta.fr pour plus d'infos sur ce système de JdR
+		https://forum.500nuancesdegeek.fr/viewforum.php?f=17	le forum pour toute question ou discussion
+		
+https://www.geek-powa.fr/jeu-de-role-sur-table/mon-experience-avec-les-pbta-retour-sur-les-jeux-de-role-propulses-par-lapocalypse/
+	Mon expérience avec les PBTA : retour sur les jeux de rôle propulsés par l'Apocalypse - Geek Powa
+	2–3 minutes
+	Les	PBTA (Powered by the Apocalypse) proposent une manière différente de vivre le jeu de rôle. Ils mettent l’accent sur la narration collaborative et l’improvisation, avec des règles conçues pour favoriser le storytelling. Les “mouvements” (moves) déclenchent des actions spécifiques en fonction des situations, orientant le déroulement de l’histoire.
+	Ensuite, j’ai lu Avatar Legends, un PBTA qui promet de plonger les joueurs dans l’univers de la série animée. Si le concept de maîtriser les éléments est captivant, la lecture des mécaniques de jeu m’a laissé perplexe. Les mouvements prédéfinis semblaient encadrer trop strictement les actions, ce qui m’a fait douter de la fluidité en jeu.
+	Si co-construire l’histoire est une idée séduisante, j’ai remarqué que sans une direction claire, les parties pouvaient manquer de cohérence. Lors de ma première partie de Monster of the Week, l’hésitation des joueurs à prendre les rênes du scénario a conduit à une progression lente et un roleplay limité. Le rôle du maître de jeu étant différent, cela peut déstabiliser ceux habitués aux jeux de rôle classiques où le MJ guide davantage l’intrigue.
+	Explorer les PBTA m’a permis de mieux cerner mes préférences en matière de jeu de rôle. Bien que ces jeux de rôle propulsés par l’Apocalypse offrent une perspective intéressante et innovante, je reste attaché aux JDR classiques qui correspondent davantage à mon style de jeu et à mes attentes. Dungeon World se démarque néanmoins comme une exception appréciable dans l’univers des PBTA. Chacun doit trouver le système qui lui convient le mieux pour vivre des aventures mémorables.
+	Ton aventure continue par ici ... 
+	
+https://orey.github.io/blog/pages/pbta/
+	Analyse des jeux PbtA - Cthulhu Fhtagn A Lot
+	Olivier Rey
+	16–20 minutes
+	PBTA Pages
+	
+	Certains jeux récents, notamment la vague PbtA (Powered by the Apocalypse), reprennent à leur compte des questions vieilles comme le JDR (du roleplay ou des règles, disait-on dans le temps) pour leur apporter des "solutions" pour le moins particulières. Ces solutions méritent un examen détaillé.
+	Historique#
+	
+	La vague PbtA a commencé par des discussions sur le forum The Forge. En quelque sorte, PbtA est la troisième itération d'un modèle théorique du jeu de rôles, les deux premières étant :
+	
+	    En 1997, le Threefold model (Dramatist, Gamist, Simulationist), apparu sur un forum de discussions,
+	    Entre 1999 et 2005, la GNS Theory (Gamism, Narrativism, Simulationism), portée par un gourou, Ron Edwards.
+	
+	Ces modèles conceptuels du jeu de rôle, relativement étroits car tri-dimensionnels, ont nourri une réflexion permettant la construction d'autres types de jeux. La vague PbtA est, aujourd'hui, la grande vainqueur de cette histoire.
+	Caractéristiques critiquées sur les JDR "anciens"#
+	
+	Voici quelques uns des arguments que l'on trouve sur les forums concernant le pourquoi de la vague PbtA et les limitations des jeux anciens.
+	Complexité des règles#
+	
+	Les règles sont trop complexes, trop simulationnistes, trop spécifiques (une règle différente par cas sans unité globale), trop incohérentes (pas de ligne directrice globale), trop "crunchy" comme disent les américains. Les règles des anciens jeux font trop appel à des lancers de dés incessants, et à des modificateurs qui s'empilent de manière complexe, à des centaines de pages de règles.
+	Directivité du MJ#
+	
+	Le MJ est trop directif et il ne met pas en place un univers collaboratif où les joueurs peuvent co-construire l'univers avec lui au travers de l'utilisation de la discussion.
+	Préparation du jeu#
+	
+	Le temps de préparation est trop long, trop important, pour les anciens jeux. L'investissement du MJ est trop important. L'investissement demandé n'est plus adapté à notre monde moderne, que ce soit pour le MJ ou pour les joueurs.
+	
+	Derrière cette préoccupation matérielle, on retrouve la co-construction de l'histoire et une volonté de créer une /dynamique organique/ du jeu. Le jeu se développerait "de lui-même" et n'aurait donc pas besoin de guidelines voire de scénarios menés par un MJ ayant tout péparé seul.
+	Non intégraion des dernières techniques de jeu#
+	
+	Certaines variantes de jeu ont permis de voir les choses différemment (JDR solo avec "gamemaster emulator", JDR sans MJ, etc.) et de pousser les jeux "narratifs" et co-construits sur le devant de la scène. Les anciens jeux n'ont pas inclus ces nouvelles tendances.
+	Des arguments anciens#
+	
+	Les arguments critiques envers les jeux très lourds en règles (à commencer par D&D) étaient à peu près les mêmes, durant les années 80/90. La recherche du Graal du jeu basé sur le roleplay et avec très peu de règles a longtemps occupé les colonnes des magazines de JDR. de nombreuses tentatives ont été faites, sans être vraiment couronnées de succès.
+	Un nouveau type de jeu#
+	
+	Apocalypse World, le premier jeu de la vague PbtA sort de 2010, soit plus de 20 ans après ces débats. La famille Baker, qui a designé ce jeu, est une famille de quadras à l'époque. Nourris par The Forge et la GNS, ils proposent un nouveau type de jeu.
+	Une modification profonde de la vision des PJs#
+	L'avant : des PJs à base de chiffres#
+	
+	La première composante du JDR traditionnel est la composante PJ. Selon comment ces derniers sont structurés, les joueurs auront plus ou moins de possibilités. Les règles du jeu organisent les interactions entre les PJ et le monde, ainsi qu'avec les PNJs.
+	
+	Les jeux de rôles de la première génération (D&D, Cthulhu, GURPS, Rolemaster, etc.) sont basés sur une possibilité de comparaison objective entre les PJs, et sur un calibrage des PJs par rapport à la réalité du monde. Ainsi, dans la plupart des jeux, on trouve, décrit en termes de jeu, les principaux animaux. Etablir une échelle objective permet aussi de construire et de dimensionner des adversaires PNJ. Certains jeux comme D&D utiliseront la notion de niveau (voir quelques commentaires sur D&D).
+	Des PJs plus ou moins structurés avec des mots ou des expressions#
+	
+	Avec l'apparition de jeux comme Fudge (1992), un "pont" est dressé entre des valeurs sous forme de nombre (de -3 à +3) et des descriptifs qualificatifs portant cette "valeur". Même si la mécanique sous-jacente est encore à base de nombres et de modificateurs, les mots vont prendre progressivement une importance énorme dans le monde des JDR, jusqu'à prendre la place d'attributs, de compétences, de dons, de défauts ou même de pouvoirs.
+	
+	Les mots s'imposent dans les créations des PJs au travers des "aspects", des "clichés", des "archétypes", des "avatars", des "concepts de personnages", etc. Ces mots peuvent être invoqués durant le jeu pour appeler une mécanique particulière, le plus souvent un bonus ou une compétence impliquée par ou "sous-entendue" dans l'expression elle-même.
+	
+	Or, au travers de cette irruption des mots dans les mécaniques des JDR, les problèmes relatifs à l'ambiguïté des mots et des expressions entrent dans le monde du JDR.
+	Des PJs non structurés dans des jeux pour vétérans ?#
+	
+	Il faut une certaine expérience du JDR pour pouvoir définir des /mots et expressions utiles/ au jeu. En un sens, le JDR s'adresse implicitement à des vétérans, voire à des vétérans dans un mode jeu ironique (voire cynique). Ces derniers ont les codes du JDR : ils sauront quelle expression leur permet de "joueur comme à AD&D".
+	
+	Le discours est que les jeux utilisant des mots rendent le JDR plus accessible aux débutants. Etant donné que la logique du jeu est plus complexe à comprendre, car souvent implicite, cette assertion n'est pas facilement défendable.
+	Incertitude autour des PJ et des PNJ#
+	
+	Les mots ou phrases introduisent une incertitude autour des personnages, incertitude à laquelle le MJ doit s'adapter.
+	
+	En effet, les mots sont vagues, soumis à des interprétations et parfois en recouvrement sémantique partiel, ce qui rend compliqué leur usage. Cette ambiguïté est vue comme positive par les tenants de cette mécanique. Elle bénéficie clairement aux joueurs en dépossédant le MJ d'une partie de ses responsabilités.
+	
+	Les mots et les phrases descriptives des PJ et PNJ introduisent aussi une incertitude dans l'équilibre des PJ entre eux et avec les PNJ, et donc une possibilité d'arbitraire pour les MJ. Il devient, en effet, complexe de quantifier les expressions pour équilibrer les personnages et les aventures.
+	
+	Les mots et les phrases favorisent les joueurs extravertis qui pourront interpréter de manière libre un "cliché" alors que les introvertis seront desservis par des règles basées sur des mots et sur le besoin d'improviser oralement pour les interpréter. Dans les jeux classiques, les joueurs utilisent des échelles objectives, ce qui permet à tous d'avoir une échelle commune pour s'exprimer.
+	Deux types de MJ#
+	
+	Les jeux à base de mots sont des jeux très spécifiques dans lesquels le MJ doit investir pour comprendre comment utiliser ces mots ou expressions plus ou moins libres et plus ou moins contraintes par le game designer. Cet investissement est souvent lié à la recherche d'un mécanisme ressemblant à une échelle objective.
+	
+	D'autres MJ, en revanche, se satisferont du côté plus "libre" d'un jeu basé sur les mots et sur les interprétations des joueurs et du MJ. Le fait de moins structurer les personnages, qu'ils soient joueurs ou non, permet de laisser place à la négociation et à la co-création du jeu. Les PJ ne sont pas dans un monde de règles objectives qui les contraint, ils sont "racontés" par le MJ et les joueurs.
+	
+	Peut-être est-on face à deux types de MJ : des MJ scientifiques aimant les échelles absolues et les MJ littéraires aimant l'ambiguïté des mots.
+	La structuration du "backgound" des personnages#
+	
+	Le JDR narratif apporte une obsession étrange : celle de la structuration du background. Dans la plupart des jeux anciens, même s'il était recommandé de créer un background à son personnage, cela était plus ou moins fait, et disons que le background s'enrichissait au fur et à mesure des parties. D'une certaine façon, même dans les jeux modernes, les aventures passées des PJ devenaient rapidement leur backgound principal.
+	
+	Beaucoup de jeux plus récents établissent une vraie dictature du background en exigeant de le structurer de manière schématique voire caricaturale, en termes de jeu. Ainsi, on voit apparaître, en plus de la notion de "cliché" ou d'"archétype" :
+	
+	    Une certaine obsession pour les défauts des PJ, souvent utiles pour gagner des points dans le processus de création, parfois obligatoires dans le processus, souvent en contrepartie des dons ;
+	    Des contacts sociaux obligatoires,
+	    Un ennemi juré obligatoire,
+	    Etc.
+	
+	Cette schématisation à outrance du background des personnages concourt à en faire des caricatures, semblant être issues du même moule, et à rendre suffocant l'univers des personnages. Dans une conception ancienne, le PJ doit être libre avant tout et n'a pas à être "backgroundisé" arbitrairement au travers de dimensions caricaturales.
+	
+	Ce sujet est délicat, car il s'agit d'un problème de curseur. La structuration du background des personnages a toujours été un sujet dans le JDR, mais dans des jeux comme PbtA, il semble que le bouchon soit poussé plus loin.
+	Les playbooks : des caricatures de classes de PJ ?#
+	
+	La notion de classe ne disparaît pas dans les jeux de type PbtA, on pourrait même dire qu'elle s'hyper-spécialise. Au travers des "playbooks", il est difficile de savoir si l'on joue un personnage prétiré ou un personnage d'une classe de personnage très "étroite". D'autant qu'au sein d'une partie, un seul personnage d'un certain type ne peut être joué dans le groupe.
+	
+	Le besoin de customiser le playbook est donc limité à sa plus simple expression, car le personnage est déjà si spécifique, qu'il ne mérite qu'un "acteur" pour l'incarner. D'une certaine façon, la logique des playbooks équivaut, pour les jeux plus anciens, à une logique de personnages prétirés. Garantir la bonne répartition des rôles implique, tout comme dans D&D, équilibrer un groupe pour une aventure.
+	Des caricatures de PJ pour un petit univers ?#
+	
+	Si l'on mèle description textuelle et playbooks, nous voyons un JDR où les personnages ont tendance à être des caricatures.
+	
+	La volonté de jouer des caricatures semble clairement influencée par :
+	
+	    Les films et séries,
+	    Les jeux vidéos,
+	    Les comics et les mangas.
+	
+	Or, jouer des caricatures ou des archétypes de personnages de films ou de BD offre, pour certains joueurs et MJ, des possibilités très limitées. Ou disons que cette approche permet de jouer des aventures ressemblant à des films ou des séries, mais sur des styles souvent très étroits, voire vraiment très étroits.
+	
+	Cette réduction de l'univers de jeu semble une caractéristique des jeux PbtA. Les PJ archétypaux évoluent dans un monde restreint, archétypal, dans une niche ou une sous-niche. Notons que cette caractéristique implique la multiplication des jeux, nous y reviendrons.
+	
+	Dans des jeux plus traditionnels, les règles permettent de gérer l'univers de jeu qui, par nature, est vaste, voire - on aime à le penser - infini. La partie "liberté des personnages à interagir avec le reste du monde" est une dimension importante du jeu de rôles, d'où les cartes des mondes avec des détails à différentes échelles. Le MJ est garant de ce monde qui, en aucun cas, ne serait se limité aux quelques archétypes du genre. Le fait même qu'il soit vaste laisse le champ pour la surprise et pour l'intérêt des campagnes.
+	
+	Le style même des aventures peut changer d'une aventure à l'autre. Si une aventure est axée sur l'exploration et les combats, une seconde peut être une enquête et une troisième peut avoir un scénario de film d'horreur.
+	
+	En fait, c'est comme si les jeux de super-héros avaient gagné en esprit sur certains JDR : il semble qu'il faille jouer des caricatures standardisées dans les jeux modernes, des personnages de série télé, qui ont été volontairement fabriqués pour évoluer dans un certain genre de séries très étroit (sous-genre ou sous-sous-genre).
+	Les "move"#
+	
+	Si les PJs ont changé dans des jeux PbtA, les mécaniques de jeu aussi.
+	
+	Dans certains jeux relativement récents, les mots sont utilisés pour les "move", des genres d'actions génériques que les PJ peuvent faire, ces actions étant adaptées au sous-genre proposé par le jeu.
+	
+	Le game designer impose, en plus de tout ce que nous avons vu, une certaine manière de jouer les personnages en déterminant les "move" par type de personnage, pour tous les types, ainsi que pour le MJ. Généralement, ces moves sont spécifiques au jeu, peu faciles à comprendre et à utiliser, et en recouvrement sémantique les uns avec les autres (ce qui est souvent volontaire).
+	
+	Si l'on examine finement des jeux comme Apocalypse World, on se rend compte que les moves des PJ et du MC (Master of Ceremony, un genre de "MJ light et collaboratif") semblent se répondre et avoir fait l'objet de simulations par ordinateur. En contraignant les actions possibles des PJ, et en catégorisant les différentes actions possibles du MC, le jeu donne l'impression de mettre en place une chorégraphie bien adaptée à certains jeux ou univers, mais au final très mécaniste, et dont les résultats ont été "optimisés" dans des simulateurs inaccessibles aux joueurs et au MJ.
+	
+	Certes, le jeu possède une certaine dynamique organique dont nous parlions auparavant, et donc fournit les effets promis. Mais cela est rendu possible au travers des enchaînements de moves entre PJ et MC, ces dernières ayant fait l'objet de simulations informatisées ayant été utilisées dans le game design.
+	
+	Les moves ne sont donc pas des vraies compétences, mais plus, comme leur nom l'indique, des actions appelant d'autres moves. Le glissement sémantique est subtil, mais réel : dans une situation, l'utilisation d'un move appelle un autre move "compatible" en face, et donc restreint mécaniquement les possibilités de jeu, en favorisant des "modèles d'action" (action patterns) archétypaux au genre ou sous-genre considéré.
+	Théâtre et jeu de plateau#
+	
+	Nous sommes donc devant une nouvelle catégorie de jeux ayant les caractéristiques suivantes :
+	
+	Les personnages sont des archétypes (playbook) aux actions archétypales (move).
+	
+	Pour les anciens rôlistes, ce sont des "personnages prétirés". Les playbooks vont au delà des classes de personnages de D&D pour qui la classe est un moyen de progresser dans une certaine voie.
+	
+	Les aventures sont étudiées et optimisées pour ces archétypes ayant ces actions archétypales. Le joueur doit endosser l'archétype, jouer le personnage prétiré et utiliser ses actions (move) prédéfinis. S'il ne le joue pas, l'histoire et sa dynamique peuvent être perturbées.
+	
+	Nous sommes donc dans une perspective plus théâtrale que libre, un théâtre aux dimensions contraintes par le game designer. Le canevas imposé aux joueurs semble plus dur que le canevas imposé par les anciens jeux.
+	Retour au jeu de plateau#
+	
+	Si les moves devenaient des cartes physiques et les playbooks des fiches cartonnées, nous pourrions être dans un jeu de plateau, type jeu de stratégie. Une scène devient alors une série de cartes à action que chaque jouer abat à son tour (PJ et MC ou PJ et PJ).
+	
+	Chaque joueur aurait une série de moves sous forme de cartes, ainsi que le MC. Chacun abat ses cartes en réaction aux actions de l'autre. Certaines réactions sont faisables et d'autres inadaptées.
+	
+	Les jeux de type PbtA ne sont donc pas des JDR classiques mais ressemblent plus à des jeux hybrides entre jeu de rôle, jeu de cartes (genre Magic the Gathering) et jeu de plateau.
+	L'éternel retour#
+	
+	Au travers des jeux PbtA, le JDR vit donc, au sens strict du terme, une "régression" : là où Gary Gygax avait sorti le jeu de rôles du monde du jeu de plateau de stratégie, PbtA nous ramène vers le jeu de plateau avec les mêmes buts :
+	
+	    Créer un jeu optimisé pour un sous-genre, voire un sous-sous-genre ;
+	    Créer des archétypes de personnages taillés pour le sous-genre et aux actions limitées pour obéir aux règles du sous-genre (dans l'esprit d'une "série") ;
+	    Contraindre les joueurs et le MJ à évoluer dans un narratif qui contraint les PJ dans une sandbox, dans un univers de possibles limités, où les moves ont été optimisés pour créer mécaniquement une dynamique de jeu organique.
+	
+	Une des conséquences est le côté parfois extrêmement brutal ou expéditif du jeu, cela de manière très surprenante pour les pratiquants des anciens JDR. Là où les anciens JDR proposaient des approches plus progressives (difficultés pour les joueurs à mesurer les risques d'une action, mécanique d'aggravation des situations suite à échec, etc.), tout peut basculer très vite dans le monde PbtA.
+	
+	En fait, ce genre de jeux est tout à fait pertinent et il est normal qu'il séduise un certain public. Mais il est aussi normal que d'autres joueurs ne l'apprécient pas, car c'est un autre type de jeu.
+
+
+https://en.wikipedia.org/wiki/Powered_by_the_Apocalypse
+	Powered by the Apocalypse (PbtA) is a tabletop role-playing game design framework] developed by Meguey and Vincent Baker for the 2010 game Apocalypse World and later adapted for hundreds of other indie role-playing games.
+
+	Most PbtA games share some similarities in game mechanics; nevertheless, the Bakers define a PbtA game not by its mechanics, but simply by its designers' decision to cite Apocalypse World as an influence. Both definitions of PbtA are in use.
+
+	Typical mechanical features in PbtA games
+
+	Powered by the Apocalypse games are typically centered on resolving what characters do as "moves." Characters have access to a default selection of moves based on the expectations of the game setting. For example, in the fantasy game Dungeon World, characters have access to a hack and slash move, as combat is central to the dungeoneering experience. Alternatively, Apocalypse World has a "seize by force" move, as the game assumes a setting where collecting scarce resources is part of the game-play experience.
+	
+	Moves are often resolved by rolling two six-sided dice (2d6) and adding any relevant modifiers. Success levels fall on a scale of total success, partial success, or miss. Partial success often means "success at a cost," where players must select an additional negative outcome as the price of success. Likewise, "miss" often means a negative outcome that moves the narrative forward, rather than "nothing happens."
+	
+	Most PbtA games are class-based. Character classes have access to a number of class-specific moves. Emily VanDerWerff of Vox highlighted that "in PBTA games, players roll two six-sided dice (or D6s) to determine whether they succeed or fail at tasks set for them by the game master. The GM, in turn, keeps things moving and tries to preserve a modicum of continuity. But the players also have extreme amounts of leeway to help shape the world and their relationships with other characters". James Hanna, for CBR, contrasted the mechanics of PbtA and Dungeons & Dragons highlighting that:
+	
+	    	the differences really come down to crunch and conversation. Players looking for a sandbox or linear adventure with lots of crunchy combat will enjoy D&D in all its glorious variety. Those who want a more collaborative storytelling experience with fewer granular choices (and probably less math) should try PbtA games 
+	
+	Keerthi Sridharan of Polygon wrote, "Games that use the PbtA label are ones that take their cues from Apocalypse World regarding any number of things: running a session zero, how dice mechanics work, or even aesthetic and design elements."
+	
+	PbtA games typically employ shared world creation. Instead of providing a comprehensive setting with pre-written details that the GM already knows and gradually reveals to the players, the GM and the players collaborate to create details of the world. Similarly, PbtA games often include players in the creation of NPCs.[6] As an example of the commonness of this expectation for PbtA games, Visigoths vs. Mall Goths mentions the PbtA game Masks: A New Generation as a design influence and uses some typical PbtA mechanics like playbooks and 2d6 dice, but includes a section addressed to players of PbtA games to trust that the GM has all the information about the setting and NPCs.
+
+	Originators' statements on PbtA mechanics
+
+	Although most PbtA games contain some or all of the above features, Vincent Baker wrote that PbtA:
+
+    	isn't the name of a category of games, a set of games' features, or the thrust of any games' design. It's the name of Meg's and my policy concerning others' use of our intellectual property and creative work. [...] Its use in a game's trade dress signifies ONLY that the game was inspired by Apocalypse World in a way that the designer considers significant, and that it follows our policy [with respect to] others' use of our creative work
+
+	Some PbtA games with radically different mechanics have inspired new trends and design movements of their own, including Forged in the Dark by John Harper, Belonging Outside Belonging by Avery Alder and Benjamin Rosenbaum, and the Bakers' own Firebrands Framework. 
+
+https://www.mjmercenaires.fr/actualites/pbta-revolution-du-jdr-ou-arnaque-narrativiste
+	PBTA : Révolution du JDR ou Arnaque Narrativiste ?
+	4–5 minutes
+	
+	Dessin Stéphane Sabourin
+	
+	Depuis la sortie d’Apocalypse World en 2010, un drôle de sigle a envahi les étagères des rôlistes curieux : PBTA, pour Powered by the Apocalypse. À mi-chemin entre coup de génie et coup de bluff, ce système de jeu a déclenché autant de passions que de débats enflammés sur Discord et dans les caves mal éclairées.
+	Mais alors, PBTA, c’est vraiment la révolution que le jeu de rôle attendait ? Ou juste une arnaque bien marketée avec des fiches sexy ? Un jeu apéritif ?
+	🧨 PBTA : Le système qui veut casser les règles (mais avec des règles)
+	
+	Contrairement aux jeux "classiques" à la Donjons & Dragons, où le MJ passe 3 soirs à préparer une auberge qui va brûler en 10 minutes, PBTA propose :
+	👉 zéro préparation, donc pas de charge mental pour le MJ
+	👉 des personnages pré-tirés 
+	👉 et un MJ qui improvise à partir des actions des joueurs.
+	
+	Les personnages ne disent pas « Je tente un jet de Perception ». Ils déclenchent un Mouvement ("Je scrute les ténèbres", "Je fonce dans le tas", "Je révèle mes sentiments au démon"). Ces moves sont calibrés pour générer du drama, créer des rebondissements, et surtout, faire avancer l’histoire.
+	
+	Le MJ ? Il ne contrôle pas le monde. Il réagit. Il « joue pour voir ce qui va se passer ». Le MJ, joueur parmis les joueurs comme dans un jeu de plateau
+	Bref, dans PBTA, la fiction passe avant la mécanique. Et pour beaucoup, c’est une bouffée d’air frais.
+	Ce que PBTA fait bien (voire très bien)
+	
+	    Narration ultra fluide : On joue des personnages avec des dilemmes, des relations, et des réactions fortes. Ça vit, ça vibre, ça saigne.
+	    Rapidité de mise en place : On peut lancer une partie en moins d’une heure, sans bac+5 en création de personnage.
+	    Genre assumé : Chaque jeu PBTA est calibré pour une ambiance spécifique. Monsterhearts n’a rien à voir avec Dungeon World, et c’est voulu.
+	    Narration émergente et partagée : Les intrigues ne sont pas écrites à l’avance — elles naissent à la table, souvent dans la douleur (et c’est beau).
+	
+	Là où ça coince (et parfois ça gratte)
+	
+	    La "fausse liberté" : On parle souvent de narration libre, mais les livrets limitent parfois les choix. Tu veux être un barde voleur pyromane ? Désolé, choisis entre "Le Maudit" ou "L’Intrigant".
+	    Le système de jets peut frustrer : 6- t’as raté, 7-9 t’as à moitié réussi, 10+ tu brilles. Super clair. Mais très binaire, parfois répétitif.
+	    La PBTAmania : Des dizaines de jeux reprennent le label PBTA, parfois juste pour surfer sur la vague. Résultat ? Des jeux clones, mal équilibrés, ou sans vraie valeur ajoutée.
+	    Illusion de simplicité : Oui, c’est plus léger qu’un jeu simulationniste. Mais attention : jouer bien à PBTA demande de l’écoute, de l’impro, et une table investie.
+	
+	Alors, révolution ou escroquerie en douce ?
+	
+	👉 PBTA n’est ni la panacée, ni un pétard mouillé.
+	
+	C’est une expérience de jeu différente. Un outil puissant pour raconter des histoires centrées sur les personnages, les émotions et les relations. Mais comme tout outil, il faut savoir s’en servir. Mal employé, ça devient mou, répétitif, voire gênant. Bien exploité, c’est du caviar rôliste.
+	
+	PBTA a inspiré toute une génération de jeux narratifs modernes (Blades in the Dark, Trophy, Brindlewood Bay, etc.), et a clairement bousculé le statu quo. Mais attention à ne pas le sacraliser. Ce n’est pas un sésame magique. C’est une proposition de jeu. Point.
+	En conclusion
+	
+	PBTA, c’est un peu comme un couteau suisse : super pratique, mais faut pas s’en servir pour planter un arbre ou faire la cuisine d’un banquet. C’est fun, c’est vif, c’est dramatique… et ça ne plaira pas à tout le monde. Si tu veux des intrigues tordues, des moments de tension, et des personnages en crise existentielle dès la scène 1, fonce. Si tu veux looter des potions et optimiser ton build pendant 12 niveaux, passe ton chemin. Mais quoi qu’on en dise, PBTA a laissé sa trace. Et pour ça, rien que ça, on peut dire que c’était pas une arnaque.
+
+https://www.geek-powa.fr/jeu-de-role-sur-table/le-pbta-decrypte-pour-tous-les-rolistes/
+	Le PbtA décrypté pour tous les rôlistes - Geek Powa
+	1–2 minutes
+	
+	Caractéristique		Apocalypse World (2010)											Masks (2017)													Blades in the Dark (2017)			Daggerheart (2024)				Draw Steel (2025)	
+	Mécanique de Dés	2d6 + stat														2d6 + stat														Pool de d6 (garder le plus haut)	2d12 (Espoir vs Peur) + mod		2d10 +mod
+	Niveaux de Succès	10+ (succès), 7-9 (succès à coût), 6- (échec/manœuvre du MC)	10+ (succès), 7-9 (succès à coût), 6- (manœuvre du MC)			6 (succès), 4-5 (succès partiel), 1-3 (échec), Crit (2×6)		Succès/Échec + Espoir/Peur						3 niveaux de succès
+	Objectif Principal	Survie post-apocalyptique, narration émergente					Drame adolescent, exploration de l’identité						Braquages criminels, jeu en campagne structuré					Aventure fantastique héroïque et narrative		Combat tactique héroïque sur grille
+	Innovation Clé		Codification du “fiction-first” et du succès à coût				Statistiques fluides (“Labels”) représentant l’image de soi		Position & Effet, Horloges, Flashbacks, Temps mort				Dualité Espoir/Peur comme méta-monnaie			Application de la résolution à plusieurs niveaux à un jeu tactique
+	Ton aventure continue par ici ... 
