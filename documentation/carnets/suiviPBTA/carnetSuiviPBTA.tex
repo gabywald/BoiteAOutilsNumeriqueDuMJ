@@ -11,9 +11,10 @@
 % \setmarginsrb{0.25cm}{0.25cm}{0.25cm}{0.25cm}{0pt}{0pt}{0pt}{0pt}
 
 \usepackage{mathtools}
-\usepackage{fontspec} %% fontes / polices de caracteres
+\usepackage{fontspec}	%% fontes / polices de caracteres
 
-\usepackage{multicol}	% pour {\'e}crire dans certaines zones en colonnes : \begin{multicols}{nb colonnes}...\end{multicols}
+\usepackage{multirow}	%% dans les tableaux : regroupements de cases
+\usepackage{multicol}	%% pour {\'e}crire dans certaines zones en colonnes : \begin{multicols}{nb colonnes}...\end{multicols}
 
 \usepackage{JeuxCartes}
 \usepackage{coffeestains}
@@ -33,6 +34,34 @@
 
 \usepackage{tikz} %% + 'pgf' ?
 \usetikzlibrary{shapes.geometric,intersections,calc}
+
+\def\GliderHackerEmblemRIGHT{%
+	%% https://texample.net/glider/
+	% Glider, a hacker emblem (http://www.catb.org/hacker-emblem/)
+	% Author: Alex Hirzel
+	% License: Public Domain
+	\begin{tikzpicture}[thick]
+		\begin{scope}[scale=0.39]
+			\draw (0,0) grid (3,3);
+			\foreach \c in {(0,0), (1,0), (2,0), (2,1), (1,2)}
+				\fill \c + (0.5,0.5) circle (0.42);
+		\end{scope}
+	\end{tikzpicture}
+} %% 
+
+\def\GliderHackerEmblemLEFT{%
+	%% https://texample.net/glider/
+	% Glider, a hacker emblem (http://www.catb.org/hacker-emblem/)
+	% Author: Alex Hirzel
+	% License: Public Domain
+	\begin{tikzpicture}[thick]
+		\begin{scope}[scale=0.39]
+			\draw (0,0) grid (3,3);
+			\foreach \c in {(0,0), (1,0), (2,0), (0,1), (1,2)}
+				\fill \c + (0.5,0.5) circle (0.42);
+		\end{scope}
+	\end{tikzpicture}
+} %% 
 
 \def\backgroundStampOnPage{%
 	\begin{tikzpicture}[opacity=0.25] %%, scale=2.00]
@@ -83,9 +112,9 @@
 }
 %% https://tex.stackexchange.com/questions/79395/option-clash-for-hyperref-package
 
-\newcommand{\titleTWOLINES}[1]{ \textsc{\huge \bfseries #1 }~\\~\rule{0.50\textwidth}{1pt}~\\~\rule{0.50\textwidth}{1pt}~\\} 
+\newcommand{\titleTWOLINES}[1]{ \textsc{\huge \bfseries #1 }~\\~\rule{0.50\textwidth}{1.0pt}~\\~\rule{0.50\textwidth}{1.0pt}~\\} 
 
-\newcommand{\titleONELINES}[1]{ \textsc{\LARGE \bfseries #1 }~\\~\rule{0.50\textwidth}{0.5pt}~\\}
+\newcommand{\titleONELINES}[1]{ \textsc{\LARGE \bfseries #1 }~\\~\rule{0.50\textwidth}{0.2pt}~\\}
 
 \newcommand{\underTitleChoices}[1]{ {\raggedright \footnotesize \emph{#1} }~\\ }
 
@@ -259,8 +288,165 @@
 	\end{tabular}
 }
 
-\begin{document}
+\def\reverseCounterShorter{
+	\begin{tabular}[ht]{ p{0.48\textwidth}|p{0.48\textwidth} }
+		\begin{minipage}[ht]{0.15\textwidth}
+			\reverseCounter
+		\end{minipage}
+		& ~~ \\
+	\end{tabular}
+}
 
+\def\baseFichePJ{
+	\begin{multicols}{2}
+	
+	\titleTWOLINES{NOM}
+	
+	\underTitleChoices{..., un nom commercial, un nom sociable, un nom mystérieux...}
+	
+	\dotfill~\\
+	
+	\titleTWOLINES{APPARENCE}
+	
+	\titleONELINES{Regard}
+	
+	\underTitleChoices{digne de confiance, concentré, calme, artificiel}
+	
+	\titleONELINES{Visage}
+	
+	\underTitleChoices{séduisant, balafré, dissimulé, amical}
+	
+	\titleONELINES{Corps}
+	
+	\underTitleChoices{petit, mince, corpulent, tonique, musclé, bien en chair}
+	
+	\titleONELINES{Carnation}
+	
+	\underTitleChoices{artificielle, tatouée, asiatique, noire, hispanique, moyen-orientale, blanche, …}
+	
+	\titleONELINES{Tenue}
+	
+	\underTitleChoices{corporative, formelle, de rue, militaire, utilitaire}
+	
+	\vfill~\\
+	\columnbreak
+	
+	%% \titleTHESPRAWL ~\\
+	
+	\titleTWOLINES{BLESSURES}
+	
+	%% \reverseCounter~\\~\\~\\
+	\reverseCounterShorter~\\~\\
+	
+	\titleTWOLINES{STATS}
+	
+	\underTitleChoices{Assigne à chacune un de ces scores : +2, +1, +1, +0, +0, -1.}
+	
+		\sixHEXalternate
+		%% \sixHEXalternateNAMEDparamsONLYNAMES{SYNTH}{STYLE}{ESPRIT}{CHAIR}{PRO}{CRAN}
+		
+	\titleTWOLINES{ÉTIQUETTES}
+	
+	\dotfill~\\
+	
+	\dotfill~\\
+	
+	\dotfill~\\
+	
+	\vfill~\\
+	\columnbreak
+	
+	\titleTWOLINES{LIENS}
+	
+		\sixHEXalternate~\\
+		
+	\titleTWOLINES{CONTACTS}
+	
+	\dotfill~\\
+	
+	\dotfill~\\
+	
+	\dotfill~\\
+	
+	\titleTWOLINES{MAN\OE UVRES}
+	
+	\dotfill~\\
+	
+	\dotfill~\\
+	
+	\dotfill~\\
+	
+	\dotfill~\\
+	
+	\dotfill~\\
+	
+	\vfill~\\
+	\columnbreak
+	
+	\titleTWOLINES{AVANCEMENT}
+	
+		\twoHEXalternateNAMEDparams{CRED}{~~}{XP}{~~}~\\
+	
+	\dotfill~\\
+	
+	\dotfill~\\
+	
+	\dotfill~\\
+	
+	\dotfill~\\
+	
+	\dotfill~\\
+	
+	\titleTWOLINES{DIRECTIVES}
+	
+	\dotfill~\\
+	
+	\dotfill~\\
+	
+	\dotfill~\\
+	
+	\titleTWOLINES{ÉQUIPEMENT}
+	
+	\dotfill~\\
+	
+	\dotfill~\\
+	
+	\dotfill~\\
+	
+	\vfill~\\
+	
+	\end{multicols}
+}
+
+\def\MenaceEtPNJantagonistes{
+	\titleTWOLINES{NOM MENACE}
+	
+	\dotfill~\\
+	
+	\titleONELINES{DESCRIPTION}
+	
+	\dotfill~\\
+	
+	\dotfill~\\
+	
+	\dotfill~\\
+	
+	\titleONELINES{NIVEAU MENACE}
+	
+	\reverseCounterShorter~\\
+	
+	\titleONELINES{RESSOURCES}
+	
+	\dotfill~\\
+	
+	\dotfill~\\
+	
+	\dotfill~\\
+	
+	\hrule~\\
+}
+
+\begin{document}
 \setlength\parindent{0pt} % \noindent for all document
 
 %% \AddToShipoutPicture{
@@ -271,24 +457,18 @@
 %% }
 
 % $\heartsuit \varheart \diamondsuit \vardiamond \clubsuit \spadesuit$ ~\\
-
 % {\color{red} $\heartsuit$ }
 % {\color{red} $\diamondsuit$ }
-
 % {\color{red} $\varheart$ }
 % {\color{red} $\vardiamond$ }
 
-%% {\centering \Huge{Château FalkenStein} }~\\
-%% {\centering \large{Journal Intime} }~\\
-
 \begin{center}
-	\begin{tabular}[c]{ p{0.20\textwidth} p{0.45\textwidth} p{0.20\textwidth} }
-		\includegraphics[width=0.10\textwidth]{../../images/glider/logo-glider-left.png} & 
-			\centering
-			{ \Huge{ Carnet De Suivi -- JdR PBTA } }~\newline~\newline~\newline
-			{ \LARGE{ --- } }
-			{ \Large{ --- } }
-		& \includegraphics[width=0.10\textwidth]{../../images/glider/logo-glider-right.png} \\
+	\begin{tabular}[c]{ c p{0.45\textwidth} c } %% \begin{tabular}[c]{ p{0.20\textwidth} p{0.45\textwidth} p{0.20\textwidth} }
+		\multirow{5}{*}{\GliderHackerEmblemLEFT	}	&	{ \Huge{ Carnet De Suivi -- JdR PBTA } }	& \multirow{5}{*}{\GliderHackerEmblemRIGHT }	\\
+													&	{ \LARGE{ Personnages } }					&		\\
+													&	{ \Large{ Antagonistes } }					&		\\
+													&	{ \large{ Menaces } }						&		\\
+													&	{ \small{ Lieux } }							&		\\
 	\end{tabular}
 \end{center}
 
@@ -308,6 +488,24 @@
 
 \reverseCounter~\\
 
+\begin{multicols}{2}
+	\threeHEXalternateNAMEDparams{~~}{~~}{~~}{~~}{~~}{~~}~\\
+	
+	\dotfill~\\
+	
+	\threeHEXalternateNAMEDparams{~~}{~~}{~~}{~~}{~~}{~~}~\\
+	
+	\columnbreak
+	
+	\sixHEXalternate~\\
+	
+	\dotfill~\\
+	
+	\dotfill~\\
+	
+	\dotfill~\\
+\end{multicols}
+
 \begin{tabular}[ht]{ p{0.48\textwidth}|p{0.48\textwidth} }
 	\begin{minipage}[ht]{0.15\textwidth}
 		\reverseCounter
@@ -319,122 +517,46 @@
 	\\
 \end{tabular}~\\
 
+\dotfill~\\
+
 \clearpage
 
-\hrule~\\
-
-\begin{multicols}{2}
-
-\titleTWOLINES{NOM}
-
-\underTitleChoices{..., un nom commercial, un nom sociable, un nom mystérieux...}
-
-\titleTWOLINES{APPARENCE}
-
-\titleONELINES{Regard}
-
-\underTitleChoices{digne de confiance, concentré, calme, artificiel}
-
-\titleONELINES{Visage}
-
-\underTitleChoices{séduisant, balafré, dissimulé, amical}
-
-\titleONELINES{Corps}
-
-\underTitleChoices{petit, mince, corpulent, tonique, musclé, bien en chair}
-
-\titleONELINES{Carnation}
-
-\underTitleChoices{artificielle, tatouée, asiatique, noire, hispanique, moyen-orientale, blanche, …}
-
-\titleONELINES{Tenue}
-
-\underTitleChoices{corporative, formelle, de rue, militaire, utilitaire}
-
-\vfill~\\
-\columnbreak
-
-\titleTWOLINES{STATS}
-
-\underTitleChoices{Assigne à chacune des stats un de ces scores : +2, +1, +1, +0, +0, -1.}
-
-	\sixHEXalternate
-	%% \sixHEXalternateNAMEDparamsONLYNAMES{SYNTH}{STYLE}{ESPRIT}{CHAIR}{PRO}{CRAN}
-
-%% \titleTHESPRAWL ~\\
-
-\titleTWOLINES{BLESSURES}
-
-%% \reverseCounter~\\~\\~\\
-\begin{tabular}[ht]{ p{0.48\textwidth}|p{0.48\textwidth} }
-	\begin{minipage}[ht]{0.15\textwidth}
-		\reverseCounter
-	\end{minipage}
-	& ~~ \\
-\end{tabular}~\\
-
-\vfill~\\
-\columnbreak
-
-\titleTWOLINES{LIENS}
-
-	\sixHEXalternate
-
-\titleTWOLINES{MAN\OE UVRES}
-
-\titleTWOLINES{DIRECTIVES}
-
-\titleTWOLINES{ÉQUIPEMENT}
-
-	\twoHEXalternateNAMEDparams{CRED}{~~}{XP}{~~}
+\foreach \pages in {1,2,...,16}{
+	\baseFichePJ
 	
-\vfill~\\
-\columnbreak
+	\newpage
+}
 
-\titleTWOLINES{MAGOUILLE}
-
-\titleTWOLINES{AVANCEMENT}
-
-\titleTWOLINES{CYBERNÉTIQUE}
-
-\titleTWOLINES{CONTACTS}
-
-\dotfill~\\\dotfill~\\\dotfill~\\
-
-\vfill~\\
-\columnbreak
-\vfill~\\
-
-\end{multicols}
-
-\newpage
-
-\titleTWOLINES{NOM}
-
-\dotfill~\\
-
-\titleTWOLINES{NIVEAU MENACE}
-
-\reverseCounter~\\
-
-\titleTWOLINES{RESSOURCES}
+\foreach \pages in {1,2,...,30}{
+	\begin{multicols}{2}
 	
-\dotfill~\\ \dotfill
-
-\hrule~\\
-
-\titleTWOLINES{NOM}
-
-\dotfill~\\
-
-\titleTWOLINES{NIVEAU MENACE}
-
-\reverseCounter~\\
-
-\titleTWOLINES{RESSOURCES}
+		\MenaceEtPNJantagonistes
+		
+		\vfill~\\
+		
+		\begin{center} \GliderHackerEmblemLEFT \end{center}
+		
+		\columnbreak
+		
+		\MenaceEtPNJantagonistes
+		
+		\vfill~\\
+		
+		\begin{center} \GliderHackerEmblemRIGHT \end{center}
+		
+	\end{multicols}
 	
-\dotfill~\\ \dotfill
+	\newpage
+}
 
-\hrule~\\
+\vfill~\\
+
+\begin{minipage}[ht]{0.45\textwidth}
+	\begin{center} \GliderHackerEmblemLEFT \end{center}
+\end{minipage} \hfill \begin{minipage}[ht]{0.45\textwidth} 
+	\begin{center} \GliderHackerEmblemRIGHT \end{center}
+\end{minipage}
+
+\vfill~\\
 
 \end{document}
