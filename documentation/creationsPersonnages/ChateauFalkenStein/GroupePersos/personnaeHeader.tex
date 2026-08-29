@@ -1,0 +1,50 @@
+\documentclass[11pt,twoside,a4paper]{article}
+% http://www-h.eng.cam.ac.uk/help/tpl/textprocessing/latex_maths+pix/node6.html symboles de math
+% http://fr.wikibooks.org/wiki/Programmation_LaTeX Programmation latex (wikibook)
+%=========================== En-Tete =================================
+%--- Insertion de paquetages (optionnel) ---
+\usepackage[french]{babel}   % pour dire que le texte est en fran{\'e}ais
+\usepackage{a4}	             % pour la taille   
+\usepackage[T1]{fontenc}     % pour les font postscript
+\usepackage{epsfig}          % pour gerer les images
+\usepackage{amsmath, amsthm} % tres bon mode mathematique
+\usepackage{amsfonts,amssymb}% permet la definition des ensembles
+
+\usepackage{multirow}
+
+\usepackage[table]{xcolor} % couleur de fond des cellules de tableaux
+
+\usepackage{lastpage}
+
+\usepackage[top=1.0cm, bottom=1.0cm, left=1.0cm, right=1.0cm]{geometry}
+% gauche, haut, droite, bas, entete, ente2txt, pied, txt2pied
+% \usepackage{vmargin}
+% \setmarginsrb{1.0cm}{1.0cm}{1.0cm}{1.0cm}{15pt}{3pt}{57pt}{3pt}
+
+\usepackage{lscape} % changement orientation page
+
+\pagestyle{empty}
+
+\usepackage{pdflscape}
+\usepackage{lscape} % changement orientation page
+
+%--- Definitions de nouvelles couleurs ---
+% \definecolor{verylightgrey}{rgb}{0.8,0.8,0.8}
+% \definecolor{verylightgray}{gray}{0.80}
+% \definecolor{lightgrey}{rgb}{0.6,0.6,0.6}
+% \definecolor{lightgray}{gray}{0.6}
+
+%% \usepackage{fdsymbol} %% commented because conflict with packages 'fontspec' / 'JeuxCartes'
+%% \clubsuit
+%% \vardiamondsuit
+%% \spadesuit
+%% \varheartsuit
+\DeclareSymbolFont{extraup}{U}{zavm}{m}{n}
+\DeclareMathSymbol{\varheart}{\mathalpha}{extraup}{86}
+\DeclareMathSymbol{\vardiamond}{\mathalpha}{extraup}{87}
+
+% \providecommand{\competencebox}[1][~~]{ \fbox{\begin{minipage}[ht]{0.20\textwidth} #1 \end{minipage} } }
+% \newcommand{\competencebox}[1][~~]{ \fbox{ \begin{minipage}[ht]{0.21\textwidth} #1 \end{minipage} } }%
+\newcommand{\competencebox}[1][~~]{ #1 }%
+
+%%%%%%%%%%% SOME VALUES %%%%%%%%%%%%%%%%%%%%%

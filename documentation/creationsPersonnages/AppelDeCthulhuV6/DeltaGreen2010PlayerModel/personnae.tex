@@ -1,0 +1,56 @@
+\documentclass[11pt,twoside,a4paper]{article}
+% http://www-h.eng.cam.ac.uk/help/tpl/textprocessing/latex_maths+pix/node6.html symboles de math
+% http://fr.wikibooks.org/wiki/Programmation_LaTeX Programmation latex (wikibook)
+%=========================== En-Tete =================================
+%--- Insertion de paquetages (optionnel) ---
+\usepackage[french]{babel}   % pour dire que le texte est en fran{\'e}ais
+\usepackage{a4}	             % pour la taille   
+\usepackage[T1]{fontenc}     % pour les font postscript
+\usepackage{epsfig}          % pour gerer les images
+\usepackage{amsmath, amsthm} % tres bon mode mathematique
+\usepackage{amsfonts,amssymb}% permet la definition des ensembles
+
+\usepackage{longtable} % pour les tableaux de plusieurs pages
+
+\usepackage[table]{xcolor} % couleur de fond des cellules de tableaux
+
+\usepackage{lastpage}
+
+\usepackage{multirow}
+\usepackage{multicol} % pour {\'e}crire dans certaines zones en colonnes : \begin{multicols}{nb colonnes}...\end{multicols} 
+
+% \usepackage[top=1.5cm, bottom=1.5cm, left=1.5cm, right=1.5cm]{geometry}
+% gauche, haut, droite, bas, entete, ente2txt, pied, txt2pied
+\usepackage{vmargin}
+\setmarginsrb{0.50cm}{0.50cm}{0.50cm}{0.50cm}{22pt}{3pt}{15pt}{10pt}
+
+\usepackage{lscape} % changement orientation page
+% --- style de page (pour les en-tete) ---
+\pagestyle{empty}
+
+%============================= Corps =================================
+\begin{document}
+
+\setlength\parindent{0pt} % \noindent for all document
+
+\begin{tabular}[c]{ p{0.9975\textwidth} }
+	\hline
+	{\begin{center} \cellcolor{black} \color{white} \textbf{\textsc{\huge Delta Green}} \end{center} }	\\ \hline
+	\hline
+\end{tabular}
+
+%% \multicolumn{5}{ c }{ ... }
+%% \multirow{9}{*}{ ... }
+%% \begin{tabular}[c]{|p{0.05\textwidth}|p{0.55\textwidth}|p{0.35\textwidth}|}
+\begin{tabular}[c]{|p{0.025\textwidth}|p{0.20\textwidth}|p{0.15\textwidth}|p{0.25\textwidth}|p{0.35\textwidth}|}
+	\hline
+	\cellcolor{black} \color{white} \multirow{3}{*}{ \rotatebox{90}{ \textsc{Personnal Data} } }	
+						&	\multicolumn{3}{|p{0.55\textwidth}|}{ 1. \textsc{Last Name, First Name, Middle Initial. }~\newline~\newline }	&	2. \textsc{Profession (Rank, if applicable) }~\newline~\newline	\\ \hline
+						&	\multicolumn{3}{|p{0.55\textwidth}|}{ 3. \textsc{Employer}~\newline~\newline }									&	4. \textsc{Nationality }~\newline~\newline						\\ \hline
+						&	5. \textsc{SEX}~\newline~\newline	&	5. \textsc{Age, and D.O.B.}~\newline~\newline								&	\multicolumn{2}{|p{0.55\textwidth}|}{ 7. \textsc{Education and Occupaation History. }~\newline~\newline }		\\ \hline
+	\hline
+\end{tabular}
+
+%% TODO TODO TODO ... 
+
+\end{document}

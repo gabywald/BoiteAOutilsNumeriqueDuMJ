@@ -47,6 +47,10 @@ Dans ce répertoire sont regroupés divers documents qui vont servir de point de
     * Gestion pour PBTA (prévu) ; 
 
 ## Cachier des charges pour la partie "code"
+  * xyrop : 
+    * Présentations de Ludovic Schurr (blog [http://www.xyrop.com](http://www.xyrop.com) et participant à [http://legrog.org](http://legrog.org) )
+
+## Cahier des charges pour la partie "code"
 
 Outil de gestion pour MJ : 
   * Gestion de fiches de personnages (systèmeS de JdR à préciser) ; 
